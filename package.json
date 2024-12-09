@@ -1,6 +1,6 @@
 {
-  "name": "@phosphor-icons/react",
-  "version": "2.1.10",
+  "name": "@gdc/phosphor-icons-react",
+  "version": "2.1.7",
   "description": "A clean and friendly icon family for React",
   "type": "module",
   "author": {
@@ -9,12 +9,16 @@
     "url": "https://tobiasfried.com"
   },
   "license": "MIT",
-  "repository": "phosphor-icons/react",
+  "repository": "https://github.com/GensDeConfiance/phosphor-icons-react",
   "homepage": "https://phosphoricons.com",
   "sideEffects": false,
   "private": false,
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "publishConfig": {
+    "registry": "https://verdaccio.gensdeconfiance.com"
+  },
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",

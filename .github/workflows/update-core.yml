@@ -1,0 +1,23 @@
+name: Update Core
+on:
+  workflow_dispatch: # This allows the workflow to be triggered manually
+
+jobs:
+  update-core:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Automatically update submodules
+      - name: Set Up Git Identity
+        run: |
+          git config --global user.email "edi@gensdeconfiance.com"
+          git config --global user.name "EDI"
+
+      - name: Update Submodule
+        run: |
+          git submodule update --remote # Update to the latest commit on the submodule's tracked branch
+          git commit -am "Update core to latest commit" || echo "No changes to commit"
+          git push origin HEAD # Push changes back to the main repository

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Jeep";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsODhoLTkuNTNsLTkuMjktNDMuMzVBMTYuMDgsMTYuMDgsMCwwLDAsMjA1LjUzLDMySDUwLjQ3QTE2LjA4LDE2LjA4LDAsMCwwLDM0LjgyLDQ0LjY1TDI1LjUzLDg4SDE2YTgsOCwwLDAsMCwwLDE2aDh2OTZhMTYsMTYsMCwwLDAsMTYsMTZINjRhMTYsMTYsMCwwLDAsMTYtMTZWMTc2aDk2djI0YTE2LDE2LDAsMCwwLDE2LDE2aDI0YTE2LDE2LDAsMCwwLDE2LTE2VjEwNGg4YTgsOCwwLDAsMCwwLTE2Wk01MC40Nyw0OEgyMDUuNTNsOC41Nyw0MEg0MS45Wk02NCwyMDBINDBWMTc2SDY0Wm0xMjgsMFYxNzZoMjR2MjRabTI0LTQwSDE1MlYxMjhhOCw4LDAsMCwwLTE2LDB2MzJIMTIwVjEyOGE4LDgsMCwwLDAtMTYsMHYzMkg0MFYxMDRIMjE2Wk01NiwxMzJhMTIsMTIsMCwxLDEsMTIsMTJBMTIsMTIsMCwwLDEsNTYsMTMyWm0xMjAsMGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxNzYsMTMyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Jeep";
-export { I as Jeep };
+export { I as Jeep }

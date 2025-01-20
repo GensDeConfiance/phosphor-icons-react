@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatDots";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTYsMTI4YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDExNiwxMjhaTTg0LDE0MGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCw4NCwxNDBabTg4LDBhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsMTcyLDE0MFptNjAtNzZWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDgzbC0zMi42LDI4LjE2LS4wOS4wN0ExNS44OSwxNS44OSwwLDAsMSw0MCwyNDBhMTYuMTMsMTYuMTMsMCwwLDEtNi44LTEuNTJBMTUuODUsMTUuODUsMCwwLDEsMjQsMjI0VjY0QTE2LDE2LDAsMCwxLDQwLDQ4SDIxNkExNiwxNiwwLDAsMSwyMzIsNjRaTTQwLDIyNGgwWk0yMTYsNjRINDBWMjI0bDM0Ljc3LTMwQTgsOCwwLDAsMSw4MCwxOTJIMjE2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ChatDots";
-export { I as ChatDots };
+export { I as ChatDots }

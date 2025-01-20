@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FolderSimpleLock";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsODh2MTZhOCw4LDAsMCwxLTE2LDBWODhIMTMwLjY3YTE2LjEyLDE2LjEyLDAsMCwxLTkuNi0zLjJMOTMuMzMsNjRINDBWMjAwaDcyYTgsOCwwLDAsMSwwLDE2SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjY0QTE2LDE2LDAsMCwxLDQwLDQ4SDkzLjMzYTE2LjEyLDE2LjEyLDAsMCwxLDkuNiwzLjJMMTMwLjY3LDcySDIxNkExNiwxNiwwLDAsMSwyMzIsODhabTAsODB2NDBhOCw4LDAsMCwxLTgsOEgxNTJhOCw4LDAsMCwxLTgtOFYxNjhhOCw4LDAsMCwxLDgtOGg4di00YTI4LDI4LDAsMCwxLDU2LDB2NGg4QTgsOCwwLDAsMSwyMzIsMTY4Wm0tNTYtOGgyNHYtNGExMiwxMiwwLDAsMC0yNCwwWm00MCwxNkgxNjB2MjRoNTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FolderSimpleLock";
-export { I as FolderSimpleLock };
+export { I as FolderSimpleLock }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Umbrella";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTI2LjYzQTExMi40NCwxMTIuNDQsMCwwLDAsNTEuNzUsNTMuNzVhMTExLjU2LDExMS41NiwwLDAsMC0zNS43LDcyLjg4QTE2LDE2LDAsMCwwLDMyLDE0NGg4OHY1NmEzMiwzMiwwLDAsMCw2NCwwLDgsOCwwLDAsMC0xNiwwLDE2LDE2LDAsMCwxLTMyLDBWMTQ0aDg4YTE2LDE2LDAsMCwwLDE2LTE3LjM3Wk0zMiwxMjhsMCwwYTk2LjE1LDk2LjE1LDAsMCwxLDc2LjItODUuODlDOTYuNDgsNTgsODEuODUsODYuMTEsODAuMTcsMTI4Wm02NC4xNSwwYzEuMzktMzAuNzcsMTAuNTMtNTIuODEsMTguMy02Ni4yNEExMDYuNDQsMTA2LjQ0LDAsMCwxLDEyOCw0My4xNmExMDYuMzEsMTA2LjMxLDAsMCwxLDEzLjUyLDE4LjZDMTU0LjgsODQuNywxNTksMTA5LjI4LDE1OS44MiwxMjhabTc5LjY1LDBjLTEuNjgtNDEuODktMTYuMzEtNzAtMjgtODUuOTRBOTYuMDcsOTYuMDcsMCwwLDEsMjI0LDEyOFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Umbrella";
-export { I as Umbrella };
+export { I as Umbrella }

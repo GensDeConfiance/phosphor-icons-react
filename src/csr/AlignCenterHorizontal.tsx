@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignCenterHorizontal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTM2SDEzNlYxMjBoNDhhMTYsMTYsMCwwLDAsMTYtMTZWNjRhMTYsMTYsMCwwLDAtMTYtMTZIMTM2VjMyYTgsOCwwLDAsMC0xNiwwVjQ4SDcyQTE2LDE2LDAsMCwwLDU2LDY0djQwYTE2LDE2LDAsMCwwLDE2LDE2aDQ4djE2SDQ4YTE2LDE2LDAsMCwwLTE2LDE2djQwYTE2LDE2LDAsMCwwLDE2LDE2aDcydjE2YTgsOCwwLDAsMCwxNiwwVjIwOGg3MmExNiwxNiwwLDAsMCwxNi0xNlYxNTJBMTYsMTYsMCwwLDAsMjA4LDEzNlpNNzIsNjRIMTg0djQwSDcyWk0yMDgsMTkySDQ4VjE1MkgyMDh2NDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "AlignCenterHorizontal";
-export { I as AlignCenterHorizontal };
+export { I as AlignCenterHorizontal }

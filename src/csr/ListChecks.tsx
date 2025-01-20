@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListChecks";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTI4YTgsOCwwLDAsMSwwLTE2aDg4QTgsOCwwLDAsMSwyMjQsMTI4Wk0xMjgsNzJoODhhOCw4LDAsMCwwLDAtMTZIMTI4YTgsOCwwLDAsMCwwLDE2Wm04OCwxMTJIMTI4YTgsOCwwLDAsMCwwLDE2aDg4YTgsOCwwLDAsMCwwLTE2Wk04Mi4zNCw0Mi4zNCw1Niw2OC42OSw0NS42Niw1OC4zNEE4LDgsMCwwLDAsMzQuMzQsNjkuNjZsMTYsMTZhOCw4LDAsMCwwLDExLjMyLDBsMzItMzJBOCw4LDAsMCwwLDgyLjM0LDQyLjM0Wm0wLDY0TDU2LDEzMi42OSw0NS42NiwxMjIuMzRhOCw4LDAsMCwwLTExLjMyLDExLjMybDE2LDE2YTgsOCwwLDAsMCwxMS4zMiwwbDMyLTMyYTgsOCwwLDAsMC0xMS4zMi0xMS4zMlptMCw2NEw1NiwxOTYuNjksNDUuNjYsMTg2LjM0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMmwxNiwxNmE4LDgsMCwwLDAsMTEuMzIsMGwzMi0zMmE4LDgsMCwwLDAtMTEuMzItMTEuMzJaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ListChecks";
-export { I as ListChecks };
+export { I as ListChecks }

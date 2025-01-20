@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Newspaper";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxMTJhOCw4LDAsMCwxLDgtOGg4MGE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsMTEyWm04LDQwaDgwYTgsOCwwLDAsMCwwLTE2SDk2YTgsOCwwLDAsMCwwLDE2Wk0yMzIsNjRWMTg0YTI0LDI0LDAsMCwxLTI0LDI0SDMyQTI0LDI0LDAsMCwxLDgsMTg0LjExVjg4YTgsOCwwLDAsMSwxNiwwdjk2YTgsOCwwLDAsMCwxNiwwVjY0QTE2LDE2LDAsMCwxLDU2LDQ4SDIxNkExNiwxNiwwLDAsMSwyMzIsNjRabS0xNiwwSDU2VjE4NGEyMy44NCwyMy44NCwwLDAsMS0xLjM3LDhIMjA4YTgsOCwwLDAsMCw4LThaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Newspaper";
-export { I as Newspaper };
+export { I as Newspaper }

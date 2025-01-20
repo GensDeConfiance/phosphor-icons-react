@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MicrosoftTeamsLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIsMTA0YTgsOCwwLDAsMS04LDhIOTZ2NDBhOCw4LDAsMCwxLTE2LDBWMTEySDcyYTgsOCwwLDAsMSwwLTE2aDMyQTgsOCwwLDAsMSwxMTIsMTA0Wk0yMzIsOTIuNzRWMTUyYTQwLDQwLDAsMCwxLTM2LjYzLDM5Ljg1LDY0LDY0LDAsMCwxLTExOC43LjE1SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjgwQTE2LDE2LDAsMCwxLDQwLDY0SDk2LjgxYTQwLDQwLDAsMCwxLDczLjMxLTI4Ljg1QTMyLDMyLDAsMCwxLDIxMS42OSw4MGg3LjU3QTEyLjc2LDEyLjc2LDAsMCwxLDIzMiw5Mi43NFpNMTEyLDU2YTIzLjgyLDIzLjgyLDAsMCwwLDEuMzgsOEgxMzZhMTYsMTYsMCwwLDEsMTUuMDcsMTAuNjhBMjQsMjQsMCwxLDAsMTEyLDU2Wm0yNCwxMjBoMFY4MEg0MHY5Nmg5NlptNDgtODBIMTUydjgwYTE2LDE2LDAsMCwxLTE2LDE2SDk0LjQ0QTQ4LDQ4LDAsMCwwLDE4NCwxNjhabTE2LTMyYTE2LDE2LDAsMCwwLTI0LjQtMTMuNkEzOS44OSwzOS44OSwwLDAsMSwxNjgsODBoMTZBMTYsMTYsMCwwLDAsMjAwLDY0Wm0xNiwzMkgyMDB2NzJhNjIuNzYsNjIuNzYsMCwwLDEtLjM2LDYuNzVBMjQsMjQsMCwwLDAsMjE2LDE1MloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "MicrosoftTeamsLogo";
-export { I as MicrosoftTeamsLogo };
+export { I as MicrosoftTeamsLogo }

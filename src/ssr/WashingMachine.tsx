@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WashingMachine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTc2SDQ4VjQ4SDIwOFYyMDhaTTEyOCw2NGE2NCw2NCwwLDEsMCw2NCw2NEE2NC4wNyw2NC4wNywwLDAsMCwxMjgsNjRabTAsMTEyYTQ4LDQ4LDAsMSwxLDQ4LTQ4QTQ4LjA1LDQ4LjA1LDAsMCwxLDEyOCwxNzZaTTIwMCw2OGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwyMDAsNjhabS03NC4zNCw0OS42Ni0xNiwxNmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsMTYtMTZhOCw4LDAsMCwxLDExLjMyLDExLjMyWm0zMi0zLjMyYTgsOCwwLDAsMSwwLDExLjMybC0zMiwzMmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsMzItMzJBOCw4LDAsMCwxLDE1Ny42NiwxMTQuMzRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "WashingMachine";
-export { I as WashingMachine };
+export { I as WashingMachine }

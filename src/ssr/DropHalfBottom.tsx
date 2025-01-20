@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DropHalfBottom";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQsNDcuNzVhMjU0LjE5LDI1NC4xOSwwLDAsMC00MS40NS0zOC4zLDgsOCwwLDAsMC05LjE4LDBBMjU0LjE5LDI1NC4xOSwwLDAsMCw4Miw0Ny43NUM1NC41MSw3OS4zMiw0MCwxMTIuNiw0MCwxNDRhODgsODgsMCwwLDAsMTc2LDBDMjE2LDExMi42LDIwMS40OSw3OS4zMiwxNzQsNDcuNzVaTTE4Ny44MywxODRINjguMTdhNzIsNzIsMCwwLDEtOC0xNkgxOTUuODdBNzIsNzIsMCwwLDEsMTg3LjgzLDE4NFpNMjAwLDE0NGE3MC41Nyw3MC41NywwLDAsMS0uNDYsOEg1Ni40NmE3MC41Nyw3MC41NywwLDAsMS0uNDYtOHEwLTQsLjM2LThIMTk5LjY0UTIwMCwxNDAsMjAwLDE0NFpNMTI4LDI2YzE0LjE2LDExLjEsNTYuODYsNDcuNzQsNjguODQsOTRINTkuMTZDNzEuMTQsNzMuNzYsMTEzLjg0LDM3LjEyLDEyOCwyNlpNODIuODEsMjAwaDkwLjM4YTcxLjgyLDcxLjgyLDAsMCwxLTkwLjM4LDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "DropHalfBottom";
-export { I as DropHalfBottom };
+export { I as DropHalfBottom }

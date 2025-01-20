@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StackPlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuOTEsMTI0QTgsOCwwLDAsMSwyMjgsMTM0LjkxbC05Niw1NmE4LDgsMCwwLDEtOC4wNiwwbC05Ni01NkE4LDgsMCwwLDEsMzYsMTIxLjA5bDkyLDUzLjY1LDkyLTUzLjY1QTgsOCwwLDAsMSwyMzAuOTEsMTI0Wk0yNCw4MGE4LDgsMCwwLDEsNC02LjkxbDk2LTU2YTgsOCwwLDAsMSw4LjA2LDBsOTYsNTZhOCw4LDAsMCwxLDAsMTMuODJsLTk2LDU2YTgsOCwwLDAsMS04LjA2LDBsLTk2LTU2QTgsOCwwLDAsMSwyNCw4MFptMjMuODgsMEwxMjgsMTI2Ljc0LDIwOC4xMiw4MCwxMjgsMzMuMjZaTTIzMiwxOTJIMjE2VjE3NmE4LDgsMCwwLDAtMTYsMHYxNkgxODRhOCw4LDAsMCwwLDAsMTZoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMjA4aDE2YTgsOCwwLDAsMCwwLTE2Wm0tOTIsMjMuNzYtMTIsN0wzNiwxNjkuMDlBOCw4LDAsMCwwLDI4LDE4Mi45MWw5Niw1NmE4LDgsMCwwLDAsOC4wNiwwbDE2LTkuMzNBOCw4LDAsMSwwLDE0MCwyMTUuNzZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "StackPlus";
-export { I as StackPlus };
+export { I as StackPlus }

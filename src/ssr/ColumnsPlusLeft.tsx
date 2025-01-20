@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ColumnsPlusLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMzJIMTA0QTE2LDE2LDAsMCwwLDg4LDQ4VjIwOGExNiwxNiwwLDAsMCwxNiwxNmgyNGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwxMjgsMzJabTAsMTc2SDEwNFY0OGgyNFpNMjAwLDMySDE3NmExNiwxNiwwLDAsMC0xNiwxNlYyMDhhMTYsMTYsMCwwLDAsMTYsMTZoMjRhMTYsMTYsMCwwLDAsMTYtMTZWNDhBMTYsMTYsMCwwLDAsMjAwLDMyWm0wLDE3NkgxNzZWNDhoMjRaTTcyLDEyOGE4LDgsMCwwLDEtOCw4SDQ4djE2YTgsOCwwLDAsMS0xNiwwVjEzNkgxNmE4LDgsMCwwLDEsMC0xNkgzMlYxMDRhOCw4LDAsMCwxLDE2LDB2MTZINjRBOCw4LDAsMCwxLDcyLDEyOFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ColumnsPlusLeft";
-export { I as ColumnsPlusLeft };
+export { I as ColumnsPlusLeft }

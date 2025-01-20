@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowLineUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsMTM4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMzYsOTEuMzFWMjI0YTgsOCwwLDAsMS0xNiwwVjkxLjMxTDYxLjY2LDE0OS42NmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNzItNzJhOCw4LDAsMCwxLDExLjMyLDBaTTIxNiwzMkg0MGE4LDgsMCwwLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ArrowLineUp";
-export { I as ArrowLineUp };
+export { I as ArrowLineUp }

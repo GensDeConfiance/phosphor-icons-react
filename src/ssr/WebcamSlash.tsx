@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/WebcamSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuOTIsMjEwLjYybC0xNjAtMTc2QTgsOCwwLDEsMCw0Mi4wOCw0NS4zOEw1OC44Miw2My44QTgwLDgwLDAsMCwwLDEyMCwxODMuNlYyMDBIMzJhOCw4LDAsMCwwLDAsMTZIMTk3LjE5bDQuODksNS4zOGE4LDgsMCwxLDAsMTEuODQtMTAuNzZaTTY0LDEwNGE2My42NSw2My42NSwwLDAsMSw2LjI2LTI3LjYyTDg4LjY4LDk2LjY0QTQwLDQwLDAsMCwwLDEyOCwxNDRjMS4yLDAsMi4zOS0uMDYsMy41OC0uMTdMMTUwLDE2NC4xMUE2NCw2NCwwLDAsMSw2NCwxMDRabTcyLDk2VjE4My41OWE3OS45MSw3OS45MSwwLDAsMCwyNS40NC02LjkxTDE4Mi42NCwyMDBaTTg1LjUyLDQ1LjMxYTgsOCwwLDAsMSwzLTEwLjkxLDgwLDgwLDAsMCwxLDEwNSwxMTUuNSw4LDgsMCwxLDEtMTMuMS05LjE5LDY0LDY0LDAsMCwwLTg0LTkyLjRBOCw4LDAsMCwxLDg1LjUyLDQ1LjMxWm02NS4zMSw2Ni4xMkEyNCwyNCwwLDAsMCwxMjgsODBhMjQuMTcsMjQuMTcsMCwwLDAtNS4yNC41N0E4LDgsMCwxLDEsMTE5LjMsNjUsNDAsNDAsMCwwLDEsMTY2LDExNi4zOGE4LDgsMCwwLDEtMTUuMjEtNC45NVoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "WebcamSlash";
-export { I as WebcamSlash };
+export { I as WebcamSlash }

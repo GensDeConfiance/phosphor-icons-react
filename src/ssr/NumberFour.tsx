@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberFour";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTYwSDE2OFY0OGE4LDgsMCwwLDAtMTQuMjUtNWwtOTYsMTIwQTgsOCwwLDAsMCw2NCwxNzZoODh2MzJhOCw4LDAsMCwwLDE2LDBWMTc2aDE2YTgsOCwwLDAsMCwwLTE2Wm0tMzIsMEg4MC42NEwxNTIsNzAuODFaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "NumberFour";
-export { I as NumberFour };
+export { I as NumberFour }

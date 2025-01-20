@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Sneaker";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjguNjUsMTI5LjExbC02MC43My0yMC4yNGEyNCwyNCwwLDAsMS0xNC4zMi0xM0wxMzAuMzksNDEuNnMwLS4wNywwLS4xQTE2LDE2LDAsMCwwLDExMC4yNSwzM0wzNC41Myw2MC40OUExNi4wNSwxNi4wNSwwLDAsMCwyNCw3NS41M1YxOTJhMTYsMTYsMCwwLDAsMTYsMTZIMjQwYTE2LDE2LDAsMCwwLDE2LTE2VjE2Ny4wNkE0MCw0MCwwLDAsMCwyMjguNjUsMTI5LjExWk0xMTUuNzIsNDhsNy4xMSwxNi42My0yMS41Niw3Ljg1QTgsOCwwLDAsMCwxMDQsODhhNy45MSw3LjkxLDAsMCwwLDIuNzMtLjQ5bDIyLjQtOC4xNCw0Ljc0LDExLjA3LTE2LjYsNkE4LDgsMCwwLDAsMTIwLDExMmE3LjkxLDcuOTEsMCwwLDAsMi43My0uNDlsMTcuNi02LjRhNDAuMjQsNDAuMjQsMCwwLDAsNy42OCwxMGwtMTQuNzQsNS4zNkE4LDgsMCwwLDAsMTM2LDEzNmE4LjE0LDguMTQsMCwwLDAsMi43My0uNDhsMjgtMTAuMTgsNTYuODcsMTguOTVBMjQsMjQsMCwwLDEsMjM4LjkzLDE2MEg0MFY3NS41M1pNNDAsMTkyaDBWMTc2SDI0MHYxNloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Sneaker";
-export { I as Sneaker };
+export { I as Sneaker }

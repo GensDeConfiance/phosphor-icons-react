@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserCheck";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTU3LjY4YTY4LDY4LDAsMSwwLTcxLjksMGMtMjAuNjUsNi43Ni0zOS4yMywxOS4zOS01NC4xNywzNy4xN2E4LDgsMCwwLDAsMTIuMjUsMTAuM0M1MC4yNSwxODEuMTksNzcuOTEsMTY4LDEwOCwxNjhzNTcuNzUsMTMuMTksNzcuODcsMzcuMTVhOCw4LDAsMCwwLDEyLjI1LTEwLjNDMTgzLjE4LDE3Ny4wNywxNjQuNiwxNjQuNDQsMTQ0LDE1Ny42OFpNNTYsMTAwYTUyLDUyLDAsMSwxLDUyLDUyQTUyLjA2LDUyLjA2LDAsMCwxLDU2LDEwMFptMTk3LjY2LDMzLjY2LTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0xNi0xNmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMjE2LDE0OC42OWwyNi4zNC0yNi4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "UserCheck";
-export { I as UserCheck };
+export { I as UserCheck }

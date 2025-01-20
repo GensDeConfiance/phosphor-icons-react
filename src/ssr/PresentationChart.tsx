@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PresentationChart";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBIMTM2VjI0YTgsOCwwLDAsMC0xNiwwVjQwSDQwQTE2LDE2LDAsMCwwLDI0LDU2VjE3NmExNiwxNiwwLDAsMCwxNiwxNkg3OS4zNkw1Ny43NSwyMTlhOCw4LDAsMCwwLDEyLjUsMTBsMjkuNTktMzdoNTYuMzJsMjkuNTksMzdhOCw4LDAsMSwwLDEyLjUtMTBsLTIxLjYxLTI3SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBabTAsMTM2SDQwVjU2SDIxNlYxNzZaTTEwNCwxMjB2MjRhOCw4LDAsMCwxLTE2LDBWMTIwYTgsOCwwLDAsMSwxNiwwWm0zMi0xNnY0MGE4LDgsMCwwLDEtMTYsMFYxMDRhOCw4LDAsMCwxLDE2LDBabTMyLTE2djU2YTgsOCwwLDAsMS0xNiwwVjg4YTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PresentationChart";
-export { I as PresentationChart };
+export { I as PresentationChart }

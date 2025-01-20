@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/EyeClosed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjgsMTc1YTgsOCwwLDAsMS0xMC45Mi0zbC0xOS0zMy4yQTEyMy4yMywxMjMuMjMsMCwwLDEsMTYyLDE1NS40Nmw1Ljg3LDM1LjIyYTgsOCwwLDAsMS02LjU4LDkuMjFBOC40LDguNCwwLDAsMSwxNjAsMjAwYTgsOCwwLDAsMS03Ljg4LTYuNjlsLTUuNzctMzQuNThhMTMzLjA2LDEzMy4wNiwwLDAsMS0zNi42OCwwbC01Ljc3LDM0LjU4QTgsOCwwLDAsMSw5NiwyMDBhOC40LDguNCwwLDAsMS0xLjMyLS4xMSw4LDgsMCwwLDEtNi41OC05LjIxTDk0LDE1NS40NmExMjMuMjMsMTIzLjIzLDAsMCwxLTM2LjA2LTE2LjY5TDM5LDE3MkE4LDgsMCwxLDEsMjUuMDYsMTY0bDIwLTM1YTE1My40NywxNTMuNDcsMCwwLDEtMTkuMy0yMEE4LDgsMCwxLDEsMzguMjIsOTljMTYuNiwyMC41NCw0NS42NCw0NSw4OS43OCw0NXM3My4xOC0yNC40OSw4OS43OC00NUE4LDgsMCwxLDEsMjMwLjIyLDEwOWExNTMuNDcsMTUzLjQ3LDAsMCwxLTE5LjMsMjBsMjAsMzVBOCw4LDAsMCwxLDIyOCwxNzVaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "EyeClosed";
-export { I as EyeClosed };
+export { I as EyeClosed }

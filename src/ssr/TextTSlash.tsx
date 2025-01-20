@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextTSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuMzgsMjIxLjkyYTgsOCwwLDAsMS0xMS4zLS41NEwxMzYsMTQ4LjY5VjE5MmgyNGE4LDgsMCwwLDEsMCwxNkg5NmE4LDgsMCwwLDEsMC0xNmgyNFYxMzEuMDlMNjQsNjkuNDlWODhhOCw4LDAsMCwxLTE2LDBWNTZhOCw4LDAsMCwxLC43Mi0zLjMxbC02LjY0LTcuMzFBOCw4LDAsMSwxLDUzLjkyLDM0LjYybDE2MCwxNzZBOCw4LDAsMCwxLDIxMy4zOCwyMjEuOTJaTTEwNS43OSw2NEgxMjBWODAuNDNhOCw4LDAsMCwwLDE2LDBWNjRoNTZWODhhOCw4LDAsMCwwLDE2LDBWNTZhOCw4LDAsMCwwLTgtOEgxMDUuNzlhOCw4LDAsMCwwLDAsMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "TextTSlash";
-export { I as TextTSlash };
+export { I as TextTSlash }

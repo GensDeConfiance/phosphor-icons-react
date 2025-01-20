@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Function";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBhOCw4LDAsMCwxLTgsOEgxNzAuNzFhMjQsMjQsMCwwLDAtMjMuNjIsMTkuNzFMMTM3LjU5LDEyMEgxODRhOCw4LDAsMCwxLDAsMTZIMTM0LjY4bC0xMCw1NS4xNkE0MCw0MCwwLDAsMSw4NS4yOSwyMjRINTZhOCw4LDAsMCwxLDAtMTZIODUuMjlhMjQsMjQsMCwwLDAsMjMuNjItMTkuNzFsOS41LTUyLjI5SDcyYTgsOCwwLDAsMSwwLTE2aDQ5LjMybDEwLTU1LjE2QTQwLDQwLDAsMCwxLDE3MC43MSwzMkgyMDBBOCw4LDAsMCwxLDIwOCw0MFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Function";
-export { I as Function };
+export { I as Function }

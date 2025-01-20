@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MopedFront";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBIMTY3LjJhNDAsNDAsMCwwLDAtNzguNCwwSDQ4YTgsOCwwLDAsMCwwLDE2SDg4LjhhNDAsNDAsMCwwLDAsMTIuNTgsMjEuODJBNjQuMDgsNjQuMDgsMCwwLDAsNjQsMTM2djY0YTE2LDE2LDAsMCwwLDE2LDE2SDk2YTMyLDMyLDAsMCwwLDY0LDBoMTZhMTYsMTYsMCwwLDAsMTYtMTZWMTM2YTY0LjA4LDY0LjA4LDAsMCwwLTM3LjM4LTU4LjE4QTQwLDQwLDAsMCwwLDE2Ny4yLDU2SDIwOGE4LDgsMCwwLDAsMC0xNlpNMTQ0LDIxNmExNiwxNiwwLDAsMS0zMiwwVjE2OGExNiwxNiwwLDAsMSwzMiwwWm0zMi04MHY2NEgxNjBWMTY4YTMyLDMyLDAsMCwwLTY0LDB2MzJIODBWMTM2YTQ4LDQ4LDAsMCwxLDk2LDBaTTEwNCw0OGEyNCwyNCwwLDEsMSwyNCwyNEEyNCwyNCwwLDAsMSwxMDQsNDhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "MopedFront";
-export { I as MopedFront };
+export { I as MopedFront }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Seat";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMjMyYTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDIzMlptMC03MnYzMmExNiwxNiwwLDAsMS0xNiwxNkgxMTQuMTFhMTUuOTMsMTUuOTMsMCwwLDEtMTQuMzItOC44NWwtNTguMTEtMTE2YTE2LjEsMTYuMSwwLDAsMSwwLTE0LjMybDIyLjEyLTQ0QTE2LDE2LDAsMCwxLDg1LDE3LjU2bDMzLjY5LDE0LjIyLjQ3LjIyYTE2LDE2LDAsMCwxLDcuMTUsMjEuNDYsMS41MSwxLjUxLDAsMCwxLS4xMS4yMkwxMTIsODBsMzEuNzgsNjRMMjA4LDE0NEExNiwxNiwwLDAsMSwyMjQsMTYwWm0tMTYsMEgxNDMuNzdhMTUuOTEsMTUuOTEsMCwwLDEtMTQuMzEtOC44NWwtMzEuNzktNjRhMTYuMDcsMTYuMDcsMCwwLDEsMC0xNC4yOWwuMTItLjIyTDExMiw0Ni4zMiw3OC41NywzMi4yMUE0Ljg0LDQuODQsMCwwLDEsNzguMSwzMkw1Niw3NiwxMTQuMSwxOTJIMjA4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Seat";
-export { I as Seat };
+export { I as Seat }

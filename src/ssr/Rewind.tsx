@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Rewind";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjMuNzcsNThhMTYsMTYsMCwwLDAtMTYuMjUuNTNMMTI4LDEwOS4xNFY3MS44NEExNS45MSwxNS45MSwwLDAsMCwxMDMuNTIsNTguNUwxNS4zMywxMTQuNjZhMTUuOCwxNS44LDAsMCwwLDAsMjYuNjhsODguMTksNTYuMTZBMTUuOTEsMTUuOTEsMCwwLDAsMTI4LDE4NC4xNnYtMzcuM2w3OS41Miw1MC42NEExNS45MSwxNS45MSwwLDAsMCwyMzIsMTg0LjE2VjcxLjg0QTE1LjgzLDE1LjgzLDAsMCwwLDIyMy43Nyw1OFpNMTEyLDE4My45MywyNC4xOCwxMjgsMTEyLDcyLjA2Wm0xMDQsMEwxMjguMTgsMTI4LDIxNiw3Mi4wNloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Rewind";
-export { I as Rewind };
+export { I as Rewind }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitBranch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRhMzIsMzIsMCwxLDAtNDAsMzF2MTdhOCw4LDAsMCwxLTgsOEg5NmEyMy44NCwyMy44NCwwLDAsMC04LDEuMzhWOTVhMzIsMzIsMCwxLDAtMTYsMHY2NmEzMiwzMiwwLDEsMCwxNiwwVjE0NGE4LDgsMCwwLDEsOC04aDg4YTI0LDI0LDAsMCwwLDI0LTI0Vjk1QTMyLjA2LDMyLjA2LDAsMCwwLDIzMiw2NFpNNjQsNjRBMTYsMTYsMCwxLDEsODAsODAsMTYsMTYsMCwwLDEsNjQsNjRaTTk2LDE5MmExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSw5NiwxOTJaTTIwMCw4MGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMDAsODBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "GitBranch";
-export { I as GitBranch };
+export { I as GitBranch }

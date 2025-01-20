@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Swatches";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxODBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsODgsMTgwWm0xNTItMjMuODFWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDc2YTQ2LjM2LDQ2LjM2LDAsMCwxLTcuOTQtLjY4LDQ0LDQ0LDAsMCwxLTM1LjQzLTUwLjk1bDI1LTE0My4xM2ExNS45NCwxNS45NCwwLDAsMSwxOC40Ny0xM0wxMzAuODQsMjZhMTYsMTYsMCwwLDEsMTIuOTIsMTguNTJsLTEyLjA4LDY5TDE5OS40OSw4OWExNiwxNiwwLDAsMSwyMC40NSw5LjUyTDIzOSwxNTAuNjlBMTguMzUsMTguMzUsMCwwLDEsMjQwLDE1Ni4xOVpNMTAzLDE4NC44NywxMjgsNDEuNzQsNzMuNDYsMzJsLTI1LDE0My4xQTI4LDI4LDAsMCwwLDcwLjksMjA3LjU3LDI3LjI5LDI3LjI5LDAsMCwwLDkxLjQ2LDIwMywyNy44NCwyNy44NCwwLDAsMCwxMDMsMTg0Ljg3Wk0xMTYuNzgsMTk1LDIyNCwxNTYuMTEsMjA0LjkyLDEwNCwxMjguNSwxMzEuN2wtOS43OCw1NS45MkE0NC42Myw0NC42MywwLDAsMSwxMTYuNzgsMTk1Wk0yMjQsMTczLjEyLDEyNy43NCwyMDhIMjI0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Swatches";
-export { I as Swatches };
+export { I as Swatches }

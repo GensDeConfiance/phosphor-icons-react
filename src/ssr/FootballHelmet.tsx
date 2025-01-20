@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FootballHelmet";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NiwxNjRhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsOTYsMTY0Wm0xMzYsMTJ2MzJhMTYsMTYsMCwwLDEtMTYsMTZIMTgwYTE2LjEsMTYuMSwwLDAsMS0xNS4zNS0xMS40N0wxNTMuODQsMTc2SDEzMS45MWwzLjU2LDEyYTUuNDQsNS40NCwwLDAsMSwuMTUuNTRBMTYsMTYsMCwwLDEsMTIwLDIwOEg3Mi4xNGE4LDgsMCwwLDEtNC41Mi0xLjRBMTAwLDEwMCwwLDAsMSwyNCwxMjRjMC01NC4zNiw0NC4yNC05OS4yLDk4LjU4LTEwMEExMDAsMTAwLDAsMCwxLDIyNCwxMjR2NGE4LDgsMCwwLDEtOCw4SDE1OC43MWw3LjA5LDI0SDIxNkExNiwxNiwwLDAsMSwyMzIsMTc2Wk0xMjAsMTkybC0xNS40NS01MmE0Ljc3LDQuNzcsMCwwLDEtLjE1LS41NEExNiwxNiwwLDAsMSwxMjAsMTIwaDg3LjkxQTg0LDg0LDAsMCwwLDEyMi44LDQwQzc3LjE2LDQwLjY0LDQwLDc4LjMxLDQwLDEyNGE4NCw4NCwwLDAsMCwzNC42Nyw2OFptMjkuMTMtMzJMMTQyLDEzNkgxMjBsNy4xNCwyNFpNMjE2LDE3NkgxNzAuNTJMMTgwLDIwOGgzNloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FootballHelmet";
-export { I as FootballHelmet };
+export { I as FootballHelmet }

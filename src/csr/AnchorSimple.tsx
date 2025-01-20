@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AnchorSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTEySDIwMGE4LDgsMCwwLDAsMCwxNmgxNS42NEE4OC4xNSw4OC4xNSwwLDAsMSwxMzYsMjA3LjYzVjk1YTMyLDMyLDAsMSwwLTE2LDBWMjA3LjYzQTg4LjE1LDg4LjE1LDAsMCwxLDQwLjM2LDEyOEg1NmE4LDgsMCwwLDAsMC0xNkgzMmE4LDgsMCwwLDAtOCw4LDEwNCwxMDQsMCwwLDAsMjA4LDBBOCw4LDAsMCwwLDIyNCwxMTJaTTExMiw2NGExNiwxNiwwLDEsMSwxNiwxNkExNiwxNiwwLDAsMSwxMTIsNjRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "AnchorSimple";
-export { I as AnchorSimple };
+export { I as AnchorSimple }

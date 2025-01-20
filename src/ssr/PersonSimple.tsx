@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PersonSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBBMzIsMzIsMCwxLDAsOTYsNDgsMzIsMzIsMCwwLDAsMTI4LDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDEyOCwzMlpNMjMwLjg2LDEzMi4xMmE4LDgsMCwwLDEtMTEsMi43NGMtLjM1LS4yMS0zNS4xMS0yMC41OS04My44OC0yMi42N1YxNDlsNjIsNjkuNzNhOCw4LDAsMSwxLTEyLDEwLjYyTDEyOCwxNjQsNzAsMjI5LjMxYTgsOCwwLDEsMS0xMi0xMC42MkwxMjAsMTQ5VjExMi4xOGMtNDksMi4wOC04My41MiwyMi40Ni04My44OCwyMi42OGE4LDgsMCwxLDEtOC4yMy0xMy43MkMyOS42LDEyMC4xMSw3MC40NSw5NiwxMjgsOTZzOTguNCwyNC4xMSwxMDAuMTIsMjUuMTRBOCw4LDAsMCwxLDIzMC44NiwxMzIuMTJaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PersonSimple";
-export { I as PersonSimple };
+export { I as PersonSimple }

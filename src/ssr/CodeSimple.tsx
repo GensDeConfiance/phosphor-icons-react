@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CodeSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05My4zMSw3MCwyOCwxMjhsNjUuMjcsNThhOCw4LDAsMSwxLTEwLjYyLDEybC03Mi02NGE4LDgsMCwwLDEsMC0xMmw3Mi02NEE4LDgsMCwxLDEsOTMuMzEsNzBabTE1Miw1Mi03Mi02NGE4LDgsMCwwLDAtMTAuNjIsMTJMMjI4LDEyOGwtNjUuMjcsNThhOCw4LDAsMSwwLDEwLjYyLDEybDcyLTY0YTgsOCwwLDAsMCwwLTEyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CodeSimple";
-export { I as CodeSimple };
+export { I as CodeSimple }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WaveformSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01Niw5NnY2NGE4LDgsMCwwLDEtMTYsMFY5NmE4LDgsMCwwLDEsMTYsMFpNNTMuOTIsMzQuNjJBOCw4LDAsMSwwLDQyLjA4LDQ1LjM4TDgwLDg3LjA5VjIyNGE4LDgsMCwwLDAsMTYsMFYxMDQuNjlsMjQsMjYuNFYxOTJhOCw4LDAsMCwwLDE2LDBWMTQ4LjY5bDY2LjA4LDcyLjY5YTgsOCwwLDEsMCwxMS44NC0xMC43NlpNODgsNDQuNDNhOCw4LDAsMCwwLDgtOFYzMmE4LDgsMCwwLDAtMTYsMHY0LjQzQTgsOCwwLDAsMCw4OCw0NC40M1ptNDAsNDRhOCw4LDAsMCwwLDgtOFY2NGE4LDgsMCwwLDAtMTYsMFY4MC40M0E4LDgsMCwwLDAsMTI4LDg4LjQzWm00MCw0NGE4LDgsMCwwLDAsOC04Vjk2YTgsOCwwLDAsMC0xNiwwdjI4LjQzQTgsOCwwLDAsMCwxNjgsMTMyLjQzWk0yMDgsNzJhOCw4LDAsMCwwLTgsOHY4OC40M2E4LDgsMCwwLDAsMTYsMFY4MEE4LDgsMCwwLDAsMjA4LDcyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "WaveformSlash";
-export { I as WaveformSlash };
+export { I as WaveformSlash }

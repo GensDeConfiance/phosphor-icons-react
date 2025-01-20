@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListHeart";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTgsNzJoNjRhOCw4LDAsMCwwLDAtMTZINDBhOCw4LDAsMCwwLDAsMTZabTgwLDQ4SDQwYTgsOCwwLDAsMCwwLDE2aDgwYTgsOCwwLDAsMCwwLTE2Wm0xMjgtNDBjMCwzNi41Mi01MC4yOCw2Mi4wOC01Mi40Miw2My4xNmE4LDgsMCwwLDEtNy4xNiwwQzE4Ni4yOCwyMDYuMDgsMTM2LDE4MC41MiwxMzYsMTQ0YTMyLDMyLDAsMCwxLDU2LTIxLjE0QTMyLDMyLDAsMCwxLDI0OCwxNDRabS0xNiwwYTE2LDE2LDAsMCwwLTMyLDAsOCw4LDAsMCwxLTE2LDAsMTYsMTYsMCwwLDAtMzIsMGMwLDIwLjE4LDI2LjIxLDM5LjE0LDQwLDQ2LjkzQzIwNS43OSwxODMuMTUsMjMyLDE2NC4xOSwyMzIsMTQ0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ListHeart";
-export { I as ListHeart };
+export { I as ListHeart }

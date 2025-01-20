@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CloudX";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsNDBBODguMDksODguMDksMCwwLDAsODEuMjksODguNjcsNjQsNjQsMCwxLDAsNzIsMjE2aDg4YTg4LDg4LDAsMCwwLDAtMTc2Wm0wLDE2MEg3MmE0OCw0OCwwLDAsMSwwLTk2YzEuMSwwLDIuMiwwLDMuMjkuMTFBODgsODgsMCwwLDAsNzIsMTI4YTgsOCwwLDAsMCwxNiwwLDcyLDcyLDAsMSwxLDcyLDcyWm0yOS42Ni04Mi4zNEwxNzEuMzEsMTM2bDE4LjM1LDE4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxNjAsMTQ3LjMxbC0xOC4zNCwxOC4zNWE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTQ4LjY5LDEzNmwtMTguMzUtMTguMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyTDE2MCwxMjQuNjlsMTguMzQtMTguMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CloudX";
-export { I as CloudX };
+export { I as CloudX }

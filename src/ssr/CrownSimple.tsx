@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CrownSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuOSw3My42QTE1Ljg1LDE1Ljg1LDAsMCwwLDIxMiw3Ny4zOWwtMzMuNjcsMzYuMjktMzUuOC04MC4yOWExLDEsMCwwLDEsMC0uMSwxNiwxNiwwLDAsMC0yOS4wNiwwLDEsMSwwLDAsMSwwLC4xbC0zNS44LDgwLjI5TDQ0LDc3LjM5QTE2LDE2LDAsMCwwLDE2LjI1LDkwLjgxYzAsLjExLDAsLjIxLjA3LjMyTDM5LDE5NWExNiwxNiwwLDAsMCwxNS43MiwxM0gyMDEuMjlBMTYsMTYsMCwwLDAsMjE3LDE5NUwyMzkuNjgsOTEuMTNjMC0uMTEsMC0uMjEuMDctLjMyQTE1Ljg1LDE1Ljg1LDAsMCwwLDIzMC45LDczLjZaTTIwMS4zNSwxOTEuNjhsLS4wNi4zMkg1NC43MWwtLjA2LS4zMkwzMiw4OGwuMTQuMTYsNDIsNDUuMjRhOCw4LDAsMCwwLDEzLjE4LTIuMThMMTI4LDQwbDQwLjY5LDkxLjI1YTgsOCwwLDAsMCwxMy4xOCwyLjE4bDQyLTQ1LjI0TDIyNCw4OFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CrownSimple";
-export { I as CrownSimple };
+export { I as CrownSimple }

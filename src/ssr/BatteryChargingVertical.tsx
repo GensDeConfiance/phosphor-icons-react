@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BatteryChargingVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTAuODEsMTMxLjc5YTgsOCwwLDAsMSwuMzUsNy43OWwtMTYsMzJhOCw4LDAsMCwxLTE0LjMyLTcuMTZMMTMxLjA2LDE0NEgxMTJhOCw4LDAsMCwxLTcuMTYtMTEuNThsMTYtMzJhOCw4LDAsMSwxLDE0LjMyLDcuMTZMMTI0Ljk0LDEyOEgxNDRBOCw4LDAsMCwxLDE1MC44MSwxMzEuNzlaTTk2LDE2aDY0YTgsOCwwLDAsMCwwLTE2SDk2YTgsOCwwLDAsMCwwLDE2Wk0yMDAsNTZWMjI0YTI0LDI0LDAsMCwxLTI0LDI0SDgwYTI0LDI0LDAsMCwxLTI0LTI0VjU2QTI0LDI0LDAsMCwxLDgwLDMyaDk2QTI0LDI0LDAsMCwxLDIwMCw1NlptLTE2LDBhOCw4LDAsMCwwLTgtOEg4MGE4LDgsMCwwLDAtOCw4VjIyNGE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BatteryChargingVertical";
-export { I as BatteryChargingVertical };
+export { I as BatteryChargingVertical }

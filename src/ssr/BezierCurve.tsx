@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BezierCurve";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuMDcsMTQ0LjQxQTk2LjY4LDk2LjY4LDAsMCwwLDE4MSw4OGg1OWE4LDgsMCwwLDAsMC0xNkgxNTlhMzIsMzIsMCwwLDAtNjIsMEgxNmE4LDgsMCwwLDAsMCwxNkg3NWE5Ni42OCw5Ni42OCwwLDAsMC00MC4wNyw1Ni40MUEzMiwzMiwwLDEsMCw1MS4wOCwxNDYsODAuNiw4MC42LDAsMCwxLDk5LDkzLjQ0YTMyLDMyLDAsMCwwLDU4LjA2LDBBODAuNiw4MC42LDAsMCwxLDIwNC45MiwxNDZhMzIsMzIsMCwxLDAsMTYuMTUtMS41N1pNNTYsMTc2YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDU2LDE3NlptNzItODBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMTI4LDk2Wm04OCw5NmExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMTYsMTkyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BezierCurve";
-export { I as BezierCurve };
+export { I as BezierCurve }

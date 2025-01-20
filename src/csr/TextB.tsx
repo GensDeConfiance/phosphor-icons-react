@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextB";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzguNDgsMTE1LjdBNDQsNDQsMCwwLDAsMTQ4LDQwSDgwYTgsOCwwLDAsMC04LDhWMjAwYTgsOCwwLDAsMCw4LDhoODBhNDgsNDgsMCwwLDAsMTguNDgtOTIuM1pNODgsNTZoNjBhMjgsMjgsMCwwLDEsMCw1Nkg4OFptNzIsMTM2SDg4VjEyOGg3MmEzMiwzMiwwLDAsMSwwLDY0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "TextB";
-export { I as TextB, I as TextBolder };
+export { I as TextB, I as TextBolder }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WifiMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDAsMjA0YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0MCwyMDRabTY1LTgxLjIzYTEyNCwxMjQsMCwwLDAtMTUzLjk0LDBBOCw4LDAsMCwwLDYxLDEzNS4zMWExMDgsMTA4LDAsMCwxLDEzNC4wNiwwLDgsOCwwLDAsMCwxMS4yNC0xLjNBOCw4LDAsMCwwLDIwNSwxMjIuNzdabS0zMi4yNiwzNS43NmE3Ni4wNSw3Ni4wNSwwLDAsMC04OS40MiwwLDgsOCwwLDAsMCw5LjQyLDEyLjk0LDYwLDYwLDAsMCwxLDcwLjU4LDAsOCw4LDAsMSwwLDkuNDItMTIuOTRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "WifiMedium";
-export { I as WifiMedium };
+export { I as WifiMedium }

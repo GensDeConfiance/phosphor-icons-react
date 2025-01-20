@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Note";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw5NmE4LDgsMCwwLDEsOC04aDY0YTgsOCwwLDAsMSwwLDE2SDk2QTgsOCwwLDAsMSw4OCw5NlptOCw0MGg2NGE4LDgsMCwwLDAsMC0xNkg5NmE4LDgsMCwwLDAsMCwxNlptMzIsMTZIOTZhOCw4LDAsMCwwLDAsMTZoMzJhOCw4LDAsMCwwLDAtMTZaTTIyNCw0OFYxNTYuNjlBMTUuODYsMTUuODYsMCwwLDEsMjE5LjMxLDE2OEwxNjgsMjE5LjMxQTE1Ljg2LDE1Ljg2LDAsMCwxLDE1Ni42OSwyMjRINDhhMTYsMTYsMCwwLDEtMTYtMTZWNDhBMTYsMTYsMCwwLDEsNDgsMzJIMjA4QTE2LDE2LDAsMCwxLDIyNCw0OFpNNDgsMjA4SDE1MlYxNjBhOCw4LDAsMCwxLDgtOGg0OFY0OEg0OFptMTIwLTQwdjI4LjdMMTk2LjY5LDE2OFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Note";
-export { I as Note };
+export { I as Note }

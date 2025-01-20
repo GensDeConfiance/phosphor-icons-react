@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Rss";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDYuOTEsMTQ5LjA5QTcxLjUzLDcxLjUzLDAsMCwxLDEyOCwyMDBhOCw4LDAsMCwxLTE2LDAsNTYsNTYsMCwwLDAtNTYtNTYsOCw4LDAsMCwxLDAtMTZBNzEuNTMsNzEuNTMsMCwwLDEsMTA2LjkxLDE0OS4wOVpNNTYsODBhOCw4LDAsMCwwLDAsMTZBMTA0LDEwNCwwLDAsMSwxNjAsMjAwYTgsOCwwLDAsMCwxNiwwQTEyMCwxMjAsMCwwLDAsNTYsODBabTExOC43OSwxLjIxQTE2Ni45LDE2Ni45LDAsMCwwLDU2LDMyYTgsOCwwLDAsMCwwLDE2QTE1MSwxNTEsMCwwLDEsMTYzLjQ4LDkyLjUyLDE1MSwxNTEsMCwwLDEsMjA4LDIwMGE4LDgsMCwwLDAsMTYsMEExNjYuOSwxNjYuOSwwLDAsMCwxNzQuNzksODEuMjFaTTYwLDE4NGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw2MCwxODRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Rss";
-export { I as Rss };
+export { I as Rss }

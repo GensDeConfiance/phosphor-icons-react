@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Radical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsODB2MjRhOCw4LDAsMCwxLTE2LDBWODhIMTMzLjU1TDg3LjQ5LDIxMC44MWE4LDgsMCwwLDEtMTUsMGwtNDgtMTI4YTgsOCwwLDEsMSwxNS01LjYyTDgwLDE4NS4yMmw0MC41MS0xMDhBOCw4LDAsMCwxLDEyOCw3MkgyNDBBOCw4LDAsMCwxLDI0OCw4MFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Radical";
-export { I as Radical };
+export { I as Radical }

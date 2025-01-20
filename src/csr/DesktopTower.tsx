@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DesktopTower";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJhOCw4LDAsMCwxLTgsOEgxNzZhOCw4LDAsMCwxLDAtMTZoMzJBOCw4LDAsMCwxLDIxNiw3MlptLTgsMjRIMTc2YTgsOCwwLDAsMCwwLDE2aDMyYTgsOCwwLDAsMCwwLTE2Wm00MC00OFYyMDhhMTYsMTYsMCwwLDEtMTYsMTZIMTUyYTE2LDE2LDAsMCwxLTE2LTE2VjE5Mkg5NnYxNmgxNmE4LDgsMCwwLDEsMCwxNkg2NGE4LDgsMCwwLDEsMC0xNkg4MFYxOTJIMzJBMjQsMjQsMCwwLDEsOCwxNjhWOTZBMjQsMjQsMCwwLDEsMzIsNzJIMTM2VjQ4YTE2LDE2LDAsMCwxLDE2LTE2aDgwQTE2LDE2LDAsMCwxLDI0OCw0OFpNMTM2LDE3NlY4OEgzMmE4LDgsMCwwLDAtOCw4djcyYTgsOCwwLDAsMCw4LDhabTk2LDMyVjQ4SDE1MlYyMDhoODBabS00MC00MGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxOTIsMTY4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "DesktopTower";
-export { I as DesktopTower };
+export { I as DesktopTower }

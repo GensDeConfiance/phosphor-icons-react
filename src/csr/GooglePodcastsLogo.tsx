@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GooglePodcastsLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTZWNDhhOCw4LDAsMCwxLTE2LDBWMTZhOCw4LDAsMCwxLDE2LDBabTQwLDQwYTgsOCwwLDAsMC04LDhWOTZhOCw4LDAsMCwwLDE2LDBWNjRBOCw4LDAsMCwwLDE3Niw1NlpNMTI4LDIwMGE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjIwOEE4LDgsMCwwLDAsMTI4LDIwMFptMC0xMjBhOCw4LDAsMCwwLTgsOHY4MGE4LDgsMCwwLDAsMTYsMFY4OEE4LDgsMCwwLDAsMTI4LDgwWk04MCw1NmE4LDgsMCwwLDAtOCw4djU2YTgsOCwwLDAsMCwxNiwwVjY0QTgsOCwwLDAsMCw4MCw1NlptOTYsNzJhOCw4LDAsMCwwLTgsOHY1NmE4LDgsMCwwLDAsMTYsMFYxMzZBOCw4LDAsMCwwLDE3NiwxMjhaTTMyLDEwNGE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjExMkE4LDgsMCwwLDAsMzIsMTA0Wm00OCw0OGE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjE2MEE4LDgsMCwwLDAsODAsMTUyWm0xNDQtNDhhOCw4LDAsMCwwLTgsOHYzMmE4LDgsMCwwLDAsMTYsMFYxMTJBOCw4LDAsMCwwLDIyNCwxMDRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "GooglePodcastsLogo";
-export { I as GooglePodcastsLogo };
+export { I as GooglePodcastsLogo }

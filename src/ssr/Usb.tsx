@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Usb";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTIuNDQsMTIxLjM0bC00OC0zMkE4LDgsMCwwLDAsMTkyLDk2djI0SDcyVjcyaDMzYTMyLDMyLDAsMSwwLDAtMTZINzJBMTYsMTYsMCwwLDAsNTYsNzJ2NDhIOGE4LDgsMCwwLDAsMCwxNkg1NnY0OGExNiwxNiwwLDAsMCwxNiwxNmgzMnY4YTE2LDE2LDAsMCwwLDE2LDE2aDMyYTE2LDE2LDAsMCwwLDE2LTE2VjE3NmExNiwxNiwwLDAsMC0xNi0xNkgxMjBhMTYsMTYsMCwwLDAtMTYsMTZ2OEg3MlYxMzZIMTkydjI0YTgsOCwwLDAsMCwxMi40NCw2LjY2bDQ4LTMyYTgsOCwwLDAsMCwwLTEzLjMyWk0xMzYsNDhhMTYsMTYsMCwxLDEtMTYsMTZBMTYsMTYsMCwwLDEsMTM2LDQ4Wk0xMjAsMTc2aDMydjMySDEyMFptODgtMzAuOTVWMTExbDI1LjU4LDE3WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Usb";
-export { I as Usb };
+export { I as Usb }

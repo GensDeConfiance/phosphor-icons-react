@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CurrencyRub";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDgsMTUyYTYwLDYwLDAsMCwwLDAtMTIwSDg4YTgsOCwwLDAsMC04LDh2OTZINTZhOCw4LDAsMCwwLDAsMTZIODB2MTZINTZhOCw4LDAsMCwwLDAsMTZIODB2MzJhOCw4LDAsMCwwLDE2LDBWMTg0aDQ4YTgsOCwwLDAsMCwwLTE2SDk2VjE1MlpNOTYsNDhoNTJhNDQsNDQsMCwwLDEsMCw4OEg5NloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CurrencyRub";
-export { I as CurrencyRub };
+export { I as CurrencyRub }

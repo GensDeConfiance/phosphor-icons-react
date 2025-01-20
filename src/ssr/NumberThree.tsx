@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/NumberThree";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTYwYTU2LDU2LDAsMCwxLTkzLjMzLDQxLjc0LDgsOCwwLDEsMSwxMC42Ni0xMS45MkE0MCw0MCwwLDEsMCwxMjAsMTIwYTgsOCwwLDAsMS02LjQtMTIuOEwxNTIsNTZIODhhOCw4LDAsMCwxLDAtMTZoODBhOCw4LDAsMCwxLDYuNCwxMi44bC0zOS44NCw1My4xMkE1Ni4xLDU2LjEsMCwwLDEsMTc2LDE2MFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "NumberThree";
-export { I as NumberThree };
+export { I as NumberThree }

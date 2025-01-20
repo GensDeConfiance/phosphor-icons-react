@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaperPlaneTilt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMzIsMjguNjhhMTYsMTYsMCwwLDAtMTUuNjYtNC4wOGwtLjE1LDBMMTkuNTcsODIuODRhMTYsMTYsMCwwLDAtMi40OSwyOS44TDEwMiwxNTRsNDEuMyw4NC44N0ExNS44NiwxNS44NiwwLDAsMCwxNTcuNzQsMjQ4cS42OSwwLDEuMzgtLjA2YTE1Ljg4LDE1Ljg4LDAsMCwwLDE0LTExLjUxbDU4LjItMTkxLjk0YzAtLjA1LDAtLjEsMC0uMTVBMTYsMTYsMCwwLDAsMjI3LjMyLDI4LjY4Wk0xNTcuODMsMjMxLjg1bC0uMDUuMTQsMC0uMDctNDAuMDYtODIuMyw0OC00OGE4LDgsMCwwLDAtMTEuMzEtMTEuMzFsLTQ4LDQ4TDI0LjA4LDk4LjI1bC0uMDcsMCwuMTQsMEwyMTYsNDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PaperPlaneTilt";
-export { I as PaperPlaneTilt };
+export { I as PaperPlaneTilt }

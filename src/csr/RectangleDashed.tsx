@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/RectangleDashed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCw0OGE4LDgsMCwwLDEtOCw4SDQwVjcyYTgsOCwwLDAsMS0xNiwwVjU2QTE2LDE2LDAsMCwxLDQwLDQwSDcyQTgsOCwwLDAsMSw4MCw0OFpNMzIsMTUyYTgsOCwwLDAsMCw4LThWMTEyYTgsOCwwLDAsMC0xNiwwdjMyQTgsOCwwLDAsMCwzMiwxNTJabTQwLDQ4SDQwVjE4NGE4LDgsMCwwLDAtMTYsMHYxNmExNiwxNiwwLDAsMCwxNiwxNkg3MmE4LDgsMCwwLDAsMC0xNlptNzIsMEgxMTJhOCw4LDAsMCwwLDAsMTZoMzJhOCw4LDAsMCwwLDAtMTZabTgwLTI0YTgsOCwwLDAsMC04LDh2MTZIMTg0YTgsOCwwLDAsMCwwLDE2aDMyYTE2LDE2LDAsMCwwLDE2LTE2VjE4NEE4LDgsMCwwLDAsMjI0LDE3NlptMC03MmE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjExMkE4LDgsMCwwLDAsMjI0LDEwNFptLTgtNjRIMTg0YTgsOCwwLDAsMCwwLDE2aDMyVjcyYTgsOCwwLDAsMCwxNiwwVjU2QTE2LDE2LDAsMCwwLDIxNiw0MFptLTcyLDBIMTEyYTgsOCwwLDAsMCwwLDE2aDMyYTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "RectangleDashed";
-export { I as RectangleDashed };
+export { I as RectangleDashed }

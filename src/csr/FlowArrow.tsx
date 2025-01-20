@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FlowArrow";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDUuNjYsNzQuMzRsLTMyLTMyYTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwyMjAuNjksNzJIMjA4Yy00OS4zMywwLTYxLjA1LDI4LjEyLTcxLjM4LDUyLjkyLTkuMzgsMjIuNTEtMTYuOTIsNDAuNTktNDkuNDgsNDIuODRhNDAsNDAsMCwxLDAsLjEsMTZjNDMuMjYtMi42NSw1NC4zNC0yOS4xNSw2NC4xNC01Mi42OUMxNjEuNDEsMTA3LDE2OS4zMyw4OCwyMDgsODhoMTIuNjlsLTE4LjM1LDE4LjM0YTgsOCwwLDAsMCwxMS4zMiwxMS4zMmwzMi0zMkE4LDgsMCwwLDAsMjQ1LjY2LDc0LjM0Wk00OCwyMDBhMjQsMjQsMCwxLDEsMjQtMjRBMjQsMjQsMCwwLDEsNDgsMjAwWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FlowArrow";
-export { I as FlowArrow };
+export { I as FlowArrow }

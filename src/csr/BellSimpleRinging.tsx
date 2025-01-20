@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BellSimpleRinging";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMjI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMjRaTTIyNy4zOSw2MC4zMmExMTEuMzYsMTExLjM2LDAsMCwwLTM5LjEyLTQzLjA4LDgsOCwwLDEsMC04LjU0LDEzLjUzLDk0LjEzLDk0LjEzLDAsMCwxLDMzLjQ2LDM2LjkxLDgsOCwwLDAsMCwxNC4yLTcuMzZaTTM1LjcxLDcyYTgsOCwwLDAsMCw3LjEtNC4zMkE5NC4xMyw5NC4xMywwLDAsMSw3Ni4yNywzMC43N2E4LDgsMCwxLDAtOC41NC0xMy41M0ExMTEuMzYsMTExLjM2LDAsMCwwLDI4LjYxLDYwLjMyLDgsOCwwLDAsMCwzNS43MSw3MlptMTg2LjEsMTAzLjk0QTE2LDE2LDAsMCwxLDIwOCwyMDBINDhhMTYsMTYsMCwwLDEtMTMuNzktMjQuMDZDNDMuMjIsMTYwLjM5LDQ4LDEzOC4yOCw0OCwxMTJhODAsODAsMCwwLDEsMTYwLDBDMjA4LDEzOC4yNywyMTIuNzgsMTYwLjM4LDIyMS44MSwxNzUuOTRaTTIwOCwxODRjLTEwLjY0LTE4LjI3LTE2LTQyLjQ5LTE2LTcyYTY0LDY0LDAsMCwwLTEyOCwwYzAsMjkuNTItNS4zOCw1My43NC0xNiw3MloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BellSimpleRinging";
-export { I as BellSimpleRinging };
+export { I as BellSimpleRinging }

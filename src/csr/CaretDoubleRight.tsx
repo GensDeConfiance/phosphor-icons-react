@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretDoubleRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDEuNjYsMTMzLjY2bC04MCw4MGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTI0LjY5LDEyOCw1MC4zNCw1My42NkE4LDgsMCwwLDEsNjEuNjYsNDIuMzRsODAsODBBOCw4LDAsMCwxLDE0MS42NiwxMzMuNjZabTgwLTExLjMyLTgwLTgwYTgsOCwwLDAsMC0xMS4zMiwxMS4zMkwyMDQuNjksMTI4bC03NC4zNSw3NC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsODAtODBBOCw4LDAsMCwwLDIyMS42NiwxMjIuMzRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CaretDoubleRight";
-export { I as CaretDoubleRight };
+export { I as CaretDoubleRight }

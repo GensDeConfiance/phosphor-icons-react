@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/JarLabel";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsNDguODFWMzJhMTYsMTYsMCwwLDAtMTYtMTZIODhBMTYsMTYsMCwwLDAsNzIsMzJWNDguODFBNDAuMDUsNDAuMDUsMCwwLDAsNDAsODhWMjAwYTQwLDQwLDAsMCwwLDQwLDQwaDk2YTQwLDQwLDAsMCwwLDQwLTQwVjg4QTQwLjA1LDQwLjA1LDAsMCwwLDE4NCw0OC44MVpNNTYsMTEySDIwMHY2NEg1NlpNMTY4LDQ4SDE1MlYzMmgxNlptLTQ4LDBWMzJoMTZWNDhaTTEwNCwzMlY0OEg4OFYzMlpNODAsNjRoOTZhMjQsMjQsMCwwLDEsMjQsMjR2OEg1NlY4OEEyNCwyNCwwLDAsMSw4MCw2NFptOTYsMTYwSDgwYTI0LDI0LDAsMCwxLTI0LTI0di04SDIwMHY4QTI0LDI0LDAsMCwxLDE3NiwyMjRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "JarLabel";
-export { I as JarLabel };
+export { I as JarLabel }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatTeardropDots";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzIsMjRBMTAwLjExLDEwMC4xMSwwLDAsMCwzMiwxMjR2ODRhMTYsMTYsMCwwLDAsMTYsMTZoODRhMTAwLDEwMCwwLDAsMCwwLTIwMFptMCwxODRINDhWMTI0YTg0LDg0LDAsMSwxLDg0LDg0Wm0xMi04MGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNDQsMTI4Wm0tNDQsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxMDAsMTI4Wm04OCwwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE4OCwxMjhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ChatTeardropDots";
-export { I as ChatTeardropDots };
+export { I as ChatTeardropDots }

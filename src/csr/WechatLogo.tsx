@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/WechatLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTQwYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE0NCwxNDBabTQ0LTEyYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDE4OCwxMjhabTUxLjM0LDgzLjQ3YTE2LDE2LDAsMCwxLTE5Ljg3LDE5Ljg3bC0yNC43MS03LjI3QTgwLDgwLDAsMCwxLDg2LjQzLDE4My40MmE3OSw3OSwwLDAsMS0yNS4xOS03LjM1bC0yNC43MSw3LjI3YTE2LDE2LDAsMCwxLTE5Ljg3LTE5Ljg3bDcuMjctMjQuNzFBODAsODAsMCwxLDEsMTY5LjU4LDcyLjU5YTgwLDgwLDAsMCwxLDYyLjQ5LDExNC4xN1pNODEuMywxNjYuM2E3OS45NCw3OS45NCwwLDAsMSw3MC4zOC05My44N0E2NCw2NCwwLDAsMCwzOS41NSwxMzQuMTlhOCw4LDAsMCwxLC42Myw2TDMyLDE2OGwyNy43Ni04LjE3YTgsOCwwLDAsMSw2LC42M0E2My40NSw2My40NSwwLDAsMCw4MS4zLDE2Ni4zWm0xMzUuMTUsMTUuODlhNjQsNjQsMCwxLDAtMjYuMjYsMjYuMjYsOCw4LDAsMCwxLDYtLjYzTDIyNCwyMTZsLTguMTctMjcuNzZBOCw4LDAsMCwxLDIxNi40NSwxODIuMTlaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "WechatLogo";
-export { I as WechatLogo };
+export { I as WechatLogo }

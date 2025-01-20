@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PenNib";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsOTIuNjhhMTUuODYsMTUuODYsMCwwLDAtNC42OS0xMS4zMUwxNzQuNjMsMTIuNjhhMTYsMTYsMCwwLDAtMjIuNjMsMEwxMjMuNTcsNDEuMTFsLTU4LDIxLjc3QTE2LjA2LDE2LjA2LDAsMCwwLDU1LjM1LDc1LjIzTDMyLjExLDIxNC42OEE4LDgsMCwwLDAsNDAsMjI0YTguNCw4LjQsMCwwLDAsMS4zMi0uMTFsMTM5LjQ0LTIzLjI0YTE2LDE2LDAsMCwwLDEyLjM1LTEwLjE3bDIxLjc3LTU4TDI0My4zMSwxMDRBMTUuODcsMTUuODcsMCwwLDAsMjQ4LDkyLjY4Wm0tNjkuODcsOTIuMTlMNjMuMzIsMjA0bDQ3LjM3LTQ3LjM3YTI4LDI4LDAsMSwwLTExLjMyLTExLjMyTDUyLDE5Mi43LDcxLjEzLDc3Ljg2LDEyNiw1Ny4yOSwxOTguNywxMzBaTTExMiwxMzJhMTIsMTIsMCwxLDEsMTIsMTJBMTIsMTIsMCwwLDEsMTEyLDEzMlptOTYtMTUuMzJMMTM5LjMxLDQ4bDI0LTI0TDIzMiw5Mi42OFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PenNib";
-export { I as PenNib };
+export { I as PenNib }

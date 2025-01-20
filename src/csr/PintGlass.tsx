@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PintGlass";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDYsMjYuNjlBOCw4LDAsMCwwLDIwMCwyNEg1NmE4LDgsMCwwLDAtNy45NCw5bDIzLjE1LDE5M0ExNiwxNiwwLDAsMCw4Ny4xLDI0MGg4MS44YTE2LDE2LDAsMCwwLDE1Ljg5LTE0LjA5TDIwNy45NCwzM0E4LDgsMCwwLDAsMjA2LDI2LjY5Wk0xOTEsNDAsMTg4LjEsNjRINjcuOUw2NSw0MFpNMTY4LjksMjI0SDg3LjFMNjkuODIsODBIMTg2LjE4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PintGlass";
-export { I as PintGlass };
+export { I as PintGlass }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowsInLineHorizontal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsNDBWMjE2YTgsOCwwLDAsMS0xNiwwVjQwYTgsOCwwLDAsMSwxNiwwWk02OS42Niw5MC4zNGE4LDgsMCwwLDAtMTEuMzIsMTEuMzJMNzYuNjksMTIwSDE2YTgsOCwwLDAsMCwwLDE2SDc2LjY5TDU4LjM0LDE1NC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsMzItMzJhOCw4LDAsMCwwLDAtMTEuMzJaTTI0MCwxMjBIMTc5LjMxbDE4LjM1LTE4LjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMmwtMzIsMzJhOCw4LDAsMCwwLDAsMTEuMzJsMzIsMzJhOCw4LDAsMCwwLDExLjMyLTExLjMyTDE3OS4zMSwxMzZIMjQwYTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ArrowsInLineHorizontal";
-export { I as ArrowsInLineHorizontal };
+export { I as ArrowsInLineHorizontal }

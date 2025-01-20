@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CodeBlock";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01OC4zNCwxMDEuNjZsLTMyLTMyYTgsOCwwLDAsMSwwLTExLjMybDMyLTMyQTgsOCwwLDAsMSw2OS42NiwzNy42Nkw0My4zMSw2NCw2OS42Niw5MC4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJabTQwLDBhOCw4LDAsMCwwLDExLjMyLDBsMzItMzJhOCw4LDAsMCwwLDAtMTEuMzJsLTMyLTMyQTgsOCwwLDAsMCw5OC4zNCwzNy42NkwxMjQuNjksNjQsOTguMzQsOTAuMzRBOCw4LDAsMCwwLDk4LjM0LDEwMS42NlpNMjAwLDQwSDE3NmE4LDgsMCwwLDAsMCwxNmgyNFYyMDBINTZWMTM2YTgsOCwwLDAsMC0xNiwwdjY0YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CodeBlock";
-export { I as CodeBlock };
+export { I as CodeBlock }

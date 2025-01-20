@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/UserCirclePlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsNTZhOCw4LDAsMCwxLDgtOGgxNlYzMmE4LDgsMCwwLDEsMTYsMFY0OGgxNmE4LDgsMCwwLDEsMCwxNkgyMDhWODBhOCw4LDAsMCwxLTE2LDBWNjRIMTc2QTgsOCwwLDAsMSwxNjgsNTZabTYyLjU2LDU0LjY4YTEwMy45MiwxMDMuOTIsMCwxLDEtODUuMjQtODUuMjQsOCw4LDAsMCwxLTIuNjQsMTUuNzhBODguMDcsODguMDcsMCwwLDAsNDAsMTI4YTg3LjYyLDg3LjYyLDAsMCwwLDIyLjI0LDU4LjQxQTc5LjY2LDc5LjY2LDAsMCwxLDk4LjMsMTU3LjY2YTQ4LDQ4LDAsMSwxLDU5LjQsMCw3OS42Niw3OS42NiwwLDAsMSwzNi4wNiwyOC43NUE4Ny42Miw4Ny42MiwwLDAsMCwyMTYsMTI4YTg4Ljg1LDg4Ljg1LDAsMCwwLTEuMjItMTQuNjgsOCw4LDAsMSwxLDE1Ljc4LTIuNjRaTTEyOCwxNTJhMzIsMzIsMCwxLDAtMzItMzJBMzIsMzIsMCwwLDAsMTI4LDE1MlptMCw2NGE4Ny41Nyw4Ny41NywwLDAsMCw1My45Mi0xOC41LDY0LDY0LDAsMCwwLTEwNy44NCwwQTg3LjU3LDg3LjU3LDAsMCwwLDEyOCwyMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "UserCirclePlus";
-export { I as UserCirclePlus };
+export { I as UserCirclePlus }

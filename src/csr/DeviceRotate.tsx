@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DeviceRotate";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsMjIxLjY2bC0yNCwyNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTgwLjY5LDIyNEg4MGEyNCwyNCwwLDAsMS0yNC0yNFYxMDRhOCw4LDAsMCwxLDE2LDB2OTZhOCw4LDAsMCwwLDgsOEgxODAuNjlsLTEwLjM1LTEwLjM0YTgsOCwwLDAsMSwxMS4zMi0xMS4zMmwyNCwyNEE4LDgsMCwwLDEsMjA1LjY2LDIyMS42NlpNODAsNzJhOCw4LDAsMCwwLDUuNjYtMTMuNjZMNzUuMzEsNDhIMTc2YTgsOCwwLDAsMSw4LDh2OTZhOCw4LDAsMCwwLDE2LDBWNTZhMjQsMjQsMCwwLDAtMjQtMjRINzUuMzFMODUuNjYsMjEuNjZBOCw4LDAsMSwwLDc0LjM0LDEwLjM0bC0yNCwyNGE4LDgsMCwwLDAsMCwxMS4zMmwyNCwyNEE4LDgsMCwwLDAsODAsNzJaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "DeviceRotate";
-export { I as DeviceRotate };
+export { I as DeviceRotate }

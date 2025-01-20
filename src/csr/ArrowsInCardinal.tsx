@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsInCardinal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05MC4zNCw2OS42NmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTIwLDc2LjY5VjI0YTgsOCwwLDAsMSwxNiwwVjc2LjY5bDE4LjM0LTE4LjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMmwtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBabTQzLjMyLDg0LjY4YTgsOCwwLDAsMC0xMS4zMiwwbC0zMiwzMmE4LDgsMCwwLDAsMTEuMzIsMTEuMzJMMTIwLDE3OS4zMVYyMzJhOCw4LDAsMCwwLDE2LDBWMTc5LjMxbDE4LjM0LDE4LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMlpNMjMyLDEyMEgxNzkuMzFsMTguMzUtMTguMzRhOCw4LDAsMCwwLTExLjMyLTExLjMybC0zMiwzMmE4LDgsMCwwLDAsMCwxMS4zMmwzMiwzMmE4LDgsMCwwLDAsMTEuMzItMTEuMzJMMTc5LjMxLDEzNkgyMzJhOCw4LDAsMCwwLDAtMTZabS0xMzAuMzQsMi4zNC0zMi0zMmE4LDgsMCwwLDAtMTEuMzIsMTEuMzJMNzYuNjksMTIwSDI0YTgsOCwwLDAsMCwwLDE2SDc2LjY5TDU4LjM0LDE1NC4zNGE4LDgsMCwwLDAsMTEuMzIsMTEuMzJsMzItMzJBOCw4LDAsMCwwLDEwMS42NiwxMjIuMzRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ArrowsInCardinal";
-export { I as ArrowsInCardinal };
+export { I as ArrowsInCardinal }

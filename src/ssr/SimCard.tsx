@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SimCard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY4OEE4LDgsMCwwLDAsMjEzLjY2LDgyLjM0Wk0yMDAsMjE2SDU2VjQwaDkyLjY5TDIwMCw5MS4zMVYyMTZaTTE3NiwxMTJIODBhOCw4LDAsMCwwLTgsOHY3MmE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThWMTIwQTgsOCwwLDAsMCwxNzYsMTEyWm0tOCw3MkgxNTJWMTUyYTgsOCwwLDAsMC0xNiwwdjMySDEyMFYxNTJhOCw4LDAsMCwwLTE2LDB2MzJIODhWMTI4aDgwWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SimCard";
-export { I as SimCard };
+export { I as SimCard }

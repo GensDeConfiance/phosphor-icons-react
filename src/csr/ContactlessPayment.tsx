@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ContactlessPayment";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNOTcuMDcsMTAwLjI2YTU5LjMzLDU5LjMzLDAsMCwxLDAsNTUuNDgsOCw4LDAsMSwxLTE0LjE0LTcuNDgsNDIuNzksNDIuNzksMCwwLDAsMC00MC41Miw4LDgsMCwwLDEsMTQuMTQtNy40OFptNTYtMzJhMTI2LjY3LDEyNi42NywwLDAsMSwwLDExOS41NEE4LDgsMCwwLDEsMTM5LDE4MC4yM2ExMTAuNjIsMTEwLjYyLDAsMCwwLDAtMTA0LjQ2LDgsOCwwLDAsMSwxNC4xMi03LjU0Wm0tMjgsMTZhOTMsOTMsMCwwLDEsMCw4Ny41Miw4LDgsMCwxLDEtMTQuMTItNy41Miw3Nyw3NywwLDAsMCwwLTcyLjQ4LDgsOCwwLDEsMSwxNC4xMi03LjUyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ContactlessPayment";
-export { I as ContactlessPayment };
+export { I as ContactlessPayment }

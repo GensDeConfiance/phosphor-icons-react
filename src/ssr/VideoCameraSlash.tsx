@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/VideoCameraSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTEuNzcsNzNhOCw4LDAsMCwwLTguMjEuMzlMMjA4LDk3LjA1VjcyYTE2LDE2LDAsMCwwLTE2LTE2SDExMy4wNmE4LDgsMCwwLDAsMCwxNkgxOTJ2ODcuNjNhOCw4LDAsMCwwLDE2LDBWMTU5bDM1LjU2LDIzLjcxQTgsOCwwLDAsMCwyNDgsMTg0YTgsOCwwLDAsMCw4LThWODBBOCw4LDAsMCwwLDI1MS43Nyw3M1pNMjQwLDE2MS4wNWwtMzItMjEuMzNWMTE2LjI4TDI0MCw5NVpNNTMuOTIsMzQuNjJBOCw4LDAsMSwwLDQyLjA4LDQ1LjM4TDUxLjczLDU2SDMyQTE2LDE2LDAsMCwwLDE2LDcyVjE4NGExNiwxNiwwLDAsMCwxNiwxNkgxODIuNjRsMTkuNDQsMjEuMzhhOCw4LDAsMSwwLDExLjg0LTEwLjc2Wk0zMiwxODRWNzJINjYuMjhMMTY4LjEsMTg0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "VideoCameraSlash";
-export { I as VideoCameraSlash };
+export { I as VideoCameraSlash }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SelectionPlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNDBhOCw4LDAsMCwxLTgsOEgxMTJhOCw4LDAsMCwxLDAtMTZoMzJBOCw4LDAsMCwxLDE1Miw0MFptLTgsMTY4SDExMmE4LDgsMCwwLDAsMCwxNmgzMmE4LDgsMCwwLDAsMC0xNlpNMjA4LDQ4VjcyYTgsOCwwLDAsMCwxNiwwVjQ4YTE2LDE2LDAsMCwwLTE2LTE2SDE4NGE4LDgsMCwwLDAsMCwxNlptOCw1NmE4LDgsMCwwLDAtOCw4djMyYTgsOCwwLDAsMCwxNiwwVjExMkE4LDgsMCwwLDAsMjE2LDEwNFpNNDAsMTUyYTgsOCwwLDAsMCw4LThWMTEyYTgsOCwwLDAsMC0xNiwwdjMyQTgsOCwwLDAsMCw0MCwxNTJabTMyLDU2SDQ4VjE4NGE4LDgsMCwwLDAtMTYsMHYyNGExNiwxNiwwLDAsMCwxNiwxNkg3MmE4LDgsMCwwLDAsMC0xNlpNNzIsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWNzJhOCw4LDAsMCwwLDE2LDBWNDhINzJhOCw4LDAsMCwwLDAtMTZaTTI0MCwyMDhIMjI0VjE5MmE4LDgsMCwwLDAtMTYsMHYxNkgxOTJhOCw4LDAsMCwwLDAsMTZoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMjI0aDE2YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SelectionPlus";
-export { I as SelectionPlus };
+export { I as SelectionPlus }

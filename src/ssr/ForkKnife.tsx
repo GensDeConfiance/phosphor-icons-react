@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ForkKnife";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03Miw4OFY0MGE4LDgsMCwwLDEsMTYsMFY4OGE4LDgsMCwwLDEtMTYsMFpNMjE2LDQwVjIyNGE4LDgsMCwwLDEtMTYsMFYxNzZIMTUyYTgsOCwwLDAsMS04LTgsMjY4Ljc1LDI2OC43NSwwLDAsMSw3LjIyLTU2Ljg4YzkuNzgtNDAuNDksMjguMzItNjcuNjMsNTMuNjMtNzguNDdBOCw4LDAsMCwxLDIxNiw0MFpNMjAwLDUzLjljLTMyLjE3LDI0LjU3LTM4LjQ3LDg0LjQyLTM5LjcsMTA2LjFIMjAwWk0xMTkuODksMzguNjlhOCw4LDAsMSwwLTE1Ljc4LDIuNjNMMTEyLDg4LjYzYTMyLDMyLDAsMCwxLTY0LDBsNy44OC00Ny4zMWE4LDgsMCwxLDAtMTUuNzgtMi42M2wtOCw0OEE4LjE3LDguMTcsMCwwLDAsMzIsODhhNDguMDcsNDguMDcsMCwwLDAsNDAsNDcuMzJWMjI0YTgsOCwwLDAsMCwxNiwwVjEzNS4zMkE0OC4wNyw0OC4wNywwLDAsMCwxMjgsODhhOC4xNyw4LjE3LDAsMCwwLS4xMS0xLjMxWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ForkKnife";
-export { I as ForkKnife };
+export { I as ForkKnife }

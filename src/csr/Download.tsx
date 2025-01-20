@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Download";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTM2djY0YTE2LDE2LDAsMCwxLTE2LDE2SDMyYTE2LDE2LDAsMCwxLTE2LTE2VjEzNmExNiwxNiwwLDAsMSwxNi0xNkg3MmE4LDgsMCwwLDEsMCwxNkgzMnY2NEgyMjRWMTM2SDE4NGE4LDgsMCwwLDEsMC0xNmg0MEExNiwxNiwwLDAsMSwyNDAsMTM2Wm0tMTE3LjY2LTIuMzRhOCw4LDAsMCwwLDExLjMyLDBsNDgtNDhhOCw4LDAsMCwwLTExLjMyLTExLjMyTDEzNiwxMDguNjlWMjRhOCw4LDAsMCwwLTE2LDB2ODQuNjlMODUuNjYsNzQuMzRBOCw4LDAsMCwwLDc0LjM0LDg1LjY2Wk0yMDAsMTY4YTEyLDEyLDAsMSwwLTEyLDEyQTEyLDEyLDAsMCwwLDIwMCwxNjhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Download";
-export { I as Download };
+export { I as Download }

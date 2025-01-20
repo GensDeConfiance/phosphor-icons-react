@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Bank";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxMDRINDh2NjRIMzJhOCw4LDAsMCwwLDAsMTZIMjI0YTgsOCwwLDAsMCwwLTE2SDIwOFYxMDRoMjRhOCw4LDAsMCwwLDQuMTktMTQuODFsLTEwNC02NGE4LDgsMCwwLDAtOC4zOCwwbC0xMDQsNjRBOCw4LDAsMCwwLDI0LDEwNFptNDAsMEg5NnY2NEg2NFptODAsMHY2NEgxMTJWMTA0Wm00OCw2NEgxNjBWMTA0aDMyWk0xMjgsNDEuMzksMjAzLjc0LDg4SDUyLjI2Wk0yNDgsMjA4YTgsOCwwLDAsMS04LDhIMTZhOCw4LDAsMCwxLDAtMTZIMjQwQTgsOCwwLDAsMSwyNDgsMjA4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Bank";
-export { I as Bank };
+export { I as Bank }

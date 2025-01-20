@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Recycle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NiwyMDhhOCw4LDAsMCwxLTgsOEg0MGEyNCwyNCwwLDAsMS0yMC43Ny0zNmwzNC4yOS01OS4yNUwzOS40NywxMjQuNUE4LDgsMCwxLDEsMzUuMzMsMTA5bDMyLjc3LTguNzdhOCw4LDAsMCwxLDkuOCw1LjY2bDguNzksMzIuNzdBOCw4LDAsMCwxLDgxLDE0OC41YTguMzcsOC4zNywwLDAsMS0yLjA4LjI3LDgsOCwwLDAsMS03LjcyLTUuOTNsLTMuOC0xNC4xNUwzMy4xMSwxODhBOCw4LDAsMCwwLDQwLDIwMEg4OEE4LDgsMCwwLDEsOTYsMjA4Wm0xNDAuNzMtMjgtMjMuMTQtNDBhOCw4LDAsMCwwLTEzLjg0LDhsMjMuMTQsNDBBOCw4LDAsMCwxLDIxNiwyMDBIMTQ3LjMxbDEwLjM0LTEwLjM0YTgsOCwwLDAsMC0xMS4zMS0xMS4zMmwtMjQsMjRhOCw4LDAsMCwwLDAsMTEuMzJsMjQsMjRhOCw4LDAsMCwwLDExLjMxLTExLjMyTDE0Ny4zMSwyMTZIMjE2YTI0LDI0LDAsMCwwLDIwLjc3LTM2Wk0xMjgsMzJhNy44NSw3Ljg1LDAsMCwxLDYuOTIsNGwzNC4yOSw1OS4yNS0xNC4wOC0zLjc4QTgsOCwwLDAsMCwxNTEsMTA2LjkybDMyLjc4LDguNzlhOC4yMyw4LjIzLDAsMCwwLDIuMDcuMjcsOCw4LDAsMCwwLDcuNzItNS45M2w4Ljc5LTMyLjc5YTgsOCwwLDEsMC0xNS40NS00LjE0bC0zLjgsMTQuMTdMMTQ4Ljc3LDI4YTI0LDI0LDAsMCwwLTQxLjU0LDBMODQuMDcsNjhhOCw4LDAsMCwwLDEzLjg1LDhsMjMuMTYtNDBBNy44NSw3Ljg1LDAsMCwxLDEyOCwzMloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Recycle";
-export { I as Recycle };
+export { I as Recycle }

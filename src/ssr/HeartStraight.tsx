@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HeartStraight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjMsNTdhNTguMDcsNTguMDcsMCwwLDAtODEuOTItLjFMMTI4LDY5LjA1LDExNC45MSw1Ni44NkE1OCw1OCwwLDAsMCwzMywxMzlsODkuMzUsOTAuNjZhOCw4LDAsMCwwLDExLjQsMEwyMjMsMTM5YTU4LDU4LDAsMCwwLDAtODJabS0xMS4zNSw3MC43NkwxMjgsMjEyLjYsNDQuMywxMjcuNjhhNDIsNDIsMCwwLDEsNTkuNC01OS40bC4yLjIsMTguNjUsMTcuMzVhOCw4LDAsMCwwLDEwLjksMEwxNTIuMSw2OC40OGwuMi0uMmE0Miw0MiwwLDEsMSw1OS4zNiw1OS40NFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "HeartStraight";
-export { I as HeartStraight };
+export { I as HeartStraight }

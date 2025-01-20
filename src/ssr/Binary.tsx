@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Binary";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NCwyNEM3MS42MywyNCw1Niw0My43NCw1Niw3MnMxNS42Myw0OCwzOCw0OCwzOC0xOS43NCwzOC00OFMxMTYuMzcsMjQsOTQsMjRabTAsODBjLTE3LjM3LDAtMjItMjAuMTEtMjItMzJzNC42My0zMiwyMi0zMiwyMiwyMC4xMSwyMiwzMlMxMTEuMzcsMTA0LDk0LDEwNFptNzIsMzJjLTIyLjM3LDAtMzgsMTkuNzQtMzgsNDhzMTUuNjMsNDgsMzgsNDgsMzgtMTkuNzQsMzgtNDhTMTg4LjM3LDEzNiwxNjYsMTM2Wm0wLDgwYy0xNy4zNywwLTIyLTIwLjExLTIyLTMyczQuNjMtMzIsMjItMzIsMjIsMjAuMTEsMjIsMzJTMTgzLjM3LDIxNiwxNjYsMjE2Wk0xNDUsNDkuMjJhOCw4LDAsMCwxLDMuMTEtMTAuODhsMjQtMTMuMzNBOCw4LDAsMCwxLDE4NCwzMnY4MGE4LDgsMCwwLDEtMTYsMFY0NS42bC0xMi4xMiw2LjczQTgsOCwwLDAsMSwxNDUsNDkuMjJaTTEwNCwxNDR2ODBhOCw4LDAsMCwxLTE2LDBWMTU3LjZsLTEyLjEyLDYuNzNhOCw4LDAsMCwxLTcuNzYtMTRsMjQtMTMuMzNBOCw4LDAsMCwxLDEwNCwxNDRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Binary";
-export { I as Binary };
+export { I as Binary }

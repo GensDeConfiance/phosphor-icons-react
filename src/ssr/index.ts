@@ -1,4 +1,4 @@
-/* GENERATED FILE */
+ /* GENERATED FILE */
 export { default as SSRBase } from "../lib/SSRBase";
 
 export * from "./Acorn";
@@ -1413,6 +1413,7 @@ export * from "./Tray";
 export * from "./TreasureChest";
 export * from "./Tree";
 export * from "./TreeEvergreen";
+export * from "./TreePalmAlt";
 export * from "./TreePalm";
 export * from "./TreeStructure";
 export * from "./TreeView";

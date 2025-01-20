@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FolderSimplePlus";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMTMwLjY3TDEwMi45Myw1MS4yYTE2LjEyLDE2LjEyLDAsMCwwLTkuNi0zLjJINDBBMTYsMTYsMCwwLDAsMjQsNjRWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNi44OUExNS4xMywxNS4xMywwLDAsMCwyMzIsMjAwLjg5Vjg4QTE2LDE2LDAsMCwwLDIxNiw3MlptMCwxMjhINDBWNjRIOTMuMzNMMTIzLjIsODYuNEE4LDgsMCwwLDAsMTI4LDg4aDg4Wm0tNTYtNTZhOCw4LDAsMCwxLTgsOEgxMzZ2MTZhOCw4LDAsMCwxLTE2LDBWMTUySDEwNGE4LDgsMCwwLDEsMC0xNmgxNlYxMjBhOCw4LDAsMCwxLDE2LDB2MTZoMTZBOCw4LDAsMCwxLDE2MCwxNDRaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FolderSimplePlus";
-export { I as FolderSimplePlus };
+export { I as FolderSimplePlus }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HourglassSimpleMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuMTgsMTk2LjU2LDEzOS41NywxMjhsNzEuNjEtNjguNTZhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTNBMTYsMTYsMCwwLDAsMjAwLDMySDU2QTE2LDE2LDAsMCwwLDQ0LjcsNTkuMzFsLjEyLjEzTDExNi40MywxMjgsNDQuODIsMTk2LjU2bC0uMTIuMTNBMTYsMTYsMCwwLDAsNTYsMjI0SDIwMGExNiwxNiwwLDAsMCwxMS4zMi0yNy4zMUExLjU5LDEuNTksMCwwLDEsMjExLjE4LDE5Ni41NlpNNTYsNDhoMHYwWk05Ny43OSw4OGg2MC40MkwxMjgsMTE2LjkyWk0yMDAsNDgsMTc0LjkyLDcySDgxLjA4TDU2LDQ4Wk01NiwyMDhsNjQtNjEuMjZWMTY4YTgsOCwwLDAsMCwxNiwwVjE0Ni43NEwyMDAsMjA4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "HourglassSimpleMedium";
-export { I as HourglassSimpleMedium };
+export { I as HourglassSimpleMedium }

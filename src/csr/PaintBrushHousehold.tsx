@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaintBrushHousehold";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzAuNjQsMjUuMzZhMzIsMzIsMCwwLDAtNDUuMjYsMHEtLjIxLjIxLS40Mi40NUwxMzEuNTUsODguMjIsMTIxLDc3LjY0YTI0LDI0LDAsMCwwLTMzLjk1LDBsLTc2LjY5LDc2LjdhOCw4LDAsMCwwLDAsMTEuMzFsODAsODBhOCw4LDAsMCwwLDExLjMxLDBMMTc4LjM2LDE2OWEyNCwyNCwwLDAsMCwwLTMzLjk1bC0xMC41OC0xMC41N0wyMzAuMTksNzFjLjE1LS4xNC4zMS0uMjguNDUtLjQzQTMyLDMyLDAsMCwwLDIzMC42NCwyNS4zNlpNOTYsMjI4LjY5LDc5LjMyLDIxMmwyMi4zNC0yMi4zNWE4LDgsMCwwLDAtMTEuMzEtMTEuMzFMNjgsMjAwLjY4LDU1LjMyLDE4OGwyMi4zNC0yMi4zNWE4LDgsMCwwLDAtMTEuMzEtMTEuMzFMNDQsMTc2LjY4LDI3LjMxLDE2MCw3MiwxMTUuMzEsMTQwLjY5LDE4NFpNMjE5LjUyLDU5LjFsLTY4LjcxLDU4LjgxYTgsOCwwLDAsMC0uNDYsMTEuNzRMMTY3LDE0Ni4zNGE4LDgsMCwwLDEsMCwxMS4zMWwtMTUsMTVMODMuMzIsMTA0bDE1LTE1YTgsOCwwLDAsMSwxMS4zMSwwbDE2LjY5LDE2LjY5YTgsOCwwLDAsMCwxMS43NC0uNDZMMTk2LjksMzYuNDhBMTYsMTYsMCwwLDEsMjE5LjUyLDU5LjFaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "PaintBrushHousehold";
-export { I as PaintBrushHousehold };
+export { I as PaintBrushHousehold }

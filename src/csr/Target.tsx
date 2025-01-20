@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Target";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuODcsODMuMTZBMTA0LjEsMTA0LjEsMCwxLDEsMTk1LjY3LDQ5bDIyLjY3LTIyLjY4YTgsOCwwLDAsMSwxMS4zMiwxMS4zMmwtOTYsOTZhOCw4LDAsMCwxLTExLjMyLTExLjMybDI3LjcyLTI3LjcyYTQwLDQwLDAsMSwwLDE3Ljg3LDMxLjA5LDgsOCwwLDEsMSwxNi0uOSw1Niw1NiwwLDEsMS0yMi4zOC00MS42NUwxODQuMyw2MC4zOWE4Ny44OCw4Ny44OCwwLDEsMCwyMy4xMywyOS42Nyw4LDgsMCwwLDEsMTQuNDQtNi45WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Target";
-export { I as Target };
+export { I as Target }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FolderUser";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTQuNjEsMTk4LjYyYTMyLDMyLDAsMSwwLTQ1LjIzLDAsNDAsNDAsMCwwLDAtMTcuMTEsMjMuMzIsOCw4LDAsMCwwLDUuNjcsOS43OUE4LjE1LDguMTUsMCwwLDAsMTYwLDIzMmE4LDgsMCwwLDAsNy43My01Ljk1QzE3MC41NiwyMTUuNDIsMTgwLjU0LDIwOCwxOTIsMjA4czIxLjQ0LDcuNDIsMjQuMjcsMTguMDVhOCw4LDAsMSwwLDE1LjQ2LTQuMTFBNDAsNDAsMCwwLDAsMjE0LjYxLDE5OC42MlpNMTkyLDE2MGExNiwxNiwwLDEsMS0xNiwxNkExNiwxNiwwLDAsMSwxOTIsMTYwWm0yNC04OEgxMzEuMzFMMTA0LDQ0LjY5QTE1Ljg2LDE1Ljg2LDAsMCwwLDkyLjY5LDQwSDQwQTE2LDE2LDAsMCwwLDI0LDU2VjIwMC42MUExNS40LDE1LjQsMCwwLDAsMzkuMzgsMjE2aDgxLjE4YTgsOCwwLDAsMCwwLTE2SDQwVjg4SDIxNnYzMmE4LDgsMCwwLDAsMTYsMFY4OEExNiwxNiwwLDAsMCwyMTYsNzJaTTkyLjY5LDU2bDE2LDE2SDQwVjU2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FolderUser";
-export { I as FolderUser };
+export { I as FolderUser }

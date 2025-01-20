@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Couch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTA2LjE3VjcyYTE2LDE2LDAsMCwwLTE2LTE2SDMyQTE2LDE2LDAsMCwwLDE2LDcydjM0LjE3QTE2LDE2LDAsMCwwLDgsMTIwdjQ4YTE2LDE2LDAsMCwwLDE2LDE2aDh2MTZhOCw4LDAsMCwwLDE2LDBWMTg0SDIwOHYxNmE4LDgsMCwwLDAsMTYsMFYxODRoOGExNiwxNiwwLDAsMCwxNi0xNlYxMjBBMTYsMTYsMCwwLDAsMjQwLDEwNi4xN1pNMjI0LDEwNGgtOGExNiwxNiwwLDAsMC0xNiwxNnYxNkgxMzZWNzJoODhaTTEyMCw3MnY2NEg1NlYxMjBhMTYsMTYsMCwwLDAtMTYtMTZIMzJWNzJabTExMiw5NkgyNFYxMjBINDB2MjRhOCw4LDAsMCwwLDgsOEgyMDhhOCw4LDAsMCwwLDgtOFYxMjBoMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Couch";
-export { I as Couch };
+export { I as Couch }

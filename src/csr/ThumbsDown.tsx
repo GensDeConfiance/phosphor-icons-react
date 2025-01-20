@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ThumbsDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuODIsMTU3bC0xMi05NkEyNCwyNCwwLDAsMCwyMDQsNDBIMzJBMTYsMTYsMCwwLDAsMTYsNTZ2ODhhMTYsMTYsMCwwLDAsMTYsMTZINzUuMDZsMzcuNzgsNzUuNThBOCw4LDAsMCwwLDEyMCwyNDBhNDAsNDAsMCwwLDAsNDAtNDBWMTg0aDU2YTI0LDI0LDAsMCwwLDIzLjgyLTI3Wk03MiwxNDRIMzJWNTZINzJabTE1MCwyMS4yOWE3Ljg4LDcuODgsMCwwLDEtNiwyLjcxSDE1MmE4LDgsMCwwLDAtOCw4djI0YTI0LDI0LDAsMCwxLTE5LjI5LDIzLjU0TDg4LDE1MC4xMVY1NkgyMDRhOCw4LDAsMCwxLDcuOTQsN2wxMiw5NkE3Ljg3LDcuODcsMCwwLDEsMjIyLDE2NS4yOVoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ThumbsDown";
-export { I as ThumbsDown };
+export { I as ThumbsDown }

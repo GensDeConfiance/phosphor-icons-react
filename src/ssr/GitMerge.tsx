@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitMerge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTEyYTMyLjA1LDMyLjA1LDAsMCwwLTMwLjY5LDIzbC00Mi4yMS02YTgsOCwwLDAsMS00Ljk1LTIuNzFMOTQuNDMsODQuNTVBMzIsMzIsMCwxLDAsNzIsODd2ODJhMzIsMzIsMCwxLDAsMTYsMFYxMDEuNjNsMzAsMzVhMjQsMjQsMCwwLDAsMTQuODMsOC4xNGw0NCw2LjI4QTMyLDMyLDAsMSwwLDIwOCwxMTJaTTY0LDU2QTE2LDE2LDAsMSwxLDgwLDcyLDE2LDE2LDAsMCwxLDY0LDU2Wk05NiwyMDBhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsOTYsMjAwWm0xMTItNDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMjA4LDE2MFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "GitMerge";
-export { I as GitMerge };
+export { I as GitMerge }

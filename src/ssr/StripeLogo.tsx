@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StripeLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTUyYzAsMTcuNjUtMTcuOTQsMzItNDAsMzJzLTQwLTE0LjM1LTQwLTMyYTgsOCwwLDAsMSwxNiwwYzAsOC42NywxMSwxNiwyNCwxNnMyNC03LjMzLDI0LTE2YzAtOS40OC04LjYxLTEzLTI2Ljg4LTE4LjI2QzEwOS4zNywxMjkuMiw4OS43OCwxMjMuNTUsODkuNzgsMTA0YzAtMTguMjQsMTYuNDMtMzIsMzguMjItMzIsMTUuNzIsMCwyOS4xOCw3LjMsMzUuMTIsMTlhOCw4LDAsMSwxLTE0LjI3LDcuMjJDMTQ1LjY0LDkxLjk0LDEzNy42NSw4OCwxMjgsODhjLTEyLjY3LDAtMjIuMjIsNi44OC0yMi4yMiwxNiwwLDcsOSwxMC4xLDIzLjc3LDE0LjM2QzE0NS43OCwxMjMsMTY4LDEyOS40NSwxNjgsMTUyWk0yMjQsNDhWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDQ4YTE2LDE2LDAsMCwxLTE2LTE2VjQ4QTE2LDE2LDAsMCwxLDQ4LDMySDIwOEExNiwxNiwwLDAsMSwyMjQsNDhaTTIwOCwyMDhWNDhINDhWMjA4SDIwOFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "StripeLogo";
-export { I as StripeLogo };
+export { I as StripeLogo }

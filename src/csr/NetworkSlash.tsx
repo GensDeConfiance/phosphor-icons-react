@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NetworkSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Niw1NFY0MGExNiwxNiwwLDAsMSwxNi0xNmgzMmExNiwxNiwwLDAsMSwxNiwxNlY3MmExNiwxNiwwLDAsMS0xNiwxNkgxMjcuNjFhOCw4LDAsMCwxLDAtMTZIMTQ0VjQwSDExMlY1NGE4LDgsMCwwLDEtMTYsMFpNMjEzLjkyLDIxMC42MmE4LDgsMCwxLDEtMTEuODQsMTAuNzZMMTE3LjE5LDEyOEg3MnYzMmg4YTE2LDE2LDAsMCwxLDE2LDE2djMyYTE2LDE2LDAsMCwxLTE2LDE2SDQ4YTE2LDE2LDAsMCwxLTE2LTE2VjE3NmExNiwxNiwwLDAsMSwxNi0xNmg4VjEyOEgyNGE4LDgsMCwwLDEsMC0xNmg3OC42NEw0Mi4wOCw0NS4zOEE4LDgsMCwxLDEsNTMuOTIsMzQuNjJaTTgwLDE3Nkg0OHYzMkg4MFptMTUyLTY0SDE2NGE4LDgsMCwwLDAsMCwxNmgyMHYyMi44M2E4LDgsMCwxLDAsMTYsMFYxMjhoMzJhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "NetworkSlash";
-export { I as NetworkSlash };
+export { I as NetworkSlash }

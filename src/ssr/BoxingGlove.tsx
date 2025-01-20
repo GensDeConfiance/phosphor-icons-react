@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BoxingGlove";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTZIMTIwQTU2LjA2LDU2LjA2LDAsMCwwLDY0LDcySDU2YTMyLDMyLDAsMCwwLTMyLDMydjI5LjE5YTE2LjA5LDE2LjA5LDAsMCwwLDMuNTEsMTAsOCw4LDAsMCwwLC42Mi42OUw2NCwxNzkuMzRWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlYxNzcuMTJsMTUuMzgtNTMuODVhMTUuODksMTUuODksMCwwLDAsLjYyLTQuMzlWNzJBNTYuMDYsNTYuMDYsMCwwLDAsMTY4LDE2Wm00MCwxMDIuODhMMTkyLjMxLDE3My44QTcuODUsNy44NSwwLDAsMCwxOTIsMTc2djQwSDgwVjE3NmE4LDgsMCwwLDAtMi4zOC01LjY5TDQwLDEzMy4xMlYxMDRBMTYsMTYsMCwwLDEsNTYsODhoOHYxNmE4LDgsMCwwLDAsMTYsMFY3MmE0MCw0MCwwLDAsMSw0MC00MGg0OGE0MCw0MCwwLDAsMSw0MCw0MFptLTM2LjQyLDQ4LjI4TDE1My44OSwxNzZsMTcuNjksOC44NGE4LDgsMCwwLDEtNy4xNiwxNC4zMkwxMzYsMTg0Ljk0bC0yOC40MiwxNC4yMmE4LDgsMCwxLDEtNy4xNi0xNC4zMkwxMTguMTEsMTc2bC0xNy42OS04Ljg0YTgsOCwwLDEsMSw3LjE2LTE0LjMyTDEzNiwxNjcuMDZsMjguNDItMTQuMjJhOCw4LDAsMSwxLDcuMTYsMTQuMzJaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BoxingGlove";
-export { I as BoxingGlove };
+export { I as BoxingGlove }

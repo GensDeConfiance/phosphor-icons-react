@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Medal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsOTZBODgsODgsMCwxLDAsNzIsMTYzLjgzVjI0MGE4LDgsMCwwLDAsMTEuNTgsNy4xNkwxMjgsMjI1bDQ0LjQzLDIyLjIxQTguMDcsOC4wNywwLDAsMCwxNzYsMjQ4YTgsOCwwLDAsMCw4LThWMTYzLjgzQTg3Ljg1LDg3Ljg1LDAsMCwwLDIxNiw5NlpNNTYsOTZhNzIsNzIsMCwxLDEsNzIsNzJBNzIuMDgsNzIuMDgsMCwwLDEsNTYsOTZaTTE2OCwyMjcuMDZsLTM2LjQzLTE4LjIxYTgsOCwwLDAsMC03LjE2LDBMODgsMjI3LjA2VjE3NC4zN2E4Ny44OSw4Ny44OSwwLDAsMCw4MCwwWk0xMjgsMTUyQTU2LDU2LDAsMSwwLDcyLDk2LDU2LjA2LDU2LjA2LDAsMCwwLDEyOCwxNTJabTAtOTZBNDAsNDAsMCwxLDEsODgsOTYsNDAsNDAsMCwwLDEsMTI4LDU2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Medal";
-export { I as Medal };
+export { I as Medal }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FilePy";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsODIuMzRsLTU2LTU2QTgsOCwwLDAsMCwxNTIsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDB2NzJhOCw4LDAsMCwwLDE2LDBWNDBoODhWODhhOCw4LDAsMCwwLDgsOGg0OFYyMTZIMTY4YTgsOCwwLDAsMCwwLDE2aDMyYTE2LDE2LDAsMCwwLDE2LTE2Vjg4QTgsOCwwLDAsMCwyMTMuNjYsODIuMzRaTTE2MCw1MS4zMSwxODguNjksODBIMTYwWk02NCwxNDRINDhhOCw4LDAsMCwwLTgsOHY1NmE4LDgsMCwwLDAsMTYsMHYtOGg4YTI4LDI4LDAsMCwwLDAtNTZabTAsNDBINTZWMTYwaDhhMTIsMTIsMCwwLDEsMCwyNFptOTAuNzgtMjcuNzYtMTguNzgsMzBWMjA4YTgsOCwwLDAsMS0xNiwwVjE4Ni4yOWwtMTguNzgtMzBhOCw4LDAsMSwxLDEzLjU2LTguNDhMMTI4LDE2OC45MWwxMy4yMi0yMS4xNWE4LDgsMCwxLDEsMTMuNTYsOC40OFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FilePy";
-export { I as FilePy };
+export { I as FilePy }

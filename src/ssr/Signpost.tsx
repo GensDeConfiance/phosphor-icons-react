@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Signpost";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYsMTA2LjY1LDIxMi4zMyw2OS4zQTE2LDE2LDAsMCwwLDIwMC40NCw2NEgxMzZWMzJhOCw4LDAsMCwwLTE2LDBWNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2NjRhMTYsMTYsMCwwLDAsMTYsMTZoODB2NjRhOCw4LDAsMCwwLDE2LDBWMTYwaDY0LjQ0YTE2LDE2LDAsMCwwLDExLjg5LTUuM0wyNDYsMTE3LjM1QTgsOCwwLDAsMCwyNDYsMTA2LjY1Wk0yMDAuNDQsMTQ0SDQwVjgwSDIwMC40NGwyOC44LDMyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Signpost";
-export { I as Signpost };
+export { I as Signpost }

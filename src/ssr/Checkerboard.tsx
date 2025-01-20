@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Checkerboard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJabS0xMi42OSw4OEwxMzYsNjAuNjlWNDhoMTIuNjlMMjA4LDEwNy4zMlYxMjBaTTEzNiw4My4zMSwxNzIuNjksMTIwSDEzNlptNzIsMS4zOEwxNzEuMzEsNDhIMjA4Wk0xMjAsNDh2NzJINDhWNDhaTTEwNy4zMSwyMDgsNDgsMTQ4LjY5VjEzNkg2MC42OUwxMjAsMTk1LjMxVjIwOFpNMTIwLDE3Mi42OSw4My4zMSwxMzZIMTIwWm0tNzItMS4zOEw4NC42OSwyMDhINDhaTTIwOCwyMDhIMTM2VjEzNmg3MnY3MloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Checkerboard";
-export { I as Checkerboard };
+export { I as Checkerboard }

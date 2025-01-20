@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Moon";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzMuNTQsMTQyLjIzYTgsOCwwLDAsMC04LTIsODguMDgsODguMDgsMCwwLDEtMTA5LjgtMTA5LjgsOCw4LDAsMCwwLTEwLTEwLDEwNC44NCwxMDQuODQsMCwwLDAtNTIuOTEsMzdBMTA0LDEwNCwwLDAsMCwxMzYsMjI0YTEwMy4wOSwxMDMuMDksMCwwLDAsNjIuNTItMjAuODgsMTA0Ljg0LDEwNC44NCwwLDAsMCwzNy01Mi45MUE4LDgsMCwwLDAsMjMzLjU0LDE0Mi4yM1pNMTg4LjksMTkwLjM0QTg4LDg4LDAsMCwxLDY1LjY2LDY3LjExYTg5LDg5LDAsMCwxLDMxLjQtMjZBMTA2LDEwNiwwLDAsMCw5Niw1NiwxMDQuMTEsMTA0LjExLDAsMCwwLDIwMCwxNjBhMTA2LDEwNiwwLDAsMCwxNC45Mi0xLjA2QTg5LDg5LDAsMCwxLDE4OC45LDE5MC4zNFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Moon";
-export { I as Moon };
+export { I as Moon }

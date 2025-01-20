@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ProjectorScreen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRWNDhhMTYsMTYsMCwwLDAtMTYtMTZINDBBMTYsMTYsMCwwLDAsMjQsNDhWNjRBMTYsMTYsMCwwLDAsNDAsODB2OTZIMzJhOCw4LDAsMCwwLDAsMTZoODh2MTcuMzhhMjQsMjQsMCwxLDAsMTYsMFYxOTJoODhhOCw4LDAsMCwwLDAtMTZoLThWODBBMTYsMTYsMCwwLDAsMjMyLDY0Wk0xMjgsMjQwYTgsOCwwLDEsMSw4LThBOCw4LDAsMCwxLDEyOCwyNDBaTTQwLDQ4SDIxNlY2NEg0MFpNMjAwLDE3Nkg1NlY4MEgyMDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ProjectorScreen";
-export { I as ProjectorScreen };
+export { I as ProjectorScreen }

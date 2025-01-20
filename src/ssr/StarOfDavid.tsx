@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/StarOfDavid";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuMjEsMTI4LDIzMSw3NkE4LDgsMCwwLDAsMjI0LDY0SDE2NC42NUwxMzUsMTJhOCw4LDAsMCwwLTEzLjksMEw5MS4zMyw2NEgzMmE4LDgsMCwwLDAtNi45NSwxMmwyOS43Miw1MkwyNS4wNSwxODBhOCw4LDAsMCwwLDcsMTJIOTEuMzNsMjkuNzIsNTJhOCw4LDAsMCwwLDEzLjksMGwyOS43LTUySDIyNEE4LDgsMCwwLDAsMjMxLDE4MFptOS00OEwxOTIsMTExLjg4LDE3My43OSw4MFptLTI3LjQyLDQ4LTI3LjQyLDQ4LTU0Ljc1LDBMNzMuMiwxMjhsMjcuNDItNDgsNTQuNzUsMFpNMTI4LDMyLjEyLDE0Ni4yMiw2NEgxMDkuNzdaTTQ1Ljc4LDgwSDgyLjE5TDY0LDExMS44OFptMCw5NS45Mkw2NCwxNDQuMTIsODIuMTksMTc2Wk0xMjgsMjIzLjg4LDEwOS43NywxOTJoMzYuNDVaTTE3My43OSwxNzYsMTkyLDE0NC4xMiwyMTAuMjEsMTc2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "StarOfDavid";
-export { I as StarOfDavid };
+export { I as StarOfDavid }

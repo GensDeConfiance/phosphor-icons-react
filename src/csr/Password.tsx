@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Password";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCw1NlYyMDBhOCw4LDAsMCwxLTE2LDBWNTZhOCw4LDAsMCwxLDE2LDBabTkyLDU0LjVMMTIwLDExN1Y5NmE4LDgsMCwwLDAtMTYsMHYyMUw4NCwxMTAuNWE4LDgsMCwwLDAtNSwxNS4yMmwyMCw2LjQ5LTEyLjM0LDE3YTgsOCwwLDEsMCwxMi45NCw5LjRsMTIuMzQtMTcsMTIuMzQsMTdhOCw4LDAsMSwwLDEyLjk0LTkuNGwtMTIuMzQtMTcsMjAtNi40OUE4LDgsMCwwLDAsMTQwLDExMC41Wk0yNDYsMTE1LjY0QTgsOCwwLDAsMCwyMzYsMTEwLjVMMjE2LDExN1Y5NmE4LDgsMCwwLDAtMTYsMHYyMWwtMjAtNi40OWE4LDgsMCwwLDAtNC45NSwxNS4yMmwyMCw2LjQ5LTEyLjM0LDE3YTgsOCwwLDEsMCwxMi45NCw5LjRsMTIuMzQtMTcsMTIuMzQsMTdhOCw4LDAsMSwwLDEyLjk0LTkuNGwtMTIuMzQtMTcsMjAtNi40OUE4LDgsMCwwLDAsMjQ2LDExNS42NFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Password";
-export { I as Password };
+export { I as Password }

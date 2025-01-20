@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/OrangeSlice";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsODBIOGE4LDgsMCwwLDAtOCw4LDEyOCwxMjgsMCwwLDAsMjU2LDBBOCw4LDAsMCwwLDI0OCw4MFpNNzcuNCwxNDkuOTFsNDIuNi00Mi42VjE2Ny42QTc5LjU5LDc5LjU5LDAsMCwxLDc3LjQsMTQ5LjkxWk02Ni4wOSwxMzguNkE3OS41OSw3OS41OSwwLDAsMSw0OC40LDk2aDYwLjI5Wk0xMzYsMTA3LjMxbDQyLjYsNDIuNkE3OS41OSw3OS41OSwwLDAsMSwxMzYsMTY3LjZabTUzLjkxLDMxLjI5TDE0Ny4zMSw5NkgyMDcuNkE3OS41OSw3OS41OSwwLDAsMSwxODkuOTEsMTM4LjZaTTEyOCwyMDBBMTEyLjE1LDExMi4xNSwwLDAsMSwxNi4yOCw5NkgzMi4zNGE5Niw5NiwwLDAsMCwxOTEuMzIsMGgxNi4wNkExMTIuMTUsMTEyLjE1LDAsMCwxLDEyOCwyMDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "OrangeSlice";
-export { I as OrangeSlice };
+export { I as OrangeSlice }

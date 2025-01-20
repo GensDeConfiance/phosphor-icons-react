@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/HandDeposit";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMzUuMzFWMTI4YTgsOCwwLDAsMS0xNiwwVjM1LjMxTDkzLjY2LDUzLjY2QTgsOCwwLDAsMSw4Mi4zNCw0Mi4zNGwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMGwzMiwzMmE4LDgsMCwwLDEtMTEuMzIsMTEuMzJabTY0LDg4LjMxVjk2YTE2LDE2LDAsMCwwLTE2LTE2SDE2MGE4LDgsMCwwLDAsMCwxNmgxNnY4MC40QTI4LDI4LDAsMCwwLDEzMS43NSwyMTBsLjI0LjM4LDIyLjI2LDM0YTgsOCwwLDAsMCwxMy4zOS04Ljc2bC0yMi4xMy0zMy43OUExMiwxMiwwLDAsMSwxNjYuNCwxOTBjLjA3LjEzLjE1LjI2LjIzLjM4bDEwLjY4LDE2LjMxQTgsOCwwLDAsMCwxOTIsMjAyLjMxVjE0NGE3NC44NCw3NC44NCwwLDAsMSwyNCw1NC42OVYyNDBhOCw4LDAsMCwwLDE2LDBWMTk4LjY1QTkwLjg5LDkwLjg5LDAsMCwwLDE5MiwxMjMuNjJaTTgwLDgwSDY0QTE2LDE2LDAsMCwwLDQ4LDk2VjIwMGE4LDgsMCwwLDAsMTYsMFY5Nkg4MGE4LDgsMCwwLDAsMC0xNloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "HandDeposit";
-export { I as HandDeposit };
+export { I as HandDeposit }

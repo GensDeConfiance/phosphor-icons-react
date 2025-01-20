@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Lockers";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNzJhOCw4LDAsMCwxLTgsOEgxNjBhOCw4LDAsMCwxLDAtMTZoMjRBOCw4LDAsMCwxLDE5Miw3MlptLTgsMjRIMTYwYTgsOCwwLDAsMCwwLDE2aDI0YTgsOCwwLDAsMCwwLTE2Wk03Miw4MEg5NmE4LDgsMCwwLDAsMC0xNkg3MmE4LDgsMCwwLDAsMCwxNlpNOTYsOTZINzJhOCw4LDAsMCwwLDAsMTZIOTZhOCw4LDAsMCwwLDAtMTZaTTIyNCw0OFYyMjRhOCw4LDAsMCwxLTE2LDBWMjA4SDEzNnYxNmE4LDgsMCwwLDEtMTYsMFYyMDhINDh2MTZhOCw4LDAsMCwxLTE2LDBWNDhBMTYsMTYsMCwwLDEsNDgsMzJIMjA4QTE2LDE2LDAsMCwxLDIyNCw0OFpNMTIwLDE5MlY0OEg0OFYxOTJabTE2LDBoNzJWNDhIMTM2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Lockers";
-export { I as Lockers };
+export { I as Lockers }

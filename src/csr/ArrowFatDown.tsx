@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowFatDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuMzksMTMyLjk0QTgsOCwwLDAsMCwyMjQsMTI4SDE4NFY0OGExNiwxNiwwLDAsMC0xNi0xNkg4OEExNiwxNiwwLDAsMCw3Miw0OHY4MEgzMmE4LDgsMCwwLDAtNS42NiwxMy42Nmw5Niw5NmE4LDgsMCwwLDAsMTEuMzIsMGw5Ni05NkE4LDgsMCwwLDAsMjMxLjM5LDEzMi45NFpNMTI4LDIyMC42OSw1MS4zMSwxNDRIODBhOCw4LDAsMCwwLDgtOFY0OGg4MHY4OGE4LDgsMCwwLDAsOCw4aDI4LjY5WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ArrowFatDown";
-export { I as ArrowFatDown };
+export { I as ArrowFatDown }

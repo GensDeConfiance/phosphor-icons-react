@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileySticker";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQuOTIsMTU2Yy0xMC4yOSwxNy43OS0yNy4zOSwyOC00Ni45MiwyOHMtMzYuNjMtMTAuMi00Ni45My0yOGE4LDgsMCwxLDEsMTMuODYtOGM3LjQ2LDEyLjkxLDE5LjIsMjAsMzMuMDcsMjBzMjUuNjEtNy4xLDMzLjA4LTIwYTgsOCwwLDEsMSwxMy44NCw4Wk0yMzIsMTI4YTEwNC4zNSwxMDQuMzUsMCwwLDEtNC41NiwzMC41Niw4LDgsMCwwLDEtMiwzLjMxbC02My41Nyw2My41N2E3LjksNy45LDAsMCwxLTMuMywyQTEwNCwxMDQsMCwxLDEsMjMyLDEyOFptLTE2LDBhODcuODksODcuODksMCwxLDAtNjQsODQuNjlMMjEyLjY5LDE1MkE4OC4wNSw4OC4wNSwwLDAsMCwyMTYsMTI4Wk05MiwxMjBhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsOTIsMTIwWm03Mi0yNGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxNjQsOTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SmileySticker";
-export { I as SmileySticker };
+export { I as SmileySticker }

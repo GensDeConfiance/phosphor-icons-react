@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Sword";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMzJIMTUyYTgsOCwwLDAsMC02LjM0LDMuMTJsLTY0LDgzLjIxTDcyLDEwOC42OWExNiwxNiwwLDAsMC0yMi42NCwwbC0xMi42OSwxMi43YTE2LDE2LDAsMCwwLDAsMjIuNjNsMjAsMjAtMjgsMjhhMTYsMTYsMCwwLDAsMCwyMi42M2wxMi42OSwxMi42OGExNiwxNiwwLDAsMCwyMi42MiwwbDI4LTI4LDIwLDIwYTE2LDE2LDAsMCwwLDIyLjY0LDBsMTIuNjktMTIuN2ExNiwxNiwwLDAsMCwwLTIyLjYzbC05LjY0LTkuNjQsODMuMjEtNjRBOCw4LDAsMCwwLDIyNCwxMDRWNDBBOCw4LDAsMCwwLDIxNiwzMlpNNTIuNjksMjE2LDQwLDIwMy4zMmwyOC0yOEw4MC42OCwxODhabTcwLjYxLThMNDgsMTMyLjcxLDYwLjcsMTIwLDEzNiwxOTUuMzFaTTIwOCwxMDAuMDZsLTgxLjc0LDYyLjg4TDExNS4zMiwxNTJsNTAuMzQtNTAuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMxTDEwNCwxNDAuNjgsOTMuMDcsMTI5Ljc0LDE1NS45NCw0OEgyMDhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Sword";
-export { I as Sword };
+export { I as Sword }

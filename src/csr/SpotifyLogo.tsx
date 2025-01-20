@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpotifyLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptMzEuMDctNDYuMjZhOCw4LDAsMCwxLTEwLjgxLDMuMzMsNDIuNzksNDIuNzksMCwwLDAtNDAuNTIsMCw4LDgsMCwwLDEtNy40OC0xNC4xNCw1OS4zMyw1OS4zMywwLDAsMSw1NS40OCwwQTgsOCwwLDAsMSwxNTkuMDcsMTY5Ljc0Wm0zMi01NmE4LDgsMCwwLDEtMTAuODMsMy4yOSwxMTAuNjIsMTEwLjYyLDAsMCwwLTEwNC40NiwwLDgsOCwwLDAsMS03LjU0LTE0LjEyLDEyNi42NywxMjYuNjcsMCwwLDEsMTE5LjU0LDBBOCw4LDAsMCwxLDE5MS4wNiwxMTMuNzZabS0xNiwyOGE4LDgsMCwwLDEtMTAuODIsMy4zLDc3LDc3LDAsMCwwLTcyLjQ4LDAsOCw4LDAsMCwxLTcuNTItMTQuMTIsOTMsOTMsMCwwLDEsODcuNTIsMEE4LDgsMCwwLDEsMTc1LjA2LDE0MS43NloiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "SpotifyLogo";
-export { I as SpotifyLogo };
+export { I as SpotifyLogo }

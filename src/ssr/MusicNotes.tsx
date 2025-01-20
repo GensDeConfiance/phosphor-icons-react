@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MusicNotes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTIuOTIsMTcuNjlhOCw4LDAsMCwwLTYuODYtMS40NWwtMTI4LDMyQTgsOCwwLDAsMCw3Miw1NlYxNjYuMDhBMzYsMzYsMCwxLDAsODgsMTk2VjExMC4yNWwxMTItMjh2NTEuODNBMzYsMzYsMCwxLDAsMjE2LDE2NFYyNEE4LDgsMCwwLDAsMjEyLjkyLDE3LjY5Wk01MiwyMTZhMjAsMjAsMCwxLDEsMjAtMjBBMjAsMjAsMCwwLDEsNTIsMjE2Wk04OCw5My43NVY2Mi4yNWwxMTItMjh2MzEuNVpNMTgwLDE4NGEyMCwyMCwwLDEsMSwyMC0yMEEyMCwyMCwwLDAsMSwxODAsMTg0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "MusicNotes";
-export { I as MusicNotes };
+export { I as MusicNotes }

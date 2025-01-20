@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CurrencyDollarSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTY4YTQ4LjA1LDQ4LjA1LDAsMCwxLTQ4LDQ4SDEzNnYxNmE4LDgsMCwwLDEtMTYsMFYyMTZIMTA0YTQ4LjA1LDQ4LjA1LDAsMCwxLTQ4LTQ4LDgsOCwwLDAsMSwxNiwwLDMyLDMyLDAsMCwwLDMyLDMyaDQ4YTMyLDMyLDAsMCwwLDAtNjRIMTEyYTQ4LDQ4LDAsMCwxLDAtOTZoOFYyNGE4LDgsMCwwLDEsMTYsMFY0MGg4YTQ4LjA1LDQ4LjA1LDAsMCwxLDQ4LDQ4LDgsOCwwLDAsMS0xNiwwLDMyLDMyLDAsMCwwLTMyLTMySDExMmEzMiwzMiwwLDAsMCwwLDY0aDQwQTQ4LjA1LDQ4LjA1LDAsMCwxLDIwMCwxNjhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CurrencyDollarSimple";
-export { I as CurrencyDollarSimple };
+export { I as CurrencyDollarSimple }

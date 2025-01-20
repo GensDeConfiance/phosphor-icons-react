@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Bathtub";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsOTZIMjA4YTgsOCwwLDAsMC04LThIMTM2YTgsOCwwLDAsMC04LDhINjRWNTJBMTIsMTIsMCwwLDEsNzYsNDBhMTIuNDQsMTIuNDQsMCwwLDEsMTIuMTYsOS41OSw4LDgsMCwwLDAsMTUuNjgtMy4xOEEyOC4zMiwyOC4zMiwwLDAsMCw3NiwyNCwyOCwyOCwwLDAsMCw0OCw1MlY5NkgxNmE4LDgsMCwwLDAtOCw4djQwYTU2LjA2LDU2LjA2LDAsMCwwLDU2LDU2djE2YTgsOCwwLDAsMCwxNiwwVjIwMGg5NnYxNmE4LDgsMCwwLDAsMTYsMFYyMDBhNTYuMDYsNTYuMDYsMCwwLDAsNTYtNTZWMTA0QTgsOCwwLDAsMCwyNDAsOTZabS00OCw4djMySDE0NFYxMDRabTQwLDQwYTQwLDQwLDAsMCwxLTQwLDQwSDY0YTQwLDQwLDAsMCwxLTQwLTQwVjExMkgxMjh2MzJhOCw4LDAsMCwwLDgsOGg2NGE4LDgsMCwwLDAsOC04VjExMmgyNFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Bathtub";
-export { I as Bathtub };
+export { I as Bathtub }

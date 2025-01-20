@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TrafficSign";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDMuMTUsMTE2LjI5LDEzOS43MSwxMi44NWExNi41NiwxNi41NiwwLDAsMC0yMy40MiwwTDEyLjg1LDExNi4yOWExNi41NiwxNi41NiwwLDAsMCwwLDIzLjQyTDExNi4yOSwyNDMuMTVoMGExNi41NiwxNi41NiwwLDAsMCwyMy40MiwwTDI0My4xNSwxMzkuNzFhMTYuNTYsMTYuNTYsMCwwLDAsMC0yMy40MlptLTExLjMxLDEyLjFMMTI4LjQsMjMxLjg0YS41OC41OCwwLDAsMS0uOCwwaDBMMjQuMTYsMTI4LjM5YS41Ni41NiwwLDAsMSwwLS43OEwxMjcuNiwyNC4xNmEuNTguNTgsMCwwLDEsLjgsMEwyMzEuODQsMTI3LjYxYS41Ni41NiwwLDAsMSwwLC43OFptLTU4LjE4LTE0YTgsOCwwLDAsMSwwLDExLjMybC0yNCwyNGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTQ4LjY5LDEyOEgxMTJhMTYsMTYsMCwwLDAtMTYsMTZ2OGE4LDgsMCwwLDEtMTYsMHYtOGEzMiwzMiwwLDAsMSwzMi0zMmgzNi42OWwtMTAuMzUtMTAuMzRhOCw4LDAsMCwxLDExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "TrafficSign";
-export { I as TrafficSign };
+export { I as TrafficSign }

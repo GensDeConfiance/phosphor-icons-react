@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FlagBannerFold";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzguNzMsNDMuNjdBOCw4LDAsMCwwLDIzMiw0MEgxNTJhOCw4LDAsMCwwLTcuMjgsNC42OUwxMzUuOTQsNjRIMjhhOCw4LDAsMCwwLTUuOTIsMTMuMzhMNTcuMTksMTE2LDIyLjA4LDE1NC42MkE4LDgsMCwwLDAsMjgsMTY4aDczLjA5YTgsOCwwLDAsMCw3LjI4LTQuNjlMMTE3LjE1LDE0NGg2Mi40M2wtMzQuODYsNzYuNjlhOCw4LDAsMSwwLDE0LjU2LDYuNjJsODAtMTc2QTgsOCwwLDAsMCwyMzguNzMsNDMuNjdaTTk1Ljk0LDE1Mkg0Ni4wOGwyNy44NC0zMC42MmE4LDgsMCwwLDAsMC0xMC43Nkw0Ni4wOCw4MGg4Mi41OVptOTAuOTEtMjRIMTI0LjQybDMyLjczLTcyaDYyLjQzWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FlagBannerFold";
-export { I as FlagBannerFold };
+export { I as FlagBannerFold }

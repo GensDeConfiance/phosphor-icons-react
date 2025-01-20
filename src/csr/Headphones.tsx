@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Headphones";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuODksNTQuNjZBMTAzLjQzLDEwMy40MywwLDAsMCwxMjguNzksMjRIMTI4QTEwNCwxMDQsMCwwLDAsMjQsMTI4djU2YTI0LDI0LDAsMCwwLDI0LDI0SDY0YTI0LDI0LDAsMCwwLDI0LTI0VjE0NGEyNCwyNCwwLDAsMC0yNC0yNEg0MC4zNkE4OCw4OCwwLDAsMSwxMjgsNDBoLjY3YTg3LjcxLDg3LjcxLDAsMCwxLDg3LDgwSDE5MmEyNCwyNCwwLDAsMC0yNCwyNHY0MGEyNCwyNCwwLDAsMCwyNCwyNGgxNmEyNCwyNCwwLDAsMCwyNC0yNFYxMjhBMTAzLjQxLDEwMy40MSwwLDAsMCwyMDEuODksNTQuNjZaTTY0LDEzNmE4LDgsMCwwLDEsOCw4djQwYTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFYxMzZabTE1Miw0OGE4LDgsMCwwLDEtOCw4SDE5MmE4LDgsMCwwLDEtOC04VjE0NGE4LDgsMCwwLDEsOC04aDI0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Headphones";
-export { I as Headphones };
+export { I as Headphones }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DropHalf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQsNDcuNzVhMjU0LjE5LDI1NC4xOSwwLDAsMC00MS40NS0zOC4zLDgsOCwwLDAsMC05LjE4LDBBMjU0LjE5LDI1NC4xOSwwLDAsMCw4Miw0Ny43NUM1NC41MSw3OS4zMiw0MCwxMTIuNiw0MCwxNDRhODgsODgsMCwwLDAsMTc2LDBDMjE2LDExMi42LDIwMS40OSw3OS4zMiwxNzQsNDcuNzVaTTIwMCwxNDRhNzAuNTcsNzAuNTcsMCwwLDEtLjQ2LDhIMTM2VjEzNmg2My42NFEyMDAsMTQwLDIwMCwxNDRaTTE4My4zOSw4OEgxMzZWNzJoMzYuODlBMTc1Ljg1LDE3NS44NSwwLDAsMSwxODMuMzksODhaTTEzNiwyMDBoMzcuMTlBNzEuNjcsNzEuNjcsMCwwLDEsMTM2LDIxNS41NFptMC0xNlYxNjhoNTkuODdhNzIsNzIsMCwwLDEtOCwxNlptMC02NFYxMDRoNTUuMzlhMTE2Ljg0LDExNi44NCwwLDAsMSw1LjQ1LDE2Wm0yMy44OS02NEgxMzZWMzIuNkEyNTcuMjIsMjU3LjIyLDAsMCwxLDE1OS44OSw1NlpNNTYsMTQ0YzAtNTAsNDIuMjYtOTIuNzEsNjQtMTExLjRWMjE1LjU0QTcyLjA4LDcyLjA4LDAsMCwxLDU2LDE0NFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "DropHalf";
-export { I as DropHalf };
+export { I as DropHalf }

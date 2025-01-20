@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FolderDashed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NiwyMDhhOCw4LDAsMCwxLTgsOEgzOS4zOEExNS40LDE1LjQsMCwwLDEsMjQsMjAwLjYyVjE5MmE4LDgsMCwwLDEsMTYsMHY4SDg4QTgsOCwwLDAsMSw5NiwyMDhabTY0LThIMTI4YTgsOCwwLDAsMCwwLDE2aDMyYTgsOCwwLDAsMCwwLTE2Wm02NC01NmE4LDgsMCwwLDAtOCw4djQ4SDIwMGE4LDgsMCwwLDAsMCwxNmgxNi44OUExNS4xMywxNS4xMywwLDAsMCwyMzIsMjAwLjg5VjE1MkE4LDgsMCwwLDAsMjI0LDE0NFptLTgtNzJIMTY4YTgsOCwwLDAsMCwwLDE2aDQ4djI0YTgsOCwwLDAsMCwxNiwwVjg4QTE2LDE2LDAsMCwwLDIxNiw3MlpNMjQsODBWNTZBMTYsMTYsMCwwLDEsNDAsNDBIOTIuNjlBMTUuODYsMTUuODYsMCwwLDEsMTA0LDQ0LjY5bDI5LjY2LDI5LjY1QTgsOCwwLDAsMSwxMjgsODhIMzJBOCw4LDAsMCwxLDI0LDgwWm0xNi04aDY4LjY5bC0xNi0xNkg0MFptLTgsODhhOCw4LDAsMCwwLDgtOFYxMjBhOCw4LDAsMCwwLTE2LDB2MzJBOCw4LDAsMCwwLDMyLDE2MFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "FolderDashed";
-export { I as FolderDashed, I as FolderDotted };
+export { I as FolderDashed, I as FolderDotted }

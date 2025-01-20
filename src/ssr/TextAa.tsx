@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextAa";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04Ny4yNCw1Mi41OWE4LDgsMCwwLDAtMTQuNDgsMGwtNjQsMTM2YTgsOCwwLDEsMCwxNC40OCw2LjgxTDM5LjksMTYwaDgwLjJsMTYuNjYsMzUuNGE4LDgsMCwxLDAsMTQuNDgtNi44MVpNNDcuNDMsMTQ0LDgwLDc0Ljc5LDExMi41NywxNDRaTTIwMCw5NmMtMTIuNzYsMC0yMi43MywzLjQ3LTI5LjYzLDEwLjMyYTgsOCwwLDAsMCwxMS4yNiwxMS4zNmMzLjgtMy43NywxMC01LjY4LDE4LjM3LTUuNjgsMTMuMjMsMCwyNCw5LDI0LDIwdjMuMjJBNDIuNzYsNDIuNzYsMCwwLDAsMjAwLDEyOGMtMjIuMDYsMC00MCwxNi4xNS00MCwzNnMxNy45NCwzNiw0MCwzNmE0Mi43Myw0Mi43MywwLDAsMCwyNC03LjI1LDgsOCwwLDAsMCwxNi0uNzVWMTMyQzI0MCwxMTIuMTUsMjIyLjA2LDk2LDIwMCw5NlptMCw4OGMtMTMuMjMsMC0yNC05LTI0LTIwczEwLjc3LTIwLDI0LTIwLDI0LDksMjQsMjBTMjEzLjIzLDE4NCwyMDAsMTg0WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "TextAa";
-export { I as TextAa };
+export { I as TextAa }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HandbagSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuODksMTk4LjEybC0xNC4yNi0xMjBhMTYsMTYsMCwwLDAtMTYtMTQuMTJIMTc2YTQ4LDQ4LDAsMCwwLTk2LDBINDYuMzNhMTYsMTYsMCwwLDAtMTYsMTQuMTJsLTE0LjI2LDEyMEExNiwxNiwwLDAsMCwyMCwyMTAuNmExNi4xMywxNi4xMywwLDAsMCwxMiw1LjRIMjIzLjkyQTE2LjEzLDE2LjEzLDAsMCwwLDIzNiwyMTAuNiwxNiwxNiwwLDAsMCwyMzkuODksMTk4LjEyWk0xMjgsMzJhMzIsMzIsMCwwLDEsMzIsMzJIOTZBMzIsMzIsMCwwLDEsMTI4LDMyWk0zMiwyMDAsNDYuMzMsODBIMjA5Ljc1bDE0LjE3LDEyMFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "HandbagSimple";
-export { I as HandbagSimple };
+export { I as HandbagSimple }

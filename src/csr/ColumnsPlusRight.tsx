@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ColumnsPlusRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCwzMkg1NkExNiwxNiwwLDAsMCw0MCw0OFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIODBhMTYsMTYsMCwwLDAsMTYtMTZWNDhBMTYsMTYsMCwwLDAsODAsMzJabTAsMTc2SDU2VjQ4SDgwWk0xNTIsMzJIMTI4YTE2LDE2LDAsMCwwLTE2LDE2VjIwOGExNiwxNiwwLDAsMCwxNiwxNmgyNGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwxNTIsMzJabTAsMTc2SDEyOFY0OGgyNFptOTYtODBhOCw4LDAsMCwxLTgsOEgyMjR2MTZhOCw4LDAsMCwxLTE2LDBWMTM2SDE5MmE4LDgsMCwwLDEsMC0xNmgxNlYxMDRhOCw4LDAsMCwxLDE2LDB2MTZoMTZBOCw4LDAsMCwxLDI0OCwxMjhaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ColumnsPlusRight";
-export { I as ColumnsPlusRight };
+export { I as ColumnsPlusRight }

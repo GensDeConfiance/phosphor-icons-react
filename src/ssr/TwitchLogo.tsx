@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TwitchLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDY0djMyYTgsOCwwLDAsMCwxMy4xMiw2LjE1TDEyMi45LDIwOGg0Mi4yYTE2LDE2LDAsMCwwLDEwLjI1LTMuNzFsNDIuODktMzUuNzVBMTUuOTMsMTUuOTMsMCwwLDAsMjI0LDE1Ni4yNVY0OEExNiwxNiwwLDAsMCwyMDgsMzJabTAsMTI0LjI1TDE2NS4xLDE5MkgxMjBhOCw4LDAsMCwwLTUuMTIsMS44NUw4MCwyMjIuOTJWMjAwYTgsOCwwLDAsMC04LThINDhWNDhIMjA4Wk0xNjAsMTM2Vjg4YTgsOCwwLDAsMSwxNiwwdjQ4YTgsOCwwLDAsMS0xNiwwWm0tNDgsMFY4OGE4LDgsMCwwLDEsMTYsMHY0OGE4LDgsMCwwLDEtMTYsMFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "TwitchLogo";
-export { I as TwitchLogo };
+export { I as TwitchLogo }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Ruler";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzUuMzIsNzMuMzcsMTgyLjYzLDIwLjY5YTE2LDE2LDAsMCwwLTIyLjYzLDBMMjAuNjgsMTYwYTE2LDE2LDAsMCwwLDAsMjIuNjNsNTIuNjksNTIuNjhhMTYsMTYsMCwwLDAsMjIuNjMsMEwyMzUuMzIsOTZBMTYsMTYsMCwwLDAsMjM1LjMyLDczLjM3Wk04NC42OCwyMjQsMzIsMTcxLjMxbDMyLTMyLDI2LjM0LDI2LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMkw3NS4zMSwxMjgsOTYsMTA3LjMxbDI2LjM0LDI2LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMkwxMDcuMzEsOTYsMTI4LDc1LjMxbDI2LjM0LDI2LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMkwxMzkuMzEsNjRsMzItMzJMMjI0LDg0LjY5WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Ruler";
-export { I as Ruler };
+export { I as Ruler }

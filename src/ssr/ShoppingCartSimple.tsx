@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShoppingCartSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMjE2YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDEwNCwyMTZabTg4LTE2YTE2LDE2LDAsMSwwLDE2LDE2QTE2LDE2LDAsMCwwLDE5MiwyMDBaTTIzOS43MSw3NC4xNGwtMjUuNjQsOTIuMjhBMjQuMDYsMjQuMDYsMCwwLDEsMTkxLDE4NEg5Mi4xNkEyNC4wNiwyNC4wNiwwLDAsMSw2OSwxNjYuNDJMMzMuOTIsNDBIMTZhOCw4LDAsMCwxLDAtMTZINDBhOCw4LDAsMCwxLDcuNzEsNS44Nkw1Ny4xOSw2NEgyMzJhOCw4LDAsMCwxLDcuNzEsMTAuMTRaTTIyMS40Nyw4MEg2MS42NGwyMi44MSw4Mi4xNEE4LDgsMCwwLDAsOTIuMTYsMTY4SDE5MWE4LDgsMCwwLDAsNy43MS01Ljg2WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ShoppingCartSimple";
-export { I as ShoppingCartSimple };
+export { I as ShoppingCartSimple }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Faders";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTIwdjk2YTgsOCwwLDAsMS0xNiwwVjEyMGE4LDgsMCwwLDEsMTYsMFptNjQsNzJhOCw4LDAsMCwwLTgsOHYxNmE4LDgsMCwwLDAsMTYsMFYyMDBBOCw4LDAsMCwwLDIwMCwxOTJabTI0LTMySDIwOFY0MGE4LDgsMCwwLDAtMTYsMFYxNjBIMTc2YTgsOCwwLDAsMCwwLDE2aDQ4YTgsOCwwLDAsMCwwLTE2Wk01NiwxNjBhOCw4LDAsMCwwLTgsOHY0OGE4LDgsMCwwLDAsMTYsMFYxNjhBOCw4LDAsMCwwLDU2LDE2MFptMjQtMzJINjRWNDBhOCw4LDAsMCwwLTE2LDB2ODhIMzJhOCw4LDAsMCwwLDAsMTZIODBhOCw4LDAsMCwwLDAtMTZabTcyLTQ4SDEzNlY0MGE4LDgsMCwwLDAtMTYsMFY4MEgxMDRhOCw4LDAsMCwwLDAsMTZoNDhhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Faders";
-export { I as Faders };
+export { I as Faders }

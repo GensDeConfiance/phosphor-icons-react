@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BellSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMjI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMSwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMjRabTUzLjg1LTMyQTE1LjgsMTUuOCwwLDAsMSwyMDgsMjAwSDQ4YTE2LDE2LDAsMCwxLTEzLjgtMjQuMDZDMzkuNzUsMTY2LjM4LDQ4LDEzOS4zNCw0OCwxMDRhODAsODAsMCwxLDEsMTYwLDBjMCwzNS4zMyw4LjI2LDYyLjM4LDEzLjgxLDcxLjk0QTE1Ljg5LDE1Ljg5LDAsMCwxLDIyMS44NCwxOTJaTTIwOCwxODRjLTcuNzMtMTMuMjctMTYtNDMuOTUtMTYtODBhNjQsNjQsMCwxLDAtMTI4LDBjMCwzNi4wNi04LjI4LDY2Ljc0LTE2LDgwWiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "BellSimple";
-export { I as BellSimple };
+export { I as BellSimple }

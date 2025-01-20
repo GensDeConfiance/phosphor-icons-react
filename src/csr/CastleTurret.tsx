@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CastleTurret";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMjE2SDIwMFYxMTUuMzFMMjExLjMxLDEwNEExNS44NiwxNS44NiwwLDAsMCwyMTYsOTIuNjlWNDhhMTYsMTYsMCwwLDAtMTYtMTZIMTc2YTgsOCwwLDAsMC04LDhWNjRIMTUyVjQwYTgsOCwwLDAsMC04LThIMTEyYTgsOCwwLDAsMC04LDhWNjRIODhWNDBhOCw4LDAsMCwwLTgtOEg1NkExNiwxNiwwLDAsMCw0MCw0OFY5Mi42OUExNS44NiwxNS44NiwwLDAsMCw0NC42OSwxMDRMNTYsMTE1LjMxVjIxNkg0MGE4LDgsMCwwLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZaTTY5LjY2LDEwNi4zNCw1Niw5Mi42OVY0OEg3MlY3MmE4LDgsMCwwLDAsOCw4aDMyYTgsOCwwLDAsMCw4LThWNDhoMTZWNzJhOCw4LDAsMCwwLDgsOGgzMmE4LDgsMCwwLDAsOC04VjQ4aDE2VjkyLjY5bC0xMy42NiwxMy42NUE4LDgsMCwwLDAsMTg0LDExMlYyMTZIMTYwVjE2OGEzMiwzMiwwLDAsMC02NCwwdjQ4SDcyVjExMkE4LDgsMCwwLDAsNjkuNjYsMTA2LjM0Wk0xNDQsMjE2SDExMlYxNjhhMTYsMTYsMCwwLDEsMzIsMFoiLz48L3N2Zz4=)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CastleTurret";
-export { I as CastleTurret };
+export { I as CastleTurret }

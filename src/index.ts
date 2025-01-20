@@ -1415,6 +1415,7 @@ export * from "./csr/Tray";
 export * from "./csr/TreasureChest";
 export * from "./csr/Tree";
 export * from "./csr/TreeEvergreen";
+export * from "./csr/TreePalmAlt";
 export * from "./csr/TreePalm";
 export * from "./csr/TreeStructure";
 export * from "./csr/TreeView";

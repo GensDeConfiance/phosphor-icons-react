@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Gauge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDcuMDYsNzIuNjdBMTExLjI0LDExMS4yNCwwLDAsMCwxMjgsNDBoLS40QzY2LjA3LDQwLjIxLDE2LDkxLDE2LDE1My4xM1YxNzZhMTYsMTYsMCwwLDAsMTYsMTZIMjI0YTE2LDE2LDAsMCwwLDE2LTE2VjE1MkExMTEuMjUsMTExLjI1LDAsMCwwLDIwNy4wNiw3Mi42N1pNMjI0LDE3NkgxMTkuNzFsNTQuNzYtNzUuM2E4LDgsMCwwLDAtMTIuOTQtOS40Mkw5OS45MiwxNzZIMzJWMTUzLjEzYzAtMy4wOC4xNS02LjEyLjQzLTkuMTNINTZhOCw4LDAsMCwwLDAtMTZIMzUuMjdjMTAuMzItMzguODYsNDQtNjguMjQsODQuNzMtNzEuNjZWODBhOCw4LDAsMCwwLDE2LDBWNTYuMzNBOTYuMTQsOTYuMTQsMCwwLDEsMjIxLDEyOEgyMDBhOCw4LDAsMCwwLDAsMTZoMjMuNjdjLjIxLDIuNjUuMzMsNS4zMS4zMyw4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "Gauge";
-export { I as Gauge };
+export { I as Gauge }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ListMagnifyingGlass";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTgsNzJoNzJhOCw4LDAsMCwwLDAtMTZINDBhOCw4LDAsMCwwLDAsMTZabTg4LDQ4SDQwYTgsOCwwLDAsMCwwLDE2aDg4YTgsOCwwLDAsMCwwLTE2Wm0xMDkuNjYsMTMuNjZhOCw4LDAsMCwxLTExLjMyLDBMMjA2LDE3Ny4zNkE0MCw0MCwwLDEsMSwyMTcuMzYsMTY2bDIwLjMsMjAuM0E4LDgsMCwwLDEsMjM3LjY2LDE5Ny42NlpNMTg0LDE2OGEyNCwyNCwwLDEsMC0yNC0yNEEyNCwyNCwwLDAsMCwxODQsMTY4WiIvPjwvc3ZnPg==)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "ListMagnifyingGlass";
-export { I as ListMagnifyingGlass };
+export { I as ListMagnifyingGlass }

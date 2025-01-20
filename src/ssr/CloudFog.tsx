@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
 import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudFog";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMjA4SDcyYTgsOCwwLDAsMSwwLTE2aDQ4YTgsOCwwLDAsMSwwLDE2Wm02NC0xNkgxNjBhOCw4LDAsMCwwLDAsMTZoMjRhOCw4LDAsMCwwLDAtMTZabS0yNCwzMkgxMDRhOCw4LDAsMCwwLDAsMTZoNTZhOCw4LDAsMCwwLDAtMTZabTcyLTEyNGE3Ni4wOCw3Ni4wOCwwLDAsMS03Niw3Nkg3NkE1Miw1MiwwLDAsMSw3Niw3MmE1My4yNiw1My4yNiwwLDAsMSw4LjkyLjc2QTc2LjA4LDc2LjA4LDAsMCwxLDIzMiwxMDBabS0xNiwwQTYwLjA2LDYwLjA2LDAsMCwwLDk2LDk2LjQ2YTgsOCwwLDAsMS0xNi0uOTJxLjIxLTMuNjYuNzctNy4yM0EzOC4xMSwzOC4xMSwwLDAsMCw3Niw4OGEzNiwzNiwwLDAsMCwwLDcyaDgwQTYwLjA3LDYwLjA3LDAsMCwwLDIxNiwxMDBaIi8+PC9zdmc+)
@@ -17,4 +19,4 @@ const I: Icon = forwardRef((props, ref) => (
 ));
 
 I.displayName = "CloudFog";
-export { I as CloudFog };
+export { I as CloudFog }

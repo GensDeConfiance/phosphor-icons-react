@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Divide";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMTI4Wk0xMjgsODBhMTYsMTYsMCwxLDAtMTYtMTZBMTYsMTYsMCwwLDAsMTI4LDgwWm0wLDk2YTE2LDE2LDAsMSwwLDE2LDE2QTE2LDE2LDAsMCwwLDEyOCwxNzZaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Divide";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTEyOCw2NGExNiwxNiwwLDEsMS0xNiwxNkExNiwxNiwwLDAsMSwxMjgsNjRabTAsMTI4YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDEyOCwxOTJabTU2LTU2SDcyYTgsOCwwLDAsMSwwLTE2SDE4NGE4LDgsMCwwLDEsMCwxNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNTZWMjAwYTE2LDE2LDAsMCwxLTE2LDE2SDU2YTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDU2LDQwSDIwMEExNiwxNiwwLDAsMSwyMTYsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDEyOGE4LDgsMCwwLDEtOCw4SDQwYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNMTI4LDgwYTE2LDE2LDAsMSwwLTE2LTE2QTE2LDE2LDAsMCwwLDEyOCw4MFptMCw5NmExNiwxNiwwLDEsMCwxNiwxNkExNiwxNiwwLDAsMCwxMjgsMTc2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DivideIcon";
-
-/** @deprecated Use DivideIcon */
-export const Divide = I;
-export { I as DivideIcon };
+I.displayName = "Divide";
+export { I as Divide }

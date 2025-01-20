@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CircleHalfTilt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDEuNTQsNTQuNDZBMTA0LDEwNCwwLDAsMCw1NC40NiwyMDEuNTQsMTA0LDEwNCwwLDAsMCwyMDEuNTQsNTQuNDZaTTE4NCwxOTUuODdhODcuMTYsODcuMTYsMCwwLDEtMTYsMTAuNVY5OS4zMWwxNi0xNlptLTgwLTMyLjU2LDE2LTE2djY4LjI4YTg4LjM3LDg4LjM3LDAsMCwxLTE2LTNaTTg4LDIwNi4zN2E4Nyw4NywwLDAsMS0xNi4zLTEwLjc2TDg4LDE3OS4zMVptNDgtNzUuMDYsMTYtMTZ2OTcuMzJhODguMzcsODguMzcsMCwwLDEtMTYsM1pNNDAsMTI4QTg4LDg4LDAsMCwxLDE4NC4zLDYwLjM5TDYwLjM4LDE4NC4zMUE4Ny4zNCw4Ny4zNCwwLDAsMSw0MCwxMjhabTE2MCw1MC41OVY3Ny40MWE4OCw4OCwwLDAsMSwwLDEwMS4xOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/CircleHalfTilt";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk00MCwxMjhBODgsODgsMCwwLDEsMTkwLjIsNjUuOEw2NS44LDE5MC4yQTg3Ljc2LDg3Ljc2LDAsMCwxLDQwLDEyOFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTUuODgsMTk1Ljg4YTk2LDk2LDAsMCwxLTEzNS43NiwwTDE5NS44OCw2MC4xMkE5Niw5NiwwLDAsMSwxOTUuODgsMTk1Ljg4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwMS41NCw1NC40NkExMDQsMTA0LDAsMCwwLDU0LjQ2LDIwMS41NCwxMDQsMTA0LDAsMCwwLDIwMS41NCw1NC40NlpNNjUuNzgsNjUuNzdBODguMDgsODguMDgsMCwwLDEsMTg0LjMsNjAuMzlMNjAuMzgsMTg0LjMxYTg4LDg4LDAsMCwxLDUuNC0xMTguNTRaTTE5MC4yMiwxOTAuMjNBODguMSw4OC4xLDAsMCwxLDcxLjcsMTk1LjYxTDE5NS42Miw3MS42OWE4OCw4OCwwLDAsMS01LjQsMTE4LjU0WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CircleHalfTiltIcon";
-
-/** @deprecated Use CircleHalfTiltIcon */
-export const CircleHalfTilt = I;
-export { I as CircleHalfTiltIcon };
+I.displayName = "CircleHalfTilt";
+export { I as CircleHalfTilt }

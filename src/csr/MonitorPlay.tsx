@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MonitorPlay";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDBINDhBMjQsMjQsMCwwLDAsMjQsNjRWMTc2YTI0LDI0LDAsMCwwLDI0LDI0SDIwOGEyNCwyNCwwLDAsMCwyNC0yNFY2NEEyNCwyNCwwLDAsMCwyMDgsNDBabTgsMTM2YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFY2NGE4LDgsMCwwLDEsOC04SDIwOGE4LDgsMCwwLDEsOCw4Wm0tNDgsNDhhOCw4LDAsMCwxLTgsOEg5NmE4LDgsMCwwLDEsMC0xNmg2NEE4LDgsMCwwLDEsMTY4LDIyNFptLTMuNTYtMTEwLjY2LTQ4LTMyQTgsOCwwLDAsMCwxMDQsODh2NjRhOCw4LDAsMCwwLDEyLjQ0LDYuNjZsNDgtMzJhOCw4LDAsMCwwLDAtMTMuMzJaTTEyMCwxMzcuMDVWMTAzbDI1LjU4LDE3WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/MonitorPlay";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMjI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMjRaTTIzMiw2NFYxNzZhMjQsMjQsMCwwLDEtMjQsMjRINDhhMjQsMjQsMCwwLDEtMjQtMjRWNjRBMjQsMjQsMCwwLDEsNDgsNDBIMjA4QTI0LDI0LDAsMCwxLDIzMiw2NFptLTY4LDU2YTgsOCwwLDAsMC0zLjQxLTYuNTVsLTQwLTI4QTgsOCwwLDAsMCwxMDgsOTJ2NTZhOCw4LDAsMCwwLDEyLjU5LDYuNTVsNDAtMjhBOCw4LDAsMCwwLDE2NCwxMjBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDhINDhBMTYsMTYsMCwwLDAsMzIsNjRWMTc2YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMDgsNDhaTTExMiwxNTJWODhsNDgsMzJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjA4LDQwSDQ4QTI0LDI0LDAsMCwwLDI0LDY0VjE3NmEyNCwyNCwwLDAsMCwyNCwyNEgyMDhhMjQsMjQsMCwwLDAsMjQtMjRWNjRBMjQsMjQsMCwwLDAsMjA4LDQwWm04LDEzNmE4LDgsMCwwLDEtOCw4SDQ4YTgsOCwwLDAsMS04LThWNjRhOCw4LDAsMCwxLDgtOEgyMDhhOCw4LDAsMCwxLDgsOFptLTQ4LDQ4YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMjRabS0zLjU2LTExMC42Ni00OC0zMkE4LDgsMCwwLDAsMTA0LDg4djY0YTgsOCwwLDAsMCwxMi40NCw2LjY2bDQ4LTMyYTgsOCwwLDAsMCwwLTEzLjMyWk0xMjAsMTM3LjA1VjEwM2wyNS41OCwxN1oiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MonitorPlayIcon";
-
-/** @deprecated Use MonitorPlayIcon */
-export const MonitorPlay = I;
-export { I as MonitorPlayIcon };
+I.displayName = "MonitorPlay";
+export { I as MonitorPlay }

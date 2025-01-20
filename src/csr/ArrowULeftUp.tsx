@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowULeftUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODB2ODhhNjQsNjQsMCwwLDEtMTI4LDBWNTEuMzFMNDUuNjYsODUuNjZBOCw4LDAsMCwxLDM0LjM0LDc0LjM0bDQ4LTQ4YTgsOCwwLDAsMSwxMS4zMiwwbDQ4LDQ4YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkw5Niw1MS4zMVYxNjhhNDgsNDgsMCwwLDAsOTYsMFY4MGE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowULeftUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODB2ODhhNjQsNjQsMCwwLDEtMTI4LDBWODhINDBhOCw4LDAsMCwxLTUuNjYtMTMuNjZsNDgtNDhhOCw4LDAsMCwxLDExLjMyLDBsNDgsNDhBOCw4LDAsMCwxLDEzNiw4OEg5NnY4MGE0OCw0OCwwLDAsMCw5NiwwVjgwYTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsODBINDBMODgsMzJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDcyYTgsOCwwLDAsMC04LDh2ODhhNDgsNDgsMCwwLDEtOTYsMFY4OGg0MGE4LDgsMCwwLDAsNS42Ni0xMy42NmwtNDgtNDhhOCw4LDAsMCwwLTExLjMyLDBsLTQ4LDQ4QTgsOCwwLDAsMCw0MCw4OEg4MHY4MGE2NCw2NCwwLDAsMCwxMjgsMFY4MEE4LDgsMCwwLDAsMjAwLDcyWk04OCw0My4zMSwxMTYuNjksNzJINTkuMzFaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowULeftUpIcon";
-
-/** @deprecated Use ArrowULeftUpIcon */
-export const ArrowULeftUp = I;
-export { I as ArrowULeftUpIcon };
+I.displayName = "ArrowULeftUp";
+export { I as ArrowULeftUp }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LinkSimpleHorizontal";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCwxMjBoOTZhOCw4LDAsMCwxLDAsMTZIODBhOCw4LDAsMCwxLDAtMTZabTI0LDQ4SDY0YTQwLDQwLDAsMCwxLDAtODBoNDBhOCw4LDAsMCwwLDAtMTZINjRhNTYsNTYsMCwwLDAsMCwxMTJoNDBhOCw4LDAsMCwwLDAtMTZabTg4LTk2SDE1MmE4LDgsMCwwLDAsMCwxNmg0MGE0MCw0MCwwLDAsMSwwLDgwSDE1MmE4LDgsMCwwLDAsMCwxNmg0MGE1Niw1NiwwLDAsMCwwLTExMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/LinkSimpleHorizontal";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhaTTExMiwxNjhIODBhNDAsNDAsMCwwLDEsMC04MGgzMmE4LDgsMCwwLDEsMCwxNkg4MGEyNCwyNCwwLDAsMCwwLDQ4aDMyYTgsOCwwLDAsMSwwLDE2Wm00OC00OGE4LDgsMCwwLDEsMCwxNkg5NmE4LDgsMCwwLDEsMC0xNlptMTYsNDhIMTQ0YTgsOCwwLDAsMSwwLTE2aDMyYTI0LDI0LDAsMCwwLDAtNDhIMTQ0YTgsOCwwLDAsMSwwLTE2aDMyYTQwLDQwLDAsMCwxLDAsODBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTI4aDBhNDgsNDgsMCwwLDEtNDgsNDhINjRhNDgsNDgsMCwwLDEtNDgtNDhoMEE0OCw0OCwwLDAsMSw2NCw4MEgxOTJBNDgsNDgsMCwwLDEsMjQwLDEyOFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik04MCwxMjBoOTZhOCw4LDAsMCwxLDAsMTZIODBhOCw4LDAsMCwxLDAtMTZabTI0LDQ4SDY0YTQwLDQwLDAsMCwxLDAtODBoNDBhOCw4LDAsMCwwLDAtMTZINjRhNTYsNTYsMCwwLDAsMCwxMTJoNDBhOCw4LDAsMCwwLDAtMTZabTg4LTk2SDE1MmE4LDgsMCwwLDAsMCwxNmg0MGE0MCw0MCwwLDAsMSwwLDgwSDE1MmE4LDgsMCwwLDAsMCwxNmg0MGE1Niw1NiwwLDAsMCwwLTExMloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinkSimpleHorizontalIcon";
-
-/** @deprecated Use LinkSimpleHorizontalIcon */
-export const LinkSimpleHorizontal = I;
-export { I as LinkSimpleHorizontalIcon };
+I.displayName = "LinkSimpleHorizontal";
+export { I as LinkSimpleHorizontal }

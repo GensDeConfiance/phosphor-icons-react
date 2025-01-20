@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Triangle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYuOCwxODguMDksMTQ5LjM1LDM2LjIyYTI0Ljc2LDI0Ljc2LDAsMCwwLTQyLjcsMEwxOS4yLDE4OC4wOWEyMy41MSwyMy41MSwwLDAsMCwwLDIzLjcyQTI0LjM0LDI0LjM0LDAsMCwwLDQwLjU1LDIyNGgxNzQuOWEyNC4zNCwyNC4zNCwwLDAsMCwyMS4zMy0xMi4xOUEyMy41MSwyMy41MSwwLDAsMCwyMzYuOCwxODguMDlaTTIyMi45MywyMDMuOGE4LjUsOC41LDAsMCwxLTcuNDgsNC4ySDQwLjU1YTguNSw4LjUsMCwwLDEtNy40OC00LjIsNy41OSw3LjU5LDAsMCwxLDAtNy43MkwxMjAuNTIsNDQuMjFhOC43NSw4Ljc1LDAsMCwxLDE1LDBsODcuNDUsMTUxLjg3QTcuNTksNy41OSwwLDAsMSwyMjIuOTMsMjAzLjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Triangle";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzYuNzgsMjExLjgxQTI0LjM0LDI0LjM0LDAsMCwxLDIxNS40NSwyMjRINDAuNTVhMjQuMzQsMjQuMzQsMCwwLDEtMjEuMzMtMTIuMTksMjMuNTEsMjMuNTEsMCwwLDEsMC0yMy43MkwxMDYuNjUsMzYuMjJhMjQuNzYsMjQuNzYsMCwwLDEsNDIuNywwTDIzNi44LDE4OC4wOUEyMy41MSwyMy41MSwwLDAsMSwyMzYuNzgsMjExLjgxWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTUuNDYsMjE2SDQwLjU0QzI3LjkyLDIxNiwyMCwyMDIuNzksMjYuMTMsMTkyLjA5TDExMy41OSw0MC4yMmM2LjMtMTEsMjIuNTItMTEsMjguODIsMGw4Ny40NiwxNTEuODdDMjM2LDIwMi43OSwyMjguMDgsMjE2LDIxNS40NiwyMTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjM2LjgsMTg4LjA5LDE0OS4zNSwzNi4yMmEyNC43NiwyNC43NiwwLDAsMC00Mi43LDBMMTkuMiwxODguMDlhMjMuNTEsMjMuNTEsMCwwLDAsMCwyMy43MkEyNC4zNCwyNC4zNCwwLDAsMCw0MC41NSwyMjRoMTc0LjlhMjQuMzQsMjQuMzQsMCwwLDAsMjEuMzMtMTIuMTlBMjMuNTEsMjMuNTEsMCwwLDAsMjM2LjgsMTg4LjA5Wk0yMjIuOTMsMjAzLjhhOC41LDguNSwwLDAsMS03LjQ4LDQuMkg0MC41NWE4LjUsOC41LDAsMCwxLTcuNDgtNC4yLDcuNTksNy41OSwwLDAsMSwwLTcuNzJMMTIwLjUyLDQ0LjIxYTguNzUsOC43NSwwLDAsMSwxNSwwbDg3LjQ1LDE1MS44N0E3LjU5LDcuNTksMCwwLDEsMjIyLjkzLDIwMy44WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TriangleIcon";
-
-/** @deprecated Use TriangleIcon */
-export const Triangle = I;
-export { I as TriangleIcon };
+I.displayName = "Triangle";
+export { I as Triangle }

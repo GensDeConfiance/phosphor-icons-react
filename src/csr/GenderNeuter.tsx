@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GenderNeuter";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTA0YTgwLDgwLDAsMSwwLTg4LDc5LjZWMjMyYTgsOCwwLDAsMCwxNiwwVjE4My42QTgwLjExLDgwLjExLDAsMCwwLDIwOCwxMDRabS04MCw2NGE2NCw2NCwwLDEsMSw2NC02NEE2NC4wNyw2NC4wNywwLDAsMSwxMjgsMTY4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/GenderNeuter";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjcuODQsMTA4LjM1YTQwLDQwLDAsMSwxLTM2LjE5LTM2LjE5QTQwLDQwLDAsMCwxLDE2Ny44NCwxMDguMzVaTTIxNiw0MFYyMTZhMTYsMTYsMCwwLDEtMTYsMTZINTZhMTYsMTYsMCwwLDEtMTYtMTZWNDBBMTYsMTYsMCwwLDEsNTYsMjRIMjAwQTE2LDE2LDAsMCwxLDIxNiw0MFptLTMyLDcyYTU2LDU2LDAsMSwwLTY0LDU1LjQydjMyLjMxYTguMTgsOC4xOCwwLDAsMCw3LjQ3LDguMjUsOCw4LDAsMCwwLDguNTMtOFYxNjcuNDJBNTYuMDksNTYuMDksMCwwLDAsMTg0LDExMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTA0YTcyLDcyLDAsMSwxLTcyLTcyQTcyLDcyLDAsMCwxLDIwMCwxMDRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjA4LDEwNGE4MCw4MCwwLDEsMC04OCw3OS42VjIzMmE4LDgsMCwwLDAsMTYsMFYxODMuNkE4MC4xMSw4MC4xMSwwLDAsMCwyMDgsMTA0Wm0tODAsNjRhNjQsNjQsMCwxLDEsNjQtNjRBNjQuMDcsNjQuMDcsMCwwLDEsMTI4LDE2OFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GenderNeuterIcon";
-
-/** @deprecated Use GenderNeuterIcon */
-export const GenderNeuter = I;
-export { I as GenderNeuterIcon };
+I.displayName = "GenderNeuter";
+export { I as GenderNeuter }

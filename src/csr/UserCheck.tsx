@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/UserCheck";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDQsMTU3LjY4YTY4LDY4LDAsMSwwLTcxLjksMGMtMjAuNjUsNi43Ni0zOS4yMywxOS4zOS01NC4xNywzNy4xN2E4LDgsMCwwLDAsMTIuMjUsMTAuM0M1MC4yNSwxODEuMTksNzcuOTEsMTY4LDEwOCwxNjhzNTcuNzUsMTMuMTksNzcuODcsMzcuMTVhOCw4LDAsMCwwLDEyLjI1LTEwLjNDMTgzLjE4LDE3Ny4wNywxNjQuNiwxNjQuNDQsMTQ0LDE1Ny42OFpNNTYsMTAwYTUyLDUyLDAsMSwxLDUyLDUyQTUyLjA2LDUyLjA2LDAsMCwxLDU2LDEwMFptMTk3LjY2LDMzLjY2LTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0xNi0xNmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMjE2LDE0OC42OWwyNi4zNC0yNi4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/UserCheck";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNTMuNjYsMTMzLjY2bC0zMiwzMmE4LDgsMCwwLDEtMTEuMzIsMGwtMTYtMTZhOCw4LDAsMCwxLDExLjMyLTExLjMyTDIxNiwxNDguNjlsMjYuMzQtMjYuMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyWk0xNDQsMTU3LjY4YTY4LDY4LDAsMSwwLTcxLjksMGMtMjAuNjUsNi43Ni0zOS4yMywxOS4zOS01NC4xNywzNy4xN0E4LDgsMCwwLDAsMjQsMjA4SDE5MmE4LDgsMCwwLDAsNi4xMy0xMy4xNUMxODMuMTgsMTc3LjA3LDE2NC42LDE2NC40NCwxNDQsMTU3LjY4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTAwYTYwLDYwLDAsMSwxLTYwLTYwQTYwLDYwLDAsMCwxLDE2OCwxMDBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTQ0LDE1Ny42OGE2OCw2OCwwLDEsMC03MS45LDBjLTIwLjY1LDYuNzYtMzkuMjMsMTkuMzktNTQuMTcsMzcuMTdhOCw4LDAsMCwwLDEyLjI1LDEwLjNDNTAuMjUsMTgxLjE5LDc3LjkxLDE2OCwxMDgsMTY4czU3Ljc1LDEzLjE5LDc3Ljg3LDM3LjE1YTgsOCwwLDAsMCwxMi4yNS0xMC4zQzE4My4xOCwxNzcuMDcsMTY0LjYsMTY0LjQ0LDE0NCwxNTcuNjhaTTU2LDEwMGE1Miw1MiwwLDEsMSw1Miw1MkE1Mi4wNiw1Mi4wNiwwLDAsMSw1NiwxMDBabTE5Ny42NiwzMy42Ni0zMiwzMmE4LDgsMCwwLDEtMTEuMzIsMGwtMTYtMTZhOCw4LDAsMCwxLDExLjMyLTExLjMyTDIxNiwxNDguNjlsMjYuMzQtMjYuMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "UserCheckIcon";
-
-/** @deprecated Use UserCheckIcon */
-export const UserCheck = I;
-export { I as UserCheckIcon };
+I.displayName = "UserCheck";
+export { I as UserCheck }

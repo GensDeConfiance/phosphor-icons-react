@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Intersect";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQuNjMsODEuMzdhODAsODAsMCwxLDAtOTMuMjYsOTMuMjYsODAsODAsMCwxLDAsOTMuMjYtOTMuMjZaTTEwMC42OSwxMzYsMTIwLDE1NS4zMUE2My40OCw2My40OCwwLDAsMSw5NiwxNjAsNjMuNDgsNjMuNDgsMCwwLDEsMTAwLjY5LDEzNlptMzMuNzUsMTEuMTMtMjUuNTctMjUuNTdhNjQuNjUsNjQuNjUsMCwwLDEsMTIuNjktMTIuNjlsMjUuNTcsMjUuNTdBNjQuNjUsNjQuNjUsMCwwLDEsMTM0LjQ0LDE0Ny4xM1pNMTU1LjMxLDEyMCwxMzYsMTAwLjY5QTYzLjQ4LDYzLjQ4LDAsMCwxLDE2MCw5Niw2My40OCw2My40OCwwLDAsMSwxNTUuMzEsMTIwWk0zMiw5NmE2NCw2NCwwLDAsMSwxMjYtMTZBODAuMDgsODAuMDgsMCwwLDAsODAuMDUsMTU4LDY0LjExLDY0LjExLDAsMCwxLDMyLDk2Wk0xNjAsMjI0QTY0LjExLDY0LjExLDAsMCwxLDk4LDE3Niw4MC4wOCw4MC4wOCwwLDAsMCwxNzYsOTgsNjQsNjQsMCwwLDEsMTYwLDIyNFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Intersect";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzQuNjMsODEuMzdhODAsODAsMCwxLDAtOTMuMjYsOTMuMjYsODAsODAsMCwxLDAsOTMuMjYtOTMuMjZaTTMyLDk2YTY0LDY0LDAsMCwxLDEyNi0xNkE4MC4wOCw4MC4wOCwwLDAsMCw4MC4wNSwxNTgsNjQuMTEsNjQuMTEsMCwwLDEsMzIsOTZaTTE2MCwyMjRBNjQuMTEsNjQuMTEsMCwwLDEsOTgsMTc2LDgwLjA4LDgwLjA4LDAsMCwwLDE3Niw5OCw2NCw2NCwwLDAsMSwxNjAsMjI0WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsOTZhNzIsNzIsMCwwLDEtNzIsNzIsNzMuMzcsNzMuMzcsMCwwLDEtNy42LS40QTczLjM3LDczLjM3LDAsMCwxLDg4LDE2MGE3Miw3MiwwLDAsMSw3Mi03Miw3My4zNyw3My4zNywwLDAsMSw3LjYuNEE3My4zNyw3My4zNywwLDAsMSwxNjgsOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTc0LjYzLDgxLjM3YTgwLDgwLDAsMSwwLTkzLjI2LDkzLjI2LDgwLDgwLDAsMSwwLDkzLjI2LTkzLjI2Wk0zMiw5NmE2NCw2NCwwLDAsMSwxMjYtMTZBODAuMDgsODAuMDgsMCwwLDAsODAuMDUsMTU4LDY0LjExLDY0LjExLDAsMCwxLDMyLDk2Wm0xMjgsMGE2NC4wNyw2NC4wNywwLDAsMS02NCw2NEE2NC4wNyw2NC4wNywwLDAsMSwxNjAsOTZabTAsMTI4QTY0LjExLDY0LjExLDAsMCwxLDk4LDE3Niw4MC4wOCw4MC4wOCwwLDAsMCwxNzYsOTgsNjQsNjQsMCwwLDEsMTYwLDIyNFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "IntersectIcon";
-
-/** @deprecated Use IntersectIcon */
-export const Intersect = I;
-export { I as IntersectIcon };
+I.displayName = "Intersect";
+export { I as Intersect }

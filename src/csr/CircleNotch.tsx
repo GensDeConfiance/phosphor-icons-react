@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CircleNotch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI4YTEwNCwxMDQsMCwwLDEtMjA4LDBjMC00MSwyMy44MS03OC4zNiw2MC42Ni05NS4yN2E4LDgsMCwwLDEsNi42OCwxNC41NEM2MC4xNSw2MS41OSw0MCw5My4yNyw0MCwxMjhhODgsODgsMCwwLDAsMTc2LDBjMC0zNC43My0yMC4xNS02Ni40MS01MS4zNC04MC43M2E4LDgsMCwwLDEsNi42OC0xNC41NEMyMDguMTksNDkuNjQsMjMyLDg3LDIzMiwxMjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/CircleNotch";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE3NkE3Miw3MiwwLDAsMSw5Miw2NS42NGE4LDgsMCwwLDEsOCwxMy44NSw1Niw1NiwwLDEsMCw1NiwwLDgsOCwwLDAsMSw4LTEzLjg1QTcyLDcyLDAsMCwxLDEyOCwyMDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMyLDEyOGExMDQsMTA0LDAsMCwxLTIwOCwwYzAtNDEsMjMuODEtNzguMzYsNjAuNjYtOTUuMjdhOCw4LDAsMCwxLDYuNjgsMTQuNTRDNjAuMTUsNjEuNTksNDAsOTMuMjcsNDAsMTI4YTg4LDg4LDAsMCwwLDE3NiwwYzAtMzQuNzMtMjAuMTUtNjYuNDEtNTEuMzQtODAuNzNhOCw4LDAsMCwxLDYuNjgtMTQuNTRDMjA4LjE5LDQ5LjY0LDIzMiw4NywyMzIsMTI4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CircleNotchIcon";
-
-/** @deprecated Use CircleNotchIcon */
-export const CircleNotch = I;
-export { I as CircleNotchIcon };
+I.displayName = "CircleNotch";
+export { I as CircleNotch }

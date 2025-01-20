@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LetterCircleP";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptOC0xMzZIMTA0YTgsOCwwLDAsMC04LDh2ODBhOCw4LDAsMCwwLDE2LDBWMTUyaDI0YTM2LDM2LDAsMCwwLDAtNzJabTAsNTZIMTEyVjk2aDI0YTIwLDIwLDAsMCwxLDAsNDBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/LetterCircleP";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTYsMTE2YTIwLDIwLDAsMCwxLTIwLDIwSDExMlY5NmgyNEEyMCwyMCwwLDAsMSwxNTYsMTE2Wm03NiwxMkExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhabS02MC0xMmEzNiwzNiwwLDAsMC0zNi0zNkgxMDRhOCw4LDAsMCwwLTgsOHY4MGE4LDgsMCwwLDAsMTYsMFYxNTJoMjRBMzYsMzYsMCwwLDAsMTcyLDExNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZabTgtMTM2SDEwNGE4LDgsMCwwLDAtOCw4djgwYTgsOCwwLDAsMCwxNiwwVjE1MmgyNGEzNiwzNiwwLDAsMCwwLTcyWm0wLDU2SDExMlY5NmgyNGEyMCwyMCwwLDAsMSwwLDQwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LetterCirclePIcon";
-
-/** @deprecated Use LetterCirclePIcon */
-export const LetterCircleP = I;
-export { I as LetterCirclePIcon };
+I.displayName = "LetterCircleP";
+export { I as LetterCircleP }

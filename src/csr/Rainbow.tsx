@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Rainbow";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMTY4djE2YTgsOCwwLDAsMS0xNiwwVjE2OGE0MCw0MCwwLDAsMC04MCwwdjE2YTgsOCwwLDAsMS0xNiwwVjE2OGE1Niw1NiwwLDAsMSwxMTIsMFpNMTI4LDgwYTg4LjEsODguMSwwLDAsMC04OCw4OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhNzIsNzIsMCwwLDEsMTQ0LDB2MTZhOCw4LDAsMCwwLDE2LDBWMTY4QTg4LjEsODguMSwwLDAsMCwxMjgsODBabTAtMzJBMTIwLjEzLDEyMC4xMywwLDAsMCw4LDE2OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhMTA0LDEwNCwwLDAsMSwyMDgsMHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhBMTIwLjEzLDEyMC4xMywwLDAsMCwxMjgsNDhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Rainbow";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDhBMTIwLjEzLDEyMC4xMywwLDAsMCw4LDE2OHYxNmE4LDgsMCwwLDAsOCw4SDI0MGE4LDgsMCwwLDAsOC04VjE2OEExMjAuMTMsMTIwLjEzLDAsMCwwLDEyOCw0OFptMzIsMTI4YTgsOCwwLDAsMS04LTgsMjQsMjQsMCwwLDAtNDgsMCw4LDgsMCwwLDEtMTYsMCw0MCw0MCwwLDAsMSw4MCwwQTgsOCwwLDAsMSwxNjAsMTc2Wm0zMiwwYTgsOCwwLDAsMS04LTgsNTYsNTYsMCwwLDAtMTEyLDAsOCw4LDAsMCwxLTE2LDAsNzIsNzIsMCwwLDEsMTQ0LDBBOCw4LDAsMCwxLDE5MiwxNzZabTMyLDBhOCw4LDAsMCwxLTgtOCw4OCw4OCwwLDAsMC0xNzYsMCw4LDgsMCwwLDEtMTYsMCwxMDQsMTA0LDAsMCwxLDIwOCwwQTgsOCwwLDAsMSwyMjQsMTc2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTY4djE2SDE3NlYxNjhhNDgsNDgsMCwwLDAtOTYsMHYxNkgxNlYxNjhhMTEyLDExMiwwLDAsMSwyMjQsMFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0xODQsMTY4djE2YTgsOCwwLDAsMS0xNiwwVjE2OGE0MCw0MCwwLDAsMC04MCwwdjE2YTgsOCwwLDAsMS0xNiwwVjE2OGE1Niw1NiwwLDAsMSwxMTIsMFpNMTI4LDgwYTg4LjEsODguMSwwLDAsMC04OCw4OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhNzIsNzIsMCwwLDEsMTQ0LDB2MTZhOCw4LDAsMCwwLDE2LDBWMTY4QTg4LjEsODguMSwwLDAsMCwxMjgsODBabTAtMzJBMTIwLjEzLDEyMC4xMywwLDAsMCw4LDE2OHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhhMTA0LDEwNCwwLDAsMSwyMDgsMHYxNmE4LDgsMCwwLDAsMTYsMFYxNjhBMTIwLjEzLDEyMC4xMywwLDAsMCwxMjgsNDhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "RainbowIcon";
-
-/** @deprecated Use RainbowIcon */
-export const Rainbow = I;
-export { I as RainbowIcon };
+I.displayName = "Rainbow";
+export { I as Rainbow }

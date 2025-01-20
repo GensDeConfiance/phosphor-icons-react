@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AsteriskSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEsMTAzLjQzbC03MC4xMywyOCw0OS40Nyw2My42MWE4LDgsMCwxLDEtMTIuNjMsOS44MkwxMjgsMTQxLDc4LjMyLDIwNC45MWE4LDgsMCwwLDEtMTIuNjMtOS44Mmw0OS40Ny02My42MUw0NSwxMDMuNDNBOCw4LDAsMCwxLDUxLDg4LjU3bDY5LDI3LjYxVjQwYTgsOCwwLDAsMSwxNiwwdjc2LjE4bDY5LTI3LjYxQTgsOCwwLDEsMSwyMTEsMTAzLjQzWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/AsteriskSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm02My4zNCw5MS44My01MC40LDE2LjM4LDMxLjE1LDQyLjg3YTgsOCwwLDEsMS0xMi45NCw5LjRMMTI4LDE0MS42MSw5Ni44NSwxODQuNDhhOCw4LDAsMCwxLTEyLjk0LTkuNGwzMS4xNS00Mi44Ny01MC40LTE2LjM4YTgsOCwwLDAsMSw0Ljk0LTE1LjIyTDEyMCwxMTdWNjRhOCw4LDAsMCwxLDE2LDB2NTNsNTAuNC0xNi4zOGE4LDgsMCwwLDEsNC45NCwxNS4yMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTI4YTcyLDcyLDAsMSwxLTcyLTcyQTcyLDcyLDAsMCwxLDIwMCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjExLDEwMy40M2wtNzAuMTMsMjgsNDkuNDcsNjMuNjFhOCw4LDAsMSwxLTEyLjYzLDkuODJMMTI4LDE0MSw3OC4zMiwyMDQuOTFhOCw4LDAsMCwxLTEyLjYzLTkuODJsNDkuNDctNjMuNjFMNDUsMTAzLjQzQTgsOCwwLDAsMSw1MSw4OC41N2w2OSwyNy42MVY0MGE4LDgsMCwwLDEsMTYsMHY3Ni4xOGw2OS0yNy42MUE4LDgsMCwxLDEsMjExLDEwMy40M1oiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AsteriskSimpleIcon";
-
-/** @deprecated Use AsteriskSimpleIcon */
-export const AsteriskSimple = I;
-export { I as AsteriskSimpleIcon };
+I.displayName = "AsteriskSimple";
+export { I as AsteriskSimple }

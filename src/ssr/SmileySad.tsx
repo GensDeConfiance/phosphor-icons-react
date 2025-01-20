@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SmileySad";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNODAsMTA4YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDgwLDEwOFptOTYsMGExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNzYsMTA4Wm0tMS4wOCw2NGE4LDgsMCwxLDEtMTMuODQsOGMtNy40Ny0xMi45MS0xOS4yMS0yMC0zMy4wOC0yMHMtMjUuNjEsNy4xLTMzLjA4LDIwYTgsOCwwLDEsMS0xMy44NC04YzEwLjI5LTE3Ljc5LDI3LjM5LTI4LDQ2LjkyLTI4UzE2NC42MywxNTQuMiwxNzQuOTIsMTcyWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/SmileySad";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wk05Miw5NmExMiwxMiwwLDEsMS0xMiwxMkExMiwxMiwwLDAsMSw5Miw5NlptODAsODYuOTJBOCw4LDAsMCwxLDE2MS4wOCwxODBjLTcuNDctMTIuOTEtMTkuMjEtMjAtMzMuMDgtMjBzLTI1LjYxLDcuMS0zMy4wOCwyMGE4LDgsMCwxLDEtMTMuODQtOGMxMC4yOS0xNy43OSwyNy4zOS0yOCw0Ni45Mi0yOHMzNi42MywxMC4yLDQ2LjkyLDI4QTgsOCwwLDAsMSwxNzIsMTgyLjkyWk0xNjQsMTIwYTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDE2NCwxMjBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTgwLDEwOGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSw4MCwxMDhabTk2LDBhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTc2LDEwOFptLTEuMDgsNjRhOCw4LDAsMSwxLTEzLjg0LDhjLTcuNDctMTIuOTEtMTkuMjEtMjAtMzMuMDgtMjBzLTI1LjYxLDcuMS0zMy4wOCwyMGE4LDgsMCwxLDEtMTMuODQtOGMxMC4yOS0xNy43OSwyNy4zOS0yOCw0Ni45Mi0yOFMxNjQuNjMsMTU0LjIsMTc0LjkyLDE3MloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SmileySadIcon";
-
-/** @deprecated Use SmileySadIcon */
-export const SmileySad = I;
-export { I as SmileySadIcon };
+I.displayName = "SmileySad";
+export { I as SmileySad }

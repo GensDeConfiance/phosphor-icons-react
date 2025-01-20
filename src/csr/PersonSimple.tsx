@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PersonSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBBMzIsMzIsMCwxLDAsOTYsNDgsMzIsMzIsMCwwLDAsMTI4LDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDEyOCwzMlpNMjMwLjg2LDEzMi4xMmE4LDgsMCwwLDEtMTEsMi43NGMtLjM1LS4yMS0zNS4xMS0yMC41OS04My44OC0yMi42N1YxNDlsNjIsNjkuNzNhOCw4LDAsMSwxLTEyLDEwLjYyTDEyOCwxNjQsNzAsMjI5LjMxYTgsOCwwLDEsMS0xMi0xMC42MkwxMjAsMTQ5VjExMi4xOGMtNDksMi4wOC04My41MiwyMi40Ni04My44OCwyMi42OGE4LDgsMCwxLDEtOC4yMy0xMy43MkMyOS42LDEyMC4xMSw3MC40NSw5NiwxMjgsOTZzOTguNCwyNC4xMSwxMDAuMTIsMjUuMTRBOCw4LDAsMCwxLDIzMC44NiwxMzIuMTJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/PersonSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05NS44OSw0OGEzMiwzMiwwLDEsMSwzMiwzMkEzMiwzMiwwLDAsMSw5NS44OSw0OFptMTMyLjIzLDczLjE0QzIyNi40LDEyMC4xMSwxODUuNTUsOTYsMTI4LDk2UzI5LjYsMTIwLjExLDI3Ljg4LDEyMS4xNGE4LDgsMCwwLDAsOC4yNCwxMy43MmMuMzYtLjIyLDM0LjkxLTIwLjYsODMuODgtMjIuNjhWMTQ5TDU4LDIxOC42OWE4LDgsMCwxLDAsMTIsMTAuNjJMMTI4LDE2NGw1OCw2NS4yN2E4LDgsMCwwLDAsMTItMTAuNjJMMTM2LDE0OVYxMTIuMTljNDguNzcsMi4wOCw4My41MywyMi40Niw4My44OCwyMi42N2E4LDgsMCwxLDAsOC4yNC0xMy43MloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNDhhMjQsMjQsMCwxLDEtMjQtMjRBMjQsMjQsMCwwLDEsMTUyLDQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEyOCw4MEEzMiwzMiwwLDEsMCw5Niw0OCwzMiwzMiwwLDAsMCwxMjgsODBabTAtNDhhMTYsMTYsMCwxLDEtMTYsMTZBMTYsMTYsMCwwLDEsMTI4LDMyWk0yMzAuODYsMTMyLjEyYTgsOCwwLDAsMS0xMSwyLjc0Yy0uMzUtLjIxLTM1LjExLTIwLjU5LTgzLjg4LTIyLjY3VjE0OWw2Miw2OS43M2E4LDgsMCwxLDEtMTIsMTAuNjJMMTI4LDE2NCw3MCwyMjkuMzFhOCw4LDAsMSwxLTEyLTEwLjYyTDEyMCwxNDlWMTEyLjE4Yy00OSwyLjA4LTgzLjUyLDIyLjQ2LTgzLjg4LDIyLjY4YTgsOCwwLDAsMS04LjI0LTEzLjcyQzI5LjYsMTIwLjExLDcwLjQ1LDk2LDEyOCw5NnM5OC40LDI0LjExLDEwMC4xMiwyNS4xNEE4LDgsMCwwLDEsMjMwLjg2LDEzMi4xMloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PersonSimpleIcon";
-
-/** @deprecated Use PersonSimpleIcon */
-export const PersonSimple = I;
-export { I as PersonSimpleIcon };
+I.displayName = "PersonSimple";
+export { I as PersonSimple }

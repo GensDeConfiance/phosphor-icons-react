@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChartLine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjA4YTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsMTYsMHY5NC4zN0w5MC43Myw5OGE4LDgsMCwwLDEsMTAuMDctLjM4bDU4LjgxLDQ0LjExTDIxOC43Myw5MGE4LDgsMCwxLDEsMTAuNTQsMTJsLTY0LDU2YTgsOCwwLDAsMS0xMC4wNy4zOEw5Ni4zOSwxMTQuMjksNDAsMTYzLjYzVjIwMEgyMjRBOCw4LDAsMCwxLDIzMiwyMDhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ChartLine";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBaTTIwMCwxNzZhOCw4LDAsMCwxLDAsMTZINTZhOCw4LDAsMCwxLTgtOFY3MmE4LDgsMCwwLDEsMTYsMHY2Mi45MmwzNC44OC0yOS4wN2E4LDgsMCwwLDEsOS41Ni0uNTFsNDMsMjguNjksNDMuNDEtMzYuMThhOCw4LDAsMCwxLDEwLjI0LDEyLjNsLTQ4LDQwYTgsOCwwLDAsMS05LjU2LjUxbC00My0yOC42OUw2NCwxNTUuNzVWMTc2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjRWMjA4SDMyVjQ4SDIwOEExNiwxNiwwLDAsMSwyMjQsNjRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMyLDIwOGE4LDgsMCwwLDEtOCw4SDMyYTgsOCwwLDAsMS04LThWNDhhOCw4LDAsMCwxLDE2LDB2OTQuMzdMOTAuNzMsOThhOCw4LDAsMCwxLDEwLjA3LS4zOGw1OC44MSw0NC4xMUwyMTguNzMsOTBhOCw4LDAsMSwxLDEwLjU0LDEybC02NCw1NmE4LDgsMCwwLDEtMTAuMDcuMzhMOTYuMzksMTE0LjI5LDQwLDE2My42M1YyMDBIMjI0QTgsOCwwLDAsMSwyMzIsMjA4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChartLineIcon";
-
-/** @deprecated Use ChartLineIcon */
-export const ChartLine = I;
-export { I as ChartLineIcon };
+I.displayName = "ChartLine";
+export { I as ChartLine }

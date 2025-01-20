@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BracketsAngle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04Ni43NSw0NC4zLDMzLjQ4LDEyOGw1My4yNyw4My43YTgsOCwwLDAsMS0yLjQ2LDExLjA1QTcuOTEsNy45MSwwLDAsMSw4MCwyMjRhOCw4LDAsMCwxLTYuNzYtMy43MWwtNTYtODhhOCw4LDAsMCwxLDAtOC41OWw1Ni04OGE4LDgsMCwxLDEsMTMuNSw4LjU5Wm0xNTIsNzkuNDEtNTYtODhhOCw4LDAsMSwwLTEzLjUsOC41OUwyMjIuNTIsMTI4bC01My4yNyw4My43YTgsOCwwLDAsMCwyLjQ2LDExLjA1QTcuOTEsNy45MSwwLDAsMCwxNzYsMjI0YTgsOCwwLDAsMCw2Ljc2LTMuNzFsNTYtODhBOCw4LDAsMCwwLDIzOC43NSwxMjMuNzFaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/BracketsAngle";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBaTTEwMywxODBBOCw4LDAsMCwxLDg5LjA1LDE4OGwtMzItNTZhOCw4LDAsMCwxLDAtNy45NGwzMi01NkE4LDgsMCwwLDEsMTAzLDc2TDczLjIxLDEyOFpNMTk5LDEzMmwtMzIsNTZhOCw4LDAsMCwxLTEzLjktNy45NGwyOS43NC01MkwxNTMuMDUsNzZBOCw4LDAsMSwxLDE2Nyw2OGwzMiw1NkE4LDgsMCwwLDEsMTk5LDEzMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI4bC01Niw4OEg4MEwyNCwxMjgsODAsNDBoOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNODYuNzUsNDQuMywzMy40OCwxMjhsNTMuMjcsODMuN2E4LDgsMCwwLDEtMi40NiwxMS4wNUE3LjkxLDcuOTEsMCwwLDEsODAsMjI0YTgsOCwwLDAsMS02Ljc2LTMuNzFsLTU2LTg4YTgsOCwwLDAsMSwwLTguNTlsNTYtODhhOCw4LDAsMSwxLDEzLjUsOC41OVptMTUyLDc5LjQxLTU2LTg4YTgsOCwwLDEsMC0xMy41LDguNTlMMjIyLjUyLDEyOGwtNTMuMjcsODMuN2E4LDgsMCwwLDAsMi40NiwxMS4wNUE3LjkxLDcuOTEsMCwwLDAsMTc2LDIyNGE4LDgsMCwwLDAsNi43Ni0zLjcxbDU2LTg4QTgsOCwwLDAsMCwyMzguNzUsMTIzLjcxWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BracketsAngleIcon";
-
-/** @deprecated Use BracketsAngleIcon */
-export const BracketsAngle = I;
-export { I as BracketsAngleIcon };
+I.displayName = "BracketsAngle";
+export { I as BracketsAngle }

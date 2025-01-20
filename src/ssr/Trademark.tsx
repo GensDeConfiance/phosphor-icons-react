@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Trademark";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTEyLDEwNGE4LDgsMCwwLDEtOCw4SDk2djQwYTgsOCwwLDAsMS0xNiwwVjExMkg3MmE4LDgsMCwwLDEsMC0xNmgzMkE4LDgsMCwwLDEsMTEyLDEwNFptODAsMHY0OGE4LDgsMCwwLDEtMTYsMFYxMjUuMjlsLTE0LDE2YTgsOCwwLDAsMS0xMiwwbC0xNC0xNlYxNTJhOCw4LDAsMCwxLTE2LDBWMTA0YTgsOCwwLDAsMSwxNC01LjI3bDIyLDI1LjEyLDIyLTI1LjEyQTgsOCwwLDAsMSwxOTIsMTA0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Trademark";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0tMjQsODhIOTZ2NDBhOCw4LDAsMCwxLTE2LDBWMTEySDcyYTgsOCwwLDAsMSwwLTE2aDMyYTgsOCwwLDAsMSwwLDE2Wm04OCw0MGE4LDgsMCwwLDEtMTYsMFYxMjUuMjlsLTE0LDE2YTgsOCwwLDAsMS0xMiwwbC0xNC0xNlYxNTJhOCw4LDAsMCwxLTE2LDBWMTA0YTgsOCwwLDAsMSwxNC01LjI3bDIyLDI1LjEyLDIyLTI1LjEyQTgsOCwwLDAsMSwxOTIsMTA0WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTExMiwxMDRhOCw4LDAsMCwxLTgsOEg5NnY0MGE4LDgsMCwwLDEtMTYsMFYxMTJINzJhOCw4LDAsMCwxLDAtMTZoMzJBOCw4LDAsMCwxLDExMiwxMDRabTgwLDB2NDhhOCw4LDAsMCwxLTE2LDBWMTI1LjI5bC0xNCwxNmE4LDgsMCwwLDEtMTIsMGwtMTQtMTZWMTUyYTgsOCwwLDAsMS0xNiwwVjEwNGE4LDgsMCwwLDEsMTQtNS4yN2wyMiwyNS4xMiwyMi0yNS4xMkE4LDgsMCwwLDEsMTkyLDEwNFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TrademarkIcon";
-
-/** @deprecated Use TrademarkIcon */
-export const Trademark = I;
-export { I as TrademarkIcon };
+I.displayName = "Trademark";
+export { I as Trademark }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CurrencyCny";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01Niw1NmE4LDgsMCwwLDEsOC04SDE5MmE4LDgsMCwwLDEsMCwxNkg2NEE4LDgsMCwwLDEsNTYsNTZaTTIxNiwxNjBhOCw4LDAsMCwwLTgsOHYxNkgxNzZhMTYsMTYsMCwwLDEtMTYtMTZWMTIwaDQ4YTgsOCwwLDAsMCwwLTE2SDQ4YTgsOCwwLDAsMCwwLDE2SDk2djhhNTYuMDYsNTYuMDYsMCwwLDEtNTYsNTYsOCw4LDAsMCwwLDAsMTYsNzIuMDgsNzIuMDgsMCwwLDAsNzItNzJ2LThoMzJ2NDhhMzIsMzIsMCwwLDAsMzIsMzJoNDBhOCw4LDAsMCwwLDgtOFYxNjhBOCw4LDAsMCwwLDIxNiwxNjBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/CurrencyCny";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZBMTA0LDEwNCwwLDEsMCwyMzIsMTIwLDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDE2Wk04OCw3Mmg4MGE4LDgsMCwwLDEsMCwxNkg4OGE4LDgsMCwwLDEsMC0xNlptMTA0LDg4YTgsOCwwLDAsMS04LDhIMTYwYTI0LDI0LDAsMCwxLTI0LTI0VjEyMEgxMjBhNDguMDUsNDguMDUsMCwwLDEtNDgsNDgsOCw4LDAsMCwxLDAtMTYsMzIsMzIsMCwwLDAsMzItMzJIODBhOCw4LDAsMCwxLDAtMTZoOTZhOCw4LDAsMCwxLDAsMTZIMTUydjI0YTgsOCwwLDAsMCw4LDhoMTZ2LThhOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNTZ2NTZINjRWNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNNTYsNTZhOCw4LDAsMCwxLDgtOEgxOTJhOCw4LDAsMCwxLDAsMTZINjRBOCw4LDAsMCwxLDU2LDU2Wk0yMTYsMTYwYTgsOCwwLDAsMC04LDh2MTZIMTc2YTE2LDE2LDAsMCwxLTE2LTE2VjEyMGg0OGE4LDgsMCwwLDAsMC0xNkg0OGE4LDgsMCwwLDAsMCwxNkg5NnY4YTU2LjA2LDU2LjA2LDAsMCwxLTU2LDU2LDgsOCwwLDAsMCwwLDE2LDcyLjA4LDcyLjA4LDAsMCwwLDcyLTcydi04aDMydjQ4YTMyLDMyLDAsMCwwLDMyLDMyaDQwYTgsOCwwLDAsMCw4LThWMTY4QTgsOCwwLDAsMCwyMTYsMTYwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CurrencyCnyIcon";
-
-/** @deprecated Use CurrencyCnyIcon */
-export const CurrencyCny = I;
-export { I as CurrencyCnyIcon };
+I.displayName = "CurrencyCny";
+export { I as CurrencyCny }

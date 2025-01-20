@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SubsetProperOf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMjA4YTgsOCwwLDAsMS04LDhIMTI4YTg4LDg4LDAsMCwxLDAtMTc2aDcyYTgsOCwwLDAsMSwwLDE2SDEyOGE3Miw3MiwwLDAsMCwwLDE0NGg3MkE4LDgsMCwwLDEsMjA4LDIwOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/SubsetProperOf";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTEyOCwxNzZoNDhhOCw4LDAsMCwxLDAsMTZIMTI4YTY0LDY0LDAsMCwxLDAtMTI4aDQ4YTgsOCwwLDAsMSwwLDE2SDEyOGE0OCw0OCwwLDAsMCwwLDk2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDhWMjA4SDEyOGE4MCw4MCwwLDAsMS04MC04MGgwYTgwLDgwLDAsMCwxLDgwLTgwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCwyMDhhOCw4LDAsMCwxLTgsOEgxMjhhODgsODgsMCwwLDEsMC0xNzZoNzJhOCw4LDAsMCwxLDAsMTZIMTI4YTcyLDcyLDAsMCwwLDAsMTQ0aDcyQTgsOCwwLDAsMSwyMDgsMjA4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SubsetProperOfIcon";
-
-/** @deprecated Use SubsetProperOfIcon */
-export const SubsetProperOf = I;
-export { I as SubsetProperOfIcon };
+I.displayName = "SubsetProperOf";
+export { I as SubsetProperOf }

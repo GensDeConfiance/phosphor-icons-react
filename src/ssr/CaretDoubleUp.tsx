@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CaretDoubleUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTk0LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMjgsMTMxLjMxLDUzLjY2LDIwNS42NmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsODAtODBhOCw4LDAsMCwxLDExLjMyLDBabS0xNjAtNjguNjhMMTI4LDUxLjMxbDc0LjM0LDc0LjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMmwtODAtODBhOCw4LDAsMCwwLTExLjMyLDBsLTgwLDgwYTgsOCwwLDAsMCwxMS4zMiwxMS4zMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/CaretDoubleUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTk0LjM0QTgsOCwwLDAsMSwyMDgsMjA4SDQ4YTgsOCwwLDAsMS01LjY2LTEzLjY2TDEwOC42OSwxMjhINDhhOCw4LDAsMCwxLTUuNjYtMTMuNjZsODAtODBhOCw4LDAsMCwxLDExLjMyLDBsODAsODBBOCw4LDAsMCwxLDIwOCwxMjhIMTQ3LjMxWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMjAwSDQ4bDgwLTgwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEzMy42NiwxMTQuMzRhOCw4LDAsMCwwLTExLjMyLDBsLTgwLDgwQTgsOCwwLDAsMCw0OCwyMDhIMjA4YTgsOCwwLDAsMCw1LjY2LTEzLjY2Wk02Ny4zMSwxOTIsMTI4LDEzMS4zMSwxODguNjksMTkyWm0tMjUtNjYuMzRhOCw4LDAsMCwxLDAtMTEuMzJsODAtODBhOCw4LDAsMCwxLDExLjMyLDBsODAsODBhOCw4LDAsMCwxLTExLjMyLDExLjMyTDEyOCw1MS4zMSw1My42NiwxMjUuNjZBOCw4LDAsMCwxLDQyLjM0LDEyNS42NloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CaretDoubleUpIcon";
-
-/** @deprecated Use CaretDoubleUpIcon */
-export const CaretDoubleUp = I;
-export { I as CaretDoubleUpIcon };
+I.displayName = "CaretDoubleUp";
+export { I as CaretDoubleUp }

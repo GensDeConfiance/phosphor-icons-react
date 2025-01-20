@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GridFour";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBabTAsODBIMTM2VjU2aDY0Wk0xMjAsNTZ2NjRINTZWNTZaTTU2LDEzNmg2NHY2NEg1NlptMTQ0LDY0SDEzNlYxMzZoNjR2NjRaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/GridFour";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNTZ2NjBhNCw0LDAsMCwxLTQsNEgxMzZWNDRhNCw0LDAsMCwxLDQtNGg2MEExNiwxNiwwLDAsMSwyMTYsNTZaTTExNiw0MEg1NkExNiwxNiwwLDAsMCw0MCw1NnY2MGE0LDQsMCwwLDAsNCw0aDc2VjQ0QTQsNCwwLDAsMCwxMTYsNDBabTk2LDk2SDEzNnY3NmE0LDQsMCwwLDAsNCw0aDYwYTE2LDE2LDAsMCwwLDE2LTE2VjE0MEE0LDQsMCwwLDAsMjEyLDEzNlpNNDAsMTQwdjYwYTE2LDE2LDAsMCwwLDE2LDE2aDYwYTQsNCwwLDAsMCw0LTRWMTM2SDQ0QTQsNCwwLDAsMCw0MCwxNDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNTZWMjAwYTgsOCwwLDAsMS04LDhINTZhOCw4LDAsMCwxLTgtOFY1NmE4LDgsMCwwLDEsOC04SDIwMEE4LDgsMCwwLDEsMjA4LDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwMCw0MEg1NkExNiwxNiwwLDAsMCw0MCw1NlYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjAwYTE2LDE2LDAsMCwwLDE2LTE2VjU2QTE2LDE2LDAsMCwwLDIwMCw0MFptMCw4MEgxMzZWNTZoNjRaTTEyMCw1NnY2NEg1NlY1NlpNNTYsMTM2aDY0djY0SDU2Wm0xNDQsNjRIMTM2VjEzNmg2NHY2NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GridFourIcon";
-
-/** @deprecated Use GridFourIcon */
-export const GridFour = I;
-export { I as GridFourIcon };
+I.displayName = "GridFour";
+export { I as GridFour }

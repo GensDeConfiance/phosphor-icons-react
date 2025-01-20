@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NotEquals";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwYTgsOCwwLDAsMS04LDhIMTAyLjQ1TDUzLjkyLDIyMS4zOGE4LDgsMCwwLDEtMTEuODQtMTAuNzZMODAuODIsMTY4SDQwYTgsOCwwLDAsMSwwLTE2SDk1LjM3TDEzOSwxMDRINDBhOCw4LDAsMCwxLDAtMTZIMTUzLjU1bDQ4LjUzLTUzLjM4YTgsOCwwLDAsMSwxMS44NCwxMC43NkwxNzUuMTgsODhIMjE2YTgsOCwwLDAsMSwwLDE2SDE2MC42M0wxMTcsMTUyaDk5QTgsOCwwLDAsMSwyMjQsMTYwWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/NotEquals";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTE4NCwxNDRhOCw4LDAsMCwxLDAsMTZIMTEwLjYzTDc4LDE5Ny4yN2E4LDgsMCwwLDEtMTItMTAuNTRMODkuMzcsMTYwSDcyYTgsOCwwLDAsMSwwLTE2aDMxLjM3bDI4LTMySDcyYTgsOCwwLDAsMSwwLTE2aDczLjM3TDE3OCw1OC43M2E4LDgsMCwxLDEsMTIsMTAuNTRMMTY2LjYzLDk2SDE4NGE4LDgsMCwwLDEsMCwxNkgxNTIuNjNsLTI4LDMyWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNTZWMjAwYTE2LDE2LDAsMCwxLTE2LDE2SDU2YTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDU2LDQwSDIwMEExNiwxNiwwLDAsMSwyMTYsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDE2MGE4LDgsMCwwLDEtOCw4SDEwMi40NUw1My45MiwyMjEuMzhhOCw4LDAsMCwxLTExLjg0LTEwLjc2TDgwLjgyLDE2OEg0MGE4LDgsMCwwLDEsMC0xNkg5NS4zN0wxMzksMTA0SDQwYTgsOCwwLDAsMSwwLTE2SDE1My41NWw0OC41My01My4zOGE4LDgsMCwwLDEsMTEuODQsMTAuNzZMMTc1LjE4LDg4SDIxNmE4LDgsMCwwLDEsMCwxNkgxNjAuNjNMMTE3LDE1Mmg5OUE4LDgsMCwwLDEsMjI0LDE2MFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotEqualsIcon";
-
-/** @deprecated Use NotEqualsIcon */
-export const NotEquals = I;
-export { I as NotEqualsIcon };
+I.displayName = "NotEquals";
+export { I as NotEquals }

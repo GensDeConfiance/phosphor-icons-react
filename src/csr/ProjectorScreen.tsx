@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ProjectorScreen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRWNDhhMTYsMTYsMCwwLDAtMTYtMTZINDBBMTYsMTYsMCwwLDAsMjQsNDhWNjRBMTYsMTYsMCwwLDAsNDAsODB2OTZIMzJhOCw4LDAsMCwwLDAsMTZoODh2MTcuMzhhMjQsMjQsMCwxLDAsMTYsMFYxOTJoODhhOCw4LDAsMCwwLDAtMTZoLThWODBBMTYsMTYsMCwwLDAsMjMyLDY0Wk0xMjgsMjQwYTgsOCwwLDEsMSw4LThBOCw4LDAsMCwxLDEyOCwyNDBaTTQwLDQ4SDIxNlY2NEg0MFpNMjAwLDE3Nkg1NlY4MEgyMDBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ProjectorScreen";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRWNDhhMTYsMTYsMCwwLDAtMTYtMTZINDBBMTYsMTYsMCwwLDAsMjQsNDhWNjRBMTYsMTYsMCwwLDAsNDAsODB2OTZIMzJhOCw4LDAsMCwwLDAsMTZoODh2MTcuMzhhMjQsMjQsMCwxLDAsMTYsMFYxOTJoODhhOCw4LDAsMCwwLDAtMTZoLThWODBBMTYsMTYsMCwwLDAsMjMyLDY0Wk0xMjgsMjQwYTgsOCwwLDEsMSw4LThBOCw4LDAsMCwxLDEyOCwyNDBaTTQwLDQ4SDIxNlY2NEg0MFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNzJWMTg0SDQ4VjcyWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIzMiw2NFY0OGExNiwxNiwwLDAsMC0xNi0xNkg0MEExNiwxNiwwLDAsMCwyNCw0OFY2NEExNiwxNiwwLDAsMCw0MCw4MHY5NkgzMmE4LDgsMCwwLDAsMCwxNmg4OHYxNy4zOGEyNCwyNCwwLDEsMCwxNiwwVjE5Mmg4OGE4LDgsMCwwLDAsMC0xNmgtOFY4MEExNiwxNiwwLDAsMCwyMzIsNjRaTTEyOCwyNDBhOCw4LDAsMSwxLDgtOEE4LDgsMCwwLDEsMTI4LDI0MFpNNDAsNDhIMjE2VjY0SDQwWk0yMDAsMTc2SDU2VjgwSDIwMFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ProjectorScreenIcon";
-
-/** @deprecated Use ProjectorScreenIcon */
-export const ProjectorScreen = I;
-export { I as ProjectorScreenIcon };
+I.displayName = "ProjectorScreen";
+export { I as ProjectorScreen }

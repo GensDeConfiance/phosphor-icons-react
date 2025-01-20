@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Copyright";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNOTYsMTI4YTMyLDMyLDAsMCwwLDU3LjYsMTkuMiw4LDgsMCwwLDEsMTIuOCw5LjYxLDQ4LDQ4LDAsMSwxLDAtNTcuNjIsOCw4LDAsMCwxLTEyLjgsOS42MUEzMiwzMiwwLDAsMCw5NiwxMjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Copyright";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNTZhNzIsNzIsMCwxLDAsNzIsNzJBNzIuMDgsNzIuMDgsMCwwLDAsMTI4LDU2Wm0wLDEwNGEzMS44LDMxLjgsMCwwLDAsMjUuNjEtMTIuOCw4LDgsMCwxLDEsMTIuNzksOS42MSw0OCw0OCwwLDEsMSwwLTU3LjYzLDgsOCwwLDEsMS0xMi43OSw5LjYxQTMyLDMyLDAsMSwwLDEyOCwxNjBabTAtMTM2QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTk2LDEyOGEzMiwzMiwwLDAsMCw1Ny42LDE5LjIsOCw4LDAsMCwxLDEyLjgsOS42MSw0OCw0OCwwLDEsMSwwLTU3LjYyLDgsOCwwLDAsMS0xMi44LDkuNjFBMzIsMzIsMCwwLDAsOTYsMTI4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CopyrightIcon";
-
-/** @deprecated Use CopyrightIcon */
-export const Copyright = I;
-export { I as CopyrightIcon };
+I.displayName = "Copyright";
+export { I as Copyright }

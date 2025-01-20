@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PicnicTable";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTI4SDIwMC45NGwtMjgtNTZIMTkyYTgsOCwwLDAsMCwwLTE2SDY0YTgsOCwwLDAsMCwwLDE2SDgzLjA2bC0yOCw1Nkg4YTgsOCwwLDAsMCwwLDE2SDQ3LjA2TDI0Ljg0LDE4OC40MmE4LDgsMCwwLDAsMy41OCwxMC43M0E3LjksNy45LDAsMCwwLDMyLDIwMGE4LDgsMCwwLDAsNy4xNy00LjQyTDY0Ljk0LDE0NEgxOTEuMDZsMjUuNzgsNTEuNThBOCw4LDAsMCwwLDIyNCwyMDBhNy45LDcuOSwwLDAsMCwzLjU3LS44NSw4LDgsMCwwLDAsMy41OC0xMC43M0wyMDguOTQsMTQ0SDI0OGE4LDgsMCwwLDAsMC0xNlpNNzIuOTQsMTI4bDI4LTU2aDU0LjEybDI4LDU2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/PicnicTable";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDYuODUsOTZsMTQuNTQsMzJIOTQuNjFsMTQuNTQtMzJaTTIzMiw1NlYyMDBhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWNTZBMTYsMTYsMCwwLDEsNDAsNDBIMjE2QTE2LDE2LDAsMCwxLDIzMiw1NlptLTI0LDgwYTgsOCwwLDAsMC04LThIMTc5TDE2NC40Miw5NkgxNzZhOCw4LDAsMCwwLDAtMTZIODBhOCw4LDAsMCwwLDAsMTZIOTEuNThMNzcsMTI4SDU2YTgsOCwwLDAsMCwwLDE2SDY5Ljc2bC0xMywyOC42OWE4LDgsMCwxLDAsMTQuNTYsNi42MmwxNi0zNS4zMWg4MS4zNGwxNi4wNSwzNS4zMWE4LDgsMCwwLDAsMTQuNTYtNi42MmwtMTMtMjguNjlIMjAwQTgsOCwwLDAsMCwyMDgsMTM2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTkySDMyTDk2LDY0aDY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0OCwxMjhIMjAwLjk0bC0yOC01NkgxOTJhOCw4LDAsMCwwLDAtMTZINjRhOCw4LDAsMCwwLDAsMTZIODMuMDZsLTI4LDU2SDhhOCw4LDAsMCwwLDAsMTZINDcuMDZMMjQuODQsMTg4LjQyYTgsOCwwLDAsMCwzLjU4LDEwLjczQTcuOSw3LjksMCwwLDAsMzIsMjAwYTgsOCwwLDAsMCw3LjE3LTQuNDJMNjQuOTQsMTQ0SDE5MS4wNmwyNS43OCw1MS41OEE4LDgsMCwwLDAsMjI0LDIwMGE3LjksNy45LDAsMCwwLDMuNTctLjg1LDgsOCwwLDAsMCwzLjU4LTEwLjczTDIwOC45NCwxNDRIMjQ4YTgsOCwwLDAsMCwwLTE2Wk03Mi45NCwxMjhsMjgtNTZoNTQuMTJsMjgsNTZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PicnicTableIcon";
-
-/** @deprecated Use PicnicTableIcon */
-export const PicnicTable = I;
-export { I as PicnicTableIcon };
+I.displayName = "PicnicTable";
+export { I as PicnicTable }

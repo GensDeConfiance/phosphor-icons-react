@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DotsSix";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03Miw5MkExMiwxMiwwLDEsMSw2MCw4MCwxMiwxMiwwLDAsMSw3Miw5MlptNTYtMTJhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTI4LDgwWm02OCwyNGExMiwxMiwwLDEsMC0xMi0xMkExMiwxMiwwLDAsMCwxOTYsMTA0Wk02MCwxNTJhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsNjAsMTUyWm02OCwwYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDEyOCwxNTJabTY4LDBhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTk2LDE1MloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/DotsSix";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhaTTY4LDE2OGExMiwxMiwwLDEsMSwxMi0xMkExMiwxMiwwLDAsMSw2OCwxNjhabTAtNTZhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsNjgsMTEyWm02MCw1NmExMiwxMiwwLDEsMSwxMi0xMkExMiwxMiwwLDAsMSwxMjgsMTY4Wm0wLTU2YTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDEyOCwxMTJabTYwLDU2YTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDE4OCwxNjhabTAtNTZhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsMTg4LDExMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsNjRWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDMyYTE2LDE2LDAsMCwxLTE2LTE2VjY0QTE2LDE2LDAsMCwxLDMyLDQ4SDIyNEExNiwxNiwwLDAsMSwyNDAsNjRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNNzIsOTJBMTIsMTIsMCwxLDEsNjAsODAsMTIsMTIsMCwwLDEsNzIsOTJabTU2LTEyYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDEyOCw4MFptNjgsMjRhMTIsMTIsMCwxLDAtMTItMTJBMTIsMTIsMCwwLDAsMTk2LDEwNFpNNjAsMTUyYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDYwLDE1MlptNjgsMGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCwxMjgsMTUyWm02OCwwYTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDE5NiwxNTJaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DotsSixIcon";
-
-/** @deprecated Use DotsSixIcon */
-export const DotsSix = I;
-export { I as DotsSixIcon };
+I.displayName = "DotsSix";
+export { I as DotsSix }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GenderFemale";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsOTZhODAsODAsMCwxLDAtODgsNzkuNlYyMDBIODhhOCw4LDAsMCwwLDAsMTZoMzJ2MjRhOCw4LDAsMCwwLDE2LDBWMjE2aDMyYTgsOCwwLDAsMCwwLTE2SDEzNlYxNzUuNkE4MC4xMSw4MC4xMSwwLDAsMCwyMDgsOTZaTTY0LDk2YTY0LDY0LDAsMSwxLDY0LDY0QTY0LjA3LDY0LjA3LDAsMCwxLDY0LDk2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/GenderFemale";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTQ0YTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDEyOCwxNDRaTTIxNiw0MFYyMTZhMTYsMTYsMCwwLDEtMTYsMTZINTZhMTYsMTYsMCwwLDEtMTYtMTZWNDBBMTYsMTYsMCwwLDEsNTYsMjRIMjAwQTE2LDE2LDAsMCwxLDIxNiw0MFpNMTM2LDE3NlYxNTkuNDJhNTYsNTYsMCwxLDAtMTYsMFYxNzZIOTZhOCw4LDAsMCwwLDAsMTZoMjR2MTZhOCw4LDAsMCwwLDE2LDBWMTkyaDI0YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsOTZhNzIsNzIsMCwxLDEtNzItNzJBNzIsNzIsMCwwLDEsMjAwLDk2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCw5NmE4MCw4MCwwLDEsMC04OCw3OS42VjIwMEg4OGE4LDgsMCwwLDAsMCwxNmgzMnYyNGE4LDgsMCwwLDAsMTYsMFYyMTZoMzJhOCw4LDAsMCwwLDAtMTZIMTM2VjE3NS42QTgwLjExLDgwLjExLDAsMCwwLDIwOCw5NlpNNjQsOTZhNjQsNjQsMCwxLDEsNjQsNjRBNjQuMDcsNjQuMDcsMCwwLDEsNjQsOTZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GenderFemaleIcon";
-
-/** @deprecated Use GenderFemaleIcon */
-export const GenderFemale = I;
-export { I as GenderFemaleIcon };
+I.displayName = "GenderFemale";
+export { I as GenderFemale }

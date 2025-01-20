@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ThermometerSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTUzVjg4YTgsOCwwLDAsMC0xNiwwdjY1YTMyLDMyLDAsMSwwLDE2LDBabS04LDQ3YTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDEyOCwyMDBabTQwLTY2VjQ4YTQwLDQwLDAsMCwwLTgwLDB2ODZhNjQsNjQsMCwxLDAsODAsMFptLTQwLDk4YTQ4LDQ4LDAsMCwxLTI3LjQyLTg3LjRBOCw4LDAsMCwwLDEwNCwxMzhWNDhhMjQsMjQsMCwwLDEsNDgsMHY5MGE4LDgsMCwwLDAsMy40Miw2LjU2QTQ4LDQ4LDAsMCwxLDEyOCwyMzJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ThermometerSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTQ2LjA4VjQwYTMyLDMyLDAsMCwwLTY0LDBWMTQ2LjA4YTU2LDU2LDAsMSwwLDY0LDBaTTEyOCwyNGExNiwxNiwwLDAsMSwxNiwxNnY2NEgxMTJWNDBBMTYsMTYsMCwwLDEsMTI4LDI0WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTM4VjQ4YTMyLDMyLDAsMCwwLTY0LDB2OTBhNTYsNTYsMCwxLDAsNjQsMFptLTMyLDcwYTI0LDI0LDAsMSwxLDI0LTI0QTI0LDI0LDAsMCwxLDEyOCwyMDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTM2LDE1M1Y4OGE4LDgsMCwwLDAtMTYsMHY2NWEzMiwzMiwwLDEsMCwxNiwwWm0tOCw0N2ExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwxMjgsMjAwWm00MC02NlY0OGE0MCw0MCwwLDAsMC04MCwwdjg2YTY0LDY0LDAsMSwwLDgwLDBabS00MCw5OGE0OCw0OCwwLDAsMS0yNy40Mi04Ny40QTgsOCwwLDAsMCwxMDQsMTM4VjQ4YTI0LDI0LDAsMCwxLDQ4LDB2OTBhOCw4LDAsMCwwLDMuNDIsNi41NkE0OCw0OCwwLDAsMSwxMjgsMjMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ThermometerSimpleIcon";
-
-/** @deprecated Use ThermometerSimpleIcon */
-export const ThermometerSimple = I;
-export { I as ThermometerSimpleIcon };
+I.displayName = "ThermometerSimple";
+export { I as ThermometerSimple }

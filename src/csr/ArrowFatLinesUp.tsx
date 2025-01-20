@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowFatLinesUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTE0LjM0bC05Ni05NmE4LDgsMCwwLDAtMTEuMzIsMGwtOTYsOTZBOCw4LDAsMCwwLDMyLDEyOEg3MnYyNGE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThWMTI4aDQwYTgsOCwwLDAsMCw1LjY2LTEzLjY2Wk0xNzYsMTEyYTgsOCwwLDAsMC04LDh2MjRIODhWMTIwYTgsOCwwLDAsMC04LThINTEuMzFMMTI4LDM1LjMxLDIwNC42OSwxMTJabTgsMTA0YTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLDAtMTZoOTZBOCw4LDAsMCwxLDE4NCwyMTZabTAtMzJhOCw4LDAsMCwxLTgsOEg4MGE4LDgsMCwwLDEsMC0xNmg5NkE4LDgsMCwwLDEsMTg0LDE4NFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowFatLinesUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODQsMjE2YTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLDAtMTZoOTZBOCw4LDAsMCwxLDE4NCwyMTZabTQ1LjY2LTEwMS42Ni05Ni05NmE4LDgsMCwwLDAtMTEuMzIsMGwtOTYsOTZBOCw4LDAsMCwwLDMyLDEyOEg3MnYyNGE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThWMTI4aDQwYTgsOCwwLDAsMCw1LjY2LTEzLjY2Wk0xNzYsMTc2SDgwYTgsOCwwLDAsMCwwLDE2aDk2YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTIwSDE3NnYzMkg4MFYxMjBIMzJsOTYtOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI5LjY2LDExNC4zNGwtOTYtOTZhOCw4LDAsMCwwLTExLjMyLDBsLTk2LDk2QTgsOCwwLDAsMCwzMiwxMjhINzJ2MjRhOCw4LDAsMCwwLDgsOGg5NmE4LDgsMCwwLDAsOC04VjEyOGg0MGE4LDgsMCwwLDAsNS42Ni0xMy42NlpNMTc2LDExMmE4LDgsMCwwLDAtOCw4djI0SDg4VjEyMGE4LDgsMCwwLDAtOC04SDUxLjMxTDEyOCwzNS4zMSwyMDQuNjksMTEyWm04LDEwNGE4LDgsMCwwLDEtOCw4SDgwYTgsOCwwLDAsMSwwLTE2aDk2QTgsOCwwLDAsMSwxODQsMjE2Wm0wLTMyYTgsOCwwLDAsMS04LDhIODBhOCw4LDAsMCwxLDAtMTZoOTZBOCw4LDAsMCwxLDE4NCwxODRaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowFatLinesUpIcon";
-
-/** @deprecated Use ArrowFatLinesUpIcon */
-export const ArrowFatLinesUp = I;
-export { I as ArrowFatLinesUpIcon };
+I.displayName = "ArrowFatLinesUp";
+export { I as ArrowFatLinesUp }

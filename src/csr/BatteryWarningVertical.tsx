@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/BatteryWarningVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjAsMTM2Vjk2YTgsOCwwLDAsMSwxNiwwdjQwYTgsOCwwLDAsMS0xNiwwWm04LDI0YTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDEyOCwxNjBaTTk2LDE2aDY0YTgsOCwwLDAsMCwwLTE2SDk2YTgsOCwwLDAsMCwwLDE2Wk0yMDAsNTZWMjI0YTI0LDI0LDAsMCwxLTI0LDI0SDgwYTI0LDI0LDAsMCwxLTI0LTI0VjU2QTI0LDI0LDAsMCwxLDgwLDMyaDk2QTI0LDI0LDAsMCwxLDIwMCw1NlptLTE2LDBhOCw4LDAsMCwwLTgtOEg4MGE4LDgsMCwwLDAtOCw4VjIyNGE4LDgsMCwwLDAsOCw4aDk2YTgsOCwwLDAsMCw4LThaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/BatteryWarningVertical";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDhaTTIwMCw1NlYyMjRhMjQsMjQsMCwwLDEtMjQsMjRIODBhMjQsMjQsMCwwLDEtMjQtMjRWNTZBMjQsMjQsMCwwLDEsODAsMzJoOTZBMjQsMjQsMCwwLDEsMjAwLDU2Wm0tODAsODBhOCw4LDAsMCwwLDE2LDBWOTZhOCw4LDAsMCwwLTE2LDBabTIwLDM2YTEyLDEyLDAsMSwwLTEyLDEyQTEyLDEyLDAsMCwwLDE0MCwxNzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNTZWMjI0YTE2LDE2LDAsMCwxLTE2LDE2SDgwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDgwLDQwaDk2QTE2LDE2LDAsMCwxLDE5Miw1NloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik04OCw4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDhaTTIwMCw1NlYyMjRhMjQsMjQsMCwwLDEtMjQsMjRIODBhMjQsMjQsMCwwLDEtMjQtMjRWNTZBMjQsMjQsMCwwLDEsODAsMzJoOTZBMjQsMjQsMCwwLDEsMjAwLDU2Wm0tMTYsMGE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDhWMjI0YTgsOCwwLDAsMCw4LDhoOTZhOCw4LDAsMCwwLDgtOFptLTU2LDg4YTgsOCwwLDAsMCw4LThWOTZhOCw4LDAsMCwwLTE2LDB2NDBBOCw4LDAsMCwwLDEyOCwxNDRabTAsMTZhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsMTI4LDE2MFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BatteryWarningVerticalIcon";
-
-/** @deprecated Use BatteryWarningVerticalIcon */
-export const BatteryWarningVertical = I;
-export { I as BatteryWarningVerticalIcon };
+I.displayName = "BatteryWarningVertical";
+export { I as BatteryWarningVertical }

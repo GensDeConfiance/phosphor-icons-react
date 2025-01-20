@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Prohibit";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm04OCwxMDRhODcuNTYsODcuNTYsMCwwLDEtMjAuNDEsNTYuMjhMNzEuNzIsNjAuNEE4OCw4OCwwLDAsMSwyMTYsMTI4Wk00MCwxMjhBODcuNTYsODcuNTYsMCwwLDEsNjAuNDEsNzEuNzJMMTg0LjI4LDE5NS42QTg4LDg4LDAsMCwxLDQwLDEyOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Prohibit";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTI4YTcxLjY5LDcxLjY5LDAsMCwxLTE1Ljc4LDQ0LjkxTDgzLjA5LDcxLjc4QTcxLjk1LDcxLjk1LDAsMCwxLDIwMCwxMjhaTTU2LDEyOGE3MS45NSw3MS45NSwwLDAsMCwxMTYuOTEsNTYuMjJMNzEuNzgsODMuMDlBNzEuNjksNzEuNjksMCwwLDAsNTYsMTI4Wm0xODAsMEExMDgsMTA4LDAsMSwxLDEyOCwyMCwxMDguMTIsMTA4LjEyLDAsMCwxLDIzNiwxMjhabS0yMCwwYTg4LDg4LDAsMSwwLTg4LDg4QTg4LjEsODguMSwwLDAsMCwyMTYsMTI4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptODgsMTA0YTg3LjU2LDg3LjU2LDAsMCwxLTIwLjQxLDU2LjI4TDcxLjcyLDYwLjRBODgsODgsMCwwLDEsMjE2LDEyOFpNNDAsMTI4QTg3LjU2LDg3LjU2LDAsMCwxLDYwLjQxLDcxLjcyTDE4NC4yOCwxOTUuNkE4OCw4OCwwLDAsMSw0MCwxMjhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ProhibitIcon";
-
-/** @deprecated Use ProhibitIcon */
-export const Prohibit = I;
-export { I as ProhibitIcon };
+I.displayName = "Prohibit";
+export { I as Prohibit }

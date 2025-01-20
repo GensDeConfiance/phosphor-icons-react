@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CourtBasketball";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJBMTYsMTYsMCwwLDAsMTYsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDIyNGExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwyMjQsNDhabTAsMTEyaC04YTMyLDMyLDAsMCwxLDAtNjRoOFpNMzIsOTZoOGEzMiwzMiwwLDAsMSwwLDY0SDMyWm0wLDgwaDhhNDgsNDgsMCwwLDAsMC05NkgzMlY2NGg4OFYxOTJIMzJabTE5MiwxNkgxMzZWNjRoODhWODBoLThhNDgsNDgsMCwwLDAsMCw5Nmg4djE2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CourtBasketball";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsOTIuMjN2NzEuNTRhNCw0LDAsMCwxLTQuNDEsNCw0MCw0MCwwLDAsMSwwLTc5LjUyQTQsNCwwLDAsMSwyNDAsOTIuMjNaTTIwLjQxLDE2Ny43NmE0MCw0MCwwLDAsMCwwLTc5LjUyLDQsNCwwLDAsMC00LjQxLDR2NzEuNTRBNCw0LDAsMCwwLDIwLjQxLDE2Ny43NlpNMTE2LDQ4SDMyQTE2LDE2LDAsMCwwLDE2LDY0djQuMTNhNCw0LDAsMCwwLDMuOCw0LDU2LDU2LDAsMCwxLDAsMTExLjc0LDQsNCwwLDAsMC0zLjgsNFYxOTJhMTYsMTYsMCwwLDAsMTYsMTZoODRhNCw0LDAsMCwwLDQtNFY1MkE0LDQsMCwwLDAsMTE2LDQ4Wm0xMDgsMEgxNDBhNCw0LDAsMCwwLTQsNFYyMDRhNCw0LDAsMCwwLDQsNGg4NGExNiwxNiwwLDAsMCwxNi0xNnYtNC4xM2E0LDQsMCwwLDAtMy44LTQsNTYsNTYsMCwwLDEsMC0xMTEuNzQsNCw0LDAsMCwwLDMuOC00VjY0QTE2LDE2LDAsMCwwLDIyNCw0OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsODh2ODBIMjE2YTQwLDQwLDAsMCwxLDAtODBaTTQwLDg4SDI0djgwSDQwYTQwLDQwLDAsMCwwLDAtODBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDQ4SDMyQTE2LDE2LDAsMCwwLDE2LDY0VjE5MmExNiwxNiwwLDAsMCwxNiwxNkgyMjRhMTYsMTYsMCwwLDAsMTYtMTZWNjRBMTYsMTYsMCwwLDAsMjI0LDQ4Wm0wLDExMmgtOGEzMiwzMiwwLDAsMSwwLTY0aDhaTTMyLDk2aDhhMzIsMzIsMCwwLDEsMCw2NEgzMlptMCw4MGg4YTQ4LDQ4LDAsMCwwLDAtOTZIMzJWNjRoODhWMTkySDMyWm0xOTIsMTZIMTM2VjY0aDg4VjgwaC04YTQ4LDQ4LDAsMCwwLDAsOTZoOHYxNloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CourtBasketballIcon";
-
-/** @deprecated Use CourtBasketballIcon */
-export const CourtBasketball = I;
-export { I as CourtBasketballIcon };
+I.displayName = "CourtBasketball";
+export { I as CourtBasketball }

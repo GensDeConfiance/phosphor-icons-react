@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatTeardrop";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzIsMjRBMTAwLjExLDEwMC4xMSwwLDAsMCwzMiwxMjR2ODRhMTYsMTYsMCwwLDAsMTYsMTZoODRhMTAwLDEwMCwwLDAsMCwwLTIwMFptMCwxODRINDhWMTI0YTg0LDg0LDAsMSwxLDg0LDg0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ChatTeardrop";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI0QTEwMC4xMSwxMDAuMTEsMCwwLDEsMTMyLDIyNEg0OGExNiwxNiwwLDAsMS0xNi0xNlYxMjRhMTAwLDEwMCwwLDAsMSwyMDAsMFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI0aDBhOTIsOTIsMCwwLDEtOTIsOTJINDhhOCw4LDAsMCwxLTgtOFYxMjRhOTIsOTIsMCwwLDEsOTItOTJoMEE5Miw5MiwwLDAsMSwyMjQsMTI0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEzMiwyNEExMDAuMTEsMTAwLjExLDAsMCwwLDMyLDEyNHY4NGExNiwxNiwwLDAsMCwxNiwxNmg4NGExMDAsMTAwLDAsMCwwLDAtMjAwWm0wLDE4NEg0OFYxMjRhODQsODQsMCwxLDEsODQsODRaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChatTeardropIcon";
-
-/** @deprecated Use ChatTeardropIcon */
-export const ChatTeardrop = I;
-export { I as ChatTeardropIcon };
+I.displayName = "ChatTeardrop";
+export { I as ChatTeardrop }

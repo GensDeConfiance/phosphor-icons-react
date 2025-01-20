@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShoppingCartSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMjE2YTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDEwNCwyMTZabTg4LTE2YTE2LDE2LDAsMSwwLDE2LDE2QTE2LDE2LDAsMCwwLDE5MiwyMDBaTTIzOS43MSw3NC4xNGwtMjUuNjQsOTIuMjhBMjQuMDYsMjQuMDYsMCwwLDEsMTkxLDE4NEg5Mi4xNkEyNC4wNiwyNC4wNiwwLDAsMSw2OSwxNjYuNDJMMzMuOTIsNDBIMTZhOCw4LDAsMCwxLDAtMTZINDBhOCw4LDAsMCwxLDcuNzEsNS44Nkw1Ny4xOSw2NEgyMzJhOCw4LDAsMCwxLDcuNzEsMTAuMTRaTTIyMS40Nyw4MEg2MS42NGwyMi44MSw4Mi4xNEE4LDgsMCwwLDAsOTIuMTYsMTY4SDE5MWE4LDgsMCwwLDAsNy43MS01Ljg2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ShoppingCartSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzkuNzEsNzQuMTRsLTI1LjY0LDkyLjI4QTI0LjA2LDI0LjA2LDAsMCwxLDE5MSwxODRIOTIuMTZBMjQuMDYsMjQuMDYsMCwwLDEsNjksMTY2LjQyTDMzLjkyLDQwSDE2YTgsOCwwLDAsMSwwLTE2SDQwYTgsOCwwLDAsMSw3LjcxLDUuODZMNTcuMTksNjRIMjMyYTgsOCwwLDAsMSw3LjcxLDEwLjE0Wk04OCwyMDBhMTYsMTYsMCwxLDAsMTYsMTZBMTYsMTYsMCwwLDAsODgsMjAwWm0xMDQsMGExNiwxNiwwLDEsMCwxNiwxNkExNiwxNiwwLDAsMCwxOTIsMjAwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNzJsLTI1LjYzLDkyLjI4QTE2LDE2LDAsMCwxLDE5MSwxNzZIOTIuMTZhMTYsMTYsMCwwLDEtMTUuNDEtMTEuNzJMNTEuMTEsNzJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTA0LDIxNmExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSwxMDQsMjE2Wm04OC0xNmExNiwxNiwwLDEsMCwxNiwxNkExNiwxNiwwLDAsMCwxOTIsMjAwWk0yMzkuNzEsNzQuMTRsLTI1LjY0LDkyLjI4QTI0LjA2LDI0LjA2LDAsMCwxLDE5MSwxODRIOTIuMTZBMjQuMDYsMjQuMDYsMCwwLDEsNjksMTY2LjQyTDMzLjkyLDQwSDE2YTgsOCwwLDAsMSwwLTE2SDQwYTgsOCwwLDAsMSw3LjcxLDUuODZMNTcuMTksNjRIMjMyYTgsOCwwLDAsMSw3LjcxLDEwLjE0Wk0yMjEuNDcsODBINjEuNjRsMjIuODEsODIuMTRBOCw4LDAsMCwwLDkyLjE2LDE2OEgxOTFhOCw4LDAsMCwwLDcuNzEtNS44NloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShoppingCartSimpleIcon";
-
-/** @deprecated Use ShoppingCartSimpleIcon */
-export const ShoppingCartSimple = I;
-export { I as ShoppingCartSimpleIcon };
+I.displayName = "ShoppingCartSimple";
+export { I as ShoppingCartSimple }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextHSix";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNTZWMTc2YTgsOCwwLDAsMS0xNiwwVjEyNEg0OHY1MmE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMHY1Mmg4OFY1NmE4LDgsMCwwLDEsMTYsMFptOTYsMTI0YTM2LDM2LDAsMSwxLTY3LjM0LTE3LjY4Yy4wNy0uMTQuMTQtLjI4LjIyLS40MmwzMi4yNS01NGE4LDgsMCwwLDEsMTMuNzQsOC4ybC0xNi42OSwyOGMuNiwwLDEuMjEtLjA1LDEuODItLjA1QTM2LDM2LDAsMCwxLDI0OCwxODBabS0xNiwwYTIwLDIwLDAsMSwwLTIwLDIwQTIwLDIwLDAsMCwwLDIzMiwxODBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/TextHSix";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTUyYTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDE5MiwxNTJaTTIyNCw0OFYyMDhhMTYsMTYsMCwwLDEtMTYsMTZINDhhMTYsMTYsMCwwLDEtMTYtMTZWNDhBMTYsMTYsMCwwLDEsNDgsMzJIMjA4QTE2LDE2LDAsMCwxLDIyNCw0OFpNMTI4LDgwYTgsOCwwLDAsMC0xNiwwdjMySDcyVjgwYTgsOCwwLDAsMC0xNiwwdjgwYTgsOCwwLDAsMCwxNiwwVjEyOGg0MHYzMmE4LDgsMCwwLDAsMTYsMFptODAsNzJhMzIsMzIsMCwwLDAtMzItMzJsMTEuNTUtMjBhOCw4LDAsMCwwLTEzLjg2LThsLTI1LjQsNDQtLjE0LjI3QTMyLDMyLDAsMSwwLDIwOCwxNTJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsNzJWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDU2YTE2LDE2LDAsMCwxLTE2LTE2VjU2SDIyNEExNiwxNiwwLDAsMSwyNDAsNzJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTUyLDU2VjE3NmE4LDgsMCwwLDEtMTYsMFYxMjRINDh2NTJhOCw4LDAsMCwxLTE2LDBWNTZhOCw4LDAsMCwxLDE2LDB2NTJoODhWNTZhOCw4LDAsMCwxLDE2LDBabTk2LDEyNGEzNiwzNiwwLDEsMS02Ny4zNC0xNy42OGMuMDctLjE0LjE0LS4yOC4yMi0uNDJsMzIuMjUtNTRhOCw4LDAsMCwxLDEzLjc0LDguMmwtMTYuNjksMjhjLjYsMCwxLjIxLS4wNSwxLjgyLS4wNUEzNiwzNiwwLDAsMSwyNDgsMTgwWm0tMTYsMGEyMCwyMCwwLDEsMC0yMCwyMEEyMCwyMCwwLDAsMCwyMzIsMTgwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextHSixIcon";
-
-/** @deprecated Use TextHSixIcon */
-export const TextHSix = I;
-export { I as TextHSixIcon };
+I.displayName = "TextHSix";
+export { I as TextHSix }

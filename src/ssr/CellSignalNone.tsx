@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CellSignalNone";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCwxOTJ2OGE4LDgsMCwwLDEtMTYsMHYtOGE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/CellSignalNone";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTguMTIsMjUuMjNhMTYsMTYsMCwwLDAtMTcuNDQsMy40NmwtMTYwLDE2MEExNiwxNiwwLDAsMCwzMiwyMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjQwQTE1Ljk0LDE1Ljk0LDAsMCwwLDE5OC4xMiwyNS4yM1pNMTkyLDIwMEgzMkwxOTIsNDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTguMTIsMjUuMjNhMTYsMTYsMCwwLDAtMTcuNDMsMy40N2wtMTYwLDE2MEExNiwxNiwwLDAsMCwzMiwyMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjQwQTE2LDE2LDAsMCwwLDE5OC4xMiwyNS4yM1pNMTkyLDIwMEgzMkwxOTIsNDBaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CellSignalNoneIcon";
-
-/** @deprecated Use CellSignalNoneIcon */
-export const CellSignalNone = I;
-export { I as CellSignalNoneIcon };
+I.displayName = "CellSignalNone";
+export { I as CellSignalNone }

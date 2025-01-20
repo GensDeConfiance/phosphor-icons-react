@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretLineLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTcuNjYsMjAyLjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMmwtODAtODBhOCw4LDAsMCwxLDAtMTEuMzJsODAtODBhOCw4LDAsMCwxLDExLjMyLDExLjMyTDEyMy4zMSwxMjhaTTcyLDQwYTgsOCwwLDAsMC04LDhWMjA4YTgsOCwwLDAsMCwxNiwwVjQ4QTgsOCwwLDAsMCw3Miw0MFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/CaretLineLeft";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDhWMjA4YTgsOCwwLDAsMS0xMy42Niw1LjY2bC04MC04MGE4LDgsMCwwLDEsMC0xMS4zMmw4MC04MEE4LDgsMCwwLDEsMjAwLDQ4Wk03Miw0MGE4LDgsMCwwLDAtOCw4VjIwOGE4LDgsMCwwLDAsMTYsMFY0OEE4LDgsMCwwLDAsNzIsNDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNDhWMjA4bC04MC04MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0xOTUuMDYsNDAuNjFhOCw4LDAsMCwwLTguNzIsMS43M2wtODAsODBhOCw4LDAsMCwwLDAsMTEuMzJsODAsODBBOCw4LDAsMCwwLDIwMCwyMDhWNDhBOCw4LDAsMCwwLDE5NS4wNiw0MC42MVpNMTg0LDE4OC42OSwxMjMuMzEsMTI4LDE4NCw2Ny4zMVpNODAsNDhWMjA4YTgsOCwwLDAsMS0xNiwwVjQ4YTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CaretLineLeftIcon";
-
-/** @deprecated Use CaretLineLeftIcon */
-export const CaretLineLeft = I;
-export { I as CaretLineLeftIcon };
+I.displayName = "CaretLineLeft";
+export { I as CaretLineLeft }

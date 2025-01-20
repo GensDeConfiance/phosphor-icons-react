@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ListMagnifyingGlass";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTgsNzJoNzJhOCw4LDAsMCwwLDAtMTZINDBhOCw4LDAsMCwwLDAsMTZabTg4LDQ4SDQwYTgsOCwwLDAsMCwwLDE2aDg4YTgsOCwwLDAsMCwwLTE2Wm0xMDkuNjYsMTMuNjZhOCw4LDAsMCwxLTExLjMyLDBMMjA2LDE3Ny4zNkE0MCw0MCwwLDEsMSwyMTcuMzYsMTY2bDIwLjMsMjAuM0E4LDgsMCwwLDEsMjM3LjY2LDE5Ny42NlpNMTg0LDE2OGEyNCwyNCwwLDEsMC0yNC0yNEEyNCwyNCwwLDAsMCwxODQsMTY4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ListMagnifyingGlass";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0zMiw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg0MEE4LDgsMCwwLDEsMzIsNjRabTgsNzJoNzJhOCw4LDAsMCwwLDAtMTZINDBhOCw4LDAsMCwwLDAsMTZabTg4LDQ4SDQwYTgsOCwwLDAsMCwwLDE2aDg4YTgsOCwwLDAsMCwwLTE2Wm0xMDkuNjYsMi4zNEwyMTcuMzYsMTY2QTQwLDQwLDAsMSwwLDIwNiwxNzcuMzZsMjAuMywyMC4zYTgsOCwwLDAsMCwxMS4zMi0xMS4zMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTQ0YTMyLDMyLDAsMSwxLTMyLTMyQTMyLDMyLDAsMCwxLDIxNiwxNDRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMzIsNjRhOCw4LDAsMCwxLDgtOEgyMTZhOCw4LDAsMCwxLDAsMTZINDBBOCw4LDAsMCwxLDMyLDY0Wm04LDcyaDcyYTgsOCwwLDAsMCwwLTE2SDQwYTgsOCwwLDAsMCwwLDE2Wm04OCw0OEg0MGE4LDgsMCwwLDAsMCwxNmg4OGE4LDgsMCwwLDAsMC0xNlptMTA5LjY2LDEzLjY2YTgsOCwwLDAsMS0xMS4zMiwwTDIwNiwxNzcuMzZBNDAsNDAsMCwxLDEsMjE3LjM2LDE2NmwyMC4zLDIwLjNBOCw4LDAsMCwxLDIzNy42NiwxOTcuNjZaTTE4NCwxNjhhMjQsMjQsMCwxLDAtMjQtMjRBMjQsMjQsMCwwLDAsMTg0LDE2OFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ListMagnifyingGlassIcon";
-
-/** @deprecated Use ListMagnifyingGlassIcon */
-export const ListMagnifyingGlass = I;
-export { I as ListMagnifyingGlassIcon };
+I.displayName = "ListMagnifyingGlass";
+export { I as ListMagnifyingGlass }

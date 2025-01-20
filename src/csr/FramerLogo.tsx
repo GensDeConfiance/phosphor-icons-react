@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FramerLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTA0VjQwYTgsOCwwLDAsMC04LThINTZhOCw4LDAsMCwwLTUuMzEsMTRMMTA3LDk2SDU2YTgsOCwwLDAsMC04LDh2NjRhOCw4LDAsMCwwLDIuMzQsNS42Nmw3Miw3MkE4LDgsMCwwLDAsMTM2LDI0MFYxNzZoNjRhOCw4LDAsMCwwLDUuMzEtMTRMMTQ5LDExMmg1MUE4LDgsMCwwLDAsMjA4LDEwNFptLTI5LDU2SDEyOGE4LDgsMCwwLDAtOCw4djUyLjY5bC01Ni01NlYxMTJoNjFabTEzLTY0SDEzMUw3Nyw0OEgxOTJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/FramerLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTEySDE0OWw1Ni4yNyw1MEE4LDgsMCwwLDEsMjAwLDE3NkgxMzZ2NjRhOCw4LDAsMCwxLTEzLjY2LDUuNjZsLTcyLTcyQTgsOCwwLDAsMSw0OCwxNjhWMTA0YTgsOCwwLDAsMSw4LThoNTFMNTAuNjksNDZBOCw4LDAsMCwxLDU2LDMySDIwMGE4LDgsMCwwLDEsOCw4djY0QTgsOCwwLDAsMSwyMDAsMTEyWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTA0SDEyOEw1Niw0MEgyMDBaTTU2LDE2OGw3Miw3MlYxNjhoNzJsLTcyLTY0SDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCwxMDRWNDBhOCw4LDAsMCwwLTgtOEg1NmE4LDgsMCwwLDAtNS4zMSwxNEwxMDcsOTZINTZhOCw4LDAsMCwwLTgsOHY2NGE4LDgsMCwwLDAsMi4zNCw1LjY2bDcyLDcyQTgsOCwwLDAsMCwxMzYsMjQwVjE3Nmg2NGE4LDgsMCwwLDAsNS4zMS0xNEwxNDksMTEyaDUxQTgsOCwwLDAsMCwyMDgsMTA0Wm0tMjksNTZIMTI4YTgsOCwwLDAsMC04LDh2NTIuNjlsLTU2LTU2VjExMmg2MVptMTMtNjRIMTMxTDc3LDQ4SDE5MloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FramerLogoIcon";
-
-/** @deprecated Use FramerLogoIcon */
-export const FramerLogo = I;
-export { I as FramerLogoIcon };
+I.displayName = "FramerLogo";
+export { I as FramerLogo }

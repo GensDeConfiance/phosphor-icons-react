@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FlagPennant";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDIuNjMsOTYuNDRsLTE4NC02NEE4LDgsMCwwLDAsNDgsNDBWMjE2YTgsOCwwLDAsMCwxNiwwVjE3My42OWwxNzguNjMtNjIuMTNhOCw4LDAsMCwwLDAtMTUuMTJaTTY0LDE1Ni43NVY1MS4yNUwyMTUuNjUsMTA0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/FlagPennant";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTA0YTgsOCwwLDAsMS01LjM3LDcuNTZMNjQsMTczLjY5VjIxNmE4LDgsMCwwLDEtMTYsMFY0MGE4LDgsMCwwLDEsMTAuNjMtNy41NmwxODQsNjRBOCw4LDAsMCwxLDI0OCwxMDRaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTA0LDU2LDE2OFY0MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yNDIuNjMsOTYuNDRsLTE4NC02NEE4LDgsMCwwLDAsNDgsNDBWMjE2YTgsOCwwLDAsMCwxNiwwVjE3My42OWwxNzguNjMtNjIuMTNhOCw4LDAsMCwwLDAtMTUuMTJaTTY0LDE1Ni43NVY1MS4yNUwyMTUuNjUsMTA0WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FlagPennantIcon";
-
-/** @deprecated Use FlagPennantIcon */
-export const FlagPennant = I;
-export { I as FlagPennantIcon };
+I.displayName = "FlagPennant";
+export { I as FlagPennant }

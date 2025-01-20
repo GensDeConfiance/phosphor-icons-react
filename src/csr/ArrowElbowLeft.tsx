@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowElbowLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTAxLjY2bC05Niw5NmE4LDgsMCwwLDEtMTEuMzIsMEwzMiw5OS4zMVYxNTJhOCw4LDAsMCwxLTE2LDBWODBhOCw4LDAsMCwxLDgtOEg5NmE4LDgsMCwwLDEsMCwxNkg0My4zMUwxMzYsMTgwLjY5bDkwLjM0LTkwLjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowElbowLeft";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTAxLjY2bC05Niw5NmE4LDgsMCwwLDEtMTEuMzIsMEw2MCwxMjcuMzEsMjkuNjYsMTU3LjY2QTgsOCwwLDAsMSwxNiwxNTJWODBhOCw4LDAsMCwxLDgtOEg5NmE4LDgsMCwwLDEsNS42NiwxMy42Nkw3MS4zMSwxMTYsMTM2LDE4MC42OWw5MC4zNC05MC4zNWE4LDgsMCwwLDEsMTEuMzIsMTEuMzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Niw4MCwyNCwxNTJWODBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjM3LjY2LDkwLjM0YTgsOCwwLDAsMC0xMS4zMiwwTDEzNiwxODAuNjksNzEuMzEsMTE2bDMwLjM1LTMwLjM0QTgsOCwwLDAsMCw5Niw3MkgyNGE4LDgsMCwwLDAtOCw4djcyYTgsOCwwLDAsMCwxMy42Niw1LjY2TDYwLDEyNy4zMWw3MC4zNCw3MC4zNWE4LDgsMCwwLDAsMTEuMzIsMGw5Ni05NkE4LDgsMCwwLDAsMjM3LjY2LDkwLjM0Wk0zMiwxMzIuNjlWODhINzYuNjlaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowElbowLeftIcon";
-
-/** @deprecated Use ArrowElbowLeftIcon */
-export const ArrowElbowLeft = I;
-export { I as ArrowElbowLeftIcon };
+I.displayName = "ArrowElbowLeft";
+export { I as ArrowElbowLeft }

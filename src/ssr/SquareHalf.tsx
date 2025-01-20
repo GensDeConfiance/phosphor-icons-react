@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SquareHalf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBabS02NCw4MGg2NHYxNkgxMzZabTAtMTZWODhoNjR2MTZabTAsNDhoNjR2MTZIMTM2Wm02NC04MEgxMzZWNTZoNjRaTTU2LDU2aDY0VjIwMEg1NlpNMjAwLDIwMEgxMzZWMTg0aDY0djE2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/SquareHalf";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBINTZBMTYsMTYsMCwwLDAsNDAsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMDAsNDBaTTU2LDU2aDcyVjIwMEg1NloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNTZWMjAwYTgsOCwwLDAsMS04LDhIMTI4VjQ4aDcyQTgsOCwwLDAsMSwyMDgsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDQwSDU2QTE2LDE2LDAsMCwwLDQwLDU2VjIwMGExNiwxNiwwLDAsMCwxNiwxNkgyMDBhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjAwLDQwWk01Niw1Nmg2NFYyMDBINTZaTTIwMCwyMDBIMTM2VjU2aDY0VjIwMFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SquareHalfIcon";
-
-/** @deprecated Use SquareHalfIcon */
-export const SquareHalf = I;
-export { I as SquareHalfIcon };
+I.displayName = "SquareHalf";
+export { I as SquareHalf }

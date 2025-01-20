@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Voicemail";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNzJhNTYsNTYsMCwwLDAtMzkuMTQsOTZIOTUuMTRBNTYsNTYsMCwxLDAsNTYsMTg0SDIwMGE1Niw1NiwwLDAsMCwwLTExMlpNMTYsMTI4YTQwLDQwLDAsMSwxLDQwLDQwQTQwLDQwLDAsMCwxLDE2LDEyOFptMTg0LDQwYTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDIwMCwxNjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Voicemail";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNzJhNTYsNTYsMCwwLDAtMzkuMTQsOTZIOTUuMTRBNTYsNTYsMCwxLDAsNTYsMTg0SDIwMGE1Niw1NiwwLDAsMCwwLTExMlpNNTYsMTY4YTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDU2LDE2OFptMTQ0LDBhNDAsNDAsMCwxLDEsNDAtNDBBNDAsNDAsMCwwLDEsMjAwLDE2OFptMjQtNDBhMjQsMjQsMCwxLDEtMjQtMjRBMjQsMjQsMCwwLDEsMjI0LDEyOFpNODAsMTI4YTI0LDI0LDAsMSwxLTI0LTI0QTI0LDI0LDAsMCwxLDgwLDEyOFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMTI4QTQ4LDQ4LDAsMSwxLDU2LDgwLDQ4LDQ4LDAsMCwxLDEwNCwxMjhabTk2LTQ4YTQ4LDQ4LDAsMSwwLDQ4LDQ4QTQ4LDQ4LDAsMCwwLDIwMCw4MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMDAsNzJhNTYsNTYsMCwwLDAtMzkuMTQsOTZIOTUuMTRBNTYsNTYsMCwxLDAsNTYsMTg0SDIwMGE1Niw1NiwwLDAsMCwwLTExMlpNMTYsMTI4YTQwLDQwLDAsMSwxLDQwLDQwQTQwLDQwLDAsMCwxLDE2LDEyOFptMTg0LDQwYTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDIwMCwxNjhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "VoicemailIcon";
-
-/** @deprecated Use VoicemailIcon */
-export const Voicemail = I;
-export { I as VoicemailIcon };
+I.displayName = "Voicemail";
+export { I as Voicemail }

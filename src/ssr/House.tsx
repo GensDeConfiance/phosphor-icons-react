@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/House";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTkuMzEsMTA4LjY4bC04MC04MGExNiwxNiwwLDAsMC0yMi42MiwwbC04MCw4MEExNS44NywxNS44NywwLDAsMCwzMiwxMjB2OTZhOCw4LDAsMCwwLDgsOGg2NGE4LDgsMCwwLDAsOC04VjE2MGgzMnY1NmE4LDgsMCwwLDAsOCw4aDY0YTgsOCwwLDAsMCw4LThWMTIwQTE1Ljg3LDE1Ljg3LDAsMCwwLDIxOS4zMSwxMDguNjhaTTIwOCwyMDhIMTYwVjE1MmE4LDgsMCwwLDAtOC04SDEwNGE4LDgsMCwwLDAtOCw4djU2SDQ4VjEyMGw4MC04MCw4MCw4MFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/House";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTIwdjk2YTgsOCwwLDAsMS04LDhIMTYwYTgsOCwwLDAsMS04LThWMTY0YTQsNCwwLDAsMC00LTRIMTA4YTQsNCwwLDAsMC00LDR2NTJhOCw4LDAsMCwxLTgsOEg0MGE4LDgsMCwwLDEtOC04VjEyMGExNiwxNiwwLDAsMSw0LjY5LTExLjMxbDgwLTgwYTE2LDE2LDAsMCwxLDIyLjYyLDBsODAsODBBMTYsMTYsMCwwLDEsMjI0LDEyMFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTIwdjk2SDE1MlYxNTJIMTA0djY0SDQwVjEyMGE4LDgsMCwwLDEsMi4zNC01LjY2bDgwLTgwYTgsOCwwLDAsMSwxMS4zMiwwbDgwLDgwQTgsOCwwLDAsMSwyMTYsMTIwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxOS4zMSwxMDguNjhsLTgwLTgwYTE2LDE2LDAsMCwwLTIyLjYyLDBsLTgwLDgwQTE1Ljg3LDE1Ljg3LDAsMCwwLDMyLDEyMHY5NmE4LDgsMCwwLDAsOCw4aDY0YTgsOCwwLDAsMCw4LThWMTYwaDMydjU2YTgsOCwwLDAsMCw4LDhoNjRhOCw4LDAsMCwwLDgtOFYxMjBBMTUuODcsMTUuODcsMCwwLDAsMjE5LjMxLDEwOC42OFpNMjA4LDIwOEgxNjBWMTUyYTgsOCwwLDAsMC04LThIMTA0YTgsOCwwLDAsMC04LDh2NTZINDhWMTIwbDgwLTgwLDgwLDgwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HouseIcon";
-
-/** @deprecated Use HouseIcon */
-export const House = I;
-export { I as HouseIcon };
+I.displayName = "House";
+export { I as House }

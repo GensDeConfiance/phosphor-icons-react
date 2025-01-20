@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowFatUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTE0LjM0bC05Ni05NmE4LDgsMCwwLDAtMTEuMzIsMGwtOTYsOTZBOCw4LDAsMCwwLDMyLDEyOEg3MnY4MGExNiwxNiwwLDAsMCwxNiwxNmg4MGExNiwxNiwwLDAsMCwxNi0xNlYxMjhoNDBhOCw4LDAsMCwwLDUuNjYtMTMuNjZaTTE3NiwxMTJhOCw4LDAsMCwwLTgsOHY4OEg4OFYxMjBhOCw4LDAsMCwwLTgtOEg1MS4zMUwxMjgsMzUuMzEsMjA0LjY5LDExMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowFatUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuMzksMTIzLjA2QTgsOCwwLDAsMSwyMjQsMTI4SDE4NHY4MGExNiwxNiwwLDAsMS0xNiwxNkg4OGExNiwxNiwwLDAsMS0xNi0xNlYxMjhIMzJhOCw4LDAsMCwxLTUuNjYtMTMuNjZsOTYtOTZhOCw4LDAsMCwxLDExLjMyLDBsOTYsOTZBOCw4LDAsMCwxLDIzMS4zOSwxMjMuMDZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTIwSDE3NnY4OGE4LDgsMCwwLDEtOCw4SDg4YTgsOCwwLDAsMS04LThWMTIwSDMybDk2LTk2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyOS42NiwxMTQuMzRsLTk2LTk2YTgsOCwwLDAsMC0xMS4zMiwwbC05Niw5NkE4LDgsMCwwLDAsMzIsMTI4SDcydjgwYTE2LDE2LDAsMCwwLDE2LDE2aDgwYTE2LDE2LDAsMCwwLDE2LTE2VjEyOGg0MGE4LDgsMCwwLDAsNS42Ni0xMy42NlpNMTc2LDExMmE4LDgsMCwwLDAtOCw4djg4SDg4VjEyMGE4LDgsMCwwLDAtOC04SDUxLjMxTDEyOCwzNS4zMSwyMDQuNjksMTEyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowFatUpIcon";
-
-/** @deprecated Use ArrowFatUpIcon */
-export const ArrowFatUp = I;
-export { I as ArrowFatUpIcon };
+I.displayName = "ArrowFatUp";
+export { I as ArrowFatUp }

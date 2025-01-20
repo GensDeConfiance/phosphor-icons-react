@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/AlignRightSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZWMjAwYTgsOCwwLDAsMS0xNiwwVjU2YTgsOCwwLDAsMSwxNiwwWk0yMDAsOTZ2NjRhMTYsMTYsMCwwLDEtMTYsMTZIMzJhMTYsMTYsMCwwLDEtMTYtMTZWOTZBMTYsMTYsMCwwLDEsMzIsODBIMTg0QTE2LDE2LDAsMCwxLDIwMCw5NlptLTE2LDBIMzJ2NjRIMTg0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/AlignRightSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZWMjAwYTgsOCwwLDAsMS0xNiwwVjU2YTgsOCwwLDAsMSwxNiwwWk0xODQsODBIMzJBMTYsMTYsMCwwLDAsMTYsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZIMTg0YTE2LDE2LDAsMCwwLDE2LTE2Vjk2QTE2LDE2LDAsMCwwLDE4NCw4MFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsOTZ2NjRhOCw4LDAsMCwxLTgsOEgzMmE4LDgsMCwwLDEtOC04Vjk2YTgsOCwwLDAsMSw4LThIMTg0QTgsOCwwLDAsMSwxOTIsOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMyLDU2VjIwMGE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMFpNMjAwLDk2djY0YTE2LDE2LDAsMCwxLTE2LDE2SDMyYTE2LDE2LDAsMCwxLTE2LTE2Vjk2QTE2LDE2LDAsMCwxLDMyLDgwSDE4NEExNiwxNiwwLDAsMSwyMDAsOTZabS0xNiwwSDMydjY0SDE4NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AlignRightSimpleIcon";
-
-/** @deprecated Use AlignRightSimpleIcon */
-export const AlignRightSimple = I;
-export { I as AlignRightSimpleIcon };
+I.displayName = "AlignRightSimple";
+export { I as AlignRightSimple }

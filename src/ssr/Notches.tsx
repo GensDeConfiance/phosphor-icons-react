@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Notches";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTMzLjY2bC04MCw4MGE4LDgsMCwwLDEtMTEuMzItMTEuMzJsODAtODBhOCw4LDAsMCwxLDExLjMyLDExLjMyWm0tMTYtOTkuMzJhOCw4LDAsMCwwLTExLjMyLDBsLTE1MiwxNTJhOCw4LDAsMCwwLDExLjMyLDExLjMybDE1Mi0xNTJBOCw4LDAsMCwwLDE5Ny42NiwzNC4zNFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Notches";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBWMTkyYTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTUuNjYtMTMuNjZsMTUyLTE1MkE4LDgsMCwwLDEsMjAwLDQwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNDBWMTkySDQwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE5NS4wNiwzMi42MWE4LDgsMCwwLDAtOC43MiwxLjczbC0xNTIsMTUyQTgsOCwwLDAsMCw0MCwyMDBIMTkyYTgsOCwwLDAsMCw4LThWNDBBOCw4LDAsMCwwLDE5NS4wNiwzMi42MVpNMTg0LDE4NEg1OS4zMUwxODQsNTkuMzFaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotchesIcon";
-
-/** @deprecated Use NotchesIcon */
-export const Notches = I;
-export { I as NotchesIcon };
+I.displayName = "Notches";
+export { I as Notches }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ListBullets";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04MCw2NGE4LDgsMCwwLDEsOC04SDIxNmE4LDgsMCwwLDEsMCwxNkg4OEE4LDgsMCwwLDEsODAsNjRabTEzNiw1Nkg4OGE4LDgsMCwwLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZabTAsNjRIODhhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk00NCw1MkExMiwxMiwwLDEsMCw1Niw2NCwxMiwxMiwwLDAsMCw0NCw1MlptMCw2NGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw0NCwxMTZabTAsNjRhMTIsMTIsMCwxLDAsMTIsMTJBMTIsMTIsMCwwLDAsNDQsMTgwWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ListBullets";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTY4LDE4OGExMiwxMiwwLDEsMSwxMi0xMkExMiwxMiwwLDAsMSw2OCwxODhabTAtNDhhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsNjgsMTQwWm0wLTQ4QTEyLDEyLDAsMSwxLDgwLDgwLDEyLDEyLDAsMCwxLDY4LDkyWm0xMjQsOTJIMTA0YTgsOCwwLDAsMSwwLTE2aDg4YTgsOCwwLDAsMSwwLDE2Wm0wLTQ4SDEwNGE4LDgsMCwwLDEsMC0xNmg4OGE4LDgsMCwwLDEsMCwxNlptMC00OEgxMDRhOCw4LDAsMCwxLDAtMTZoODhhOCw4LDAsMCwxLDAsMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNjRWMTkySDg4VjY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTgwLDY0YTgsOCwwLDAsMSw4LThIMjE2YTgsOCwwLDAsMSwwLDE2SDg4QTgsOCwwLDAsMSw4MCw2NFptMTM2LDU2SDg4YTgsOCwwLDEsMCwwLDE2SDIxNmE4LDgsMCwwLDAsMC0xNlptMCw2NEg4OGE4LDgsMCwxLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZaTTQ0LDUyQTEyLDEyLDAsMSwwLDU2LDY0LDEyLDEyLDAsMCwwLDQ0LDUyWm0wLDY0YTEyLDEyLDAsMSwwLDEyLDEyQTEyLDEyLDAsMCwwLDQ0LDExNlptMCw2NGExMiwxMiwwLDEsMCwxMiwxMkExMiwxMiwwLDAsMCw0NCwxODBaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ListBulletsIcon";
-
-/** @deprecated Use ListBulletsIcon */
-export const ListBullets = I;
-export { I as ListBulletsIcon };
+I.displayName = "ListBullets";
+export { I as ListBullets }

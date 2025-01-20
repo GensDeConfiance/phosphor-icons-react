@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Signpost";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYsMTA2LjY1LDIxMi4zMyw2OS4zQTE2LDE2LDAsMCwwLDIwMC40NCw2NEgxMzZWMzJhOCw4LDAsMCwwLTE2LDBWNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2NjRhMTYsMTYsMCwwLDAsMTYsMTZoODB2NjRhOCw4LDAsMCwwLDE2LDBWMTYwaDY0LjQ0YTE2LDE2LDAsMCwwLDExLjg5LTUuM0wyNDYsMTE3LjM1QTgsOCwwLDAsMCwyNDYsMTA2LjY1Wk0yMDAuNDQsMTQ0SDQwVjgwSDIwMC40NGwyOC44LDMyWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Signpost";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDYsMTE3LjM1LDIxMi4zMywxNTQuN2ExNiwxNiwwLDAsMS0xMS44OSw1LjNIMTM2djY0YTgsOCwwLDAsMS0xNiwwVjE2MEg0MGExNiwxNiwwLDAsMS0xNi0xNlY4MEExNiwxNiwwLDAsMSw0MCw2NGg4MFYzMmE4LDgsMCwwLDEsMTYsMFY2NGg2NC40NGExNiwxNiwwLDAsMSwxMS44OSw1LjNMMjQ2LDEwNi42NUE4LDgsMCwwLDEsMjQ2LDExNy4zNVoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTEybC0zMy42MiwzNy4zNWE4LDgsMCwwLDEtNS45NCwyLjY1SDQwYTgsOCwwLDAsMS04LThWODBhOCw4LDAsMCwxLDgtOEgyMDAuNDRhOCw4LDAsMCwxLDUuOTQsMi42NVoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yNDYsMTA2LjY1LDIxMi4zMyw2OS4zQTE2LDE2LDAsMCwwLDIwMC40NCw2NEgxMzZWMzJhOCw4LDAsMCwwLTE2LDBWNjRINDBBMTYsMTYsMCwwLDAsMjQsODB2NjRhMTYsMTYsMCwwLDAsMTYsMTZoODB2NjRhOCw4LDAsMCwwLDE2LDBWMTYwaDY0LjQ0YTE2LDE2LDAsMCwwLDExLjg5LTUuM0wyNDYsMTE3LjM1QTgsOCwwLDAsMCwyNDYsMTA2LjY1Wk0yMDAuNDQsMTQ0SDQwVjgwSDIwMC40NGwyOC44LDMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SignpostIcon";
-
-/** @deprecated Use SignpostIcon */
-export const Signpost = I;
-export { I as SignpostIcon };
+I.displayName = "Signpost";
+export { I as Signpost }

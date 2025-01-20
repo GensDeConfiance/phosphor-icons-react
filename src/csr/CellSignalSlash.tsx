@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CellSignalSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxNTJ2NDhhOCw4LDAsMCwxLTE2LDBWMTUyYTgsOCwwLDAsMSwxNiwwWk00MCwxODRhOCw4LDAsMCwwLTgsOHY4YTgsOCwwLDAsMCwxNiwwdi04QTgsOCwwLDAsMCw0MCwxODRabTE3My45MiwyNi42Mi0xNjAtMTc2QTgsOCwwLDEsMCw0Mi4wOCw0NS4zOEwxMTIsMTIyLjI5VjIwMGE4LDgsMCwwLDAsMTYsMFYxMzkuODlsMjQsMjYuNFYyMDBhOCw4LDAsMCwwLDE2LDBWMTgzLjg5bDM0LjA4LDM3LjQ5YTgsOCwwLDEsMCwxMS44NC0xMC43NlptLTUzLjkyLTg3YTgsOCwwLDAsMCw4LThWNzJhOCw4LDAsMCwwLTE2LDB2NDMuNjNBOCw4LDAsMCwwLDE2MCwxMjMuNjNabTQwLDQ0YTgsOCwwLDAsMCw4LThWMzJhOCw4LDAsMCwwLTE2LDBWMTU5LjYzQTgsOCwwLDAsMCwyMDAsMTY3LjYzWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CellSignalSlash";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuMzgsMjIxLjkyYTgsOCwwLDAsMS0xMS4zLS41NGwtNS41MS02LjA2QTE2LjExLDE2LjExLDAsMCwxLDE5MiwyMTZIMzJhMTYsMTYsMCwwLDEtMTUuMDYtMTAuNTksMTYuNCwxNi40LDAsMCwxLDQuMDctMTdsNzkuMTMtNzkuMTJMNDIuMjYsNDUuNjJhOC4yMiw4LjIyLDAsMCwxLC4xNC0xMS4zOCw4LDgsMCwwLDEsMTEuNDguMzdsMTYwLDE3NkE4LDgsMCwwLDEsMjEzLjM4LDIyMS45MlpNMjAxLDE3Mi42NmE0LDQsMCwwLDAsNy0yLjY5VjQwYTE2LDE2LDAsMCwwLTI3LjMyLTExLjMybC01NS4yMSw1NS4yYTQsNCwwLDAsMC0uMTMsNS41MloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBWMjAwYTgsOCwwLDAsMS04LDhIMzJhOCw4LDAsMCwxLTUuNjYtMTMuNjZsMTYwLTE2MEE4LDgsMCwwLDEsMjAwLDQwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxMy45MiwyMTAuNjJsLTE2MC0xNzZBOCw4LDAsMSwwLDQyLjA3LDQ1LjM4bDU4LjA3LDYzLjg2TDIwLjY5LDE4OC42OEExNiwxNiwwLDAsMCwzMiwyMTZIMTkyYTE2LjEzLDE2LjEzLDAsMCwwLDQuNTYtLjY4bDUuNTIsNi4wNmE4LDgsMCwxLDAsMTEuODQtMTAuNzZaTTMyLDIwMGw3OC45LTc4Ljg5TDE4Mi42NCwyMDBaTTEyOC4xOCw5Mi41MWE4LDgsMCwwLDEsMC0xMS4zMWw1Mi41MS01Mi41QTE2LDE2LDAsMCwxLDIwOCw0MFYxNTkuNjNhOCw4LDAsMCwxLTE2LDBWNDBMMTM5LjUsOTIuNTFBOCw4LDAsMCwxLDEyOC4xOCw5Mi41MVoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CellSignalSlashIcon";
-
-/** @deprecated Use CellSignalSlashIcon */
-export const CellSignalSlash = I;
-export { I as CellSignalSlashIcon };
+I.displayName = "CellSignalSlash";
+export { I as CellSignalSlash }

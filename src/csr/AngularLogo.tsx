@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AngularLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMDgsNjQuNjJsLTk2LTQwYTcuOTMsNy45MywwLDAsMC02LjE2LDBsLTk2LDQwYTgsOCwwLDAsMC00Ljg1LDguNDRsMTYsMTIwYTgsOCwwLDAsMCw0LjM1LDYuMWw4MCw0MGE4LDgsMCwwLDAsNy4xNiwwbDgwLTQwYTgsOCwwLDAsMCw0LjM1LTYuMWwxNi0xMjBBOCw4LDAsMCwwLDIyNy4wOCw2NC42MlpNMjAwLjYzLDE4Ni43NCwxMjgsMjIzLjA2LDU1LjM3LDE4Ni43NCw0MC43NCw3NywxMjgsNDAuNjcsMjE1LjI2LDc3Wk0xMjEsODQuMTJsLTQwLDcyYTgsOCwwLDEsMCwxNCw3Ljc2TDEwNiwxNDRIMTUwbDExLDE5Ljg4YTgsOCwwLDEsMCwxNC03Ljc2bC00MC03MmE4LDgsMCwwLDAtMTQsMFpNMTQxLjA3LDEyOEgxMTQuOTNMMTI4LDEwNC40N1oiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/AngularLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTA0LjQ3LDE0MS4wNywxMjhIMTE0LjkzWk0yMzEuOTMsNzMuMDZsLTE2LDEyMGE4LDgsMCwwLDEtNC4zNSw2LjFsLTgwLDQwYTgsOCwwLDAsMS03LjE2LDBsLTgwLTQwYTgsOCwwLDAsMS00LjM1LTYuMWwtMTYtMTIwYTgsOCwwLDAsMSw0Ljg1LTguNDRsOTYtNDBhNy45Myw3LjkzLDAsMCwxLDYuMTYsMGw5Niw0MEE4LDgsMCwwLDEsMjMxLjkzLDczLjA2Wk0xNzUsMTU2LjEybC00MC03MmE4LDgsMCwwLDAtMTQsMGwtNDAsNzJhOCw4LDAsMSwwLDE0LDcuNzZMMTA2LDE0NEgxNTBsMTEsMTkuODhhOCw4LDAsMSwwLDE0LTcuNzZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNzIsMjA4LDE5MmwtODAsNDBMNDgsMTkyLDMyLDcybDk2LTQwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyNy4wOCw2NC42MmwtOTYtNDBhNy45Myw3LjkzLDAsMCwwLTYuMTYsMGwtOTYsNDBhOCw4LDAsMCwwLTQuODUsOC40NGwxNiwxMjBhOCw4LDAsMCwwLDQuMzUsNi4xbDgwLDQwYTgsOCwwLDAsMCw3LjE2LDBsODAtNDBhOCw4LDAsMCwwLDQuMzUtNi4xbDE2LTEyMEE4LDgsMCwwLDAsMjI3LjA4LDY0LjYyWk0yMDAuNjMsMTg2Ljc0LDEyOCwyMjMuMDYsNTUuMzcsMTg2Ljc0LDQwLjc0LDc3LDEyOCw0MC42NywyMTUuMjYsNzdaTTEyMSw4NC4xMmwtNDAsNzJhOCw4LDAsMSwwLDE0LDcuNzZMMTA2LDE0NEgxNTBsMTEsMTkuODhhOCw4LDAsMSwwLDE0LTcuNzZsLTQwLTcyYTgsOCwwLDAsMC0xNCwwWk0xNDEuMDcsMTI4SDExNC45M0wxMjgsMTA0LjQ3WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AngularLogoIcon";
-
-/** @deprecated Use AngularLogoIcon */
-export const AngularLogo = I;
-export { I as AngularLogoIcon };
+I.displayName = "AngularLogo";
+export { I as AngularLogo }

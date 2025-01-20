@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NotionLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBIMTY4YTgsOCwwLDAsMCwwLDE2aDE2VjE3Ni44NUwxMTEsNDQuMTRBOCw4LDAsMCwwLDEwNCw0MEg0MGE4LDgsMCwwLDAsMCwxNkg1NlYyMDBINDBhOCw4LDAsMCwwLDAsMTZIODhhOCw4LDAsMCwwLDAtMTZINzJWNzkuMTVsNzMsMTMyLjcxYTgsOCwwLDAsMCw3LDQuMTRoNDBhOCw4LDAsMCwwLDgtOFY1NmgxNmE4LDgsMCwwLDAsMC0xNlpNNzcuNTMsNTZIOTkuMjdsNzkuMiwxNDRIMTU2LjczWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/NotionLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhhOCw4LDAsMCwxLTgsOEgyMDBWMjA4YTgsOCwwLDAsMS04LDhIMTUyYTgsOCwwLDAsMS03LTQuMTRMNzIsNzkuMTVWMjAwSDg4YTgsOCwwLDAsMSwwLDE2SDQwYTgsOCwwLDAsMSwwLTE2SDU2VjU2SDQwYTgsOCwwLDAsMSwwLTE2aDY0YTgsOCwwLDAsMSw3LDQuMTRsNzMsMTMyLjcxVjU2SDE2OGE4LDgsMCwwLDEsMC0xNmg0OEE4LDgsMCwwLDEsMjI0LDQ4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMjA4SDE1Mkw2NCw0OGg0MFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMTYsNDBIMTY4YTgsOCwwLDAsMCwwLDE2aDE2VjE3Ni44NUwxMTEsNDQuMTRBOCw4LDAsMCwwLDEwNCw0MEg0MGE4LDgsMCwwLDAsMCwxNkg1NlYyMDBINDBhOCw4LDAsMCwwLDAsMTZIODhhOCw4LDAsMCwwLDAtMTZINzJWNzkuMTVsNzMsMTMyLjcxYTgsOCwwLDAsMCw3LDQuMTRoNDBhOCw4LDAsMCwwLDgtOFY1NmgxNmE4LDgsMCwwLDAsMC0xNlpNMTU2LjczLDIwMCw3Ny41Myw1Nkg5OS4yN2w3OS4yLDE0NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NotionLogoIcon";
-
-/** @deprecated Use NotionLogoIcon */
-export const NotionLogo = I;
-export { I as NotionLogoIcon };
+I.displayName = "NotionLogo";
+export { I as NotionLogo }

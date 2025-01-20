@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Shapes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03MS41OSw2MS40N2E4LDgsMCwwLDAtMTUuMTgsMGwtNDAsMTIwQTgsOCwwLDAsMCwyNCwxOTJoODBhOCw4LDAsMCwwLDcuNTktMTAuNTNaTTM1LjEsMTc2LDY0LDg5LjMsOTIuOSwxNzZaTTIwOCw3NmE1Miw1MiwwLDEsMC01Miw1MkE1Mi4wNiw1Mi4wNiwwLDAsMCwyMDgsNzZabS04OCwwYTM2LDM2LDAsMSwxLDM2LDM2QTM2LDM2LDAsMCwxLDEyMCw3NlptMTA0LDY4SDEzNmE4LDgsMCwwLDAtOCw4djU2YTgsOCwwLDAsMCw4LDhoODhhOCw4LDAsMCwwLDgtOFYxNTJBOCw4LDAsMCwwLDIyNCwxNDRabS04LDU2SDE0NFYxNjBoNzJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Shapes";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTEuNTksMTgxLjQ3QTgsOCwwLDAsMSwxMDQsMTkySDI0YTgsOCwwLDAsMS03LjU5LTEwLjUzbDQwLTEyMGE4LDgsMCwwLDEsMTUuMTgsMFpNMjA4LDc2YTUyLDUyLDAsMSwwLTUyLDUyQTUyLjA2LDUyLjA2LDAsMCwwLDIwOCw3NlptMTYsNjhIMTM2YTgsOCwwLDAsMC04LDh2NTZhOCw4LDAsMCwwLDgsOGg4OGE4LDgsMCwwLDAsOC04VjE1MkE4LDgsMCwwLDAsMjI0LDE0NFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik02NCw2NGw0MCwxMjBIMjRaTTIwMCw3NmE0NCw0NCwwLDEsMC00NCw0NEE0NCw0NCwwLDAsMCwyMDAsNzZabS02NCw3NnY1Nmg4OFYxNTJaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDE0NEgxMzZhOCw4LDAsMCwwLTgsOHY1NmE4LDgsMCwwLDAsOCw4aDg4YTgsOCwwLDAsMCw4LThWMTUyQTgsOCwwLDAsMCwyMjQsMTQ0Wm0tOCw1NkgxNDRWMTYwaDcyWk03MS41OSw2MS40N2E4LDgsMCwwLDAtMTUuMTgsMGwtNDAsMTIwQTgsOCwwLDAsMCwyNCwxOTJoODBhOCw4LDAsMCwwLDcuNTktMTAuNTNaTTM1LjEsMTc2LDY0LDg5LjMsOTIuOSwxNzZaTTIwOCw3NmE1Miw1MiwwLDEsMC01Miw1MkE1Mi4wNiw1Mi4wNiwwLDAsMCwyMDgsNzZabS04OCwwYTM2LDM2LDAsMSwxLDM2LDM2QTM2LDM2LDAsMCwxLDEyMCw3NloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShapesIcon";
-
-/** @deprecated Use ShapesIcon */
-export const Shapes = I;
-export { I as ShapesIcon };
+I.displayName = "Shapes";
+export { I as Shapes }

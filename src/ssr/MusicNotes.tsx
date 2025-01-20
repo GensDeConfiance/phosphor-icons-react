@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MusicNotes";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTIuOTIsMTcuNjlhOCw4LDAsMCwwLTYuODYtMS40NWwtMTI4LDMyQTgsOCwwLDAsMCw3Miw1NlYxNjYuMDhBMzYsMzYsMCwxLDAsODgsMTk2VjExMC4yNWwxMTItMjh2NTEuODNBMzYsMzYsMCwxLDAsMjE2LDE2NFYyNEE4LDgsMCwwLDAsMjEyLjkyLDE3LjY5Wk01MiwyMTZhMjAsMjAsMCwxLDEsMjAtMjBBMjAsMjAsMCwwLDEsNTIsMjE2Wk04OCw5My43NVY2Mi4yNWwxMTItMjh2MzEuNVpNMTgwLDE4NGEyMCwyMCwwLDEsMSwyMC0yMEEyMCwyMCwwLDAsMSwxODAsMTg0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/MusicNotes";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTIuOTIsMTcuNzFhNy44OSw3Ljg5LDAsMCwwLTYuODYtMS40NmwtMTI4LDMyQTgsOCwwLDAsMCw3Miw1NlYxNjYuMUEzNiwzNiwwLDEsMCw4OCwxOTZWMTAyLjI1bDExMi0yOFYxMzQuMUEzNiwzNiwwLDEsMCwyMTYsMTY0VjI0QTgsOCwwLDAsMCwyMTIuOTIsMTcuNzFaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTY0YTI4LDI4LDAsMSwxLTI4LTI4QTI4LDI4LDAsMCwxLDIwOCwxNjRaTTUyLDE2OGEyOCwyOCwwLDEsMCwyOCwyOEEyOCwyOCwwLDAsMCw1MiwxNjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjEyLjkyLDE3LjY5YTgsOCwwLDAsMC02Ljg2LTEuNDVsLTEyOCwzMkE4LDgsMCwwLDAsNzIsNTZWMTY2LjA4QTM2LDM2LDAsMSwwLDg4LDE5NlYxMTAuMjVsMTEyLTI4djUxLjgzQTM2LDM2LDAsMSwwLDIxNiwxNjRWMjRBOCw4LDAsMCwwLDIxMi45MiwxNy42OVpNNTIsMjE2YTIwLDIwLDAsMSwxLDIwLTIwQTIwLDIwLDAsMCwxLDUyLDIxNlpNODgsOTMuNzVWNjIuMjVsMTEyLTI4djMxLjVaTTE4MCwxODRhMjAsMjAsMCwxLDEsMjAtMjBBMjAsMjAsMCwwLDEsMTgwLDE4NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MusicNotesIcon";
-
-/** @deprecated Use MusicNotesIcon */
-export const MusicNotes = I;
-export { I as MusicNotesIcon };
+I.displayName = "MusicNotes";
+export { I as MusicNotes }

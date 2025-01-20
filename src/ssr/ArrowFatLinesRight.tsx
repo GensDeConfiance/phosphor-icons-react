@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowFatLinesRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzcuNjYsMTIyLjM0bC05Ni05NkE4LDgsMCwwLDAsMTI4LDMyVjcySDEwNGE4LDgsMCwwLDAtOCw4djk2YTgsOCwwLDAsMCw4LDhoMjR2NDBhOCw4LDAsMCwwLDEzLjY2LDUuNjZsOTYtOTZBOCw4LDAsMCwwLDIzNy42NiwxMjIuMzRaTTE0NCwyMDQuNjlWMTc2YTgsOCwwLDAsMC04LThIMTEyVjg4aDI0YTgsOCwwLDAsMCw4LThWNTEuMzFMMjIwLjY5LDEyOFpNNDgsODB2OTZhOCw4LDAsMCwxLTE2LDBWODBhOCw4LDAsMCwxLDE2LDBabTMyLDB2OTZhOCw4LDAsMCwxLTE2LDBWODBhOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowFatLinesRight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCw4MHY5NmE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsMTYsMFptMjQtOGE4LDgsMCwwLDAtOCw4djk2YTgsOCwwLDAsMCwxNiwwVjgwQTgsOCwwLDAsMCw3Miw3MlptMTY1LjY2LDUwLjM0LTk2LTk2QTgsOCwwLDAsMCwxMjgsMzJWNzJIMTA0YTgsOCwwLDAsMC04LDh2OTZhOCw4LDAsMCwwLDgsOGgyNHY0MGE4LDgsMCwwLDAsMTMuNjYsNS42Nmw5Ni05NkE4LDgsMCwwLDAsMjM3LjY2LDEyMi4zNFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMjI0VjE3NkgxMDRWODBoMzJWMzJsOTYsOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjM3LjY2LDEyMi4zNGwtOTYtOTZBOCw4LDAsMCwwLDEyOCwzMlY3MkgxMDRhOCw4LDAsMCwwLTgsOHY5NmE4LDgsMCwwLDAsOCw4aDI0djQwYTgsOCwwLDAsMCwxMy42Niw1LjY2bDk2LTk2QTgsOCwwLDAsMCwyMzcuNjYsMTIyLjM0Wk0xNDQsMjA0LjY5VjE3NmE4LDgsMCwwLDAtOC04SDExMlY4OGgyNGE4LDgsMCwwLDAsOC04VjUxLjMxTDIyMC42OSwxMjhaTTQ4LDgwdjk2YTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMSwxNiwwWm0zMiwwdjk2YTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowFatLinesRightIcon";
-
-/** @deprecated Use ArrowFatLinesRightIcon */
-export const ArrowFatLinesRight = I;
-export { I as ArrowFatLinesRightIcon };
+I.displayName = "ArrowFatLinesRight";
+export { I as ArrowFatLinesRight }

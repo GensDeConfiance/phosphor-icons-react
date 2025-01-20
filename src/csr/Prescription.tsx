@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Prescription";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xODMuMzEsMTg4bDIyLjM1LTIyLjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxNzIsMTc2LjY5bC00MS4xNS00MS4xNkE1Miw1MiwwLDAsMCwxMjQsMzJINzJhOCw4LDAsMCwwLTgsOFYxOTJhOCw4LDAsMCwwLDE2LDBWMTM2aDI4LjY5bDUyLDUyLTIyLjM1LDIyLjM0YTgsOCwwLDAsMCwxMS4zMiwxMS4zMkwxNzIsMTk5LjMxbDIyLjM0LDIyLjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMlpNODAsNDhoNDRhMzYsMzYsMCwwLDEsMCw3Mkg4MFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Prescription";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTIwSDk2VjcyaDMyYTI0LDI0LDAsMCwxLDAsNDhabTk2LTcyVjIwOGExNiwxNiwwLDAsMS0xNiwxNkg0OGExNiwxNiwwLDAsMS0xNi0xNlY0OEExNiwxNiwwLDAsMSw0OCwzMkgyMDhBMTYsMTYsMCwwLDEsMjI0LDQ4Wk0xODkuNjYsMTg2LjM0LDE3NS4zMSwxNzJsMTQuMzUtMTQuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMyTDE2NCwxNjAuNjlsLTI2LTI2QTQwLDQwLDAsMCwwLDEyOCw1Nkg4OGE4LDgsMCwwLDAtOCw4VjE3NmE4LDgsMCwwLDAsMTYsMFYxMzZoMjAuNjlsMzYsMzYtMTQuMzUsMTQuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDE2NCwxODMuMzFsMTQuMzQsMTQuMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsODRhNDQsNDQsMCwwLDEtNDQsNDRINzJWNDBoNTJBNDQsNDQsMCwwLDEsMTY4LDg0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE4My4zMSwxODhsMjIuMzUtMjIuMzRhOCw4LDAsMCwwLTExLjMyLTExLjMyTDE3MiwxNzYuNjlsLTQxLjE1LTQxLjE2QTUyLDUyLDAsMCwwLDEyNCwzMkg3MmE4LDgsMCwwLDAtOCw4VjE5MmE4LDgsMCwwLDAsMTYsMFYxMzZoMjguNjlsNTIsNTItMjIuMzUsMjIuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDE3MiwxOTkuMzFsMjIuMzQsMjIuMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyWk04MCw0OGg0NGEzNiwzNiwwLDAsMSwwLDcySDgwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PrescriptionIcon";
-
-/** @deprecated Use PrescriptionIcon */
-export const Prescription = I;
-export { I as PrescriptionIcon };
+I.displayName = "Prescription";
+export { I as Prescription }

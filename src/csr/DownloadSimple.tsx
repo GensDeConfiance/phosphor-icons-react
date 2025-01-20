@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DownloadSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTQ0djY0YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTgtOFYxNDRhOCw4LDAsMCwxLDE2LDB2NTZIMjA4VjE0NGE4LDgsMCwwLDEsMTYsMFptLTEwMS42Niw1LjY2YTgsOCwwLDAsMCwxMS4zMiwwbDQwLTQwYTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxMzYsMTI0LjY5VjMyYTgsOCwwLDAsMC0xNiwwdjkyLjY5TDkzLjY2LDk4LjM0YTgsOCwwLDAsMC0xMS4zMiwxMS4zMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/DownloadSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTQ0djY0YTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTgtOFYxNDRhOCw4LDAsMCwxLDE2LDB2NTZIMjA4VjE0NGE4LDgsMCwwLDEsMTYsMFptLTEwMS42Niw1LjY2YTgsOCwwLDAsMCwxMS4zMiwwbDQwLTQwQTgsOCwwLDAsMCwxNjgsOTZIMTM2VjMyYTgsOCwwLDAsMC0xNiwwVjk2SDg4YTgsOCwwLDAsMC01LjY2LDEzLjY2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWMjA4SDQwVjQ4QTE2LDE2LDAsMCwxLDU2LDMySDIwMEExNiwxNiwwLDAsMSwyMTYsNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDE0NHY2NGE4LDgsMCwwLDEtOCw4SDQwYTgsOCwwLDAsMS04LThWMTQ0YTgsOCwwLDAsMSwxNiwwdjU2SDIwOFYxNDRhOCw4LDAsMCwxLDE2LDBabS0xMDEuNjYsNS42NmE4LDgsMCwwLDAsMTEuMzIsMGw0MC00MGE4LDgsMCwwLDAtMTEuMzItMTEuMzJMMTM2LDEyNC42OVYzMmE4LDgsMCwwLDAtMTYsMHY5Mi42OUw5My42Niw5OC4zNGE4LDgsMCwwLDAtMTEuMzIsMTEuMzJaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DownloadSimpleIcon";
-
-/** @deprecated Use DownloadSimpleIcon */
-export const DownloadSimple = I;
-export { I as DownloadSimpleIcon };
+I.displayName = "DownloadSimple";
+export { I as DownloadSimple }

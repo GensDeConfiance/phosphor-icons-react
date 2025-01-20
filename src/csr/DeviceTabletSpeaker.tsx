@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/DeviceTabletSpeaker";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMjRINjRBMjQsMjQsMCwwLDAsNDAsNDhWMjA4YTI0LDI0LDAsMCwwLDI0LDI0SDE5MmEyNCwyNCwwLDAsMCwyNC0yNFY0OEEyNCwyNCwwLDAsMCwxOTIsMjRabTgsMTg0YTgsOCwwLDAsMS04LDhINjRhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsOC04SDE5MmE4LDgsMCwwLDEsOCw4Wk0xNjgsNjRhOCw4LDAsMCwxLTgsOEg5NmE4LDgsMCwwLDEsMC0xNmg2NEE4LDgsMCwwLDEsMTY4LDY0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/DeviceTabletSpeaker";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMjRINjRBMjQsMjQsMCwwLDAsNDAsNDhWMjA4YTI0LDI0LDAsMCwwLDI0LDI0SDE5MmEyNCwyNCwwLDAsMCwyNC0yNFY0OEEyNCwyNCwwLDAsMCwxOTIsMjRaTTE2MCw3Mkg5NmE4LDgsMCwwLDEsMC0xNmg2NGE4LDgsMCwwLDEsMCwxNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDhWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDY0YTE2LDE2LDAsMCwxLTE2LTE2VjQ4QTE2LDE2LDAsMCwxLDY0LDMySDE5MkExNiwxNiwwLDAsMSwyMDgsNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTkyLDI0SDY0QTI0LDI0LDAsMCwwLDQwLDQ4VjIwOGEyNCwyNCwwLDAsMCwyNCwyNEgxOTJhMjQsMjQsMCwwLDAsMjQtMjRWNDhBMjQsMjQsMCwwLDAsMTkyLDI0Wm04LDE4NGE4LDgsMCwwLDEtOCw4SDY0YTgsOCwwLDAsMS04LThWNDhhOCw4LDAsMCwxLDgtOEgxOTJhOCw4LDAsMCwxLDgsOFpNMTY4LDY0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCw2NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DeviceTabletSpeakerIcon";
-
-/** @deprecated Use DeviceTabletSpeakerIcon */
-export const DeviceTabletSpeaker = I;
-export { I as DeviceTabletSpeakerIcon };
+I.displayName = "DeviceTabletSpeaker";
+export { I as DeviceTabletSpeaker }

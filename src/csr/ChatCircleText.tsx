@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChatCircleText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTEyYTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxMTJabS04LDI0SDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wm03Mi04QTEwNCwxMDQsMCwwLDEsNzkuMTIsMjE5LjgyTDQ1LjA3LDIzMS4xN2ExNiwxNiwwLDAsMS0yMC4yNC0yMC4yNGwxMS4zNS0zNC4wNUExMDQsMTA0LDAsMSwxLDIzMiwxMjhabS0xNiwwQTg4LDg4LDAsMSwwLDUxLjgxLDE3Mi4wNmE4LDgsMCwwLDEsLjY2LDYuNTRMNDAsMjE2LDc3LjQsMjAzLjUzYTcuODUsNy44NSwwLDAsMSwyLjUzLS40Miw4LDgsMCwwLDEsNCwxLjA4QTg4LDg4LDAsMCwwLDIxNiwxMjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ChatCircleText";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDAsMCwzNi4xOCwxNzYuODhMMjQuODMsMjEwLjkzYTE2LDE2LDAsMCwwLDIwLjI0LDIwLjI0bDM0LjA1LTExLjM1QTEwNCwxMDQsMCwxLDAsMTI4LDI0Wm0zMiwxMjhIOTZhOCw4LDAsMCwxLDAtMTZoNjRhOCw4LDAsMCwxLDAsMTZabTAtMzJIOTZhOCw4LDAsMCwxLDAtMTZoNjRhOCw4LDAsMCwxLDAsMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4QTk2LDk2LDAsMCwxLDc5LjkzLDIxMS4xMWgwTDQyLjU0LDIyMy41OGE4LDgsMCwwLDEtMTAuMTItMTAuMTJsMTIuNDctMzcuMzloMEE5Niw5NiwwLDEsMSwyMjQsMTI4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEyOCwyNEExMDQsMTA0LDAsMCwwLDM2LjE4LDE3Ni44OEwyNC44MywyMTAuOTNhMTYsMTYsMCwwLDAsMjAuMjQsMjAuMjRsMzQuMDUtMTEuMzVBMTA0LDEwNCwwLDEsMCwxMjgsMjRabTAsMTkyYTg3Ljg3LDg3Ljg3LDAsMCwxLTQ0LjA2LTExLjgxLDgsOCwwLDAsMC00LTEuMDgsNy44NSw3Ljg1LDAsMCwwLTIuNTMuNDJMNDAsMjE2LDUyLjQ3LDE3OC42YTgsOCwwLDAsMC0uNjYtNi41NEE4OCw4OCwwLDEsMSwxMjgsMjE2Wm00MC0xMDRhOCw4LDAsMCwxLTgsOEg5NmE4LDgsMCwwLDEsMC0xNmg2NEE4LDgsMCwwLDEsMTY4LDExMlptMCwzMmE4LDgsMCwwLDEtOCw4SDk2YTgsOCwwLDAsMSwwLTE2aDY0QTgsOCwwLDAsMSwxNjgsMTQ0WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChatCircleTextIcon";
-
-/** @deprecated Use ChatCircleTextIcon */
-export const ChatCircleText = I;
-export { I as ChatCircleTextIcon };
+I.displayName = "ChatCircleText";
+export { I as ChatCircleText }

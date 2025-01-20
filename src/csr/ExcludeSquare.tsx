@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ExcludeSquare";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwVjk2YTgsOCwwLDAsMC04LThIMTY4VjQwYTgsOCwwLDAsMC04LThINDBhOCw4LDAsMCwwLTgsOFY5NmgwdjY0YTgsOCwwLDAsMCw4LDhIODh2NDhhOCw4LDAsMCwwLDgsOEgyMTZhOCw4LDAsMCwwLDgtOFYxNjBabS02MC42OSw0OC00MC00MGgzMy4zOGw0MCw0MFpNNDgsNTkuMzFsNDAsNDB2MzMuMzhsLTQwLTQwWk05Mi42OSw0OGw0MCw0MEg5OS4zMWwtNDAtNDBaTTEwNCwxNTJoMFYxMDRoNDh2NDhabTY0LDQuNjlWMTIzLjMxbDQwLDQwdjMzLjM4Wm00MC0xNkwxNzEuMzEsMTA0SDIwOFptLTU2LTU2TDExNS4zMSw0OEgxNTJaTTQ4LDExNS4zMSw4NC42OSwxNTJINDhabTU2LDU2TDE0MC42OSwyMDhIMTA0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ExcludeSquare";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw4OHY4MEg0MGE4LDgsMCwwLDEtOC04VjQwYTgsOCwwLDAsMSw4LThIMTYwYTgsOCwwLDAsMSw4LDhWODhabTEyOCwwSDE2OHY4MEg4OHY0OGE4LDgsMCwwLDAsOCw4SDIxNmE4LDgsMCwwLDAsOC04Vjk2QTgsOCwwLDAsMCwyMTYsODhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Niw5NnY2NEg0MFY0MEgxNjBWOTZabTY0LDB2NjRIOTZ2NTZIMjE2Vjk2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw4OEgxNjhWNDBhOCw4LDAsMCwwLTgtOEg0MGE4LDgsMCwwLDAtOCw4VjE2MGE4LDgsMCwwLDAsOCw4SDg4djQ4YTgsOCwwLDAsMCw4LDhIMjE2YTgsOCwwLDAsMCw4LThWOTZBOCw4LDAsMCwwLDIxNiw4OFpNNDgsMTUyVjQ4SDE1MlY4OEg5NmE4LDgsMCwwLDAtOCw4djU2Wm0xMDQtNDh2NDhIMTA0VjEwNFptNTYsMTA0SDEwNFYxNjhoNTZhOCw4LDAsMCwwLDgtOFYxMDRoNDBaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ExcludeSquareIcon";
-
-/** @deprecated Use ExcludeSquareIcon */
-export const ExcludeSquare = I;
-export { I as ExcludeSquareIcon };
+I.displayName = "ExcludeSquare";
+export { I as ExcludeSquare }

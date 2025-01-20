@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignCenterVertical";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTIwSDIwOFY3MmExNiwxNiwwLDAsMC0xNi0xNkgxNTJhMTYsMTYsMCwwLDAtMTYsMTZ2NDhIMTIwVjQ4YTE2LDE2LDAsMCwwLTE2LTE2SDY0QTE2LDE2LDAsMCwwLDQ4LDQ4djcySDMyYTgsOCwwLDAsMCwwLDE2SDQ4djcyYTE2LDE2LDAsMCwwLDE2LDE2aDQwYTE2LDE2LDAsMCwwLDE2LTE2VjEzNmgxNnY0OGExNiwxNiwwLDAsMCwxNiwxNmg0MGExNiwxNiwwLDAsMCwxNi0xNlYxMzZoMTZhOCw4LDAsMCwwLDAtMTZaTTEwNCwyMDhINjRWNDhoNDBabTg4LTI0SDE1MlY3Mmg0MFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/AlignCenterVertical";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTI4YTgsOCwwLDAsMS04LDhIMjA4djQ4YTE2LDE2LDAsMCwxLTE2LDE2SDE1MmExNiwxNiwwLDAsMS0xNi0xNlYxMzZIMTIwdjcyYTE2LDE2LDAsMCwxLTE2LDE2SDY0YTE2LDE2LDAsMCwxLTE2LTE2VjEzNkgzMmE4LDgsMCwwLDEsMC0xNkg0OFY0OEExNiwxNiwwLDAsMSw2NCwzMmg0MGExNiwxNiwwLDAsMSwxNiwxNnY3MmgxNlY3MmExNiwxNiwwLDAsMSwxNi0xNmg0MGExNiwxNiwwLDAsMSwxNiwxNnY0OGgxNkE4LDgsMCwwLDEsMjMyLDEyOFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNzJWMTg0YTgsOCwwLDAsMS04LDhIMTUyYTgsOCwwLDAsMS04LThWNzJhOCw4LDAsMCwxLDgtOGg0MEE4LDgsMCwwLDEsMjAwLDcyWk0xMDQsNDBINjRhOCw4LDAsMCwwLTgsOFYyMDhhOCw4LDAsMCwwLDgsOGg0MGE4LDgsMCwwLDAsOC04VjQ4QTgsOCwwLDAsMCwxMDQsNDBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDEyMEgyMDhWNzJhMTYsMTYsMCwwLDAtMTYtMTZIMTUyYTE2LDE2LDAsMCwwLTE2LDE2djQ4SDEyMFY0OGExNiwxNiwwLDAsMC0xNi0xNkg2NEExNiwxNiwwLDAsMCw0OCw0OHY3MkgzMmE4LDgsMCwwLDAsMCwxNkg0OHY3MmExNiwxNiwwLDAsMCwxNiwxNmg0MGExNiwxNiwwLDAsMCwxNi0xNlYxMzZoMTZ2NDhhMTYsMTYsMCwwLDAsMTYsMTZoNDBhMTYsMTYsMCwwLDAsMTYtMTZWMTM2aDE2YTgsOCwwLDAsMCwwLTE2Wk0xMDQsMjA4SDY0VjQ4aDQwWm04OC0yNEgxNTJWNzJoNDBaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AlignCenterVerticalIcon";
-
-/** @deprecated Use AlignCenterVerticalIcon */
-export const AlignCenterVertical = I;
-export { I as AlignCenterVerticalIcon };
+I.displayName = "AlignCenterVertical";
+export { I as AlignCenterVertical }

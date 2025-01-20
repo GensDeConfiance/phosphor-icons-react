@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DoorOpen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjE2SDIwOFY0MGExNiwxNiwwLDAsMC0xNi0xNkg2NEExNiwxNiwwLDAsMCw0OCw0MFYyMTZIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tNDAsMEgxNzZWNDBoMTZaTTY0LDQwaDk2VjIxNkg2NFptODAsOTJhMTIsMTIsMCwxLDEtMTItMTJBMTIsMTIsMCwwLDEsMTQ0LDEzMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/DoorOpen";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjE2SDIwOFY0MGExNiwxNiwwLDAsMC0xNi0xNkg2NEExNiwxNiwwLDAsMCw0OCw0MFYyMTZIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tNjQsMEg2NFY0MEgxNjhabS00MC04NGExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxMjgsMTMyWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBWMjI0SDE2OFYzMmgyNEE4LDgsMCwwLDEsMjAwLDQwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIzMiwyMTZIMjA4VjQwYTE2LDE2LDAsMCwwLTE2LTE2SDY0QTE2LDE2LDAsMCwwLDQ4LDQwVjIxNkgyNGE4LDgsMCwwLDAsMCwxNkgyMzJhOCw4LDAsMCwwLDAtMTZabS00MCwwSDE3NlY0MGgxNlpNNjQsNDBoOTZWMjE2SDY0Wm04MCw5MmExMiwxMiwwLDEsMS0xMi0xMkExMiwxMiwwLDAsMSwxNDQsMTMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DoorOpenIcon";
-
-/** @deprecated Use DoorOpenIcon */
-export const DoorOpen = I;
-export { I as DoorOpenIcon };
+I.displayName = "DoorOpen";
+export { I as DoorOpen }

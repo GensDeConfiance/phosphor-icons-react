@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CallBell";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNCwxODRIMjMyYTgsOCwwLDAsMCwwLTE2aC04VjE1MmE5Ni4xMiw5Ni4xMiwwLDAsMC04OC05NS42NlY0MGgxNmE4LDgsMCwwLDAsMC0xNkgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNTYuMzRBOTYuMTIsOTYuMTIsMCwwLDAsMzIsMTUydjE2SDI0YTgsOCwwLDAsMCwwLDE2Wm0yNC0zMmE4MCw4MCwwLDAsMSwxNjAsMHYxNkg0OFptMTkyLDU2YTgsOCwwLDAsMS04LDhIMjRhOCw4LDAsMCwxLDAtMTZIMjMyQTgsOCwwLDAsMSwyNDAsMjA4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CallBell";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNiwxNzZhOCw4LDAsMCwxLDgtOGg4VjE1MmE5Ni4xMiw5Ni4xMiwwLDAsMSw4OC05NS42NlY0MEgxMDRhOCw4LDAsMCwxLDAtMTZoNDhhOCw4LDAsMCwxLDAsMTZIMTM2VjU2LjM0QTk2LjEyLDk2LjEyLDAsMCwxLDIyNCwxNTJ2MTZoOGE4LDgsMCwwLDEsMCwxNkgyNEE4LDgsMCwwLDEsMTYsMTc2Wm0yMTYsMjRIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTUydjI0SDQwVjE1MmE4OCw4OCwwLDAsMSwxNzYsMFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yNCwxODRIMjMyYTgsOCwwLDAsMCwwLTE2aC04VjE1MmE5Ni4xMiw5Ni4xMiwwLDAsMC04OC05NS42NlY0MGgxNmE4LDgsMCwwLDAsMC0xNkgxMDRhOCw4LDAsMCwwLDAsMTZoMTZWNTYuMzRBOTYuMTIsOTYuMTIsMCwwLDAsMzIsMTUydjE2SDI0YTgsOCwwLDAsMCwwLDE2Wm0yNC0zMmE4MCw4MCwwLDAsMSwxNjAsMHYxNkg0OFptMTkyLDU2YTgsOCwwLDAsMS04LDhIMjRhOCw4LDAsMCwxLDAtMTZIMjMyQTgsOCwwLDAsMSwyNDAsMjA4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CallBellIcon";
-
-/** @deprecated Use CallBellIcon */
-export const CallBell = I;
-export { I as CallBellIcon };
+I.displayName = "CallBell";
+export { I as CallBell }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/MapPin";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNjRhNDAsNDAsMCwxLDAsNDAsNDBBNDAsNDAsMCwwLDAsMTI4LDY0Wm0wLDY0YTI0LDI0LDAsMSwxLDI0LTI0QTI0LDI0LDAsMCwxLDEyOCwxMjhabTAtMTEyYTg4LjEsODguMSwwLDAsMC04OCw4OGMwLDMxLjQsMTQuNTEsNjQuNjgsNDIsOTYuMjVhMjU0LjE5LDI1NC4xOSwwLDAsMCw0MS40NSwzOC4zLDgsOCwwLDAsMCw5LjE4LDBBMjU0LjE5LDI1NC4xOSwwLDAsMCwxNzQsMjAwLjI1YzI3LjQ1LTMxLjU3LDQyLTY0Ljg1LDQyLTk2LjI1QTg4LjEsODguMSwwLDAsMCwxMjgsMTZabTAsMjA2Yy0xNi41My0xMy03Mi02MC43NS03Mi0xMThhNzIsNzIsMCwwLDEsMTQ0LDBDMjAwLDE2MS4yMywxNDQuNTMsMjA5LDEyOCwyMjJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/MapPin";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZhODguMSw4OC4xLDAsMCwwLTg4LDg4YzAsNzUuMyw4MCwxMzIuMTcsODMuNDEsMTM0LjU1YTgsOCwwLDAsMCw5LjE4LDBDMTM2LDIzNi4xNywyMTYsMTc5LjMsMjE2LDEwNEE4OC4xLDg4LjEsMCwwLDAsMTI4LDE2Wm0wLDU2YTMyLDMyLDAsMSwxLTMyLDMyQTMyLDMyLDAsMCwxLDEyOCw3MloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRhODAsODAsMCwwLDAtODAsODBjMCw3Miw4MCwxMjgsODAsMTI4czgwLTU2LDgwLTEyOEE4MCw4MCwwLDAsMCwxMjgsMjRabTAsMTEyYTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDEyOCwxMzZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDY0YTQwLDQwLDAsMSwwLDQwLDQwQTQwLDQwLDAsMCwwLDEyOCw2NFptMCw2NGEyNCwyNCwwLDEsMSwyNC0yNEEyNCwyNCwwLDAsMSwxMjgsMTI4Wm0wLTExMmE4OC4xLDg4LjEsMCwwLDAtODgsODhjMCwzMS40LDE0LjUxLDY0LjY4LDQyLDk2LjI1YTI1NC4xOSwyNTQuMTksMCwwLDAsNDEuNDUsMzguMyw4LDgsMCwwLDAsOS4xOCwwQTI1NC4xOSwyNTQuMTksMCwwLDAsMTc0LDIwMC4yNWMyNy40NS0zMS41Nyw0Mi02NC44NSw0Mi05Ni4yNUE4OC4xLDg4LjEsMCwwLDAsMTI4LDE2Wm0wLDIwNmMtMTYuNTMtMTMtNzItNjAuNzUtNzItMTE4YTcyLDcyLDAsMCwxLDE0NCwwQzIwMCwxNjEuMjMsMTQ0LjUzLDIwOSwxMjgsMjIyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MapPinIcon";
-
-/** @deprecated Use MapPinIcon */
-export const MapPin = I;
-export { I as MapPinIcon };
+I.displayName = "MapPin";
+export { I as MapPin }

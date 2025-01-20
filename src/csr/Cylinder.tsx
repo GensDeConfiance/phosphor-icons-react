@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Cylinder";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZDODcuNjMsMTYsNTYsMzUuMzMsNTYsNjBWMTk2YzAsMjQuNjcsMzEuNjMsNDQsNzIsNDRzNzItMTkuMzMsNzItNDRWNjBDMjAwLDM1LjMzLDE2OC4zNywxNiwxMjgsMTZabTAsMTZjMjYuNDksMCw1NiwxMS41LDU2LDI4cy0yOS41MSwyOC01NiwyOFM3Miw3Ni41LDcyLDYwLDEwMS41MSwzMiwxMjgsMzJabTAsMTkyYy0yOS44MywwLTU2LTEzLjA4LTU2LTI4Vjg4YzEzLjEsOS44NSwzMy4xNCwxNiw1NiwxNnM0Mi45LTYuMiw1Ni0xNlYxOTZDMTg0LDIxMC45MiwxNTcuODMsMjI0LDEyOCwyMjRaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Cylinder";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTZDODcuNjMsMTYsNTYsMzUuMzMsNTYsNjBWMTk2YzAsMjQuNjcsMzEuNjMsNDQsNzIsNDRzNzItMTkuMzMsNzItNDRWNjBDMjAwLDM1LjMzLDE2OC4zNywxNiwxMjgsMTZabTAsMjA4Yy0yOS44MywwLTU2LTEzLjA4LTU2LTI4Vjc3LjQzQzgyLjkyLDg4LjUsMTAzLjksOTYsMTI4LDk2czQ1LjA4LTcuNSw1Ni0xOC41N1YxOTZDMTg0LDIxMC45MiwxNTcuODMsMjI0LDEyOCwyMjRaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNjBjMCwxOS44OC0yOC42NSwzNi02NCwzNlM2NCw3OS44OCw2NCw2MHMyOC42NS0zNiw2NC0zNlMxOTIsNDAuMTIsMTkyLDYwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEyOCwxNkM4Ny42MywxNiw1NiwzNS4zMyw1Niw2MFYxOTZjMCwyNC42NywzMS42Myw0NCw3Miw0NHM3Mi0xOS4zMyw3Mi00NFY2MEMyMDAsMzUuMzMsMTY4LjM3LDE2LDEyOCwxNlptMCwxNmMyNi40OSwwLDU2LDExLjUsNTYsMjhzLTI5LjUxLDI4LTU2LDI4UzcyLDc2LjUsNzIsNjAsMTAxLjUxLDMyLDEyOCwzMlptMCwxOTJjLTI5LjgzLDAtNTYtMTMuMDgtNTYtMjhWODhjMTMuMSw5Ljg1LDMzLjE0LDE2LDU2LDE2czQyLjktNi4yLDU2LTE2VjE5NkMxODQsMjEwLjkyLDE1Ny44MywyMjQsMTI4LDIyNFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CylinderIcon";
-
-/** @deprecated Use CylinderIcon */
-export const Cylinder = I;
-export { I as CylinderIcon };
+I.displayName = "Cylinder";
+export { I as Cylinder }

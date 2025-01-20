@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Steps";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsNTZhOCw4LDAsMCwxLTgsOEgxOTJ2NDBhOCw4LDAsMCwxLTgsOEgxMzZ2NDBhOCw4LDAsMCwxLTgsOEg4MHY0MGE4LDgsMCwwLDEtOCw4SDE2YTgsOCwwLDAsMSwwLTE2SDY0VjE1MmE4LDgsMCwwLDEsOC04aDQ4VjEwNGE4LDgsMCwwLDEsOC04aDQ4VjU2YTgsOCwwLDAsMSw4LThoNTZBOCw4LDAsMCwxLDI0OCw1NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Steps";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsNTZWMjAwYTgsOCwwLDAsMS04LDhIOGE4LDgsMCwwLDEsMC0xNkg1NlYxNTJhOCw4LDAsMCwxLDgtOGg0OFYxMDRhOCw4LDAsMCwxLDgtOGg0OFY1NmE4LDgsMCwwLDEsOC04aDU2QTgsOCwwLDAsMSwyNDAsNTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsNTZWMTg0YTE2LDE2LDAsMCwxLTE2LDE2SDcyVjE1Mmg1NlYxMDRoNTZWNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjQ4LDU2YTgsOCwwLDAsMS04LDhIMTkydjQwYTgsOCwwLDAsMS04LDhIMTM2djQwYTgsOCwwLDAsMS04LDhIODB2NDBhOCw4LDAsMCwxLTgsOEgxNmE4LDgsMCwwLDEsMC0xNkg2NFYxNTJhOCw4LDAsMCwxLDgtOGg0OFYxMDRhOCw4LDAsMCwxLDgtOGg0OFY1NmE4LDgsMCwwLDEsOC04aDU2QTgsOCwwLDAsMSwyNDgsNTZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "StepsIcon";
-
-/** @deprecated Use StepsIcon */
-export const Steps = I;
-export { I as StepsIcon };
+I.displayName = "Steps";
+export { I as Steps }

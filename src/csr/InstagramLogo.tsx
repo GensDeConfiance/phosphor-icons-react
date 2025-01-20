@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/InstagramLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBhNDgsNDgsMCwxLDAsNDgsNDhBNDguMDUsNDguMDUsMCwwLDAsMTI4LDgwWm0wLDgwYTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDEyOCwxNjBaTTE3NiwyNEg4MEE1Ni4wNiw1Ni4wNiwwLDAsMCwyNCw4MHY5NmE1Ni4wNiw1Ni4wNiwwLDAsMCw1Niw1Nmg5NmE1Ni4wNiw1Ni4wNiwwLDAsMCw1Ni01NlY4MEE1Ni4wNiw1Ni4wNiwwLDAsMCwxNzYsMjRabTQwLDE1MmE0MCw0MCwwLDAsMS00MCw0MEg4MGE0MCw0MCwwLDAsMS00MC00MFY4MEE0MCw0MCwwLDAsMSw4MCw0MGg5NmE0MCw0MCwwLDAsMSw0MCw0MFpNMTkyLDc2YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE5Miw3NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/InstagramLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMjRIODBBNTYuMDYsNTYuMDYsMCwwLDAsMjQsODB2OTZhNTYuMDYsNTYuMDYsMCwwLDAsNTYsNTZoOTZhNTYuMDYsNTYuMDYsMCwwLDAsNTYtNTZWODBBNTYuMDYsNTYuMDYsMCwwLDAsMTc2LDI0Wk0xMjgsMTc2YTQ4LDQ4LDAsMSwxLDQ4LTQ4QTQ4LjA1LDQ4LjA1LDAsMCwxLDEyOCwxNzZabTYwLTk2YTEyLDEyLDAsMSwxLDEyLTEyQTEyLDEyLDAsMCwxLDE4OCw4MFptLTI4LDQ4YTMyLDMyLDAsMSwxLTMyLTMyQTMyLDMyLDAsMCwxLDE2MCwxMjhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMzJIODBBNDgsNDgsMCwwLDAsMzIsODB2OTZhNDgsNDgsMCwwLDAsNDgsNDhoOTZhNDgsNDgsMCwwLDAsNDgtNDhWODBBNDgsNDgsMCwwLDAsMTc2LDMyWk0xMjgsMTY4YTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDEyOCwxNjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTc2LDI0SDgwQTU2LjA2LDU2LjA2LDAsMCwwLDI0LDgwdjk2YTU2LjA2LDU2LjA2LDAsMCwwLDU2LDU2aDk2YTU2LjA2LDU2LjA2LDAsMCwwLDU2LTU2VjgwQTU2LjA2LDU2LjA2LDAsMCwwLDE3NiwyNFptNDAsMTUyYTQwLDQwLDAsMCwxLTQwLDQwSDgwYTQwLDQwLDAsMCwxLTQwLTQwVjgwQTQwLDQwLDAsMCwxLDgwLDQwaDk2YTQwLDQwLDAsMCwxLDQwLDQwWk0xMjgsODBhNDgsNDgsMCwxLDAsNDgsNDhBNDguMDUsNDguMDUsMCwwLDAsMTI4LDgwWm0wLDgwYTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDEyOCwxNjBabTY0LTg0YTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE5Miw3NloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "InstagramLogoIcon";
-
-/** @deprecated Use InstagramLogoIcon */
-export const InstagramLogo = I;
-export { I as InstagramLogoIcon };
+I.displayName = "InstagramLogo";
+export { I as InstagramLogo }

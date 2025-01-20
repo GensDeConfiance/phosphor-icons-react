@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Joystick";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTQ0SDEzNlY5NS4xOWE0MCw0MCwwLDEsMC0xNiwwVjE0NEg0OGExNiwxNiwwLDAsMC0xNiwxNnY0OGExNiwxNiwwLDAsMCwxNiwxNkgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWMTYwQTE2LDE2LDAsMCwwLDIwOCwxNDRaTTEwNCw1NmEyNCwyNCwwLDEsMSwyNCwyNEEyNCwyNCwwLDAsMSwxMDQsNTZaTTIwOCwyMDhINDhWMTYwSDIwOHY0OFptLTQwLTk2aDMyYTgsOCwwLDAsMSwwLDE2SDE2OGE4LDgsMCwwLDEsMC0xNloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Joystick";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTYwdjQ4YTE2LDE2LDAsMCwxLTE2LDE2SDQ4YTE2LDE2LDAsMCwxLTE2LTE2VjE2MGExNiwxNiwwLDAsMSwxNi0xNmg3MlY5NS4xOWE0MCw0MCwwLDEsMSwxNiwwVjE0NGg3MkExNiwxNiwwLDAsMSwyMjQsMTYwWm0tNjQtNDBhOCw4LDAsMCwwLDgsOGgzMmE4LDgsMCwwLDAsMC0xNkgxNjhBOCw4LDAsMCwwLDE2MCwxMjBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTYwdjQ4YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFYxNjBhOCw4LDAsMCwxLDgtOEgyMDhBOCw4LDAsMCwxLDIxNiwxNjBaTTEyOCw4OEEzMiwzMiwwLDEsMCw5Niw1NiwzMiwzMiwwLDAsMCwxMjgsODhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjA4LDE0NEgxMzZWOTUuMTlhNDAsNDAsMCwxLDAtMTYsMFYxNDRINDhhMTYsMTYsMCwwLDAtMTYsMTZ2NDhhMTYsMTYsMCwwLDAsMTYsMTZIMjA4YTE2LDE2LDAsMCwwLDE2LTE2VjE2MEExNiwxNiwwLDAsMCwyMDgsMTQ0Wk0xMDQsNTZhMjQsMjQsMCwxLDEsMjQsMjRBMjQsMjQsMCwwLDEsMTA0LDU2Wk0yMDgsMjA4SDQ4VjE2MEgyMDh2NDhabS00MC05NmgzMmE4LDgsMCwwLDEsMCwxNkgxNjhhOCw4LDAsMCwxLDAtMTZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "JoystickIcon";
-
-/** @deprecated Use JoystickIcon */
-export const Joystick = I;
-export { I as JoystickIcon };
+I.displayName = "Joystick";
+export { I as Joystick }

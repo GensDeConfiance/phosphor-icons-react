@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/DeviceMobile";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTZIODBBMjQsMjQsMCwwLDAsNTYsNDBWMjE2YTI0LDI0LDAsMCwwLDI0LDI0aDk2YTI0LDI0LDAsMCwwLDI0LTI0VjQwQTI0LDI0LDAsMCwwLDE3NiwxNlpNNzIsNjRIMTg0VjE5Mkg3MlptOC0zMmg5NmE4LDgsMCwwLDEsOCw4djhINzJWNDBBOCw4LDAsMCwxLDgwLDMyWm05NiwxOTJIODBhOCw4LDAsMCwxLTgtOHYtOEgxODR2OEE4LDgsMCwwLDEsMTc2LDIyNFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/DeviceMobile";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMTZIODBBMjQsMjQsMCwwLDAsNTYsNDBWMjE2YTI0LDI0LDAsMCwwLDI0LDI0aDk2YTI0LDI0LDAsMCwwLDI0LTI0VjQwQTI0LDI0LDAsMCwwLDE3NiwxNlpNODAsMzJoOTZhOCw4LDAsMCwxLDgsOHY4SDcyVjQwQTgsOCwwLDAsMSw4MCwzMlptOTYsMTkySDgwYTgsOCwwLDAsMS04LTh2LThIMTg0djhBOCw4LDAsMCwxLDE3NiwyMjRaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNTZWMjAwSDY0VjU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE3NiwxNkg4MEEyNCwyNCwwLDAsMCw1Niw0MFYyMTZhMjQsMjQsMCwwLDAsMjQsMjRoOTZhMjQsMjQsMCwwLDAsMjQtMjRWNDBBMjQsMjQsMCwwLDAsMTc2LDE2Wk03Miw2NEgxODRWMTkySDcyWm04LTMyaDk2YTgsOCwwLDAsMSw4LDh2OEg3MlY0MEE4LDgsMCwwLDEsODAsMzJabTk2LDE5Mkg4MGE4LDgsMCwwLDEtOC04di04SDE4NHY4QTgsOCwwLDAsMSwxNzYsMjI0WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "DeviceMobileIcon";
-
-/** @deprecated Use DeviceMobileIcon */
-export const DeviceMobile = I;
-export { I as DeviceMobileIcon };
+I.displayName = "DeviceMobile";
+export { I as DeviceMobile }

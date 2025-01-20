@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowLeft";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhINTkuMzFsNTguMzUsNTguMzRhOCw4LDAsMCwxLTExLjMyLDExLjMybC03Mi03MmE4LDgsMCwwLDEsMC0xMS4zMmw3Mi03MmE4LDgsMCwwLDEsMTEuMzIsMTEuMzJMNTkuMzEsMTIwSDIxNkE4LDgsMCwwLDEsMjI0LDEyOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowLeft";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTIwdjY0YTgsOCwwLDAsMS0xMy42Niw1LjY2bC03Mi03MmE4LDgsMCwwLDEsMC0xMS4zMmw3Mi03MkE4LDgsMCwwLDEsMTIwLDU2djY0aDk2QTgsOCwwLDAsMSwyMjQsMTI4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTIsNTZWMjAwTDQwLDEyOFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMTYsMTIwSDEyMFY1NmE4LDgsMCwwLDAtMTMuNjYtNS42NmwtNzIsNzJhOCw4LDAsMCwwLDAsMTEuMzJsNzIsNzJBOCw4LDAsMCwwLDEyMCwyMDBWMTM2aDk2YTgsOCwwLDAsMCwwLTE2Wk0xMDQsMTgwLjY5LDUxLjMxLDEyOCwxMDQsNzUuMzFaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowLeftIcon";
-
-/** @deprecated Use ArrowLeftIcon */
-export const ArrowLeft = I;
-export { I as ArrowLeftIcon };
+I.displayName = "ArrowLeft";
+export { I as ArrowLeft }

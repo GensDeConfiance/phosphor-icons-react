@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatCenteredText";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxMDRhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsMTA0Wm04LDQwaDY0YTgsOCwwLDAsMCwwLTE2SDk2YTgsOCwwLDAsMCwwLDE2Wk0yMzIsNTZWMTg0YTE2LDE2LDAsMCwxLTE2LDE2SDE1NS41N2wtMTMuNjgsMjMuOTRhMTYsMTYsMCwwLDEtMjcuNzgsMEwxMDAuNDMsMjAwSDQwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDQwLDQwSDIxNkExNiwxNiwwLDAsMSwyMzIsNTZabS0xNiwwSDQwVjE4NGg2NS4wN2E4LDgsMCwwLDEsNyw0bDE2LDI4LDE2LTI4YTgsOCwwLDAsMSw3LTRIMjE2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ChatCenteredText";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMTg0YTE2LDE2LDAsMCwwLDE2LDE2aDYwLjQzbDEzLjY4LDIzLjk0YTE2LDE2LDAsMCwwLDI3Ljc4LDBMMTU1LjU3LDIwMEgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWNTZBMTYsMTYsMCwwLDAsMjE2LDQwWk0xNjAsMTQ0SDk2YTgsOCwwLDAsMSwwLTE2aDY0YTgsOCwwLDAsMSwwLDE2Wm0wLTMySDk2YTgsOCwwLDAsMSwwLTE2aDY0YTgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZWMTg0YTgsOCwwLDAsMS04LDhIMTUwLjkzbC0xNiwyOGE4LDgsMCwwLDEtMTMuOSwwbC0xNi0yOEg0MGE4LDgsMCwwLDEtOC04VjU2YTgsOCwwLDAsMSw4LThIMjE2QTgsOCwwLDAsMSwyMjQsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNODgsMTA0YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDEwNFptOCw0MGg2NGE4LDgsMCwwLDAsMC0xNkg5NmE4LDgsMCwwLDAsMCwxNlpNMjMyLDU2VjE4NGExNiwxNiwwLDAsMS0xNiwxNkgxNTUuNTdsLTEzLjY4LDIzLjk0YTE2LDE2LDAsMCwxLTI3Ljc4LDBMMTAwLjQzLDIwMEg0MGExNiwxNiwwLDAsMS0xNi0xNlY1NkExNiwxNiwwLDAsMSw0MCw0MEgyMTZBMTYsMTYsMCwwLDEsMjMyLDU2Wm0tMTYsMEg0MFYxODRoNjUuMDdhOCw4LDAsMCwxLDcsNGwxNiwyOCwxNi0yOGE4LDgsMCwwLDEsNy00SDIxNloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChatCenteredTextIcon";
-
-/** @deprecated Use ChatCenteredTextIcon */
-export const ChatCenteredText = I;
-export { I as ChatCenteredTextIcon };
+I.displayName = "ChatCenteredText";
+export { I as ChatCenteredText }

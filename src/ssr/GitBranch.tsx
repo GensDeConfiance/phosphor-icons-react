@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/GitBranch";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRhMzIsMzIsMCwxLDAtNDAsMzF2MTdhOCw4LDAsMCwxLTgsOEg5NmEyMy44NCwyMy44NCwwLDAsMC04LDEuMzhWOTVhMzIsMzIsMCwxLDAtMTYsMHY2NmEzMiwzMiwwLDEsMCwxNiwwVjE0NGE4LDgsMCwwLDEsOC04aDg4YTI0LDI0LDAsMCwwLDI0LTI0Vjk1QTMyLjA2LDMyLjA2LDAsMCwwLDIzMiw2NFpNNjQsNjRBMTYsMTYsMCwxLDEsODAsODAsMTYsMTYsMCwwLDEsNjQsNjRaTTk2LDE5MmExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSw5NiwxOTJaTTIwMCw4MGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMDAsODBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/GitBranch";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNjRhMzIsMzIsMCwxLDAtNDAsMzF2MTdhOCw4LDAsMCwxLTgsOEg5NmEyMy44NCwyMy44NCwwLDAsMC04LDEuMzhWOTVhMzIsMzIsMCwxLDAtMTYsMHY2NmEzMiwzMiwwLDEsMCwxNiwwVjE0NGE4LDgsMCwwLDEsOC04aDg4YTI0LDI0LDAsMCwwLDI0LTI0Vjk1QTMyLjA2LDMyLjA2LDAsMCwwLDIzMiw2NFpNNjQsNjRBMTYsMTYsMCwxLDEsODAsODAsMTYsMTYsMCwwLDEsNjQsNjRaTTk2LDE5MmExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSw5NiwxOTJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNjRhMjQsMjQsMCwxLDEtMjQtMjRBMjQsMjQsMCwwLDEsMjI0LDY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIzMiw2NGEzMiwzMiwwLDEsMC00MCwzMXYxN2E4LDgsMCwwLDEtOCw4SDk2YTIzLjg0LDIzLjg0LDAsMCwwLTgsMS4zOFY5NWEzMiwzMiwwLDEsMC0xNiwwdjY2YTMyLDMyLDAsMSwwLDE2LDBWMTQ0YTgsOCwwLDAsMSw4LThoODhhMjQsMjQsMCwwLDAsMjQtMjRWOTVBMzIuMDYsMzIuMDYsMCwwLDAsMjMyLDY0Wk02NCw2NEExNiwxNiwwLDEsMSw4MCw4MCwxNiwxNiwwLDAsMSw2NCw2NFpNOTYsMTkyYTE2LDE2LDAsMSwxLTE2LTE2QTE2LDE2LDAsMCwxLDk2LDE5MlpNMjAwLDgwYTE2LDE2LDAsMSwxLDE2LTE2QTE2LDE2LDAsMCwxLDIwMCw4MFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitBranchIcon";
-
-/** @deprecated Use GitBranchIcon */
-export const GitBranch = I;
-export { I as GitBranchIcon };
+I.displayName = "GitBranch";
+export { I as GitBranch }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CurrencyDollar";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMTIwSDEzNlY1Nmg4YTMyLDMyLDAsMCwxLDMyLDMyLDgsOCwwLDAsMCwxNiwwLDQ4LjA1LDQ4LjA1LDAsMCwwLTQ4LTQ4aC04VjI0YTgsOCwwLDAsMC0xNiwwVjQwaC04YTQ4LDQ4LDAsMCwwLDAsOTZoOHY2NEgxMDRhMzIsMzIsMCwwLDEtMzItMzIsOCw4LDAsMCwwLTE2LDAsNDguMDUsNDguMDUsMCwwLDAsNDgsNDhoMTZ2MTZhOCw4LDAsMCwwLDE2LDBWMjE2aDE2YTQ4LDQ4LDAsMCwwLDAtOTZabS00MCwwYTMyLDMyLDAsMCwxLDAtNjRoOHY2NFptNDAsODBIMTM2VjEzNmgxNmEzMiwzMiwwLDAsMSwwLDY0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CurrencyDollar";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTUyYTE2LDE2LDAsMCwxLTE2LDE2aC04VjEzNmg4QTE2LDE2LDAsMCwxLDE2MCwxNTJabTcyLTI0QTEwNCwxMDQsMCwxLDEsMTI4LDI0LDEwNC4xMSwxMDQuMTEsMCwwLDEsMjMyLDEyOFptLTU2LDI0YTMyLDMyLDAsMCwwLTMyLTMyaC04Vjg4aDRhMTYsMTYsMCwwLDEsMTYsMTYsOCw4LDAsMCwwLDE2LDAsMzIsMzIsMCwwLDAtMzItMzJoLTRWNjRhOCw4LDAsMCwwLTE2LDB2OGgtNGEzMiwzMiwwLDAsMCwwLDY0aDR2MzJoLThhMTYsMTYsMCwwLDEtMTYtMTYsOCw4LDAsMCwwLTE2LDAsMzIsMzIsMCwwLDAsMzIsMzJoOHY4YTgsOCwwLDAsMCwxNiwwdi04aDhBMzIsMzIsMCwwLDAsMTc2LDE1MlptLTc2LTQ4YTE2LDE2LDAsMCwwLDE2LDE2aDRWODhoLTRBMTYsMTYsMCwwLDAsMTAwLDEwNFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMTY4YTQwLDQwLDAsMCwxLTQwLDQwSDEyOFYxMjhoMjRBNDAsNDAsMCwwLDEsMTkyLDE2OFpNMTEyLDQ4YTQwLDQwLDAsMCwwLDAsODBoMTZWNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTUyLDEyMEgxMzZWNTZoOGEzMiwzMiwwLDAsMSwzMiwzMiw4LDgsMCwwLDAsMTYsMCw0OC4wNSw0OC4wNSwwLDAsMC00OC00OGgtOFYyNGE4LDgsMCwwLDAtMTYsMFY0MGgtOGE0OCw0OCwwLDAsMCwwLDk2aDh2NjRIMTA0YTMyLDMyLDAsMCwxLTMyLTMyLDgsOCwwLDAsMC0xNiwwLDQ4LjA1LDQ4LjA1LDAsMCwwLDQ4LDQ4aDE2djE2YTgsOCwwLDAsMCwxNiwwVjIxNmgxNmE0OCw0OCwwLDAsMCwwLTk2Wm0tNDAsMGEzMiwzMiwwLDAsMSwwLTY0aDh2NjRabTQwLDgwSDEzNlYxMzZoMTZhMzIsMzIsMCwwLDEsMCw2NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CurrencyDollarIcon";
-
-/** @deprecated Use CurrencyDollarIcon */
-export const CurrencyDollar = I;
-export { I as CurrencyDollarIcon };
+I.displayName = "CurrencyDollar";
+export { I as CurrencyDollar }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/EnvelopeSimpleOpen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjguNDQsODkuMzRsLTk2LTY0YTgsOCwwLDAsMC04Ljg4LDBsLTk2LDY0QTgsOCwwLDAsMCwyNCw5NlYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2Vjk2QTgsOCwwLDAsMCwyMjguNDQsODkuMzRaTTEyOCw0MS42MWw4MS45MSw1NC42MS02Nyw0Ny43OEgxMTMuMTFsLTY3LTQ3Ljc4Wk00MCwyMDBWMTExLjUzbDY1LjksNDdhOCw4LDAsMCwwLDQuNjUsMS40OWgzNC45YTgsOCwwLDAsMCw0LjY1LTEuNDlsNjUuOS00N1YyMDBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/EnvelopeSimpleOpen";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjguNDQsODkuMzRsLTk2LTY0YTgsOCwwLDAsMC04Ljg4LDBsLTk2LDY0QTgsOCwwLDAsMCwyNCw5NlYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2Vjk2QTgsOCwwLDAsMCwyMjguNDQsODkuMzRaTTQwLDIwMFYxMTEuNTNsNjUuOSw0N2E4LDgsMCwwLDAsNC42NSwxLjQ5aDM0LjlhOCw4LDAsMCwwLDQuNjUtMS40OWw2NS45LTQ3VjIwMFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTZsLTc4LjU1LDU2aC0zNC45TDMyLDk2bDk2LTY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyOC40NCw4OS4zNGwtOTYtNjRhOCw4LDAsMCwwLTguODgsMGwtOTYsNjRBOCw4LDAsMCwwLDI0LDk2VjIwMGExNiwxNiwwLDAsMCwxNiwxNkgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWOTZBOCw4LDAsMCwwLDIyOC40NCw4OS4zNFpNMTI4LDQxLjYxbDgxLjkxLDU0LjYxLTY3LDQ3Ljc4SDExMy4xMWwtNjctNDcuNzhaTTQwLDIwMFYxMTEuNTNsNjUuOSw0N2E4LDgsMCwwLDAsNC42NSwxLjQ5aDM0LjlhOCw4LDAsMCwwLDQuNjUtMS40OWw2NS45LTQ3VjIwMFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "EnvelopeSimpleOpenIcon";
-
-/** @deprecated Use EnvelopeSimpleOpenIcon */
-export const EnvelopeSimpleOpen = I;
-export { I as EnvelopeSimpleOpenIcon };
+I.displayName = "EnvelopeSimpleOpen";
+export { I as EnvelopeSimpleOpen }

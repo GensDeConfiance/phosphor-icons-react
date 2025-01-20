@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Control";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjYsMTI1LjY2YTgsOCwwLDAsMS0xMS4zMiwwTDEyOCw1OS4zMSw2MS42NiwxMjUuNjZhOCw4LDAsMCwxLTExLjMyLTExLjMybDcyLTcyYTgsOCwwLDAsMSwxMS4zMiwwbDcyLDcyQTgsOCwwLDAsMSwyMDUuNjYsMTI1LjY2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Control";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDcuMzksMTIzLjA2QTgsOCwwLDAsMSwyMDAsMTI4SDU2YTgsOCwwLDAsMS01LjY2LTEzLjY2bDcyLTcyYTgsOCwwLDAsMSwxMS4zMiwwbDcyLDcyQTgsOCwwLDAsMSwyMDcuMzksMTIzLjA2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTIwSDU2bDcyLTcyWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwNS42NiwxMTQuMzRsLTcyLTcyYTgsOCwwLDAsMC0xMS4zMiwwbC03Miw3MkE4LDgsMCwwLDAsNTYsMTI4SDIwMGE4LDgsMCwwLDAsNS42Ni0xMy42NlpNNzUuMzEsMTEyLDEyOCw1OS4zMSwxODAuNjksMTEyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ControlIcon";
-
-/** @deprecated Use ControlIcon */
-export const Control = I;
-export { I as ControlIcon };
+I.displayName = "Control";
+export { I as Control }

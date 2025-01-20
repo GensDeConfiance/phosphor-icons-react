@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowsOutSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWOTZhOCw4LDAsMCwxLTE2LDBWNjcuMzFsLTUwLjM0LDUwLjM1YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxODguNjksNTZIMTYwYTgsOCwwLDAsMSwwLTE2aDQ4QTgsOCwwLDAsMSwyMTYsNDhaTTEwNi4zNCwxMzguMzQsNTYsMTg4LjY5VjE2MGE4LDgsMCwwLDAtMTYsMHY0OGE4LDgsMCwwLDAsOCw4SDk2YTgsOCwwLDAsMCwwLTE2SDY3LjMxbDUwLjM1LTUwLjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowsOutSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMTcuNjYsMTM4LjM0YTgsOCwwLDAsMSwwLDExLjMyTDgzLjMxLDE4NGwxOC4zNSwxOC4zNEE4LDgsMCwwLDEsOTYsMjE2SDQ4YTgsOCwwLDAsMS04LThWMTYwYTgsOCwwLDAsMSwxMy42Ni01LjY2TDcyLDE3Mi42OWwzNC4zNC0zNC4zNUE4LDgsMCwwLDEsMTE3LjY2LDEzOC4zNFpNMjA4LDQwSDE2MGE4LDgsMCwwLDAtNS42NiwxMy42NkwxNzIuNjksNzJsLTM0LjM1LDM0LjM0YTgsOCwwLDAsMCwxMS4zMiwxMS4zMkwxODQsODMuMzFsMTguMzQsMTguMzVBOCw4LDAsMCwwLDIxNiw5NlY0OEE4LDgsMCwwLDAsMjA4LDQwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDQ4YTE2LDE2LDAsMCwxLTE2LTE2VjQ4QTE2LDE2LDAsMCwxLDQ4LDMySDIwOEExNiwxNiwwLDAsMSwyMjQsNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjE2LDQ4Vjk2YTgsOCwwLDAsMS0xNiwwVjY3LjMxbC01MC4zNCw1MC4zNWE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMTg4LjY5LDU2SDE2MGE4LDgsMCwwLDEsMC0xNmg0OEE4LDgsMCwwLDEsMjE2LDQ4Wk0xMDYuMzQsMTM4LjM0LDU2LDE4OC42OVYxNjBhOCw4LDAsMCwwLTE2LDB2NDhhOCw4LDAsMCwwLDgsOEg5NmE4LDgsMCwwLDAsMC0xNkg2Ny4zMWw1MC4zNS01MC4zNGE4LDgsMCwwLDAtMTEuMzItMTEuMzJaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowsOutSimpleIcon";
-
-/** @deprecated Use ArrowsOutSimpleIcon */
-export const ArrowsOutSimple = I;
-export { I as ArrowsOutSimpleIcon };
+I.displayName = "ArrowsOutSimple";
+export { I as ArrowsOutSimple }

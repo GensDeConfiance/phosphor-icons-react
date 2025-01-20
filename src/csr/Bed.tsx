@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Bed";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMzJWNDhhOCw4LDAsMCwwLTE2LDBWMjA4YTgsOCwwLDAsMCwxNiwwVjE3NkgyNDB2MzJhOCw4LDAsMCwwLDE2LDBWMTEyQTQwLDQwLDAsMCwwLDIxNiw3MlpNMzIsODhoNzJ2NzJIMzJabTg4LDcyVjg4aDk2YTI0LDI0LDAsMCwxLDI0LDI0djQ4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Bed";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMzJWNDhhOCw4LDAsMCwwLTE2LDBWMjA4YTgsOCwwLDAsMCwxNiwwVjE3NkgyNDB2MzJhOCw4LDAsMCwwLDE2LDBWMTEyQTQwLDQwLDAsMCwwLDIxNiw3MlpNMzIsODhoNzJ2NzJIMzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTEydjU2SDExMlY4MEgyMTZBMzIsMzIsMCwwLDEsMjQ4LDExMloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMTYsNzJIMzJWNDhhOCw4LDAsMCwwLTE2LDBWMjA4YTgsOCwwLDAsMCwxNiwwVjE3NkgyNDB2MzJhOCw4LDAsMCwwLDE2LDBWMTEyQTQwLDQwLDAsMCwwLDIxNiw3MlpNMzIsODhoNzJ2NzJIMzJabTg4LDcyVjg4aDk2YTI0LDI0LDAsMCwxLDI0LDI0djQ4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BedIcon";
-
-/** @deprecated Use BedIcon */
-export const Bed = I;
-export { I as BedIcon };
+I.displayName = "Bed";
+export { I as Bed }

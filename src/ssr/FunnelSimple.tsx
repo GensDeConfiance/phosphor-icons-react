@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FunnelSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTM2YTgsOCwwLDAsMS04LDhINjRhOCw4LDAsMCwxLDAtMTZIMTkyQTgsOCwwLDAsMSwyMDAsMTM2Wm0zMi01NkgyNGE4LDgsMCwwLDAsMCwxNkgyMzJhOCw4LDAsMCwwLDAtMTZabS04MCw5NkgxMDRhOCw4LDAsMCwwLDAsMTZoNDhhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/FunnelSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBaTTE0NCwxNzZIMTEyYTgsOCwwLDAsMSwwLTE2aDMyYTgsOCwwLDAsMSwwLDE2Wm0zMi00MEg4MGE4LDgsMCwwLDEsMC0xNmg5NmE4LDgsMCwwLDEsMCwxNlptMzItNDBINDhhOCw4LDAsMCwxLDAtMTZIMjA4YTgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNTZWMjAwYTE2LDE2LDAsMCwxLTE2LDE2SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDQwLDQwSDIxNkExNiwxNiwwLDAsMSwyMzIsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDEzNmE4LDgsMCwwLDEtOCw4SDY0YTgsOCwwLDAsMSwwLTE2SDE5MkE4LDgsMCwwLDEsMjAwLDEzNlptMzItNTZIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tODAsOTZIMTA0YTgsOCwwLDAsMCwwLDE2aDQ4YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FunnelSimpleIcon";
-
-/** @deprecated Use FunnelSimpleIcon */
-export const FunnelSimple = I;
-export { I as FunnelSimpleIcon };
+I.displayName = "FunnelSimple";
+export { I as FunnelSimple }

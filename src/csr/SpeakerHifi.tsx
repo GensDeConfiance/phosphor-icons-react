@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpeakerHifi";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMjRINjRBMTYsMTYsMCwwLDAsNDgsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwxOTIsMjRabTAsMTkySDY0VjQwSDE5MlpNMTE2LDc2YTEyLDEyLDAsMSwxLDEyLDEyQTEyLDEyLDAsMCwxLDExNiw3NlptMTIsMTE2YTQwLDQwLDAsMSwwLTQwLTQwQTQwLDQwLDAsMCwwLDEyOCwxOTJabTAtNjRhMjQsMjQsMCwxLDEtMjQsMjRBMjQsMjQsMCwwLDEsMTI4LDEyOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/SpeakerHifi";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsMTYwYTI0LDI0LDAsMSwxLTI0LTI0QTI0LDI0LDAsMCwxLDE1MiwxNjBaTTIwOCw0MFYyMTZhMTYsMTYsMCwwLDEtMTYsMTZINjRhMTYsMTYsMCwwLDEtMTYtMTZWNDBBMTYsMTYsMCwwLDEsNjQsMjRIMTkyQTE2LDE2LDAsMCwxLDIwOCw0MFpNMTE2LDY4YTEyLDEyLDAsMSwwLDEyLTEyQTEyLDEyLDAsMCwwLDExNiw2OFptNTIsOTJhNDAsNDAsMCwxLDAtNDAsNDBBNDAsNDAsMCwwLDAsMTY4LDE2MFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsMzJINjRhOCw4LDAsMCwwLTgsOFYyMTZhOCw4LDAsMCwwLDgsOEgxOTJhOCw4LDAsMCwwLDgtOFY0MEE4LDgsMCwwLDAsMTkyLDMyWk0xMjgsMTg0YTMyLDMyLDAsMSwxLDMyLTMyQTMyLDMyLDAsMCwxLDEyOCwxODRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTkyLDI0SDY0QTE2LDE2LDAsMCwwLDQ4LDQwVjIxNmExNiwxNiwwLDAsMCwxNiwxNkgxOTJhMTYsMTYsMCwwLDAsMTYtMTZWNDBBMTYsMTYsMCwwLDAsMTkyLDI0Wm0wLDE5Mkg2NFY0MEgxOTJaTTExNiw3NmExMiwxMiwwLDEsMSwxMiwxMkExMiwxMiwwLDAsMSwxMTYsNzZabTEyLDExNmE0MCw0MCwwLDEsMC00MC00MEE0MCw0MCwwLDAsMCwxMjgsMTkyWm0wLTY0YTI0LDI0LDAsMSwxLTI0LDI0QTI0LDI0LDAsMCwxLDEyOCwxMjhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SpeakerHifiIcon";
-
-/** @deprecated Use SpeakerHifiIcon */
-export const SpeakerHifi = I;
-export { I as SpeakerHifiIcon };
+I.displayName = "SpeakerHifi";
+export { I as SpeakerHifi }

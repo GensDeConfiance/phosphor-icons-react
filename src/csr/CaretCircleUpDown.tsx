@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/CaretCircleUpDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTY1LjY2LDk4LjM0YTgsOCwwLDAsMS0xMS4zMiwxMS4zMkwxMjgsODMuMzFsLTI2LjM0LDI2LjM1QTgsOCwwLDAsMSw5MC4zNCw5OC4zNGwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMFptMCw0OGE4LDgsMCwwLDEsMCwxMS4zMmwtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBsLTMyLTMyYTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjgsMTcyLjY5bDI2LjM0LTI2LjM1QTgsOCwwLDAsMSwxNjUuNjYsMTQ2LjM0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CaretCircleUpDown";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0zNy42NiwxMzMuNjYtMzIsMzJhOCw4LDAsMCwxLTExLjMyLDBsLTMyLTMyYTgsOCwwLDAsMSwxMS4zMi0xMS4zMkwxMjgsMTcyLjY5bDI2LjM0LTI2LjM1YTgsOCwwLDAsMSwxMS4zMiwxMS4zMlptMC00OGE4LDgsMCwwLDEtMTEuMzIsMEwxMjgsODMuMzFsLTI2LjM0LDI2LjM1QTgsOCwwLDAsMSw5MC4zNCw5OC4zNGwzMi0zMmE4LDgsMCwwLDEsMTEuMzIsMGwzMiwzMkE4LDgsMCwwLDEsMTY1LjY2LDEwOS42NloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTE2NS42Niw5OC4zNGE4LDgsMCwwLDEtMTEuMzIsMTEuMzJMMTI4LDgzLjMxbC0yNi4zNCwyNi4zNUE4LDgsMCwwLDEsOTAuMzQsOTguMzRsMzItMzJhOCw4LDAsMCwxLDExLjMyLDBabTAsNDhhOCw4LDAsMCwxLDAsMTEuMzJsLTMyLDMyYTgsOCwwLDAsMS0xMS4zMiwwbC0zMi0zMmE4LDgsMCwwLDEsMTEuMzItMTEuMzJMMTI4LDE3Mi42OWwyNi4zNC0yNi4zNUE4LDgsMCwwLDEsMTY1LjY2LDE0Ni4zNFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CaretCircleUpDownIcon";
-
-/** @deprecated Use CaretCircleUpDownIcon */
-export const CaretCircleUpDown = I;
-export { I as CaretCircleUpDownIcon };
+I.displayName = "CaretCircleUpDown";
+export { I as CaretCircleUpDown }

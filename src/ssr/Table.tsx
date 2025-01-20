@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Table";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJhOCw4LDAsMCwwLTgsOFYxOTJhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2VjU2QTgsOCwwLDAsMCwyMjQsNDhaTTQwLDExMkg4MHYzMkg0MFptNTYsMEgyMTZ2MzJIOTZaTTIxNiw2NFY5Nkg0MFY2NFpNNDAsMTYwSDgwdjMySDQwWm0xNzYsMzJIOTZWMTYwSDIxNnYzMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Table";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhIMzJhOCw4LDAsMCwwLTgsOFYxOTJhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2VjU2QTgsOCwwLDAsMCwyMjQsNDhaTTQwLDExMkg4MHYzMkg0MFptNTYsMEgyMTZ2MzJIOTZaTTQwLDE2MEg4MHYzMkg0MFptMTc2LDMySDk2VjE2MEgyMTZ2MzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCwxMDR2OTZIMzJWMTA0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyNCw0OEgzMmE4LDgsMCwwLDAtOCw4VjE5MmExNiwxNiwwLDAsMCwxNiwxNkgyMTZhMTYsMTYsMCwwLDAsMTYtMTZWNTZBOCw4LDAsMCwwLDIyNCw0OFpNNDAsMTEySDgwdjMySDQwWm01NiwwSDIxNnYzMkg5NlpNMjE2LDY0Vjk2SDQwVjY0Wk00MCwxNjBIODB2MzJINDBabTE3NiwzMkg5NlYxNjBIMjE2djMyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TableIcon";
-
-/** @deprecated Use TableIcon */
-export const Table = I;
-export { I as TableIcon };
+I.displayName = "Table";
+export { I as Table }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PaperPlaneRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuODcsMTE0bC0xNjgtOTUuODlBMTYsMTYsMCwwLDAsNDAuOTIsMzcuMzRMNzEuNTUsMTI4LDQwLjkyLDIxOC42N0ExNiwxNiwwLDAsMCw1NiwyNDBhMTYuMTUsMTYuMTUsMCwwLDAsNy45My0yLjFsMTY3LjkyLTk2LjA1YTE2LDE2LDAsMCwwLC4wNS0yNy44OVpNNTYsMjI0YS41Ni41NiwwLDAsMCwwLS4xMkw4NS43NCwxMzZIMTQ0YTgsOCwwLDAsMCwwLTE2SDg1Ljc0TDU2LjA2LDMyLjE2QS40Ni40NiwwLDAsMCw1NiwzMmwxNjgsOTUuODNaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/PaperPlaneRight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTI3Ljg5YTE2LDE2LDAsMCwxLTguMTgsMTRMNjMuOSwyMzcuOUExNi4xNSwxNi4xNSwwLDAsMSw1NiwyNDBhMTYsMTYsMCwwLDEtMTUtMjEuMzNsMjctNzkuOTVBNCw0LDAsMCwxLDcxLjcyLDEzNkgxNDRhOCw4LDAsMCwwLDgtOC41Myw4LjE5LDguMTksMCwwLDAtOC4yNi03LjQ3aC03MmE0LDQsMCwwLDEtMy43OS0yLjcybC0yNy03OS45NEExNiwxNiwwLDAsMSw2My44NCwxOC4wN2wxNjgsOTUuODlBMTYsMTYsMCwwLDEsMjQwLDEyNy44OVoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuOTEsMTM0Ljg2LDU5LjkzLDIzMWE4LDgsMCwwLDEtMTEuNDQtOS42N0w4MCwxMjgsNDguNDksMzQuNzJhOCw4LDAsMCwxLDExLjQ0LTkuNjdsMTY4LDk1Ljg1QTgsOCwwLDAsMSwyMjcuOTEsMTM0Ljg2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIzMS44NywxMTRsLTE2OC05NS44OUExNiwxNiwwLDAsMCw0MC45MiwzNy4zNEw3MS41NSwxMjgsNDAuOTIsMjE4LjY3QTE2LDE2LDAsMCwwLDU2LDI0MGExNi4xNSwxNi4xNSwwLDAsMCw3LjkzLTIuMWwxNjcuOTItOTYuMDVhMTYsMTYsMCwwLDAsLjA1LTI3Ljg5Wk01NiwyMjRhLjU2LjU2LDAsMCwwLDAtLjEyTDg1Ljc0LDEzNkgxNDRhOCw4LDAsMCwwLDAtMTZIODUuNzRMNTYuMDYsMzIuMTZBLjQ2LjQ2LDAsMCwwLDU2LDMybDE2OCw5NS44M1oiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PaperPlaneRightIcon";
-
-/** @deprecated Use PaperPlaneRightIcon */
-export const PaperPlaneRight = I;
-export { I as PaperPlaneRightIcon };
+I.displayName = "PaperPlaneRight";
+export { I as PaperPlaneRight }

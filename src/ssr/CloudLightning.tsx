@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CloudLightning";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTYsMTZBNzYuMiw3Ni4yLDAsMCwwLDg0LjkyLDY0Ljc2LDUzLjI2LDUzLjI2LDAsMCwwLDc2LDY0YTUyLDUyLDAsMCwwLDAsMTA0aDM3Ljg3TDk3LjE0LDE5NS44OEE4LDgsMCwwLDAsMTA0LDIwOGgyNS44N2wtMTYuNzMsMjcuODhhOCw4LDAsMCwwLDEzLjcyLDguMjRsMjQtNDBBOCw4LDAsMCwwLDE0NCwxOTJIMTE4LjEzbDE0LjQtMjRIMTU2YTc2LDc2LDAsMCwwLDAtMTUyWm0wLDEzNkg3NmEzNiwzNiwwLDAsMSwwLTcyLDM4LjExLDM4LjExLDAsMCwxLDQuNzguMzFxLS41NiwzLjU3LS43Nyw3LjIzYTgsOCwwLDAsMCwxNiwuOTJBNjAuMDYsNjAuMDYsMCwxLDEsMTU2LDE1MloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/CloudLightning";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTYsMTY4SDEzMi41M2wtMTQuNCwyNEgxNDRhOCw4LDAsMCwxLDYuODYsMTIuMTJsLTI0LDQwYTgsOCwwLDAsMS0xMy43Mi04LjI0TDEyOS44NywyMDhIMTA0YTgsOCwwLDAsMS02Ljg2LTEyLjEyTDExMy44NywxNjhoLTM3QzQ4LjEyLDE2OCwyNC4yLDE0NS4wNywyNCwxMTYuMzZBNTIuMDksNTIuMDksMCwwLDEsNjEuMzUsNjYuMWE0LDQsMCwwLDEsNSw0Ljc4QTkyLjQ4LDkyLjQ4LDAsMCwwLDY0LDg3LjM5LDguMTQsOC4xNCwwLDAsMCw3MS40MSw5NmwuNiwwYTguMTgsOC4xOCwwLDAsMCw4LjA4LTcuNzJBNzYsNzYsMCwxLDEsMTU2LDE2OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTJhNjgsNjgsMCwwLDEtNjgsNjhINzZBNDQsNDQsMCwxLDEsOTAuMiw3NC4zNHYuMTFBNjguMDYsNjguMDYsMCwwLDEsMjI0LDkyWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE1NiwxNkE3Ni4yLDc2LjIsMCwwLDAsODQuOTIsNjQuNzYsNTMuMjYsNTMuMjYsMCwwLDAsNzYsNjRhNTIsNTIsMCwwLDAsMCwxMDRoMzcuODdMOTcuMTQsMTk1Ljg4QTgsOCwwLDAsMCwxMDQsMjA4aDI1Ljg3bC0xNi43MywyNy44OGE4LDgsMCwwLDAsMTMuNzIsOC4yNGwyNC00MEE4LDgsMCwwLDAsMTQ0LDE5MkgxMTguMTNsMTQuNC0yNEgxNTZhNzYsNzYsMCwwLDAsMC0xNTJabTAsMTM2SDc2YTM2LDM2LDAsMCwxLDAtNzIsMzguMTEsMzguMTEsMCwwLDEsNC43OC4zMXEtLjU2LDMuNTctLjc3LDcuMjNhOCw4LDAsMCwwLDE2LC45MkE2MC4wNiw2MC4wNiwwLDEsMSwxNTYsMTUyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CloudLightningIcon";
-
-/** @deprecated Use CloudLightningIcon */
-export const CloudLightning = I;
-export { I as CloudLightningIcon };
+I.displayName = "CloudLightning";
+export { I as CloudLightning }

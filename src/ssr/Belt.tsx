@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Belt";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDgsMTYwSDE5MlY5Nmg1NmE4LDgsMCwwLDAsMC0xNkgxODkuODNBMTYsMTYsMCwwLDAsMTc2LDcySDExMmExNiwxNiwwLDAsMC0xMy44Myw4SDY0YTgsOCwwLDAsMC0xNiwwSDhBOCw4LDAsMCwwLDgsOTZINDh2NjRIOGE4LDgsMCwwLDAsMCwxNkg0OGE4LDgsMCwwLDAsMTYsMEg5OC4xN0ExNiwxNiwwLDAsMCwxMTIsMTg0aDY0YTE2LDE2LDAsMCwwLDEzLjgzLThIMjQ4YTgsOCwwLDAsMCwwLTE2Wk02NCw5Nkg5NnY2NEg2NFptNDgsNzJWODhoNjR2MzJIMTQ0YTgsOCwwLDAsMCwwLDE2aDMydjMxLjhjMCwuMDcsMCwuMTMsMCwuMloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Belt";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik02NCw4MHY5NmE4LDgsMCwwLDEtMTYsMEg4YTgsOCwwLDAsMS04LThWODhhOCw4LDAsMCwxLDgtOEg0OGE4LDgsMCwwLDEsMTYsMFptMTkyLDh2ODBhOCw4LDAsMCwxLTgsOEgxODkuODNBMTYsMTYsMCwwLDEsMTc2LDE4NEgxMTJhMTYsMTYsMCwwLDEtMTMuODMtOEg4NGE0LDQsMCwwLDEtNC00Vjg0YTQsNCwwLDAsMSw0LTRIOTguMTdBMTYsMTYsMCwwLDEsMTEyLDcyaDY0YTE2LDE2LDAsMCwxLDEzLjgzLDhIMjQ4QTgsOCwwLDAsMSwyNTYsODhabS04MCw3OS44VjEzNkgxNDRhOCw4LDAsMCwxLDAtMTZoMzJWODhIMTEydjgwaDY0QzE3NiwxNjcuOTMsMTc2LDE2Ny44NywxNzYsMTY3LjhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04LDg4aDk2djgwSDhabTE3NiwwdjgwaDY0Vjg4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0OCwxNjBIMTkyVjk2aDU2YTgsOCwwLDAsMCwwLTE2SDE4OS44NEExNiwxNiwwLDAsMCwxNzYsNzJIMTEyYTE2LDE2LDAsMCwwLTEzLjg0LDhINjRhOCw4LDAsMCwwLTE2LDBIOEE4LDgsMCwwLDAsOCw5Nkg0OHY2NEg4YTgsOCwwLDAsMCwwLDE2SDQ4YTgsOCwwLDAsMCwxNiwwSDk4LjE2QTE2LDE2LDAsMCwwLDExMiwxODRoNjRhMTYsMTYsMCwwLDAsMTMuODQtOEgyNDhhOCw4LDAsMCwwLDAtMTZaTTY0LDk2SDk2djY0SDY0Wm00OCw3MlY4OGg2NHYzMkgxNDRhOCw4LDAsMCwwLDAsMTZoMzJ2MzEuOGMwLC4wNywwLC4xMywwLC4yWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BeltIcon";
-
-/** @deprecated Use BeltIcon */
-export const Belt = I;
-export { I as BeltIcon };
+I.displayName = "Belt";
+export { I as Belt }

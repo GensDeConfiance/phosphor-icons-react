@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextTSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuMzgsMjIxLjkyYTgsOCwwLDAsMS0xMS4zLS41NEwxMzYsMTQ4LjY5VjE5MmgyNGE4LDgsMCwwLDEsMCwxNkg5NmE4LDgsMCwwLDEsMC0xNmgyNFYxMzEuMDlMNjQsNjkuNDlWODhhOCw4LDAsMCwxLTE2LDBWNTZhOCw4LDAsMCwxLC43Mi0zLjMxbC02LjY0LTcuMzFBOCw4LDAsMSwxLDUzLjkyLDM0LjYybDE2MCwxNzZBOCw4LDAsMCwxLDIxMy4zOCwyMjEuOTJaTTEwNS43OSw2NEgxMjBWODAuNDNhOCw4LDAsMCwwLDE2LDBWNjRoNTZWODhhOCw4LDAsMCwwLDE2LDBWNTZhOCw4LDAsMCwwLTgtOEgxMDUuNzlhOCw4LDAsMCwwLDAsMTZaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/TextTSlash";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTEyOCw3Mmg0OGE4LDgsMCwwLDEsOCw4Vjk2YTgsOCwwLDAsMS0xNiwwVjg4SDEyOGE4LDgsMCwwLDEsMC0xNlptNjEuMjcsMTI2YTgsOCwwLDAsMS0xMS4yOS0uNzVsLTQyLTQ4VjE3NmgxMmE4LDgsMCwwLDEsMCwxNkgxMDhhOCw4LDAsMCwxLDAtMTZoMTJWMTMxTDg4LDk0LjQzVjk2YTgsOCwwLDAsMS0xNiwwVjgwYTguMTMsOC4xMywwLDAsMSwuNjMtMy4xM0w2Niw2OS4yN0E4LDgsMCwwLDEsNzgsNTguNzNsMTEyLDEyOEE4LDgsMCwwLDEsMTg5LjI3LDE5OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNTZWMjAwSDcyYTE2LDE2LDAsMCwxLTE2LTE2VjU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxMy4zOCwyMjEuOTJhOCw4LDAsMCwxLTExLjMtLjU0TDEzNiwxNDguNjlWMTkyaDI0YTgsOCwwLDAsMSwwLDE2SDk2YTgsOCwwLDAsMSwwLTE2aDI0VjEzMS4wOUw2NCw2OS40OVY4OGE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsLjcyLTMuMzFsLTYuNjQtNy4zMUE4LDgsMCwxLDEsNTMuOTIsMzQuNjJsMTYwLDE3NkE4LDgsMCwwLDEsMjEzLjM4LDIyMS45MlpNMTA1Ljc5LDY0SDEyMFY4MC40M2E4LDgsMCwwLDAsMTYsMFY2NGg1NlY4OGE4LDgsMCwwLDAsMTYsMFY1NmE4LDgsMCwwLDAtOC04SDEwNS43OWE4LDgsMCwwLDAsMCwxNloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextTSlashIcon";
-
-/** @deprecated Use TextTSlashIcon */
-export const TextTSlash = I;
-export { I as TextTSlashIcon };
+I.displayName = "TextTSlash";
+export { I as TextTSlash }

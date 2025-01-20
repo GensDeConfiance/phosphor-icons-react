@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Clipboard";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMzJIMTYzLjc0YTQ3LjkyLDQ3LjkyLDAsMCwwLTcxLjQ4LDBINTZBMTYsMTYsMCwwLDAsNDAsNDhWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDAsMzJabS03MiwwYTMyLDMyLDAsMCwxLDMyLDMySDk2QTMyLDMyLDAsMCwxLDEyOCwzMlptNzIsMTg0SDU2VjQ4SDgyLjc1QTQ3LjkzLDQ3LjkzLDAsMCwwLDgwLDY0djhhOCw4LDAsMCwwLDgsOGg4MGE4LDgsMCwwLDAsOC04VjY0YTQ3LjkzLDQ3LjkzLDAsMCwwLTIuNzUtMTZIMjAwWiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Clipboard";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMzJIMTYzLjc0YTQ3LjkyLDQ3LjkyLDAsMCwwLTcxLjQ4LDBINTZBMTYsMTYsMCwwLDAsNDAsNDhWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDAsMzJabS03MiwwYTMyLDMyLDAsMCwxLDMyLDMySDk2QTMyLDMyLDAsMCwxLDEyOCwzMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDhWMjE2YTgsOCwwLDAsMS04LDhINTZhOCw4LDAsMCwxLTgtOFY0OGE4LDgsMCwwLDEsOC04SDk2YTM5LjgzLDM5LjgzLDAsMCwwLTgsMjR2OGg4MFY2NGEzOS44MywzOS44MywwLDAsMC04LTI0aDQwQTgsOCwwLDAsMSwyMDgsNDhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDMySDE2My43NGE0Ny45Miw0Ny45MiwwLDAsMC03MS40OCwwSDU2QTE2LDE2LDAsMCwwLDQwLDQ4VjIxNmExNiwxNiwwLDAsMCwxNiwxNkgyMDBhMTYsMTYsMCwwLDAsMTYtMTZWNDhBMTYsMTYsMCwwLDAsMjAwLDMyWm0tNzIsMGEzMiwzMiwwLDAsMSwzMiwzMkg5NkEzMiwzMiwwLDAsMSwxMjgsMzJabTcyLDE4NEg1NlY0OEg4Mi43NUE0Ny45Myw0Ny45MywwLDAsMCw4MCw2NHY4YTgsOCwwLDAsMCw4LDhoODBhOCw4LDAsMCwwLDgtOFY2NGE0Ny45Myw0Ny45MywwLDAsMC0yLjc1LTE2SDIwMFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ClipboardIcon";
-
-/** @deprecated Use ClipboardIcon */
-export const Clipboard = I;
-export { I as ClipboardIcon };
+I.displayName = "Clipboard";
+export { I as Clipboard }

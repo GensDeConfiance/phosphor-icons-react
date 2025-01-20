@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/LockSimpleOpen";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODBIOTZWNTZhMzIsMzIsMCwwLDEsMzItMzJjMTUuMzcsMCwyOS4yLDExLDMyLjE2LDI1LjU5YTgsOCwwLDAsMCwxNS42OC0zLjE4QzE3MS4zMiwyNC4xNSwxNTEuMiw4LDEyOCw4QTQ4LjA1LDQ4LjA1LDAsMCwwLDgwLDU2VjgwSDQ4QTE2LDE2LDAsMCwwLDMyLDk2VjIwOGExNiwxNiwwLDAsMCwxNiwxNkgyMDhhMTYsMTYsMCwwLDAsMTYtMTZWOTZBMTYsMTYsMCwwLDAsMjA4LDgwWm0wLDEyOEg0OFY5NkgyMDhWMjA4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/LockSimpleOpen";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTZWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDQ4YTE2LDE2LDAsMCwxLTE2LTE2Vjk2QTE2LDE2LDAsMCwxLDQ4LDgwSDgwVjU2QTQ4LjA1LDQ4LjA1LDAsMCwxLDEyOCw4YzIzLjIsMCw0My4zMiwxNi4xNSw0Ny44NCwzOC40MWE4LDgsMCwwLDEtMTUuNjgsMy4xOEMxNTcuMiwzNSwxNDMuMzcsMjQsMTI4LDI0QTMyLDMyLDAsMCwwLDk2LDU2VjgwSDIwOEExNiwxNiwwLDAsMSwyMjQsOTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsOTZWMjA4YTgsOCwwLDAsMS04LDhINDhhOCw4LDAsMCwxLTgtOFY5NmE4LDgsMCwwLDEsOC04SDIwOEE4LDgsMCwwLDEsMjE2LDk2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCw4MEg5NlY1NmEzMiwzMiwwLDAsMSwzMi0zMmMxNS4zNywwLDI5LjIsMTEsMzIuMTYsMjUuNTlhOCw4LDAsMCwwLDE1LjY4LTMuMThDMTcxLjMyLDI0LjE1LDE1MS4yLDgsMTI4LDhBNDguMDUsNDguMDUsMCwwLDAsODAsNTZWODBINDhBMTYsMTYsMCwwLDAsMzIsOTZWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY5NkExNiwxNiwwLDAsMCwyMDgsODBabTAsMTI4SDQ4Vjk2SDIwOFYyMDhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LockSimpleOpenIcon";
-
-/** @deprecated Use LockSimpleOpenIcon */
-export const LockSimpleOpen = I;
-export { I as LockSimpleOpenIcon };
+I.displayName = "LockSimpleOpen";
+export { I as LockSimpleOpen }

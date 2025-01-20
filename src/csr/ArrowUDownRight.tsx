@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowUDownRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTczLjY2bC00OCw0OGE4LDgsMCwwLDEtMTEuMzItMTEuMzJMMjA0LjY5LDE3Nkg4OEE2NCw2NCwwLDAsMSw4OCw0OGg4OGE4LDgsMCwwLDEsMCwxNkg4OGE0OCw0OCwwLDAsMCwwLDk2SDIwNC42OWwtMzQuMzUtMzQuMzRhOCw4LDAsMCwxLDExLjMyLTExLjMybDQ4LDQ4QTgsOCwwLDAsMSwyMjkuNjYsMTczLjY2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowUDownRight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjkuNjYsMTczLjY2bC00OCw0OEE4LDgsMCwwLDEsMTY4LDIxNlYxNzZIODhBNjQsNjQsMCwwLDEsODgsNDhoODhhOCw4LDAsMCwxLDAsMTZIODhhNDgsNDgsMCwwLDAsMCw5Nmg4MFYxMjBhOCw4LDAsMCwxLDEzLjY2LTUuNjZsNDgsNDhBOCw4LDAsMCwxLDIyOS42NiwxNzMuNjZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTY4bC00OCw0OFYxMjBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI5LjY2LDE2Mi4zNGwtNDgtNDhBOCw4LDAsMCwwLDE2OCwxMjB2NDBIODhhNDgsNDgsMCwwLDEsMC05Nmg4OGE4LDgsMCwwLDAsMC0xNkg4OGE2NCw2NCwwLDAsMCwwLDEyOGg4MHY0MGE4LDgsMCwwLDAsMTMuNjYsNS42Nmw0OC00OEE4LDgsMCwwLDAsMjI5LjY2LDE2Mi4zNFpNMTg0LDE5Ni42OVYxMzkuMzFMMjEyLjY5LDE2OFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowUDownRightIcon";
-
-/** @deprecated Use ArrowUDownRightIcon */
-export const ArrowUDownRight = I;
-export { I as ArrowUDownRightIcon };
+I.displayName = "ArrowUDownRight";
+export { I as ArrowUDownRight }

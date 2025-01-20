@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/CaretUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuNjYsMTY1LjY2YTgsOCwwLDAsMS0xMS4zMiwwTDEyOCw5MS4zMSw1My42NiwxNjUuNjZhOCw4LDAsMCwxLTExLjMyLTExLjMybDgwLTgwYTgsOCwwLDAsMSwxMS4zMiwwbDgwLDgwQTgsOCwwLDAsMSwyMTMuNjYsMTY1LjY2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/CaretUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTUuMzksMTYzLjA2QTgsOCwwLDAsMSwyMDgsMTY4SDQ4YTgsOCwwLDAsMS01LjY2LTEzLjY2bDgwLTgwYTgsOCwwLDAsMSwxMS4zMiwwbDgwLDgwQTgsOCwwLDAsMSwyMTUuMzksMTYzLjA2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTYwSDQ4bDgwLTgwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxMy42NiwxNTQuMzRsLTgwLTgwYTgsOCwwLDAsMC0xMS4zMiwwbC04MCw4MEE4LDgsMCwwLDAsNDgsMTY4SDIwOGE4LDgsMCwwLDAsNS42Ni0xMy42NlpNNjcuMzEsMTUyLDEyOCw5MS4zMSwxODguNjksMTUyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "CaretUpIcon";
-
-/** @deprecated Use CaretUpIcon */
-export const CaretUp = I;
-export { I as CaretUpIcon };
+I.displayName = "CaretUp";
+export { I as CaretUp }

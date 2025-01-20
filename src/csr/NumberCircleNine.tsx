@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/NumberCircleNine";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTQ2LDc2LjgyQTM2LDM2LDAsMSwwLDEyNy45NCwxNDRxLjk0LDAsMS44OS0uMDZsLTE2LjcsMjhhOCw4LDAsMCwwLDIuNzcsMTEsOCw4LDAsMCwwLDExLTIuNzdMMTU5LjE4LDEyNkEzNi4wNSwzNi4wNSwwLDAsMCwxNDYsNzYuODJaTTE0NS4zMywxMThsMCwwQTIwLDIwLDAsMSwxLDEzOCw5MC42OCwyMCwyMCwwLDAsMSwxNDUuMzEsMTE4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/NumberCircleNine";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNDUuMzMsMTE4bDAsMEEyMCwyMCwwLDEsMSwxMzgsOTAuNjgsMjAsMjAsMCwwLDEsMTQ1LjMxLDExOFpNMjMyLDEyOEExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhaTTE0Niw3Ni44MkEzNiwzNiwwLDEsMCwxMjcuOTQsMTQ0cS45NCwwLDEuODktLjA2bC0xNi43LDI4YTgsOCwwLDAsMCwyLjc3LDExLDgsOCwwLDAsMCwxMS0yLjc3TDE1OS4xOCwxMjZBMzYuMDUsMzYuMDUsMCwwLDAsMTQ2LDc2LjgyWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZaTTE0Niw3Ni44MkEzNiwzNiwwLDEsMCwxMjcuOTQsMTQ0cS45NCwwLDEuODktLjA2bC0xNi43LDI4YTgsOCwwLDAsMCwyLjc3LDExLDgsOCwwLDAsMCwxMS0yLjc3TDE1OS4xOCwxMjZBMzYuMDUsMzYuMDUsMCwwLDAsMTQ2LDc2LjgyWk0xNDUuMzMsMTE4bDAsMEEyMCwyMCwwLDEsMSwxMzgsOTAuNjgsMjAsMjAsMCwwLDEsMTQ1LjMxLDExOFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "NumberCircleNineIcon";
-
-/** @deprecated Use NumberCircleNineIcon */
-export const NumberCircleNine = I;
-export { I as NumberCircleNineIcon };
+I.displayName = "NumberCircleNine";
+export { I as NumberCircleNine }

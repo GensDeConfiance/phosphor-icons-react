@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowURightUp";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsODUuNjZhOCw4LDAsMCwxLTExLjMyLDBMMTc2LDUxLjMxVjE2OGE2NCw2NCwwLDAsMS0xMjgsMFY4MGE4LDgsMCwwLDEsMTYsMHY4OGE0OCw0OCwwLDAsMCw5NiwwVjUxLjMxTDEyNS42Niw4NS42NmE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNDgtNDhhOCw4LDAsMCwxLDExLjMyLDBsNDgsNDhBOCw4LDAsMCwxLDIyMS42Niw4NS42NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowURightUp";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjMuMzksODMuMDZBOCw4LDAsMCwxLDIxNiw4OEgxNzZ2ODBhNjQsNjQsMCwwLDEtMTI4LDBWODBhOCw4LDAsMCwxLDE2LDB2ODhhNDgsNDgsMCwwLDAsOTYsMFY4OEgxMjBhOCw4LDAsMCwxLTUuNjYtMTMuNjZsNDgtNDhhOCw4LDAsMCwxLDExLjMyLDBsNDgsNDhBOCw4LDAsMCwxLDIyMy4zOSw4My4wNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsODBIMTIwbDQ4LTQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyMS42Niw3NC4zNGwtNDgtNDhhOCw4LDAsMCwwLTExLjMyLDBsLTQ4LDQ4QTgsOCwwLDAsMCwxMjAsODhoNDB2ODBhNDgsNDgsMCwwLDEtOTYsMFY4MGE4LDgsMCwwLDAtMTYsMHY4OGE2NCw2NCwwLDAsMCwxMjgsMFY4OGg0MGE4LDgsMCwwLDAsNS42Ni0xMy42NlpNMTM5LjMxLDcyLDE2OCw0My4zMSwxOTYuNjksNzJaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowURightUpIcon";
-
-/** @deprecated Use ArrowURightUpIcon */
-export const ArrowURightUp = I;
-export { I as ArrowURightUpIcon };
+I.displayName = "ArrowURightUp";
+export { I as ArrowURightUp }

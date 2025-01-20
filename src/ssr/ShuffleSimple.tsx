@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ShuffleSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWODhhOCw4LDAsMCwxLTE2LDBWNjcuMzFMMTU2LjI4LDExMUE4LDgsMCwwLDEsMTQ1LDk5LjcyTDE4OC42OSw1NkgxNjhhOCw4LDAsMCwxLDAtMTZoNDBBOCw4LDAsMCwxLDIxNiw0OFptLTgsMTEyYTgsOCwwLDAsMC04LDh2MjAuNjlMNTMuNjYsNDIuMzRBOCw4LDAsMCwwLDQyLjM0LDUzLjY2TDE4OC42OSwyMDBIMTY4YTgsOCwwLDAsMCwwLDE2aDQwYTgsOCwwLDAsMCw4LThWMTY4QTgsOCwwLDAsMCwyMDgsMTYwWk05OS43MiwxNDUsNDIuMzQsMjAyLjM0YTgsOCwwLDAsMCwxMS4zMiwxMS4zMkwxMTEsMTU2LjI4QTgsOCwwLDAsMCw5OS43MiwxNDVaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ShuffleSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWODhhOCw4LDAsMCwxLTEzLjY2LDUuNjZMMTg4LDc5LjMxLDE1Ni4yOCwxMTFBOCw4LDAsMCwxLDE0NSw5OS43MkwxNzYuNjksNjgsMTYyLjM0LDUzLjY2QTgsOCwwLDAsMSwxNjgsNDBoNDBBOCw4LDAsMCwxLDIxNiw0OFptLTQuOTQsMTEyLjYxYTgsOCwwLDAsMC04LjcyLDEuNzNMMTg4LDE3Ni42OSw1My42Niw0Mi4zNEE4LDgsMCwwLDAsNDIuMzQsNTMuNjZMMTc2LjY5LDE4OGwtMTQuMzUsMTQuMzRBOCw4LDAsMCwwLDE2OCwyMTZoNDBhOCw4LDAsMCwwLDgtOFYxNjhBOCw4LDAsMCwwLDIxMS4wNiwxNjAuNjFaTTk5LjcyLDE0NSw0Mi4zNCwyMDIuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDExMSwxNTYuMjhBOCw4LDAsMCwwLDk5LjcyLDE0NVoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik00OCw0OGw4MCw4MEw0OCwyMDhabTgwLDgwLDgwLDgwVjQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw0OFY4OGE4LDgsMCwwLDEtMTYsMFY2Ny4zMUwxNTYuMjgsMTExQTgsOCwwLDAsMSwxNDUsOTkuNzJMMTg4LjY5LDU2SDE2OGE4LDgsMCwwLDEsMC0xNmg0MEE4LDgsMCwwLDEsMjE2LDQ4Wm0tOCwxMTJhOCw4LDAsMCwwLTgsOHYyMC42OUw1My42Niw0Mi4zNEE4LDgsMCwwLDAsNDIuMzQsNTMuNjZMMTg4LjY5LDIwMEgxNjhhOCw4LDAsMCwwLDAsMTZoNDBhOCw4LDAsMCwwLDgtOFYxNjhBOCw4LDAsMCwwLDIwOCwxNjBaTTk5LjcyLDE0NSw0Mi4zNCwyMDIuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDExMSwxNTYuMjhBOCw4LDAsMCwwLDk5LjcyLDE0NVoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShuffleSimpleIcon";
-
-/** @deprecated Use ShuffleSimpleIcon */
-export const ShuffleSimple = I;
-export { I as ShuffleSimpleIcon };
+I.displayName = "ShuffleSimple";
+export { I as ShuffleSimple }

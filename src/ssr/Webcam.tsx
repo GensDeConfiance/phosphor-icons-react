@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Webcam";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjgsMTA0YTQwLDQwLDAsMSwwLTQwLDQwQTQwLDQwLDAsMCwwLDE2OCwxMDRabS02NCwwYTI0LDI0LDAsMSwxLDI0LDI0QTI0LDI0LDAsMCwxLDEwNCwxMDRabTEyMCw5NkgxMzZWMTgzLjZhODAsODAsMCwxLDAtMTYsMFYyMDBIMzJhOCw4LDAsMCwwLDAsMTZIMjI0YTgsOCwwLDAsMCwwLTE2Wk02NCwxMDRhNjQsNjQsMCwxLDEsNjQsNjRBNjQuMDcsNjQuMDcsMCwwLDEsNjQsMTA0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Webcam";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMTA0YTMyLDMyLDAsMSwxLTMyLTMyQTMyLDMyLDAsMCwxLDE2MCwxMDRabTcyLDEwNGE4LDgsMCwwLDEtOCw4SDMyYTgsOCwwLDAsMSwwLTE2aDg4VjE4My42YTgwLDgwLDAsMSwxLDE2LDBWMjAwaDg4QTgsOCwwLDAsMSwyMzIsMjA4Wk0xMjgsMTUyYTQ4LDQ4LDAsMSwwLTQ4LTQ4QTQ4LjA1LDQ4LjA1LDAsMCwwLDEyOCwxNTJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMzJhNzIsNzIsMCwxLDAsNzIsNzJBNzIsNzIsMCwwLDAsMTI4LDMyWm0wLDEwNGEzMiwzMiwwLDEsMSwzMi0zMkEzMiwzMiwwLDAsMSwxMjgsMTM2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE2OCwxMDRhNDAsNDAsMCwxLDAtNDAsNDBBNDAsNDAsMCwwLDAsMTY4LDEwNFptLTY0LDBhMjQsMjQsMCwxLDEsMjQsMjRBMjQsMjQsMCwwLDEsMTA0LDEwNFptMTIwLDk2SDEzNlYxODMuNmE4MCw4MCwwLDEsMC0xNiwwVjIwMEgzMmE4LDgsMCwwLDAsMCwxNkgyMjRhOCw4LDAsMCwwLDAtMTZaTTY0LDEwNGE2NCw2NCwwLDEsMSw2NCw2NEE2NC4wNyw2NC4wNywwLDAsMSw2NCwxMDRaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "WebcamIcon";
-
-/** @deprecated Use WebcamIcon */
-export const Webcam = I;
-export { I as WebcamIcon };
+I.displayName = "Webcam";
+export { I as Webcam }

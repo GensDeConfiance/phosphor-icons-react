@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ArrowElbowUpRight";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsODUuNjZsLTQ4LDQ4YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxOTYuNjksODhIODBWMjI0YTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMSw4LThIMTk2LjY5TDE2Mi4zNCwzNy42NmE4LDgsMCwwLDEsMTEuMzItMTEuMzJsNDgsNDhBOCw4LDAsMCwxLDIyMS42Niw4NS42NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowElbowUpRight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsODUuNjZsLTQ4LDQ4QTgsOCwwLDAsMSwxNjAsMTI4Vjg4SDgwVjIyNGE4LDgsMCwwLDEtMTYsMFY4MGE4LDgsMCwwLDEsOC04aDg4VjMyYTgsOCwwLDAsMSwxMy42Ni01LjY2bDQ4LDQ4QTgsOCwwLDAsMSwyMjEuNjYsODUuNjZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsODBsLTQ4LDQ4VjMyWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyMS42Niw3NC4zNGwtNDgtNDhBOCw4LDAsMCwwLDE2MCwzMlY3Mkg3MmE4LDgsMCwwLDAtOCw4VjIyNGE4LDgsMCwwLDAsMTYsMFY4OGg4MHY0MGE4LDgsMCwwLDAsMTMuNjYsNS42Nmw0OC00OEE4LDgsMCwwLDAsMjIxLjY2LDc0LjM0Wk0xNzYsMTA4LjY5VjUxLjMxTDIwNC42OSw4MFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowElbowUpRightIcon";
-
-/** @deprecated Use ArrowElbowUpRightIcon */
-export const ArrowElbowUpRight = I;
-export { I as ArrowElbowUpRightIcon };
+I.displayName = "ArrowElbowUpRight";
+export { I as ArrowElbowUpRight }

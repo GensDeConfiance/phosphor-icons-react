@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Timer";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDBhOTYsOTYsMCwxLDAsOTYsOTZBOTYuMTEsOTYuMTEsMCwwLDAsMTI4LDQwWm0wLDE3NmE4MCw4MCwwLDEsMSw4MC04MEE4MC4wOSw4MC4wOSwwLDAsMSwxMjgsMjE2Wk0xNzMuNjYsOTAuMzRhOCw4LDAsMCwxLDAsMTEuMzJsLTQwLDQwYTgsOCwwLDAsMS0xMS4zMi0xMS4zMmw0MC00MEE4LDgsMCwwLDEsMTczLjY2LDkwLjM0Wk05NiwxNmE4LDgsMCwwLDEsOC04aDQ4YTgsOCwwLDAsMSwwLDE2SDEwNEE4LDgsMCwwLDEsOTYsMTZaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Timer";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsNDBhOTYsOTYsMCwxLDAsOTYsOTZBOTYuMTEsOTYuMTEsMCwwLDAsMTI4LDQwWm00NS42Niw2MS42Ni00MCw0MGE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNDAtNDBhOCw4LDAsMCwxLDExLjMyLDExLjMyWk05NiwxNmE4LDgsMCwwLDEsOC04aDQ4YTgsOCwwLDAsMSwwLDE2SDEwNEE4LDgsMCwwLDEsOTYsMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTM2YTg4LDg4LDAsMSwxLTg4LTg4QTg4LDg4LDAsMCwxLDIxNiwxMzZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDQwYTk2LDk2LDAsMSwwLDk2LDk2QTk2LjExLDk2LjExLDAsMCwwLDEyOCw0MFptMCwxNzZhODAsODAsMCwxLDEsODAtODBBODAuMDksODAuMDksMCwwLDEsMTI4LDIxNlpNMTczLjY2LDkwLjM0YTgsOCwwLDAsMSwwLDExLjMybC00MCw0MGE4LDgsMCwwLDEtMTEuMzItMTEuMzJsNDAtNDBBOCw4LDAsMCwxLDE3My42Niw5MC4zNFpNOTYsMTZhOCw4LDAsMCwxLDgtOGg0OGE4LDgsMCwwLDEsMCwxNkgxMDRBOCw4LDAsMCwxLDk2LDE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TimerIcon";
-
-/** @deprecated Use TimerIcon */
-export const Timer = I;
-export { I as TimerIcon };
+I.displayName = "Timer";
+export { I as Timer }

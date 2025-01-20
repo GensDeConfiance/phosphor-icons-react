@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/TextOutdent";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNMTEyLDcySDIxNmE4LDgsMCwwLDAsMC0xNkgxMTJhOCw4LDAsMCwwLDAsMTZaTTIxNiwxODRINDBhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk03MiwxNDRhOCw4LDAsMCwwLDUuNjYtMTMuNjZMNDMuMzEsOTYsNzcuNjYsNjEuNjZBOCw4LDAsMCwwLDY2LjM0LDUwLjM0bC00MCw0MGE4LDgsMCwwLDAsMCwxMS4zMmw0MCw0MEE4LDgsMCwwLDAsNzIsMTQ0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/TextOutdent";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTgsOCwwLDAsMS04LDhIMTEyYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEyOFpNMTEyLDcySDIxNmE4LDgsMCwwLDAsMC0xNkgxMTJhOCw4LDAsMCwwLDAsMTZaTTIxNiwxODRINDBhOCw4LDAsMCwwLDAsMTZIMjE2YTgsOCwwLDAsMCwwLTE2Wk03MiwxNDRhOCw4LDAsMCwwLDgtOFY1NmE4LDgsMCwwLDAtMTMuNjYtNS42NmwtNDAsNDBhOCw4LDAsMCwwLDAsMTEuMzJsNDAsNDBBOCw4LDAsMCwwLDcyLDE0NFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNjRWMTkySDQwVjg4TDY0LDY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIyNCwxMjhhOCw4LDAsMCwxLTgsOEgxMTJhOCw4LDAsMCwxLDAtMTZIMjE2QTgsOCwwLDAsMSwyMjQsMTI4Wk0xMTIsNzJIMjE2YTgsOCwwLDAsMCwwLTE2SDExMmE4LDgsMCwwLDAsMCwxNlpNMjE2LDE4NEg0MGE4LDgsMCwwLDAsMCwxNkgyMTZhOCw4LDAsMCwwLDAtMTZaTTcyLDE0NGE4LDgsMCwwLDAsNS42Ni0xMy42Nkw0My4zMSw5Niw3Ny42Niw2MS42NkE4LDgsMCwwLDAsNjYuMzQsNTAuMzRsLTQwLDQwYTgsOCwwLDAsMCwwLDExLjMybDQwLDQwQTgsOCwwLDAsMCw3MiwxNDRaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextOutdentIcon";
-
-/** @deprecated Use TextOutdentIcon */
-export const TextOutdent = I;
-export { I as TextOutdentIcon };
+I.displayName = "TextOutdent";
+export { I as TextOutdent }

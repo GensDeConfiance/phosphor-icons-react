@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ChatTeardropSlash";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik01My45MiwzNC42MkE4LDgsMCwxLDAsNDIuMDgsNDUuMzhsMTMuMTgsMTQuNUE5OS4zOSw5OS4zOSwwLDAsMCwzMiwxMjR2ODRhMTYsMTYsMCwwLDAsMTYsMTZoODRhMTAwLjMzLDEwMC4zMywwLDAsMCw1Ni41My0xNy41M2wxMy41NSwxNC45MWE4LDgsMCwxLDAsMTEuODQtMTAuNzZaTTEzMiwyMDhINDhWMTI0QTgzLjQ2LDgzLjQ2LDAsMCwxLDY2LjE1LDcxLjg1TDE3Ny42NiwxOTQuNTFBODMsODMsMCwwLDEsMTMyLDIwOFptMTAwLTg0YTk5Ljg3LDk5Ljg3LDAsMCwxLTE0LjM1LDUxLjY1LDgsOCwwLDAsMS0xMy43LTguMjhBODQsODQsMCwwLDAsOTUuNjYsNDguMjVhOCw4LDAsMCwxLTYuOTQtMTQuNDJBMTAwLDEwMCwwLDAsMSwyMzIsMTI0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ChatTeardropSlash";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTMuOTIsMjEwLjYyYTgsOCwwLDEsMS0xMS44NCwxMC43NmwtMTMuNTctMTQuOTJBOTkuNCw5OS40LDAsMCwxLDEzMiwyMjRINDhhMTYsMTYsMCwwLDEtMTYtMTZWMTI0QTk5LjU0LDk5LjU0LDAsMCwxLDU1LjI5LDU5LjkyTDQyLjA4LDQ1LjM4YTgsOCwwLDAsMSwuNzItMTEuNDYsOC4yMiw4LjIyLDAsMCwxLDExLjM0Ljk1Wm0tNS41Ny0yOS45MWE0LDQsMCwwLDAsNi4yNC0uNEExMDAsMTAwLDAsMCwwLDgzLjc4LDM2LjQyYTQsNCwwLDAsMC0xLDYuMThaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI0aDBhOTIsOTIsMCwwLDEtOTIsOTJINDhhOCw4LDAsMCwxLTgtOFYxMjRhOTIsOTIsMCwwLDEsOTItOTJoMEE5Miw5MiwwLDAsMSwyMjQsMTI0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTUzLjkyLDM0LjYyQTgsOCwwLDEsMCw0Mi4wOCw0NS4zOGwxMy4xOCwxNC41QTk5LjM5LDk5LjM5LDAsMCwwLDMyLDEyNHY4NGExNiwxNiwwLDAsMCwxNiwxNmg4NGExMDAuMzMsMTAwLjMzLDAsMCwwLDU2LjUzLTE3LjUzbDEzLjU1LDE0LjkxYTgsOCwwLDEsMCwxMS44NC0xMC43NlpNMTMyLDIwOEg0OFYxMjRBODMuNDYsODMuNDYsMCwwLDEsNjYuMTUsNzEuODVMMTc3LjY2LDE5NC41MUE4Myw4MywwLDAsMSwxMzIsMjA4Wm0xMDAtODRhOTkuODcsOTkuODcsMCwwLDEtMTQuMzUsNTEuNjUsOCw4LDAsMCwxLTEzLjctOC4yOEE4NCw4NCwwLDAsMCw5NS42Niw0OC4yNWE4LDgsMCwwLDEtNi45NC0xNC40MkExMDAsMTAwLDAsMCwxLDIzMiwxMjRaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChatTeardropSlashIcon";
-
-/** @deprecated Use ChatTeardropSlashIcon */
-export const ChatTeardropSlash = I;
-export { I as ChatTeardropSlashIcon };
+I.displayName = "ChatTeardropSlash";
+export { I as ChatTeardropSlash }

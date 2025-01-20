@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/FastForwardCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlptNjguOC05NC40LTQ4LTM2QTgsOCwwLDAsMCwxMzYsOTJ2NzJhOCw4LDAsMCwwLDEyLjgsNi40bDQ4LTM2YTgsOCwwLDAsMCwwLTEyLjhaTTE1MiwxNDhWMTA4bDI2LjY3LDIwWm0tMTkuMi0yNi40LTQ4LTM2QTgsOCwwLDAsMCw3Miw5MnY3MmE4LDgsMCwwLDAsMTIuOCw2LjRsNDgtMzZhOCw4LDAsMCwwLDAtMTIuOFpNODgsMTQ4VjEwOGwyNi42NywyMFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/FastForwardCircle";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm02OC44LDExMC40LTQ4LDM2QTgsOCwwLDAsMSwxNDQsMTcyYTgsOCwwLDAsMS04LThWMTI4YTgsOCwwLDAsMS0zLjIsNi40bC00OCwzNkE4LDgsMCwwLDEsODAsMTcyYTgsOCwwLDAsMS04LThWOTJhOCw4LDAsMCwxLDEyLjgtNi40bDQ4LDM2QTgsOCwwLDAsMSwxMzYsMTI4VjkyYTgsOCwwLDAsMSwxMi44LTYuNGw0OCwzNmE4LDgsMCwwLDEsMCwxMi44WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMzJhOTYsOTYsMCwxLDAsOTYsOTZBOTYsOTYsMCwwLDAsMTI4LDMyWk04MCwxNjRWOTJsNDgsMzZabTY0LDBWOTJsNDgsMzZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZabTY4LjgtOTQuNC00OC0zNkE4LDgsMCwwLDAsMTM2LDkydjcyYTgsOCwwLDAsMCwxMi44LDYuNGw0OC0zNmE4LDgsMCwwLDAsMC0xMi44Wk0xNTIsMTQ4VjEwOGwyNi42NywyMFptLTE5LjItMjYuNC00OC0zNkE4LDgsMCwwLDAsNzIsOTJ2NzJhOCw4LDAsMCwwLDEyLjgsNi40bDQ4LTM2YTgsOCwwLDAsMCwwLTEyLjhaTTg4LDE0OFYxMDhsMjYuNjcsMjBaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FastForwardCircleIcon";
-
-/** @deprecated Use FastForwardCircleIcon */
-export const FastForwardCircle = I;
-export { I as FastForwardCircleIcon };
+I.displayName = "FastForwardCircle";
+export { I as FastForwardCircle }

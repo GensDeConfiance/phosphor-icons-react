@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/SupersetProperOf";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTg4LjEsODguMSwwLDAsMS04OCw4OEg2NGE4LDgsMCwwLDEsMC0xNmg3MmE3Miw3MiwwLDAsMCwwLTE0NEg2NGE4LDgsMCwwLDEsMC0xNmg3MkE4OC4xLDg4LjEsMCwwLDEsMjI0LDEyOFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/SupersetProperOf";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTEyOCwxOTJIODBhOCw4LDAsMCwxLDAtMTZoNDhhNDgsNDgsMCwwLDAsMC05Nkg4MGE4LDgsMCwwLDEsMC0xNmg0OGE2NCw2NCwwLDAsMSwwLDEyOFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsMTI4YTgwLDgwLDAsMCwxLTgwLDgwSDY0VjQ4aDcyQTgwLDgwLDAsMCwxLDIxNiwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI0LDEyOGE4OC4xLDg4LjEsMCwwLDEtODgsODhINjRhOCw4LDAsMCwxLDAtMTZoNzJhNzIsNzIsMCwwLDAsMC0xNDRINjRhOCw4LDAsMCwxLDAtMTZoNzJBODguMSw4OC4xLDAsMCwxLDIyNCwxMjhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SupersetProperOfIcon";
-
-/** @deprecated Use SupersetProperOfIcon */
-export const SupersetProperOf = I;
-export { I as SupersetProperOfIcon };
+I.displayName = "SupersetProperOf";
+export { I as SupersetProperOf }

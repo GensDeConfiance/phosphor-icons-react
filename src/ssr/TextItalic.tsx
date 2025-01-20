@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/TextItalic";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNTZhOCw4LDAsMCwxLTgsOEgxNTcuNzdMMTE1LjEsMTkySDE0NGE4LDgsMCwwLDEsMCwxNkg2NGE4LDgsMCwwLDEsMC0xNkg5OC4yM0wxNDAuOSw2NEgxMTJhOCw4LDAsMCwxLDAtMTZoODBBOCw4LDAsMCwxLDIwMCw1NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/TextItalic";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTE3Niw4MEgxNTMuNjRsLTM0LjI5LDk2SDEzNmE4LDgsMCwwLDEsMCwxNkg4MGE4LDgsMCwwLDEsMC0xNmgyMi4zNmwzNC4yOS05NkgxMjBhOCw4LDAsMCwxLDAtMTZoNTZhOCw4LDAsMCwxLDAsMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNTYsMTQ0LDIwMEg2NEwxMTIsNTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDU2YTgsOCwwLDAsMS04LDhIMTU3Ljc3TDExNS4xLDE5MkgxNDRhOCw4LDAsMCwxLDAsMTZINjRhOCw4LDAsMCwxLDAtMTZIOTguMjNMMTQwLjksNjRIMTEyYTgsOCwwLDAsMSwwLTE2aDgwQTgsOCwwLDAsMSwyMDAsNTZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "TextItalicIcon";
-
-/** @deprecated Use TextItalicIcon */
-export const TextItalic = I;
-export { I as TextItalicIcon };
+I.displayName = "TextItalic";
+export { I as TextItalic }

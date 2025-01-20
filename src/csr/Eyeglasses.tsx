@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Eyeglasses";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBhOCw4LDAsMCwwLDAsMTYsMTYsMTYsMCwwLDEsMTYsMTZ2NTguMDhBNDQsNDQsMCwwLDAsMTQ1LjY4LDE1MkgxMTAuMzJBNDQsNDQsMCwwLDAsNDAsMTMwLjA4VjcyQTE2LDE2LDAsMCwxLDU2LDU2YTgsOCwwLDAsMCwwLTE2QTMyLDMyLDAsMCwwLDI0LDcydjkyYTQ0LDQ0LDAsMCwwLDg3LjgxLDRoMzIuMzhBNDQsNDQsMCwwLDAsMjMyLDE2NFY3MkEzMiwzMiwwLDAsMCwyMDAsNDBaTTY4LDE5MmEyOCwyOCwwLDEsMSwyOC0yOEEyOCwyOCwwLDAsMSw2OCwxOTJabTEyMCwwYTI4LDI4LDAsMSwxLDI4LTI4QTI4LDI4LDAsMCwxLDE4OCwxOTJaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/Eyeglasses";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsNzJ2OTJhNDQsNDQsMCwwLDEtODcuODEsNEgxMTEuODFBNDQsNDQsMCwwLDEsMjQsMTY0VjcyQTMyLDMyLDAsMCwxLDU2LDQwYTgsOCwwLDAsMSwwLDE2QTE2LDE2LDAsMCwwLDQwLDcydjU4LjA4QTQ0LDQ0LDAsMCwxLDExMC4zMiwxNTJoMzUuMzZBNDQsNDQsMCwwLDEsMjE2LDEzMC4wOFY3MmExNiwxNiwwLDAsMC0xNi0xNiw4LDgsMCwwLDEsMC0xNkEzMiwzMiwwLDAsMSwyMzIsNzJaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsMTY0YTM2LDM2LDAsMSwxLTM2LTM2QTM2LDM2LDAsMCwxLDEwNCwxNjRabTg0LTM2YTM2LDM2LDAsMSwwLDM2LDM2QTM2LDM2LDAsMCwwLDE4OCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjAwLDQwYTgsOCwwLDAsMCwwLDE2LDE2LDE2LDAsMCwxLDE2LDE2djU4LjA4QTQ0LDQ0LDAsMCwwLDE0NS42OCwxNTJIMTEwLjMyQTQ0LDQ0LDAsMCwwLDQwLDEzMC4wOFY3MkExNiwxNiwwLDAsMSw1Niw1NmE4LDgsMCwwLDAsMC0xNkEzMiwzMiwwLDAsMCwyNCw3MnY5MmE0NCw0NCwwLDAsMCw4Ny44MSw0aDMyLjM4QTQ0LDQ0LDAsMCwwLDIzMiwxNjRWNzJBMzIsMzIsMCwwLDAsMjAwLDQwWk02OCwxOTJhMjgsMjgsMCwxLDEsMjgtMjhBMjgsMjgsMCwwLDEsNjgsMTkyWm0xMjAsMGEyOCwyOCwwLDEsMSwyOC0yOEEyOCwyOCwwLDAsMSwxODgsMTkyWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "EyeglassesIcon";
-
-/** @deprecated Use EyeglassesIcon */
-export const Eyeglasses = I;
-export { I as EyeglassesIcon };
+I.displayName = "Eyeglasses";
+export { I as Eyeglasses }

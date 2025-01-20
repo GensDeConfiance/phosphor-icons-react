@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ChalkboardSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTkyaC04VjE2OGE4LDgsMCwwLDAtOC04SDE2MGE4LDgsMCwwLDAtOCw4djI0SDQwVjU2SDIxNnY4MGE4LDgsMCwwLDAsMTYsMFY1NmExNiwxNiwwLDAsMC0xNi0xNkg0MEExNiwxNiwwLDAsMCwyNCw1NlYxOTJIMTZhOCw4LDAsMCwwLDAsMTZIMjQwYTgsOCwwLDAsMCwwLTE2Wm0tNzItMTZoNDh2MTZIMTY4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/ChalkboardSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yNDAsMTkyaC04VjU2YTE2LDE2LDAsMCwwLTE2LTE2SDQwQTE2LDE2LDAsMCwwLDI0LDU2VjE5MkgxNmE4LDgsMCwwLDAsMCwxNkgyNDBhOCw4LDAsMCwwLDAtMTZabS0yNCwwSDE0NFYxNzZhOCw4LDAsMCwxLDgtOGg1NmE4LDgsMCwwLDEsOCw4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZWMTY4SDE2MHYzMkgzMlY1NmE4LDgsMCwwLDEsOC04SDIxNkE4LDgsMCwwLDEsMjI0LDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTI0MCwxOTJoLThWMTY4YTgsOCwwLDAsMC04LThIMTYwYTgsOCwwLDAsMC04LDh2MjRINDBWNTZIMjE2djgwYTgsOCwwLDAsMCwxNiwwVjU2YTE2LDE2LDAsMCwwLTE2LTE2SDQwQTE2LDE2LDAsMCwwLDI0LDU2VjE5MkgxNmE4LDgsMCwwLDAsMCwxNkgyNDBhOCw4LDAsMCwwLDAtMTZabS03Mi0xNmg0OHYxNkgxNjhaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ChalkboardSimpleIcon";
-
-/** @deprecated Use ChalkboardSimpleIcon */
-export const ChalkboardSimple = I;
-export { I as ChalkboardSimpleIcon };
+I.displayName = "ChalkboardSimple";
+export { I as ChalkboardSimple }

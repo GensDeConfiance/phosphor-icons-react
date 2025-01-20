@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SpeakerSimpleNone";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjMuNTEsMjQuODFhOCw4LDAsMCwwLTguNDIuODhMODUuMjUsODBINDBBMTYsMTYsMCwwLDAsMjQsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZIODUuMjVsNjkuODQsNTQuMzFBOCw4LDAsMCwwLDE2OCwyMjRWMzJBOCw4LDAsMCwwLDE2My41MSwyNC44MVpNMTUyLDIwNy42NCw5Mi45MSwxNjEuNjlBNy45NCw3Ljk0LDAsMCwwLDg4LDE2MEg0MFY5Nkg4OGE3Ljk0LDcuOTQsMCwwLDAsNC45MS0xLjY5TDE1Miw0OC4zNloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/SpeakerSimpleNone";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjMuNTIsMjQuODFhOCw4LDAsMCwwLTguNDMuODhMODUuMjUsODBINDBBMTYsMTYsMCwwLDAsMjQsOTZ2NjRhMTYsMTYsMCwwLDAsMTYsMTZIODUuMjVsNjkuODQsNTQuMzFBNy45NCw3Ljk0LDAsMCwwLDE2MCwyMzJhOCw4LDAsMCwwLDgtOFYzMkE4LDgsMCwwLDAsMTYzLjUyLDI0LjgxWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNjAsMzJWMjI0TDg4LDE2OEg0MGE4LDgsMCwwLDEtOC04Vjk2YTgsOCwwLDAsMSw4LThIODhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTYzLjUxLDI0LjgxYTgsOCwwLDAsMC04LjQyLjg4TDg1LjI1LDgwSDQwQTE2LDE2LDAsMCwwLDI0LDk2djY0YTE2LDE2LDAsMCwwLDE2LDE2SDg1LjI1bDY5Ljg0LDU0LjMxQTgsOCwwLDAsMCwxNjgsMjI0VjMyQTgsOCwwLDAsMCwxNjMuNTEsMjQuODFaTTE1MiwyMDcuNjQsOTIuOTEsMTYxLjY5QTcuOTQsNy45NCwwLDAsMCw4OCwxNjBINDBWOTZIODhhNy45NCw3Ljk0LDAsMCwwLDQuOTEtMS42OUwxNTIsNDguMzZaIi8+PC9zdmc+)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SpeakerSimpleNoneIcon";
-
-/** @deprecated Use SpeakerSimpleNoneIcon */
-export const SpeakerSimpleNone = I;
-export { I as SpeakerSimpleNoneIcon };
+I.displayName = "SpeakerSimpleNone";
+export { I as SpeakerSimpleNone }

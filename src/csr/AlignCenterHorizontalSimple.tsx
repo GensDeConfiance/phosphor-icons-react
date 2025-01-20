@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/AlignCenterHorizontalSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsODBIMTM2VjQ4YTgsOCwwLDAsMC0xNiwwVjgwSDQ4QTE2LDE2LDAsMCwwLDMyLDk2djY0YTE2LDE2LDAsMCwwLDE2LDE2aDcydjMyYTgsOCwwLDAsMCwxNiwwVjE3Nmg3MmExNiwxNiwwLDAsMCwxNi0xNlY5NkExNiwxNiwwLDAsMCwyMDgsODBabTAsODBINDhWOTZIMjA4djY0WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/AlignCenterHorizontalSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsOTZ2NjRhMTYsMTYsMCwwLDEtMTYsMTZIMTM2djMyYTgsOCwwLDAsMS0xNiwwVjE3Nkg0OGExNiwxNiwwLDAsMS0xNi0xNlY5NkExNiwxNiwwLDAsMSw0OCw4MGg3MlY0OGE4LDgsMCwwLDEsMTYsMFY4MGg3MkExNiwxNiwwLDAsMSwyMjQsOTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsOTZ2NjRhOCw4LDAsMCwxLTgsOEg0OGE4LDgsMCwwLDEtOC04Vjk2YTgsOCwwLDAsMSw4LThIMjA4QTgsOCwwLDAsMSwyMTYsOTZaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjA4LDgwSDEzNlY0OGE4LDgsMCwwLDAtMTYsMFY4MEg0OEExNiwxNiwwLDAsMCwzMiw5NnY2NGExNiwxNiwwLDAsMCwxNiwxNmg3MnYzMmE4LDgsMCwwLDAsMTYsMFYxNzZoNzJhMTYsMTYsMCwwLDAsMTYtMTZWOTZBMTYsMTYsMCwwLDAsMjA4LDgwWm0wLDgwSDQ4Vjk2SDIwOHY2NFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "AlignCenterHorizontalSimpleIcon";
-
-/** @deprecated Use AlignCenterHorizontalSimpleIcon */
-export const AlignCenterHorizontalSimple = I;
-export { I as AlignCenterHorizontalSimpleIcon };
+I.displayName = "AlignCenterHorizontalSimple";
+export { I as AlignCenterHorizontalSimple }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/FirstAid";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsODhIMTY4VjQwYTE2LDE2LDAsMCwwLTE2LTE2SDEwNEExNiwxNiwwLDAsMCw4OCw0MFY4OEg0MGExNiwxNiwwLDAsMC0xNiwxNnY0OGExNiwxNiwwLDAsMCwxNiwxNkg4OHY0OGExNiwxNiwwLDAsMCwxNiwxNmg0OGExNiwxNiwwLDAsMCwxNi0xNlYxNjhoNDhhMTYsMTYsMCwwLDAsMTYtMTZWMTA0QTE2LDE2LDAsMCwwLDIxNiw4OFptMCw2NEgxNjBhOCw4LDAsMCwwLTgsOHY1NkgxMDRWMTYwYTgsOCwwLDAsMC04LThINDBWMTA0SDk2YTgsOCwwLDAsMCw4LThWNDBoNDhWOTZhOCw4LDAsMCwwLDgsOGg1NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/FirstAid";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMTA4djQwYTE2LDE2LDAsMCwxLTE2LDE2SDE2NHY1MmExNiwxNiwwLDAsMS0xNiwxNkgxMDhhMTYsMTYsMCwwLDEtMTYtMTZWMTY0SDQwYTE2LDE2LDAsMCwxLTE2LTE2VjEwOEExNiwxNiwwLDAsMSw0MCw5Mkg5MlY0MGExNiwxNiwwLDAsMSwxNi0xNmg0MGExNiwxNiwwLDAsMSwxNiwxNlY5Mmg1MkExNiwxNiwwLDAsMSwyMzIsMTA4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTA0djQ4YTgsOCwwLDAsMS04LDhIMTYwdjU2YTgsOCwwLDAsMS04LDhIMTA0YTgsOCwwLDAsMS04LThWMTYwSDQwYTgsOCwwLDAsMS04LThWMTA0YTgsOCwwLDAsMSw4LThIOTZWNDBhOCw4LDAsMCwxLDgtOGg0OGE4LDgsMCwwLDEsOCw4Vjk2aDU2QTgsOCwwLDAsMSwyMjQsMTA0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw4OEgxNjhWNDBhMTYsMTYsMCwwLDAtMTYtMTZIMTA0QTE2LDE2LDAsMCwwLDg4LDQwVjg4SDQwYTE2LDE2LDAsMCwwLTE2LDE2djQ4YTE2LDE2LDAsMCwwLDE2LDE2SDg4djQ4YTE2LDE2LDAsMCwwLDE2LDE2aDQ4YTE2LDE2LDAsMCwwLDE2LTE2VjE2OGg0OGExNiwxNiwwLDAsMCwxNi0xNlYxMDRBMTYsMTYsMCwwLDAsMjE2LDg4Wm0wLDY0SDE2MGE4LDgsMCwwLDAtOCw4djU2SDEwNFYxNjBhOCw4LDAsMCwwLTgtOEg0MFYxMDRIOTZhOCw4LDAsMCwwLDgtOFY0MGg0OFY5NmE4LDgsMCwwLDAsOCw4aDU2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FirstAidIcon";
-
-/** @deprecated Use FirstAidIcon */
-export const FirstAid = I;
-export { I as FirstAidIcon };
+I.displayName = "FirstAid";
+export { I as FirstAid }

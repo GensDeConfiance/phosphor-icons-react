@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HighDefinition";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsNzJIMTUyYTgsOCwwLDAsMC04LDh2OTZhOCw4LDAsMCwwLDgsOGgyNGE1Niw1NiwwLDAsMCwwLTExMlptMCw5NkgxNjBWODhoMTZhNDAsNDAsMCwwLDEsMCw4MFptLTY0LDhWMTM2SDU2djQwYTgsOCwwLDAsMS0xNiwwVjgwYTgsOCwwLDAsMSwxNiwwdjQwaDU2VjgwYTgsOCwwLDAsMSwxNiwwdjk2YTgsOCwwLDAsMS0xNiwwWk0yNCw0OGE4LDgsMCwwLDEsOC04SDIyNGE4LDgsMCwwLDEsMCwxNkgzMkE4LDgsMCwwLDEsMjQsNDhaTTIzMiwyMDhhOCw4LDAsMCwxLTgsOEgzMmE4LDgsMCwwLDEsMC0xNkgyMjRBOCw4LDAsMCwxLDIzMiwyMDhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/HighDefinition";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTYsMTI4YTMyLDMyLDAsMCwxLTMyLDMySDE1MlY5NmgxMkEzMiwzMiwwLDAsMSwxOTYsMTI4Wm0zNi03MlYyMDBhMTYsMTYsMCwwLDEtMTYsMTZINDBhMTYsMTYsMCwwLDEtMTYtMTZWNTZBMTYsMTYsMCwwLDEsNDAsNDBIMjE2QTE2LDE2LDAsMCwxLDIzMiw1NlpNMTIwLDg4YTgsOCwwLDAsMC0xNiwwdjMySDY0Vjg4YTgsOCwwLDAsMC0xNiwwdjgwYTgsOCwwLDAsMCwxNiwwVjEzNmg0MHYzMmE4LDgsMCwwLDAsMTYsMFptOTIsNDBhNDguMDUsNDguMDUsMCwwLDAtNDgtNDhIMTQ0YTgsOCwwLDAsMC04LDh2ODBhOCw4LDAsMCwwLDgsOGgyMEE0OC4wNSw0OC4wNSwwLDAsMCwyMTIsMTI4WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNDhWMjA4SDMyVjQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE3Niw3MkgxNTJhOCw4LDAsMCwwLTgsOHY5NmE4LDgsMCwwLDAsOCw4aDI0YTU2LDU2LDAsMCwwLDAtMTEyWm0wLDk2SDE2MFY4OGgxNmE0MCw0MCwwLDAsMSwwLDgwWm0tNjQsOFYxMzZINTZ2NDBhOCw4LDAsMCwxLTE2LDBWODBhOCw4LDAsMCwxLDE2LDB2NDBoNTZWODBhOCw4LDAsMCwxLDE2LDB2OTZhOCw4LDAsMCwxLTE2LDBaTTI0LDQ4YTgsOCwwLDAsMSw4LThIMjI0YTgsOCwwLDAsMSwwLDE2SDMyQTgsOCwwLDAsMSwyNCw0OFpNMjMyLDIwOGE4LDgsMCwwLDEtOCw4SDMyYTgsOCwwLDAsMSwwLTE2SDIyNEE4LDgsMCwwLDEsMjMyLDIwOFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HighDefinitionIcon";
-
-/** @deprecated Use HighDefinitionIcon */
-export const HighDefinition = I;
-export { I as HighDefinitionIcon };
+I.displayName = "HighDefinition";
+export { I as HighDefinition }

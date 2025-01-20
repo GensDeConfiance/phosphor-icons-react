@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pause";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMzJIMTYwYTE2LDE2LDAsMCwwLTE2LDE2VjIwOGExNiwxNiwwLDAsMCwxNiwxNmg0MGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDAsMzJabTAsMTc2SDE2MFY0OGg0MFpNOTYsMzJINTZBMTYsMTYsMCwwLDAsNDAsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDk2YTE2LDE2LDAsMCwwLDE2LTE2VjQ4QTE2LDE2LDAsMCwwLDk2LDMyWm0wLDE3Nkg1NlY0OEg5NloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Pause";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDhWMjA4YTE2LDE2LDAsMCwxLTE2LDE2SDE2MGExNiwxNiwwLDAsMS0xNi0xNlY0OGExNiwxNiwwLDAsMSwxNi0xNmg0MEExNiwxNiwwLDAsMSwyMTYsNDhaTTk2LDMySDU2QTE2LDE2LDAsMCwwLDQwLDQ4VjIwOGExNiwxNiwwLDAsMCwxNiwxNkg5NmExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCw5NiwzMloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNDhWMjA4YTgsOCwwLDAsMS04LDhIMTYwYTgsOCwwLDAsMS04LThWNDhhOCw4LDAsMCwxLDgtOGg0MEE4LDgsMCwwLDEsMjA4LDQ4Wk05Niw0MEg1NmE4LDgsMCwwLDAtOCw4VjIwOGE4LDgsMCwwLDAsOCw4SDk2YTgsOCwwLDAsMCw4LThWNDhBOCw4LDAsMCwwLDk2LDQwWiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwMCwzMkgxNjBhMTYsMTYsMCwwLDAtMTYsMTZWMjA4YTE2LDE2LDAsMCwwLDE2LDE2aDQwYTE2LDE2LDAsMCwwLDE2LTE2VjQ4QTE2LDE2LDAsMCwwLDIwMCwzMlptMCwxNzZIMTYwVjQ4aDQwWk05NiwzMkg1NkExNiwxNiwwLDAsMCw0MCw0OFYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIOTZhMTYsMTYsMCwwLDAsMTYtMTZWNDhBMTYsMTYsMCwwLDAsOTYsMzJabTAsMTc2SDU2VjQ4SDk2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PauseIcon";
-
-/** @deprecated Use PauseIcon */
-export const Pause = I;
-export { I as PauseIcon };
+I.displayName = "Pause";
+export { I as Pause }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/HourglassSimple";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuMTgsMTk2LjU2LDEzOS41NywxMjhsNzEuNjEtNjguNTZhMS41OSwxLjU5LDAsMCwxLC4xMy0uMTNBMTYsMTYsMCwwLDAsMjAwLDMySDU2QTE2LDE2LDAsMCwwLDQ0LjcsNTkuMzFsLjEyLjEzTDExNi40MywxMjgsNDQuODIsMTk2LjU2bC0uMTIuMTNBMTYsMTYsMCwwLDAsNTYsMjI0SDIwMGExNiwxNiwwLDAsMCwxMS4zMi0yNy4zMUExLjU5LDEuNTksMCwwLDEsMjExLjE4LDE5Ni41NlpNNTYsNDhoMHYwWm0xNDQsMC03Miw2OC45Mkw1Niw0OFpNNTYsMjA4bDcyLTY4LjkyTDIwMCwyMDhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/HourglassSimple";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTEuMzEsMTk2LjY5QTE2LDE2LDAsMCwxLDIwMCwyMjRINTZhMTYsMTYsMCwwLDEtMTEuMzItMjcuMzEsMS41OSwxLjU5LDAsMCwwLC4xMy0uMTNMMTE2LjQzLDEyOCw0NC44Miw1OS40NGExLjU5LDEuNTksMCwwLDAtLjEzLS4xM0ExNiwxNiwwLDAsMSw1NiwzMkgyMDBhMTYsMTYsMCwwLDEsMTEuMzIsMjcuMzEsMS41OSwxLjU5LDAsMCwwLS4xMy4xM0wxMzkuNTcsMTI4bDcxLjYxLDY4LjU2QTEuNTksMS41OSwwLDAsMCwyMTEuMzEsMTk2LjY5WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDUuNjQsNTMuNjYsMTI4LDEyOCw1MC4zNiw1My42NkE4LDgsMCwwLDEsNTYsNDBIMjAwQTgsOCwwLDAsMSwyMDUuNjQsNTMuNjZaTTEyOCwxMjgsNTAuMzYsMjAyLjM0QTgsOCwwLDAsMCw1NiwyMTZIMjAwYTgsOCwwLDAsMCw1LjY2LTEzLjY2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxMS4xOCwxOTYuNTYsMTM5LjU3LDEyOGw3MS42MS02OC41NmExLjU5LDEuNTksMCwwLDEsLjEzLS4xM0ExNiwxNiwwLDAsMCwyMDAsMzJINTZBMTYsMTYsMCwwLDAsNDQuNjksNTkuMzFhMS41OSwxLjU5LDAsMCwxLC4xMy4xM0wxMTYuNDMsMTI4LDQ0LjgyLDE5Ni41NmExLjU5LDEuNTksMCwwLDEtLjEzLjEzQTE2LDE2LDAsMCwwLDU2LDIyNEgyMDBhMTYsMTYsMCwwLDAsMTEuMzItMjcuMzFBMS41OSwxLjU5LDAsMCwxLDIxMS4xOCwxOTYuNTZaTTU2LDQ4aDB2MFptMTQ0LDAtNzIsNjguOTJMNTYsNDhaTTU2LDIwOGw3Mi02OC45MkwyMDAsMjA4WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "HourglassSimpleIcon";
-
-/** @deprecated Use HourglassSimpleIcon */
-export const HourglassSimple = I;
-export { I as HourglassSimpleIcon };
+I.displayName = "HourglassSimple";
+export { I as HourglassSimple }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Folder";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMTMxLjMxTDEwNCw0NC42OUExNS44NiwxNS44NiwwLDAsMCw5Mi42OSw0MEg0MEExNiwxNiwwLDAsMCwyNCw1NlYyMDAuNjJBMTUuNCwxNS40LDAsMCwwLDM5LjM4LDIxNkgyMTYuODlBMTUuMTMsMTUuMTMsMCwwLDAsMjMyLDIwMC44OVY4OEExNiwxNiwwLDAsMCwyMTYsNzJaTTQwLDU2SDkyLjY5bDE2LDE2SDQwWk0yMTYsMjAwSDQwVjg4SDIxNloiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Folder";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNzJIMTMxLjMxTDEwNCw0NC42OUExNS44OCwxNS44OCwwLDAsMCw5Mi42OSw0MEg0MEExNiwxNiwwLDAsMCwyNCw1NlYyMDAuNjJBMTUuNDEsMTUuNDEsMCwwLDAsMzkuMzksMjE2aDE3Ny41QTE1LjEzLDE1LjEzLDAsMCwwLDIzMiwyMDAuODlWODhBMTYsMTYsMCwwLDAsMjE2LDcyWk00MCw1Nkg5Mi42OWwxNiwxNkg0MFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBIMzJWNTZhOCw4LDAsMCwxLDgtOEg5Mi42OWE4LDgsMCwwLDEsNS42NSwyLjM0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw3MkgxMzEuMzFMMTA0LDQ0LjY5QTE1Ljg2LDE1Ljg2LDAsMCwwLDkyLjY5LDQwSDQwQTE2LDE2LDAsMCwwLDI0LDU2VjIwMC42MkExNS40LDE1LjQsMCwwLDAsMzkuMzgsMjE2SDIxNi44OUExNS4xMywxNS4xMywwLDAsMCwyMzIsMjAwLjg5Vjg4QTE2LDE2LDAsMCwwLDIxNiw3MlpNOTIuNjksNTZsMTYsMTZINDBWNTZaTTIxNiwyMDBINDBWODhIMjE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "FolderIcon";
-
-/** @deprecated Use FolderIcon */
-export const Folder = I;
-export { I as FolderIcon, I as FolderNotchIcon };
+I.displayName = "Folder";
+export { I as Folder, I as FolderNotch }

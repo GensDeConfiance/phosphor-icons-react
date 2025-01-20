@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/PersonSimpleTaiChi";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsODBBMzIsMzIsMCwxLDAsOTYsNDgsMzIsMzIsMCwwLDAsMTI4LDgwWm0wLTQ4YTE2LDE2LDAsMSwxLTE2LDE2QTE2LDE2LDAsMCwxLDEyOCwzMlptOTYsNzJhOCw4LDAsMCwxLTgsOEgxMzZ2MjYuNzJsNTEuMTUsMjEuOTNBOCw4LDAsMCwxLDE5MiwxNjh2NDhhOCw4LDAsMCwxLTE2LDBWMTczLjI4bC00Ni40NS0xOS45MUw1My4zNSwyMjJhOCw4LDAsMSwxLTEwLjctMTEuOUwxMjAsMTQwLjQ0VjExMkg0MGE4LDgsMCwwLDEsMC0xNkgyMTZBOCw4LDAsMCwxLDIyNCwxMDRaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/PersonSimpleTaiChi";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik05Niw0OGEzMiwzMiwwLDEsMSwzMiwzMkEzMiwzMiwwLDAsMSw5Niw0OFpNMjE2LDk2SDQwYTgsOCwwLDAsMCwwLDE2aDgwdjI4LjQ0TDQyLjY1LDIxMC4wNUE4LDgsMCwwLDAsNTMuMzUsMjIybDc2LjItNjguNThMMTc2LDE3My4yOFYyMTZhOCw4LDAsMCwwLDE2LDBWMTY4YTgsOCwwLDAsMC00Ljg1LTcuMzVMMTM2LDEzOC43MlYxMTJoODBhOCw4LDAsMCwwLDAtMTZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTIsNDhhMjQsMjQsMCwxLDEtMjQtMjRBMjQsMjQsMCwwLDEsMTUyLDQ4WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTEyOCw4MEEzMiwzMiwwLDEsMCw5Niw0OCwzMiwzMiwwLDAsMCwxMjgsODBabTAtNDhhMTYsMTYsMCwxLDEtMTYsMTZBMTYsMTYsMCwwLDEsMTI4LDMyWm05Niw3MmE4LDgsMCwwLDEtOCw4SDEzNnYyNi43Mmw1MS4xNSwyMS45M0E4LDgsMCwwLDEsMTkyLDE2OHY0OGE4LDgsMCwwLDEtMTYsMFYxNzMuMjhsLTQ2LjQ1LTE5LjkxTDUzLjM1LDIyMmE4LDgsMCwxLDEtMTAuNy0xMS45TDEyMCwxNDAuNDRWMTEySDQwYTgsOCwwLDAsMSwwLTE2SDIxNkE4LDgsMCwwLDEsMjI0LDEwNFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PersonSimpleTaiChiIcon";
-
-/** @deprecated Use PersonSimpleTaiChiIcon */
-export const PersonSimpleTaiChi = I;
-export { I as PersonSimpleTaiChiIcon };
+I.displayName = "PersonSimpleTaiChi";
+export { I as PersonSimpleTaiChi }

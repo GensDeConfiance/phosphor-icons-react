@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/BatteryVerticalMedium";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsMzJIODBBMjQsMjQsMCwwLDAsNTYsNTZWMjI0YTI0LDI0LDAsMCwwLDI0LDI0aDk2YTI0LDI0LDAsMCwwLDI0LTI0VjU2QTI0LDI0LDAsMCwwLDE3NiwzMlptOCwxOTJhOCw4LDAsMCwxLTgsOEg4MGE4LDgsMCwwLDEtOC04VjU2YTgsOCwwLDAsMSw4LThoOTZhOCw4LDAsMCwxLDgsOFptLTE2LTI0YTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwyMDBaTTg4LDhhOCw4LDAsMCwxLDgtOGg2NGE4LDgsMCwwLDEsMCwxNkg5NkE4LDgsMCwwLDEsODgsOFptODAsMTUyYTgsOCwwLDAsMS04LDhIOTZhOCw4LDAsMCwxLDAtMTZoNjRBOCw4LDAsMCwxLDE2OCwxNjBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/BatteryVerticalMedium";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik04OCw4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDhaTTIwMCw1NlYyMjRhMjQsMjQsMCwwLDEtMjQsMjRIODBhMjQsMjQsMCwwLDEtMjQtMjRWNTZBMjQsMjQsMCwwLDEsODAsMzJoOTZBMjQsMjQsMCwwLDEsMjAwLDU2Wm0tMTYsMGE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDhWMjI0YTgsOCwwLDAsMCw4LDhoOTZhOCw4LDAsMCwwLDgtOFptLTI0LDg4SDk2YTgsOCwwLDAsMC04LDh2NTZhOCw4LDAsMCwwLDgsOGg2NGE4LDgsMCwwLDAsOC04VjE1MkE4LDgsMCwwLDAsMTYwLDE0NFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNTZWMjI0YTE2LDE2LDAsMCwxLTE2LDE2SDgwYTE2LDE2LDAsMCwxLTE2LTE2VjU2QTE2LDE2LDAsMCwxLDgwLDQwaDk2QTE2LDE2LDAsMCwxLDE5Miw1NloiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik04OCw4YTgsOCwwLDAsMSw4LThoNjRhOCw4LDAsMCwxLDAsMTZIOTZBOCw4LDAsMCwxLDg4LDhaTTIwMCw1NlYyMjRhMjQsMjQsMCwwLDEtMjQsMjRIODBhMjQsMjQsMCwwLDEtMjQtMjRWNTZBMjQsMjQsMCwwLDEsODAsMzJoOTZBMjQsMjQsMCwwLDEsMjAwLDU2Wm0tMTYsMGE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDhWMjI0YTgsOCwwLDAsMCw4LDhoOTZhOCw4LDAsMCwwLDgtOFptLTI0LDk2SDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2Wm0wLDQwSDk2YTgsOCwwLDAsMCwwLDE2aDY0YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "BatteryVerticalMediumIcon";
-
-/** @deprecated Use BatteryVerticalMediumIcon */
-export const BatteryVerticalMedium = I;
-export { I as BatteryVerticalMediumIcon };
+I.displayName = "BatteryVerticalMedium";
+export { I as BatteryVerticalMedium }

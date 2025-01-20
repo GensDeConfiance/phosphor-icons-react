@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Slideshow";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xOTIsNDhINjRBMTYsMTYsMCwwLDAsNDgsNjRWMTkyYTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlY2NEExNiwxNiwwLDAsMCwxOTIsNDhabTAsMTQ0SDY0VjY0SDE5MlYxOTJaTTI0MCw1NlYyMDBhOCw4LDAsMCwxLTE2LDBWNTZhOCw4LDAsMCwxLDE2LDBaTTMyLDU2VjIwMGE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/Slideshow";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsNjRWMTkyYTE2LDE2LDAsMCwxLTE2LDE2SDY0YTE2LDE2LDAsMCwxLTE2LTE2VjY0QTE2LDE2LDAsMCwxLDY0LDQ4SDE5MkExNiwxNiwwLDAsMSwyMDgsNjRabTI0LTE2YTgsOCwwLDAsMC04LDhWMjAwYTgsOCwwLDAsMCwxNiwwVjU2QTgsOCwwLDAsMCwyMzIsNDhaTTI0LDQ4YTgsOCwwLDAsMC04LDhWMjAwYTgsOCwwLDAsMCwxNiwwVjU2QTgsOCwwLDAsMCwyNCw0OFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNjRWMTkyYTgsOCwwLDAsMS04LDhINjRhOCw4LDAsMCwxLTgtOFY2NGE4LDgsMCwwLDEsOC04SDE5MkE4LDgsMCwwLDEsMjAwLDY0WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTE5Miw0OEg2NEExNiwxNiwwLDAsMCw0OCw2NFYxOTJhMTYsMTYsMCwwLDAsMTYsMTZIMTkyYTE2LDE2LDAsMCwwLDE2LTE2VjY0QTE2LDE2LDAsMCwwLDE5Miw0OFptMCwxNDRINjRWNjRIMTkyVjE5MlpNMjQwLDU2VjIwMGE4LDgsMCwwLDEtMTYsMFY1NmE4LDgsMCwwLDEsMTYsMFpNMzIsNTZWMjAwYTgsOCwwLDAsMS0xNiwwVjU2YTgsOCwwLDAsMSwxNiwwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SlideshowIcon";
-
-/** @deprecated Use SlideshowIcon */
-export const Slideshow = I;
-export { I as SlideshowIcon };
+I.displayName = "Slideshow";
+export { I as Slideshow }

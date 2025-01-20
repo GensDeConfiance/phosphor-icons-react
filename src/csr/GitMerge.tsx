@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/GitMerge";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTEyYTMyLjA1LDMyLjA1LDAsMCwwLTMwLjY5LDIzbC00Mi4yMS02YTgsOCwwLDAsMS00Ljk1LTIuNzFMOTQuNDMsODQuNTVBMzIsMzIsMCwxLDAsNzIsODd2ODJhMzIsMzIsMCwxLDAsMTYsMFYxMDEuNjNsMzAsMzVhMjQsMjQsMCwwLDAsMTQuODMsOC4xNGw0NCw2LjI4QTMyLDMyLDAsMSwwLDIwOCwxMTJaTTY0LDU2QTE2LDE2LDAsMSwxLDgwLDcyLDE2LDE2LDAsMCwxLDY0LDU2Wk05NiwyMDBhMTYsMTYsMCwxLDEtMTYtMTZBMTYsMTYsMCwwLDEsOTYsMjAwWm0xMTItNDBhMTYsMTYsMCwxLDEsMTYtMTZBMTYsMTYsMCwwLDEsMjA4LDE2MFoiLz48L3N2Zz4=)
@@ -12,12 +14,9 @@ import weights from "../defs/GitMerge";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTEyYTMyLjA1LDMyLjA1LDAsMCwwLTMwLjY5LDIzbC00Mi4yMS02YTgsOCwwLDAsMS00Ljk1LTIuNzFMOTQuNDMsODQuNTVBMzIsMzIsMCwxLDAsNzIsODd2ODJhMzIsMzIsMCwxLDAsMTYsMFYxMDEuNjNsMzAsMzVhMjQsMjQsMCwwLDAsMTQuODMsOC4xNGw0NCw2LjI4QTMyLDMyLDAsMSwwLDIwOCwxMTJaTTk2LDIwMGExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSw5NiwyMDBabTExMi00MGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMDgsMTYwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMDQsNTZBMjQsMjQsMCwxLDEsODAsMzIsMjQsMjQsMCwwLDEsMTA0LDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIwOCwxMTJhMzIuMDUsMzIuMDUsMCwwLDAtMzAuNjksMjNsLTQyLjIxLTZhOCw4LDAsMCwxLTQuOTUtMi43MUw5NC40Myw4NC41NUEzMiwzMiwwLDEsMCw3Miw4N3Y4MmEzMiwzMiwwLDEsMCwxNiwwVjEwMS42M2wzMCwzNWEyNCwyNCwwLDAsMCwxNC44Myw4LjE0bDQ0LDYuMjhBMzIsMzIsMCwxLDAsMjA4LDExMlpNNjQsNTZBMTYsMTYsMCwxLDEsODAsNzIsMTYsMTYsMCwwLDEsNjQsNTZaTTk2LDIwMGExNiwxNiwwLDEsMS0xNi0xNkExNiwxNiwwLDAsMSw5NiwyMDBabTExMi00MGExNiwxNiwwLDEsMSwxNi0xNkExNiwxNiwwLDAsMSwyMDgsMTYwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "GitMergeIcon";
-
-/** @deprecated Use GitMergeIcon */
-export const GitMerge = I;
-export { I as GitMergeIcon };
+I.displayName = "GitMerge";
+export { I as GitMerge }

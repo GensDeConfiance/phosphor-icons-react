@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Pencil";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMzEsNzMuMzcsMTgyLjYzLDI4LjY4YTE2LDE2LDAsMCwwLTIyLjYzLDBMMzYuNjksMTUyQTE1Ljg2LDE1Ljg2LDAsMCwwLDMyLDE2My4zMVYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIOTIuNjlBMTUuODYsMTUuODYsMCwwLDAsMTA0LDIxOS4zMUwyMjcuMzEsOTZhMTYsMTYsMCwwLDAsMC0yMi42M1pNNTEuMzEsMTYwLDEzNiw3NS4zMSwxNTIuNjksOTIsNjgsMTc2LjY4Wk00OCwxNzkuMzEsNzYuNjksMjA4SDQ4Wm00OCwyNS4zOEw3OS4zMSwxODgsMTY0LDEwMy4zMSwxODAuNjksMTIwWm05Ni05NkwxNDcuMzEsNjRsMjQtMjRMMjE2LDg0LjY4WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/Pencil";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjcuMzEsNzMuMzcsMTgyLjYzLDI4LjY4YTE2LDE2LDAsMCwwLTIyLjYzLDBMMzYuNjksMTUyQTE1Ljg2LDE1Ljg2LDAsMCwwLDMyLDE2My4zMVYyMDhhMTYsMTYsMCwwLDAsMTYsMTZIOTIuNjlBMTUuODYsMTUuODYsMCwwLDAsMTA0LDIxOS4zMUwyMjcuMzEsOTZhMTYsMTYsMCwwLDAsMC0yMi42M1pNNTEuMzEsMTYwbDkwLjM1LTkwLjM1LDE2LjY4LDE2LjY5TDY4LDE3Ni42OFpNNDgsMTc5LjMxLDc2LjY5LDIwOEg0OFptNDgsMjUuMzhMNzkuMzEsMTg4bDkwLjM1LTkwLjM1aDBsMTYuNjgsMTYuNjlaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjEuNjYsOTAuMzQsMTkyLDEyMCwxMzYsNjRsMjkuNjYtMjkuNjZhOCw4LDAsMCwxLDExLjMxLDBMMjIxLjY2LDc5QTgsOCwwLDAsMSwyMjEuNjYsOTAuMzRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjI3LjMxLDczLjM3LDE4Mi42MywyOC42OGExNiwxNiwwLDAsMC0yMi42MywwTDM2LjY5LDE1MkExNS44NiwxNS44NiwwLDAsMCwzMiwxNjMuMzFWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDkyLjY5QTE1Ljg2LDE1Ljg2LDAsMCwwLDEwNCwyMTkuMzFMMjI3LjMxLDk2YTE2LDE2LDAsMCwwLDAtMjIuNjNaTTUxLjMxLDE2MCwxMzYsNzUuMzEsMTUyLjY5LDkyLDY4LDE3Ni42OFpNNDgsMTc5LjMxLDc2LjY5LDIwOEg0OFptNDgsMjUuMzhMNzkuMzEsMTg4LDE2NCwxMDMuMzEsMTgwLjY5LDEyMFptOTYtOTZMMTQ3LjMxLDY0bDI0LTI0TDIxNiw4NC42OFoiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PencilIcon";
-
-/** @deprecated Use PencilIcon */
-export const Pencil = I;
-export { I as PencilIcon };
+I.displayName = "Pencil";
+export { I as Pencil }

@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LinktreeLogo";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMzYsMTYwdjcyYTgsOCwwLDAsMS0xNiwwVjE2MGE4LDgsMCwwLDEsMTYsMFptNzItNjRIMTQ3LjMxbDQyLjM1LTQyLjM0YTgsOCwwLDAsMC0xMS4zMi0xMS4zMkwxMzYsODQuNjlWMjRhOCw4LDAsMCwwLTE2LDBWODQuNjlMNzcuNjYsNDIuMzRBOCw4LDAsMCwwLDY2LjM0LDUzLjY2TDEwOC42OSw5Nkg0OGE4LDgsMCwwLDAsMCwxNmg2MC42OUw2Ni4zNCwxNTQuMzRhOCw4LDAsMCwwLDExLjMyLDExLjMyTDEyOCwxMTUuMzFsNTAuMzQsNTAuMzVhOCw4LDAsMCwwLDExLjMyLTExLjMyTDE0Ny4zMSwxMTJIMjA4YTgsOCwwLDAsMCwwLTE2WiIvPjwvc3ZnPg==)
@@ -12,12 +14,9 @@ import weights from "../defs/LinktreeLogo";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMjRINTZBMTYsMTYsMCwwLDAsNDAsNDBWMjE2YTE2LDE2LDAsMCwwLDE2LDE2SDIwMGExNiwxNiwwLDAsMCwxNi0xNlY0MEExNiwxNiwwLDAsMCwyMDAsMjRaTTEzNiwyMDBhOCw4LDAsMCwxLTE2LDBWMTYwYTgsOCwwLDAsMSwxNiwwWm00OC04MEgxNDcuMzFsMjYuMzUsMjYuMzRhOCw4LDAsMCwxLTExLjMyLDExLjMyTDEyOCwxMjMuMzEsOTMuNjYsMTU3LjY2YTgsOCwwLDAsMS0xMS4zMi0xMS4zMkwxMDguNjksMTIwSDcyYTgsOCwwLDAsMSwwLTE2aDM2LjY5TDgyLjM0LDc3LjY2QTgsOCwwLDAsMSw5My42Niw2Ni4zNEwxMjAsOTIuNjlWNTZhOCw4LDAsMCwxLDE2LDBWOTIuNjlsMjYuMzQtMjYuMzVhOCw4LDAsMCwxLDExLjMyLDExLjMyTDE0Ny4zMSwxMDRIMTg0YTgsOCwwLDAsMSwwLDE2WiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTA0YTgwLDgwLDAsMSwxLTgwLTgwQTgwLDgwLDAsMCwxLDIwOCwxMDRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTM2LDE2MHY3MmE4LDgsMCwwLDEtMTYsMFYxNjBhOCw4LDAsMCwxLDE2LDBabTcyLTY0SDE0Ny4zMWw0Mi4zNS00Mi4zNGE4LDgsMCwwLDAtMTEuMzItMTEuMzJMMTM2LDg0LjY5VjI0YTgsOCwwLDAsMC0xNiwwVjg0LjY5TDc3LjY2LDQyLjM0QTgsOCwwLDAsMCw2Ni4zNCw1My42NkwxMDguNjksOTZINDhhOCw4LDAsMCwwLDAsMTZoNjAuNjlMNjYuMzQsMTU0LjM0YTgsOCwwLDAsMCwxMS4zMiwxMS4zMkwxMjgsMTE1LjMxbDUwLjM0LDUwLjM1YTgsOCwwLDAsMCwxMS4zMi0xMS4zMkwxNDcuMzEsMTEySDIwOGE4LDgsMCwwLDAsMC0xNloiLz48L3N2Zz4=)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LinktreeLogoIcon";
-
-/** @deprecated Use LinktreeLogoIcon */
-export const LinktreeLogo = I;
-export { I as LinktreeLogoIcon };
+I.displayName = "LinktreeLogo";
+export { I as LinktreeLogo }

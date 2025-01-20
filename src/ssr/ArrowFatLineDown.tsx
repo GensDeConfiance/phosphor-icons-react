@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ArrowFatLineDown";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzEuMzksMTMyLjk0QTgsOCwwLDAsMCwyMjQsMTI4SDE4NFY3MmE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDh2NTZIMzJhOCw4LDAsMCwwLTUuNjYsMTMuNjZsOTYsOTZhOCw4LDAsMCwwLDExLjMyLDBsOTYtOTZBOCw4LDAsMCwwLDIzMS4zOSwxMzIuOTRaTTEyOCwyMjAuNjksNTEuMzEsMTQ0SDgwYTgsOCwwLDAsMCw4LThWODBoODB2NTZhOCw4LDAsMCwwLDgsOGgyOC42OVpNNzIsNDBhOCw4LDAsMCwxLDgtOGg5NmE4LDgsMCwwLDEsMCwxNkg4MEE4LDgsMCwwLDEsNzIsNDBaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/ArrowFatLineDown";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik03Miw0MGE4LDgsMCwwLDEsOC04aDk2YTgsOCwwLDAsMSwwLDE2SDgwQTgsOCwwLDAsMSw3Miw0MFptMTU5LjM5LDkyLjk0QTgsOCwwLDAsMCwyMjQsMTI4SDE4NFY3MmE4LDgsMCwwLDAtOC04SDgwYTgsOCwwLDAsMC04LDh2NTZIMzJhOCw4LDAsMCwwLTUuNjYsMTMuNjZsOTYsOTZhOCw4LDAsMCwwLDExLjMyLDBsOTYtOTZBOCw4LDAsMCwwLDIzMS4zOSwxMzIuOTRaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTM2bC05Niw5NkwzMiwxMzZIODBWNzJoOTZ2NjRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMxLjM5LDEzMi45NEE4LDgsMCwwLDAsMjI0LDEyOEgxODRWNzJhOCw4LDAsMCwwLTgtOEg4MGE4LDgsMCwwLDAtOCw4djU2SDMyYTgsOCwwLDAsMC01LjY2LDEzLjY2bDk2LDk2YTgsOCwwLDAsMCwxMS4zMiwwbDk2LTk2QTgsOCwwLDAsMCwyMzEuMzksMTMyLjk0Wk0xMjgsMjIwLjY5LDUxLjMxLDE0NEg4MGE4LDgsMCwwLDAsOC04VjgwaDgwdjU2YTgsOCwwLDAsMCw4LDhoMjguNjlaTTcyLDQwYTgsOCwwLDAsMSw4LThoOTZhOCw4LDAsMCwxLDAsMTZIODBBOCw4LDAsMCwxLDcyLDQwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ArrowFatLineDownIcon";
-
-/** @deprecated Use ArrowFatLineDownIcon */
-export const ArrowFatLineDown = I;
-export { I as ArrowFatLineDownIcon };
+I.displayName = "ArrowFatLineDown";
+export { I as ArrowFatLineDown }

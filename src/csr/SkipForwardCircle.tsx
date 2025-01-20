@@ -1,8 +1,10 @@
+
 /* GENERATED FILE */
-import * as React from "react";
+import React, { forwardRef } from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/SkipForwardCircle";
+
 
 /**
  * @regular ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm0wLDE5MmE4OCw4OCwwLDEsMSw4OC04OEE4OC4xLDg4LjEsMCwwLDEsMTI4LDIxNlpNMTYwLDgwYTgsOCwwLDAsMC04LDh2MjUuNTdMMTAwLjI0LDgxLjIyQTgsOCwwLDAsMCw4OCw4OHY4MGE4LDgsMCwwLDAsMTIuMjQsNi43OEwxNTIsMTQyLjQzVjE2OGE4LDgsMCwwLDAsMTYsMFY4OEE4LDgsMCwwLDAsMTYwLDgwWm0tNTYsNzMuNTdWMTAyLjQzTDE0NC45MSwxMjhaIi8+PC9zdmc+)
@@ -12,12 +14,9 @@ import weights from "../defs/SkipForwardCircle";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMjRBMTA0LDEwNCwwLDEsMCwyMzIsMTI4LDEwNC4xMSwxMDQuMTEsMCwwLDAsMTI4LDI0Wm00MCwxNDRhOCw4LDAsMCwxLTE2LDBWMTM3LjgzbC01MS4zNSwzNi42OEE4LDgsMCwwLDEsODgsMTY4Vjg4YTgsOCwwLDAsMSwxMi42NS02LjUxTDE1MiwxMTguMTdWODhhOCw4LDAsMCwxLDE2LDBaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMzJhOTYsOTYsMCwxLDAsOTYsOTZBOTYsOTYsMCwwLDAsMTI4LDMyWk05NiwxNjhWODhsNjQsNDBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTYwLDgwYTgsOCwwLDAsMC04LDh2MjUuNTdMMTAwLjI0LDgxLjIyQTgsOCwwLDAsMCw4OCw4OHY4MGE4LDgsMCwwLDAsMTIuMjQsNi43OEwxNTIsMTQyLjQzVjE2OGE4LDgsMCwwLDAsMTYsMFY4OEE4LDgsMCwwLDAsMTYwLDgwWm0tNTYsNzMuNTdWMTAyLjQzTDE0NC45MSwxMjhaTTEyOCwyNEExMDQsMTA0LDAsMSwwLDIzMiwxMjgsMTA0LjExLDEwNC4xMSwwLDAsMCwxMjgsMjRabTAsMTkyYTg4LDg4LDAsMSwxLDg4LTg4QTg4LjEsODguMSwwLDAsMSwxMjgsMjE2WiIvPjwvc3ZnPg==)
  */
-const I: Icon = React.forwardRef((props, ref) => (
+const I: Icon = forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "SkipForwardCircleIcon";
-
-/** @deprecated Use SkipForwardCircleIcon */
-export const SkipForwardCircle = I;
-export { I as SkipForwardCircleIcon };
+I.displayName = "SkipForwardCircle";
+export { I as SkipForwardCircle }

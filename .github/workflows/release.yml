@@ -34,4 +34,4 @@ jobs:
       - name: Publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm publish --access restricted
+        run: pnpm publish --access restricted --tag latest

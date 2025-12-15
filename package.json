@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-icons-react",
-  "version": "2.1.7-gdc.1",
+  "version": "2.1.7-gdc.2",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -75,7 +75,7 @@
     "UI",
     "UX"
   ],
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "serve": "vite serve ./example",
     "build": "vite build && tsc --emitDeclarationOnly",

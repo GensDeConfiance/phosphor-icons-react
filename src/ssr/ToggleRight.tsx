@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/ToggleRight";
@@ -14,9 +14,12 @@ import weights from "../defs/ToggleRight";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNzYsNTZIODBhNzIsNzIsMCwwLDAsMCwxNDRoOTZhNzIsNzIsMCwwLDAsMC0xNDRabTAsMTEyYTQwLDQwLDAsMSwxLDQwLTQwQTQwLDQwLDAsMCwxLDE3NiwxNjhaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMTI4YTMyLDMyLDAsMSwxLTMyLTMyQTMyLDMyLDAsMCwxLDIwOCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTc2LDU2SDgwYTcyLDcyLDAsMCwwLDAsMTQ0aDk2YTcyLDcyLDAsMCwwLDAtMTQ0Wm0wLDEyOEg4MEE1Niw1NiwwLDAsMSw4MCw3Mmg5NmE1Niw1NiwwLDAsMSwwLDExMlptMC05NmE0MCw0MCwwLDEsMCw0MCw0MEE0MCw0MCwwLDAsMCwxNzYsODhabTAsNjRhMjQsMjQsMCwxLDEsMjQtMjRBMjQsMjQsMCwwLDEsMTc2LDE1MloiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ToggleRight";
-export { I as ToggleRight }
+I.displayName = "ToggleRightIcon";
+
+/** @deprecated Use ToggleRightIcon */
+export const ToggleRight = I;
+export { I as ToggleRightIcon }

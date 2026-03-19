@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/ShoppingBag";
@@ -14,9 +14,12 @@ import weights from "../defs/ShoppingBag";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTYsNDBINDBBMTYsMTYsMCwwLDAsMjQsNTZWMjAwYTE2LDE2LDAsMCwwLDE2LDE2SDIxNmExNiwxNiwwLDAsMCwxNi0xNlY1NkExNiwxNiwwLDAsMCwyMTYsNDBabS04OCw5NkE0OC4wNSw0OC4wNSwwLDAsMSw4MCw4OGE4LDgsMCwwLDEsMTYsMCwzMiwzMiwwLDAsMCw2NCwwLDgsOCwwLDAsMSwxNiwwQTQ4LjA1LDQ4LjA1LDAsMCwxLDEyOCwxMzZaIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsNTZWMjAwYTgsOCwwLDAsMS04LDhINDBhOCw4LDAsMCwxLTgtOFY1NmE4LDgsMCwwLDEsOC04SDIxNkE4LDgsMCwwLDEsMjI0LDU2WiIgb3BhY2l0eT0iMC4yIi8+PHBhdGggZD0iTTIxNiw0MEg0MEExNiwxNiwwLDAsMCwyNCw1NlYyMDBhMTYsMTYsMCwwLDAsMTYsMTZIMjE2YTE2LDE2LDAsMCwwLDE2LTE2VjU2QTE2LDE2LDAsMCwwLDIxNiw0MFptMCwxNjBINDBWNTZIMjE2VjIwMFpNMTc2LDg4YTQ4LDQ4LDAsMCwxLTk2LDAsOCw4LDAsMCwxLDE2LDAsMzIsMzIsMCwwLDAsNjQsMCw4LDgsMCwwLDEsMTYsMFoiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "ShoppingBag";
-export { I as ShoppingBag }
+I.displayName = "ShoppingBagIcon";
+
+/** @deprecated Use ShoppingBagIcon */
+export const ShoppingBag = I;
+export { I as ShoppingBagIcon }

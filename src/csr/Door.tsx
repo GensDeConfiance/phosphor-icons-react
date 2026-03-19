@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Door";
@@ -14,9 +14,12 @@ import weights from "../defs/Door";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMzIsMjE2SDIwOFY0MGExNiwxNiwwLDAsMC0xNi0xNkg2NEExNiwxNiwwLDAsMCw0OCw0MFYyMTZIMjRhOCw4LDAsMCwwLDAsMTZIMjMyYTgsOCwwLDAsMCwwLTE2Wm0tNjgtNzJhMTIsMTIsMCwxLDEsMTItMTJBMTIsMTIsMCwwLDEsMTY0LDE0NFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsNDBWMjI0SDU2VjQwYTgsOCwwLDAsMSw4LThIMTkyQTgsOCwwLDAsMSwyMDAsNDBaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjMyLDIxNkgyMDhWNDBhMTYsMTYsMCwwLDAtMTYtMTZINjRBMTYsMTYsMCwwLDAsNDgsNDBWMjE2SDI0YTgsOCwwLDAsMCwwLDE2SDIzMmE4LDgsMCwwLDAsMC0xNlpNNjQsNDBIMTkyVjIxNkg2NFptMTA0LDkyYTEyLDEyLDAsMSwxLTEyLTEyQTEyLDEyLDAsMCwxLDE2OCwxMzJaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Door";
-export { I as Door }
+I.displayName = "DoorIcon";
+
+/** @deprecated Use DoorIcon */
+export const Door = I;
+export { I as DoorIcon }

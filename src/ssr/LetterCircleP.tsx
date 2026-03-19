@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/LetterCircleP";
@@ -14,9 +14,12 @@ import weights from "../defs/LetterCircleP";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xNTYsMTE2YTIwLDIwLDAsMCwxLTIwLDIwSDExMlY5NmgyNEEyMCwyMCwwLDAsMSwxNTYsMTE2Wm03NiwxMkExMDQsMTA0LDAsMSwxLDEyOCwyNCwxMDQuMTEsMTA0LjExLDAsMCwxLDIzMiwxMjhabS02MC0xMmEzNiwzNiwwLDAsMC0zNi0zNkgxMDRhOCw4LDAsMCwwLTgsOHY4MGE4LDgsMCwwLDAsMTYsMFYxNTJoMjRBMzYsMzYsMCwwLDAsMTcyLDExNloiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMjQsMTI4YTk2LDk2LDAsMSwxLTk2LTk2QTk2LDk2LDAsMCwxLDIyNCwxMjhaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMTI4LDI0QTEwNCwxMDQsMCwxLDAsMjMyLDEyOCwxMDQuMTEsMTA0LjExLDAsMCwwLDEyOCwyNFptMCwxOTJhODgsODgsMCwxLDEsODgtODhBODguMSw4OC4xLDAsMCwxLDEyOCwyMTZabTgtMTM2SDEwNGE4LDgsMCwwLDAtOCw4djgwYTgsOCwwLDAsMCwxNiwwVjE1MmgyNGEzNiwzNiwwLDAsMCwwLTcyWm0wLDU2SDExMlY5NmgyNGEyMCwyMCwwLDAsMSwwLDQwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "LetterCircleP";
-export { I as LetterCircleP }
+I.displayName = "LetterCirclePIcon";
+
+/** @deprecated Use LetterCirclePIcon */
+export const LetterCircleP = I;
+export { I as LetterCirclePIcon }

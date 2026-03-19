@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Swing";
@@ -14,9 +14,12 @@ import weights from "../defs/Swing";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIyNSAzMmE2IDYgMCAwIDEgMCAxMmgtMTcuNzNsMzAuNDcgMTcyLjc3YTYuMDEgNi4wMSAwIDAgMS0xMS44MiAyLjA4TDE5NS4zNiA0NS41M2E2IDYgMCAwIDEtLjA1LTEuNTNoLTMzLjN2MTIwaDNhNiA2IDAgMCAxIDAgMTJIOTFhNiA2IDAgMSAxIDAtMTJoMlY0NEg2MC43OHEuMDkuNzgtLjA1IDEuNThMMzAuMTggMjE4LjkyYTYgNiAwIDAgMS0xMS44MS0yLjA5TDQ4Ljg1IDQ0SDMxYTYgNiAwIDAgMSAwLTEyek0xMDUgMTY0aDQ1VjQ0aC00NXoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIyNSAzMmE2IDYgMCAwIDEgMCAxMmgtMTcuNzNsMzAuNDcgMTcyLjc3YTYuMDEgNi4wMSAwIDAgMS0xMS44MiAyLjA4TDE5NS4zNiA0NS41M2E2IDYgMCAwIDEtLjA1LTEuNTNoLTMzLjN2MTIwaDNhNiA2IDAgMCAxIDAgMTJIOTFhNiA2IDAgMSAxIDAtMTJoMlY0NEg2MC43OHEuMDkuNzgtLjA1IDEuNThMMzAuMTggMjE4LjkyYTYgNiAwIDAgMS0xMS44MS0yLjA5TDQ4Ljg1IDQ0SDMxYTYgNiAwIDAgMSAwLTEyek0xMDUgMTY0aDQ1VjQ0aC00NXoiLz48L3N2Zz4=)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Swing";
-export { I as Swing }
+I.displayName = "SwingIcon";
+
+/** @deprecated Use SwingIcon */
+export const Swing = I;
+export { I as SwingIcon }

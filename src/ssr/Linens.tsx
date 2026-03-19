@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Linens";
@@ -14,9 +14,12 @@ import weights from "../defs/Linens";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNTIuNSA4NGE2LjUgNi41IDAgMCAwIDAgMTNoMTQyLjlhNiA2IDAgMSAxIDAgMTJINTIuNWE2LjUgNi41IDAgMCAwIDAgMTNIMTkxYTE5IDE5IDAgMCAwIDAtMzh6bTE2MC42MyA0MC43QTMxIDMxIDAgMCAwIDE5MSA3Mkg1Mi41YTE4LjUgMTguNSAwIDAgMC0xMy42NCAzMSAxOC41IDE4LjUgMCAwIDAgNCAyOC4zQTMxIDMxIDAgMCAwIDY1IDE4NGgxMzguNTFhMTguNSAxOC41IDAgMCAwIDEzLjY0LTMxIDE4LjUgMTguNSAwIDAgMC00LTI4LjNNNjUgMTM0YTE5IDE5IDAgMCAwIDAgMzhoMTM4LjVhNi41IDYuNSAwIDAgMCAwLTEzSDYwLjZhNiA2IDAgMSAxIDAtMTJoMTQyLjlhNi41IDYuNSAwIDAgMCAwLTEzeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNTIuNSA4NGE2LjUgNi41IDAgMCAwIDAgMTNoMTQyLjlhNiA2IDAgMSAxIDAgMTJINTIuNWE2LjUgNi41IDAgMCAwIDAgMTNIMTkxYTE5IDE5IDAgMCAwIDAtMzh6bTE2MC42MyA0MC43QTMxIDMxIDAgMCAwIDE5MSA3Mkg1Mi41YTE4LjUgMTguNSAwIDAgMC0xMy42NCAzMSAxOC41IDE4LjUgMCAwIDAgNCAyOC4zQTMxIDMxIDAgMCAwIDY1IDE4NGgxMzguNTFhMTguNSAxOC41IDAgMCAwIDEzLjY0LTMxIDE4LjUgMTguNSAwIDAgMC00LTI4LjNNNjUgMTM0YTE5IDE5IDAgMCAwIDAgMzhoMTM4LjVhNi41IDYuNSAwIDAgMCAwLTEzSDYwLjZhNiA2IDAgMSAxIDAtMTJoMTQyLjlhNi41IDYuNSAwIDAgMCAwLTEzeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Linens";
-export { I as Linens }
+I.displayName = "LinensIcon";
+
+/** @deprecated Use LinensIcon */
+export const Linens = I;
+export { I as LinensIcon }

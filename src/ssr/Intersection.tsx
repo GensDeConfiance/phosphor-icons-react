@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import SSRBase from "../lib/SSRBase";
 import weights from "../defs/Intersection";
@@ -14,9 +14,12 @@ import weights from "../defs/Intersection";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDgsMzJINDhBMTYsMTYsMCwwLDAsMzIsNDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDIwOGExNiwxNiwwLDAsMCwxNi0xNlY0OEExNiwxNiwwLDAsMCwyMDgsMzJaTTE4NCwxNzZhOCw4LDAsMCwxLTE2LDBWMTIwYTQwLDQwLDAsMCwwLTgwLDB2NTZhOCw4LDAsMCwxLTE2LDBWMTIwYTU2LDU2LDAsMCwxLDExMiwwWiIvPjwvc3ZnPg==)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMDAsMTIwdjgwSDU2VjEyMGE3Miw3MiwwLDAsMSwxNDQsMFoiIG9wYWNpdHk9IjAuMiIvPjxwYXRoIGQ9Ik0yMDgsMTIwdjgwYTgsOCwwLDAsMS0xNiwwVjEyMGE2NCw2NCwwLDAsMC0xMjgsMHY4MGE4LDgsMCwwLDEtMTYsMFYxMjBhODAsODAsMCwwLDEsMTYwLDBaIi8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <SSRBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Intersection";
-export { I as Intersection }
+I.displayName = "IntersectionIcon";
+
+/** @deprecated Use IntersectionIcon */
+export const Intersection = I;
+export { I as IntersectionIcon }

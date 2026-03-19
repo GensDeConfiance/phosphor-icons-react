@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/Balcony";
@@ -14,9 +14,12 @@ import weights from "../defs/Balcony";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIyMC41IDIxMGgtLjZ2LTY4LjloLjZjMy4zIDAgNi0yLjcgNi02cy0yLjctNi02LTZoLTI5LjJWOTcuM2MwLTM0LjktMjguNC02My4zLTYzLjMtNjMuM1M2NC43IDYyLjQgNjQuNyA5Ny4zdjMxLjhIMzUuNWMtMy4zIDAtNiAyLjctNiA2czIuNyA2IDYgNmguNlYyMTBoLS42Yy0zLjMgMC02IDIuNy02IDZzMi43IDYgNiA2aDE4NWMzLjMgMCA2LTIuNyA2LTZzLTIuNy02LTYtNm0tMTIuNiAwaC0xNi42di02OC45aDE2LjZ6TTc2LjcgOTkuNkgxMjJ2MjkuNUg3Ni43em0xMDIuNiAyOS41SDEzNFY5OS42aDQ1LjN6bS0xMDIuNiAxMmgxNi43VjIxMEg3Ni43em0yOC42IDBIMTIyVjIxMGgtMTYuN3ptMjguNyAwaDE2LjZWMjEwSDEzNHptMjguNiAwaDE2LjZWMjEwaC0xNi42em0xNS44LTUzLjVIMTM0VjQ2LjRhNTEuNSA1MS41IDAgMCAxIDQ0LjQgNDEuMk0xMjIgNDYuNHY0MS4ySDc3LjZBNTEuNCA1MS40IDAgMCAxIDEyMiA0Ni40bS03My45IDk0LjdoMTYuNlYyMTBINDh2LTY4Ljl6Ii8+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTIyMC41IDIxMGgtLjZ2LTY4LjloLjZjMy4zIDAgNi0yLjcgNi02cy0yLjctNi02LTZoLTI5LjJWOTcuM2MwLTM0LjktMjguNC02My4zLTYzLjMtNjMuM1M2NC43IDYyLjQgNjQuNyA5Ny4zdjMxLjhIMzUuNWMtMy4zIDAtNiAyLjctNiA2czIuNyA2IDYgNmguNlYyMTBoLS42Yy0zLjMgMC02IDIuNy02IDZzMi43IDYgNiA2aDE4NWMzLjMgMCA2LTIuNyA2LTZzLTIuNy02LTYtNm0tMTIuNiAwaC0xNi42di02OC45aDE2LjZ6TTc2LjcgOTkuNkgxMjJ2MjkuNUg3Ni43em0xMDIuNiAyOS41SDEzNFY5OS42aDQ1LjN6bS0xMDIuNiAxMmgxNi43VjIxMEg3Ni43em0yOC42IDBIMTIyVjIxMGgtMTYuN3ptMjguNyAwaDE2LjZWMjEwSDEzNHptMjguNiAwaDE2LjZWMjEwaC0xNi42em0xNS44LTUzLjVIMTM0VjQ2LjRhNTEuNSA1MS41IDAgMCAxIDQ0LjQgNDEuMk0xMjIgNDYuNHY0MS4ySDc3LjZBNTEuNCA1MS40IDAgMCAxIDEyMiA0Ni40bS03My45IDk0LjdoMTYuNlYyMTBINDh2LTY4Ljl6Ii8+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "Balcony";
-export { I as Balcony }
+I.displayName = "BalconyIcon";
+
+/** @deprecated Use BalconyIcon */
+export const Balcony = I;
+export { I as BalconyIcon }

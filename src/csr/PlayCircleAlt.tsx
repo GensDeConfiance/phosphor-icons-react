@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/PlayCircleAlt";
@@ -14,9 +14,12 @@ import weights from "../defs/PlayCircleAlt";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxnIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXBhdGg9InVybCgjY2xpcDBfNTI4MF8yMDc2NSkiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTEwNS43NiA3Mi4wOGE2IDYgMCAwIDAtOS4xOCA1LjA5djEwMS42N2E2IDYgMCAwIDAgOS4xOCA1LjA4bDgxLjM0LTUwLjgzYTYgNiAwIDAgMCAwLTEwLjE4ek0xNzIuNiAxMjhsLTY0LjAyIDQwVjg4eiIvPjxwYXRoIGQ9Ik0xMjggMEM1Ny4zIDAgMCA1Ny4zIDAgMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOFMxOTguNyAwIDEyOCAwTTEyIDEyOEMxMiA2My45NCA2My45NCAxMiAxMjggMTJzMTE2IDUxLjk0IDExNiAxMTYtNTEuOTMgMTE2LTExNiAxMTZTMTIgMTkyLjA3IDEyIDEyOCIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzUyODBfMjA3NjUiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMGgyNTZ2MjU2SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxnIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXBhdGg9InVybCgjY2xpcDBfNTI4MF8yMDc2NSkiIGNsaXAtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTEwNS43NiA3Mi4wOGE2IDYgMCAwIDAtOS4xOCA1LjA5djEwMS42N2E2IDYgMCAwIDAgOS4xOCA1LjA4bDgxLjM0LTUwLjgzYTYgNiAwIDAgMCAwLTEwLjE4ek0xNzIuNiAxMjhsLTY0LjAyIDQwVjg4eiIvPjxwYXRoIGQ9Ik0xMjggMEM1Ny4zIDAgMCA1Ny4zIDAgMTI4czU3LjMgMTI4IDEyOCAxMjggMTI4LTU3LjMgMTI4LTEyOFMxOTguNyAwIDEyOCAwTTEyIDEyOEMxMiA2My45NCA2My45NCAxMiAxMjggMTJzMTE2IDUxLjk0IDExNiAxMTYtNTEuOTMgMTE2LTExNiAxMTZTMTIgMTkyLjA3IDEyIDEyOCIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzUyODBfMjA3NjUiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTAgMGgyNTZ2MjU2SDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PC9zdmc+)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "PlayCircleAlt";
-export { I as PlayCircleAlt }
+I.displayName = "PlayCircleAltIcon";
+
+/** @deprecated Use PlayCircleAltIcon */
+export const PlayCircleAlt = I;
+export { I as PlayCircleAltIcon }

@@ -1,6 +1,6 @@
 
 /* GENERATED FILE */
-import React, { forwardRef } from "react";
+import * as React from "react";
 import type { Icon } from "../lib/types";
 import IconBase from "../lib/IconBase";
 import weights from "../defs/MusicNote";
@@ -14,9 +14,12 @@ import weights from "../defs/MusicNote";
  * @fill ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0yMTAuMyw1Ni4zNGwtODAtMjRBOCw4LDAsMCwwLDEyMCw0MFYxNDguMjZBNDgsNDgsMCwxLDAsMTM2LDE4NFY5OC43NWw2OS43LDIwLjkxQTgsOCwwLDAsMCwyMTYsMTEyVjY0QTgsOCwwLDAsMCwyMTAuMyw1Ni4zNFoiLz48L3N2Zz4=)
  * @duotone ![img](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9IiMwMDAiPjxyZWN0IHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSIjRkZGIiByeD0iNDAiIHJ5PSI0MCIvPjxwYXRoIGQ9Ik0xMjgsMTg0YTQwLDQwLDAsMSwxLTQwLTQwQTQwLDQwLDAsMCwxLDEyOCwxODRaIiBvcGFjaXR5PSIwLjIiLz48cGF0aCBkPSJNMjEwLjMsNTYuMzRsLTgwLTI0QTgsOCwwLDAsMCwxMjAsNDBWMTQ4LjI2QTQ4LDQ4LDAsMSwwLDEzNiwxODRWOTguNzVsNjkuNywyMC45MUE4LDgsMCwwLDAsMjE2LDExMlY2NEE4LDgsMCwwLDAsMjEwLjMsNTYuMzRaTTg4LDIxNmEzMiwzMiwwLDEsMSwzMi0zMkEzMiwzMiwwLDAsMSw4OCwyMTZaTTIwMCwxMDEuMjVsLTY0LTE5LjJWNTAuNzVMMjAwLDcwWiIvPjwvc3ZnPg==)
  */
-const I: Icon = forwardRef((props, ref) => (
+const I: Icon = React.forwardRef((props, ref) => (
   <IconBase ref={ref} {...props} weights={weights} />
 ));
 
-I.displayName = "MusicNote";
-export { I as MusicNote }
+I.displayName = "MusicNoteIcon";
+
+/** @deprecated Use MusicNoteIcon */
+export const MusicNote = I;
+export { I as MusicNoteIcon }

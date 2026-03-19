@@ -75,7 +75,7 @@
     "UI",
     "UX"
   ],
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@9.12.3",
   "scripts": {
     "serve": "vite serve ./example",
     "build": "vite build && tsc --emitDeclarationOnly",
@@ -101,6 +101,7 @@
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.9",
+    "vite-plugin-dts": "^4.5.4",
     "vitest": "^1.5.0"
   }
 }

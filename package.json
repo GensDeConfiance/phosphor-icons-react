@@ -1,6 +1,6 @@
 {
   "name": "@gdc/phosphor-icons-react",
-  "version": "2.1.7-gdc.3.1",
+  "version": "2.1.7-gdc.3.2",
   "description": "A clean and friendly icon family for React",
   "author": {
     "name": "Tobias Fried",
@@ -16,45 +16,45 @@
     "registry": "https://verdaccio.gensdeconfiance.com"
   },
   "type": "module",
-  "module": "./dist/index.mjs",
-  "main": "./dist/index.cjs",
+  "module": "./dist/index.es.js",
+  "main": "./dist/index.cjs.js",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/index.d.ts"
     },
     "./dist/icons/*": {
-      "import": "./dist/csr/*.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/csr/*.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/csr/*.d.ts"
     },
     "./dist/csr/*": {
-      "import": "./dist/csr/*.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/csr/*.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/csr/*.d.ts"
     },
     "./dist/lib/*": {
-      "import": "./dist/lib/*.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/lib/*.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/lib/*.d.ts"
     },
     "./dist/ssr": {
-      "import": "./dist/ssr/index.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/ssr/index.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/ssr/index.d.ts"
     },
     "./dist/ssr/*": {
-      "import": "./dist/ssr/*.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/ssr/*.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/ssr/*.d.ts"
     },
     "./package.json": {
       "default": "./package.json"
     },
     "./*": {
-      "import": "./dist/csr/*.mjs",
-      "require": "./dist/index.cjs",
+      "import": "./dist/csr/*.es.js",
+      "require": "./dist/index.cjs.js",
       "types": "./dist/csr/*.d.ts"
     }
   },

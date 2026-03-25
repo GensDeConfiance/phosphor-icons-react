@@ -4,12 +4,13 @@ on:
   push:
     branches:
       - master
+    paths:
+      - '.github/**'
   pull_request:
     paths:
       - '.github/**'
 
 permissions:
-  id-token: write
   contents: read
 
 concurrency:

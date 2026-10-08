@@ -95,6 +95,8 @@ function transformJSX(contents: string) {
     .replace(/"#0+"/g, "{color}")
     .replace(/currentColor/g, "{color}")
     .replace(/fill\-rule/g, "fillRule")
+    .replace(/clip-rule/g, "clipRule")
+    .replace(/clip-path/g, "clipPath")
     .replace(/stroke-linecap/g, "strokeLinecap")
     .replace(/stroke-linejoin/g, "strokeLinejoin")
     .replace(/stroke-width/g, "strokeWidth")
